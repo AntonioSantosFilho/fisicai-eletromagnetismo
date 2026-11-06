@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title description">
+  <title id="title">FisicAI: da comparação entre Cursor e ChatGPT à versão consolidada com Codex</title>
+  <desc id="description">As duas versões originais utilizaram GPT-5.5, React Native com Expo, TypeScript e NativeWind, partindo de um projeto-base idêntico. A ferramenta foi a variável de comparação: Cursor como editor de código com IA integrada e ChatGPT como assistente conversacional generalista. A nova versão consolida as melhores soluções das duas implementações com auxílio do Codex, modelo GPT-6.1 Sol, com esforço de raciocínio alto.</desc>
+
+  <rect width="1200" height="960" fill="#FFFFFF"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="78" fill="#202C38" font-size="42" font-weight="700">Da comparação à versão consolidada</text>
+    <text x="64" y="122" fill="#526475" font-size="24">FisicAI · Desenvolvimento assistido por inteligência artificial</text>
+
+    <rect x="64" y="164" width="1072" height="402" rx="12" fill="#F3F7FA"/>
+    <text x="96" y="212" fill="#202C38" font-size="27" font-weight="700">Comparação original</text>
+
+    <text x="96" y="278" fill="#0066A6" font-size="38" font-weight="700">Cursor</text>
+    <text x="96" y="320" fill="#202C38" font-size="24">Editor de código com</text>
+    <text x="96" y="352" fill="#202C38" font-size="24">inteligência artificial integrada</text>
+
+    <text x="656" y="278" fill="#0066A6" font-size="38" font-weight="700">ChatGPT</text>
+    <text x="656" y="320" fill="#202C38" font-size="24">Assistente conversacional</text>
+    <text x="656" y="352" fill="#202C38" font-size="24">generalista</text>
+
+    <rect x="96" y="388" width="1008" height="146" rx="8" fill="#E4EFF6"/>
+    <text x="120" y="428" fill="#0066A6" font-size="27" font-weight="700">Mesmo modelo: GPT-5.5</text>
+    <text x="120" y="470" fill="#202C38" font-size="24">React Native com Expo · TypeScript · NativeWind</text>
+    <text x="120" y="510" fill="#202C38" font-size="24">Projeto-base idêntico · Ferramenta como variável de comparação</text>
+
+    <path d="M330 566 V602 H870 V566 M600 602 V624" fill="none" stroke="#0066A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M592 618 L600 630 L608 618" fill="none" stroke="#0066A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="600" y="668" text-anchor="middle" fill="#0066A6" font-size="26" font-weight="700">Seleção e integração das melhores soluções das duas versões</text>
+
+    <rect x="64" y="698" width="1072" height="192" rx="12" fill="#0066A6"/>
+    <text x="96" y="742" fill="#FFFFFF" font-size="28" font-weight="700">FisicAI · Nova versão consolidada</text>
+    <text x="96" y="800" fill="#FFFFFF" font-size="40" font-weight="700">Codex</text>
+    <text x="276" y="800" fill="#FFFFFF" font-size="36" font-weight="700">GPT-6.1 Sol</text>
+    <rect x="533" y="775" width="6" height="30" rx="3" fill="#F9AC03"/>
+    <text x="562" y="800" fill="#FFFFFF" font-size="26">Esforço de raciocínio: alto</text>
+    <text x="96" y="854" fill="#FFFFFF" font-size="24">Integração, melhorias, auditorias e correções do aplicativo</text>
+
+    <text x="64" y="934" fill="#526475" font-size="22">A versão consolidada é uma etapa posterior ao experimento comparativo original.</text>
+  </g>
+</svg>

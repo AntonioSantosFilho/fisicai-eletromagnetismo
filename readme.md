@@ -8,6 +8,8 @@ O **FisicAI é uma nova versão consolidada**, surgida a partir das duas impleme
 
 A consolidação também incorporou sugestões da banca, do professor e dos avaliadores. O trabalho na pasta independente começou em **18 de outubro de 2026**, utilizando inicialmente uma cópia técnica da versão Cursor. Esse ponto de partida não limita a proposta da nova versão, que considera as contribuições das duas implementações. As versões experimentais originais não fazem parte deste repositório.
 
+[![Comparação original: Cursor e ChatGPT com GPT-5.5, tecnologias e projeto-base idênticos. Versão consolidada: Codex com GPT-6.1 Sol e esforço de raciocínio alto.](./docs/images/metodologia-ia.svg)](./docs/images/metodologia-ia.svg)
+
 ## O que o aplicativo oferece
 
 - Estudo de eletrostática, eletrodinâmica, magnetismo e ondas eletromagnéticas.
@@ -60,6 +62,8 @@ A evolução independente foi conduzida por ciclos de **análise das duas versõ
 
 ### Origem, seleção e consolidação
 
+O experimento original comparou um **editor de código com inteligência artificial integrada (Cursor)** e um **assistente conversacional generalista (ChatGPT)**. Para isolar a ferramenta como variável de comparação, ambas as versões utilizaram o mesmo modelo de linguagem, **GPT-5.5**, e o mesmo conjunto de tecnologias, **React Native com Expo, TypeScript e NativeWind**, partindo de um **projeto-base idêntico**.
+
 A nova versão toma as implementações Cursor e ChatGPT como referências para selecionar e combinar suas melhores partes. A seleção considera clareza da navegação, organização e variedade do conteúdo, funcionamento das atividades, consistência visual e facilidade de manutenção. A consolidação inclui a adaptação das soluções escolhidas e a correção de problemas encontrados; não se resume à junção automática das duas árvores de arquivos.
 
 Para iniciar o trabalho sem alterar as versões experimentais, foi criada uma cópia técnica da versão Cursor em uma pasta separada. Os seis arquivos em [PROMPT'S](./PROMPT'S/) documentam a sequência de geração herdada: fundação técnica, identidade visual, conteúdo e PhET, flashcards e memória, demais atividades e progresso/tutor.
@@ -100,9 +104,9 @@ A skill **Design Taste Frontend** também foi consultada na análise posterior d
 
 ### Desenvolvimento assistido por IA
 
-ChatGPT/Codex auxiliou na análise, programação, documentação, investigação de fontes e elaboração de testes. A skill **Computer Use** apoiou a inspeção da interface e o fluxo de publicação. As mudanças foram acompanhadas por verificações no código e pelos testes disponíveis.
+Nesta versão consolidada foi utilizado o **Codex com o modelo GPT-6.1 Sol e esforço de raciocínio alto**, conforme a configuração informada pelo responsável pelo projeto. A ferramenta auxiliou na seleção e integração de soluções, análise, programação, documentação, investigação de fontes e elaboração de testes. A skill **Computer Use** apoiou a inspeção da interface e o fluxo de publicação. As mudanças foram acompanhadas por verificações no código e pelos testes disponíveis.
 
-O registro desta evolução não preserva de forma completa o modelo e a configuração de cada interação com a IA. Por isso, este README não atribui toda a revisão a um único modelo específico. Uma reprodução exata exigiria guardar também versão do modelo, parâmetros, prompts, respostas e alterações manuais de cada ciclo.
+O **GPT-5.5** pertence à comparação original entre Cursor e ChatGPT; o **GPT-6.1 Sol, com esforço alto**, identifica o auxílio utilizado na nova versão consolidada. A etapa de consolidação é documentada separadamente do experimento original. Para uma reprodução exata, é necessário preservar também os parâmetros, prompts, respostas e alterações manuais de cada ciclo.
 
 ### Verificação e retorno do uso real
 
