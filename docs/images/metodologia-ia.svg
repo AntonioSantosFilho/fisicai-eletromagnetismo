@@ -1,40 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title description">
-  <title id="title">FisicAI: da comparação entre Cursor e ChatGPT à versão consolidada com Codex</title>
-  <desc id="description">As duas versões originais utilizaram GPT-5.5, React Native com Expo, TypeScript e NativeWind, partindo de um projeto-base idêntico. A ferramenta foi a variável de comparação: Cursor como editor de código com IA integrada e ChatGPT como assistente conversacional generalista. A nova versão consolida as melhores soluções das duas implementações com auxílio do Codex, modelo GPT-6.1 Sol, com esforço de raciocínio alto.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1120" viewBox="0 0 1280 1120" role="img" aria-labelledby="title description">
+  <title id="title">Diagrama de evolução do FisicAI</title>
+  <desc id="description">Um projeto-base idêntico, com React Native, Expo, TypeScript, NativeWind e modelo GPT-5.5, origina duas implementações: uma no editor Cursor com IA integrada e outra no assistente conversacional generalista ChatGPT. As melhores soluções das duas versões são selecionadas e consolidadas com Codex, modelo GPT-6.1 Sol e esforço de raciocínio alto, incorporando sugestões da banca, do professor e dos avaliadores. O resultado é a nova versão consolidada do FisicAI.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#0066A6"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; text-anchor: middle; fill: #202C38; }
+      .heading { font-size: 28px; font-weight: 700; }
+      .label { font-size: 24px; font-weight: 700; }
+      .body { font-size: 22px; }
+      .small { font-size: 20px; fill: #526475; }
+      .node { fill: #FFFFFF; stroke: #0066A6; stroke-width: 2; }
+      .artifact { fill: #F3F7FA; stroke: #8093A3; stroke-width: 1.5; }
+      .connector { fill: none; stroke: #0066A6; stroke-width: 2.5; stroke-linejoin: round; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1280" height="1120" fill="#FFFFFF"/>
+  <text x="640" y="42" class="heading">Evolução do FisicAI</text>
 
-  <rect width="1200" height="960" fill="#FFFFFF"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="64" y="78" fill="#202C38" font-size="42" font-weight="700">Da comparação à versão consolidada</text>
-    <text x="64" y="122" fill="#526475" font-size="24">FisicAI · Desenvolvimento assistido por inteligência artificial</text>
+  <g id="common-base">
+    <rect x="310" y="72" width="660" height="136" rx="6" class="node"/>
+    <text x="640" y="109" class="label">Projeto-base idêntico</text>
+    <text x="640" y="149" class="body">React Native + Expo · TypeScript · NativeWind</text>
+    <text x="640" y="184" class="body">Mesmo modelo de linguagem: GPT-5.5</text>
+  </g>
 
-    <rect x="64" y="164" width="1072" height="402" rx="12" fill="#F3F7FA"/>
-    <text x="96" y="212" fill="#202C38" font-size="27" font-weight="700">Comparação original</text>
+  <path d="M640 208 V240 H310 V276" class="connector"/>
+  <path d="M640 208 V240 H970 V276" class="connector"/>
 
-    <text x="96" y="278" fill="#0066A6" font-size="38" font-weight="700">Cursor</text>
-    <text x="96" y="320" fill="#202C38" font-size="24">Editor de código com</text>
-    <text x="96" y="352" fill="#202C38" font-size="24">inteligência artificial integrada</text>
+  <g id="cursor-tool">
+    <rect x="70" y="278" width="480" height="128" rx="6" class="node"/>
+    <text x="310" y="317" class="label">Cursor</text>
+    <text x="310" y="353" class="body">Editor de código com</text>
+    <text x="310" y="384" class="body">inteligência artificial integrada</text>
+  </g>
+  <g id="chatgpt-tool">
+    <rect x="730" y="278" width="480" height="128" rx="6" class="node"/>
+    <text x="970" y="317" class="label">ChatGPT</text>
+    <text x="970" y="353" class="body">Assistente conversacional</text>
+    <text x="970" y="384" class="body">generalista</text>
+  </g>
 
-    <text x="656" y="278" fill="#0066A6" font-size="38" font-weight="700">ChatGPT</text>
-    <text x="656" y="320" fill="#202C38" font-size="24">Assistente conversacional</text>
-    <text x="656" y="352" fill="#202C38" font-size="24">generalista</text>
+  <path d="M310 406 V464" class="connector"/>
+  <path d="M970 406 V464" class="connector"/>
+  <g id="original-versions">
+    <rect x="100" y="466" width="420" height="84" rx="3" class="artifact"/>
+    <text x="310" y="516" class="label">Versão original Cursor</text>
+    <rect x="760" y="466" width="420" height="84" rx="3" class="artifact"/>
+    <text x="970" y="516" class="label">Versão original ChatGPT</text>
+  </g>
 
-    <rect x="96" y="388" width="1008" height="146" rx="8" fill="#E4EFF6"/>
-    <text x="120" y="428" fill="#0066A6" font-size="27" font-weight="700">Mesmo modelo: GPT-5.5</text>
-    <text x="120" y="470" fill="#202C38" font-size="24">React Native com Expo · TypeScript · NativeWind</text>
-    <text x="120" y="510" fill="#202C38" font-size="24">Projeto-base idêntico · Ferramenta como variável de comparação</text>
+  <path d="M310 550 V594 H640 V638" class="connector"/>
+  <path d="M970 550 V594 H640 V638" class="connector"/>
+  <g id="selection">
+    <rect x="350" y="640" width="580" height="92" rx="6" class="node"/>
+    <text x="640" y="679" class="label">Seleção das melhores soluções</text>
+    <text x="640" y="712" class="body">das duas implementações</text>
+  </g>
 
-    <path d="M330 566 V602 H870 V566 M600 602 V624" fill="none" stroke="#0066A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M592 618 L600 630 L608 618" fill="none" stroke="#0066A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="600" y="668" text-anchor="middle" fill="#0066A6" font-size="26" font-weight="700">Seleção e integração das melhores soluções das duas versões</text>
+  <path d="M640 732 V788" class="connector"/>
+  <g id="codex-consolidation">
+    <rect x="350" y="790" width="580" height="138" rx="6" class="node"/>
+    <text x="640" y="831" class="label">Codex · GPT-6.1 Sol</text>
+    <text x="640" y="869" class="body">Esforço de raciocínio: alto</text>
+    <text x="640" y="904" class="body">Consolidação, melhorias e correções</text>
+  </g>
+  <g id="reviewer-feedback">
+    <rect x="986" y="804" width="250" height="110" rx="6" class="artifact"/>
+    <text x="1111" y="838" class="small">Sugestões da banca,</text>
+    <text x="1111" y="868" class="small">do professor e</text>
+    <text x="1111" y="898" class="small">dos avaliadores</text>
+  </g>
+  <path d="M986 859 H932" class="connector"/>
 
-    <rect x="64" y="698" width="1072" height="192" rx="12" fill="#0066A6"/>
-    <text x="96" y="742" fill="#FFFFFF" font-size="28" font-weight="700">FisicAI · Nova versão consolidada</text>
-    <text x="96" y="800" fill="#FFFFFF" font-size="40" font-weight="700">Codex</text>
-    <text x="276" y="800" fill="#FFFFFF" font-size="36" font-weight="700">GPT-6.1 Sol</text>
-    <rect x="533" y="775" width="6" height="30" rx="3" fill="#F9AC03"/>
-    <text x="562" y="800" fill="#FFFFFF" font-size="26">Esforço de raciocínio: alto</text>
-    <text x="96" y="854" fill="#FFFFFF" font-size="24">Integração, melhorias, auditorias e correções do aplicativo</text>
-
-    <text x="64" y="934" fill="#526475" font-size="22">A versão consolidada é uma etapa posterior ao experimento comparativo original.</text>
+  <path d="M640 928 V982" class="connector"/>
+  <g id="consolidated-version">
+    <rect x="350" y="984" width="580" height="108" rx="6" fill="#EAF5FC" stroke="#0066A6" stroke-width="2.5"/>
+    <text x="640" y="1029" class="heading">FisicAI</text>
+    <text x="640" y="1066" class="label">Nova versão consolidada</text>
   </g>
 </svg>
