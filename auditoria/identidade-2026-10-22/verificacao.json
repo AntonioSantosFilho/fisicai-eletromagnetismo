@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-22",
+  "scope": "FisicAI Independente: ?cones e abertura",
+  "sourceImages": "Os cinco arquivos originais foram preservados; veja preservacao.json.",
+  "nativeConfigIntrospection": "Aprovada para Android e iOS; imagem de abertura 320 ? 320 em fundo branco.",
+  "nativeAssetGeneration": {
+    "tool": "Geradores do Expo instalado no projeto",
+    "iosIcon": "native-assets/ios/Images.xcassets/AppIcon.appiconset/App-Icon-1024x1024@1x.png",
+    "androidSplash": "native-assets/android/app/src/main/res/drawable-mdpi/splashscreen_logo.png"
+  },
+  "webExport": {
+    "favicon": true,
+    "appleTouchIcon": true,
+    "manifest": true,
+    "sourceCopiesIdentical": true
+  },
+  "tests": 40,
+  "technicalChecks": [
+    {
+      "name": "TypeScript",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "Testes automatizados",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "Diagnóstico do app",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "Exportação web e Android",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "Relatório com evidências",
+      "passed": true,
+      "exitCode": 0
+    }
+  ],
+  "limits": [
+    "Sem instala??o de APK/IPA ou aparelho f?sico.",
+    "A abertura nativa deve ser conferida em um novo build de distribui??o; Expo Go n?o reproduz essa experi?ncia.",
+    "A tela de carregamento usa a dura??o real da leitura do perfil, sem atraso artificial.",
+    "Sem confer?ncia visual no navegador nesta revis?o."
+  ]
+}

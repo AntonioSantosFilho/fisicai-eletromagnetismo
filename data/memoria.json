@@ -1,0 +1,672 @@
+{
+  "modulos": [
+    {
+      "id": "magnetismo",
+      "titulo": "Magnetismo",
+      "descricao": "Conceitos fundamentais de magnetismo, propriedades dos ímãs e interação magnética",
+      "pares": [
+        {
+          "id": "magnetismo_associar_1",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Indução magnética B"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Tesla (T)."
+          },
+          "explicacao_pos_acerto": "B é expresso em tesla; não confunda com H, expresso em A/m.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_associar_2",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Polos de um ímã partido"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Cada fragmento pode continuar com polo norte e polo sul."
+          },
+          "explicacao_pos_acerto": "A divisão de um ímã comum não isola seus polos.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_associar_3",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Remanência"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Resposta magnética residual após retirar o campo magnetizante."
+          },
+          "explicacao_pos_acerto": "Remanência e histerese são conceitos distintos: resposta residual e dependência da história.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_associar_4",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Força magnética sobre carga"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "F = |q|vB sen θ."
+          },
+          "explicacao_pos_acerto": "O módulo depende do seno do ângulo entre velocidade e campo; pode ser zero com a carga em movimento.",
+          "dificuldade": "dificil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_associar_5",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Histerese"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Dependência da magnetização em relação à história do campo aplicado."
+          },
+          "explicacao_pos_acerto": "A mesma condição de campo pode produzir respostas diferentes conforme o estado anterior do material.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_associar_6",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Bússola"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Agulha que tende a se alinhar com o campo magnético local."
+          },
+          "explicacao_pos_acerto": "O campo local pode incluir contribuições da Terra, de ímãs e de correntes próximas.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_associar_7",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Campo de um fio retilíneo longo"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "B proporcional a I/r, nas hipóteses do modelo."
+          },
+          "explicacao_pos_acerto": "A dependência com a distância é 1/r nessa geometria; não deve ser substituída por 1/r².",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_associar_8",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Força magnética e trabalho"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "A parcela magnética não realiza trabalho sobre carga puntiforme."
+          },
+          "explicacao_pos_acerto": "A força é perpendicular à velocidade, podendo curvar a trajetória sem mudar a energia cinética.",
+          "dificuldade": "dificil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "eletrodinamica",
+      "titulo": "Eletrodinâmica",
+      "descricao": "Corrente elétrica, campos gerados por correntes, força em fios e indução",
+      "pares": [
+        {
+          "id": "eletrodinamica_associar_1",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Corrente elétrica"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Taxa de passagem de carga por uma seção, em ampere."
+          },
+          "explicacao_pos_acerto": "Corrente média é ΔQ/Δt e não a carga acumulada no componente.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_associar_2",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Tensão elétrica"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Diferença de potencial, em volt."
+          },
+          "explicacao_pos_acerto": "Volt equivale a joule por coulomb; tensão não é corrente nem força mecânica.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_associar_3",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Associação em série"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Mesma corrente num caminho sem ramificações."
+          },
+          "explicacao_pos_acerto": "As tensões se somam e a carga não é consumida pelos resistores.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_associar_4",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Associação em paralelo"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Mesma tensão em ramos ligados aos mesmos dois nós."
+          },
+          "explicacao_pos_acerto": "A corrente total é a soma das correntes dos ramos.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_associar_5",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Lei de Faraday"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Força eletromotriz associada à variação do fluxo magnético."
+          },
+          "explicacao_pos_acerto": "Um campo constante não basta: é preciso variar o fluxo. Corrente sustentada depende também do circuito.",
+          "dificuldade": "dificil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_associar_6",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Potência elétrica"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Taxa de transformação de energia, em watt."
+          },
+          "explicacao_pos_acerto": "Para potência constante, multiplicar pelo tempo fornece a energia transformada.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_associar_7",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Lei de Lenz"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Resposta induzida em oposição à variação do fluxo."
+          },
+          "explicacao_pos_acerto": "O campo induzido não precisa ser sempre oposto ao campo externo: importa se o fluxo cresce ou diminui.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_associar_8",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Consumo em kWh"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Energia obtida de potência em kW multiplicada pelo tempo em h."
+          },
+          "explicacao_pos_acerto": "kWh mede energia, enquanto kW mede potência. kW/h não é uma escrita equivalente.",
+          "dificuldade": "dificil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "eletrostatica",
+      "titulo": "Eletrostática",
+      "descricao": "Cargas elétricas em repouso e as características do campo elétrico",
+      "pares": [
+        {
+          "id": "eletrostatica_associar_1",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Carga elétrica"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Grandeza medida em coulomb."
+          },
+          "explicacao_pos_acerto": "O sinal da carga distingue excesso e falta de elétrons em um sólido eletrizado no modelo usual.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_associar_2",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Corpo eletricamente neutro"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Soma das cargas igual a zero."
+          },
+          "explicacao_pos_acerto": "Neutralidade não significa ausência de cargas, nem impossibilidade de polarização.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_associar_3",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Polarização"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Redistribuição de cargas ou deslocamento relativo de cargas ligadas."
+          },
+          "explicacao_pos_acerto": "Um corpo pode permanecer com carga resultante nula e ser atraído por um objeto carregado.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_associar_4",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Campo elétrico E⃗"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Grandeza que se relaciona à força por F⃗ = qE⃗."
+          },
+          "explicacao_pos_acerto": "Campo e força não são sinônimos. O sinal da carga determina o sentido da força em relação ao campo.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_associar_5",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Lei de Coulomb"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Módulo da força proporcional a |q₁q₂|/r² no vácuo."
+          },
+          "explicacao_pos_acerto": "A relação se aplica a cargas puntiformes em repouso; sinais definem atração ou repulsão.",
+          "dificuldade": "dificil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_associar_6",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Elétrons transferidos para um corpo neutro"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Carga resultante negativa."
+          },
+          "explicacao_pos_acerto": "Em eletrização usual de sólidos, transferência de elétrons altera a carga resultante.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_associar_7",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Condutor em equilíbrio eletrostático"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Campo nulo no material e potencial constante."
+          },
+          "explicacao_pos_acerto": "A afirmação não deve ser aplicada automaticamente a um fio resistivo com corrente.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_associar_8",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Variação de energia potencial elétrica"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "ΔU = qΔV, considerando o sinal da carga."
+          },
+          "explicacao_pos_acerto": "O trabalho da força elétrica é −ΔU. A referência e a ordem dos pontos precisam estar claras.",
+          "dificuldade": "dificil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "ondas-eletromagneticas",
+      "titulo": "Ondas Eletromagnéticas",
+      "descricao": "Características e propagação de ondas eletromagnéticas",
+      "pares": [
+        {
+          "id": "ondas-eletromagneticas_associar_1",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Frequência"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Número de ciclos por segundo, medido em hertz."
+          },
+          "explicacao_pos_acerto": "Frequência não é amplitude nem distância entre cristas.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_associar_2",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Comprimento de onda"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Distância entre pontos consecutivos de mesma fase."
+          },
+          "explicacao_pos_acerto": "A distância entre crista e vale consecutivo é metade de um comprimento de onda.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_associar_3",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Amplitude"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Valor máximo da oscilação em relação ao equilíbrio."
+          },
+          "explicacao_pos_acerto": "Em um desenho espacial, a altura do campo não representa o comprimento de onda.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_associar_4",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Luz em interface estacionária"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Frequência mantida, com possível mudança de velocidade e comprimento."
+          },
+          "explicacao_pos_acerto": "O desvio de direção depende da incidência e dos meios.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_associar_5",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Índice de refração"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "n = c/v para a velocidade de fase na frequência considerada."
+          },
+          "explicacao_pos_acerto": "n é adimensional; não é medido em m/s.",
+          "dificuldade": "dificil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_associar_6",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Rádio"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Sinal eletromagnético que pode transportar informação no vácuo."
+          },
+          "explicacao_pos_acerto": "O receptor pode converter a informação em som, mas rádio e som não são a mesma onda.",
+          "dificuldade": "facil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_associar_7",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Espectro eletromagnético"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Organização das faixas por frequência ou comprimento de onda."
+          },
+          "explicacao_pos_acerto": "Pertencer ao espectro não torna iguais as interações com cada material.",
+          "dificuldade": "medio",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_associar_8",
+          "tipo_par": "conceito_definicao",
+          "carta_a": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Onda plana no vácuo"
+          },
+          "carta_b": {
+            "tipo_conteudo": "texto",
+            "conteudo": "Amplitudes satisfazem E₀ = cB₀."
+          },
+          "explicacao_pos_acerto": "E₀ e B₀ têm unidades diferentes; a relação não é uma força mecânica.",
+          "dificuldade": "dificil",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    }
+  ]
+}

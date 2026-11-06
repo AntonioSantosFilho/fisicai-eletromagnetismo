@@ -1,0 +1,5495 @@
+[
+  {
+    "name": "Início",
+    "notes": "Três destinos principais e quatro abas. Retomada de rascunhos não tem atalho no início.",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Estudar",
+    "notes": "Dificuldade, busca e temas agrupados; filtro horizontal de tema.",
+    "headings": [
+      "Dificuldade",
+      "Tema",
+      "Conteúdos"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Todos",
+        "width": 73
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 116
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 132
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 114
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ondas Eletromagnéticas",
+        "width": 196
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": true,
+        "name": "Carga elétrica e conservação",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 189,
+        "inViewport": true,
+        "name": "Eletrização e polarização",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Força Elétrica (Lei de Coulomb)",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Intensidade do Campo Elétrico",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Diferença de potencial e energia elétrica",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 213,
+        "inViewport": false,
+        "name": "Condutores em equilíbrio eletrostático",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Corrente elétrica e sentido convencional",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Resistência e lei de Ohm",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 203,
+        "inViewport": false,
+        "name": "Resistores em série e em paralelo",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Potência e consumo de energia elétrica",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 189,
+        "inViewport": false,
+        "name": "Campo magnético, polos e bússola",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 213,
+        "inViewport": false,
+        "name": "Materiais magnéticos, remanência e histerese",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Força Magnética sobre uma Carga em Movimento",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Campo Magnético de Fio Retilíneo (Lei de Ampère)",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Força Magnética sobre Fio Retilíneo",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Campo Magnético no Interior de um Solenoide",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Fluxo Magnético",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Lei da Indução de Faraday",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Tensão Induzida em Condutor Móvel",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Equação Fundamental da Onda",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 213,
+        "inViewport": false,
+        "name": "Espectro eletromagnético e interações",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Luz ao mudar de meio",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Raio da Trajetória Circular de uma Carga",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Período do Movimento de uma Carga no Campo Magnético",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Força Magnética entre Fios Paralelos",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Campo Magnético no Núcleo de um Toróide",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 262,
+        "inViewport": false,
+        "name": "Torque de Giro numa Espira",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 262,
+        "inViewport": false,
+        "name": "Força Magneto-Motriz (FMM)",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 263,
+        "inViewport": false,
+        "name": "Relutância e Lei de Hopkinson",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 262,
+        "inViewport": false,
+        "name": "Indutância de um Solenoide",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Indutância Mútua e Acoplamento Magnético",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Relação entre Campos na Onda Eletromagnética",
+        "width": 346
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 87,
+        "inViewport": false,
+        "name": "Explorar simulações PhET",
+        "width": 346
+      }
+    ],
+    "radios": [
+      "Todos os níveis",
+      "Fácil",
+      "Médio",
+      "Difícil"
+    ]
+  },
+  {
+    "name": "Estudar — busca vazia",
+    "notes": "Estado vazio oferece Limpar filtros.",
+    "headings": [
+      "Dificuldade",
+      "Tema",
+      "Conteúdos"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 20,
+        "inViewport": true,
+        "name": "Limpar busca",
+        "width": 18
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Todos",
+        "width": 73
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 116
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 132
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 114
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ondas Eletromagnéticas",
+        "width": 196
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Limpar filtros",
+        "width": 142
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 87,
+        "inViewport": false,
+        "name": "Explorar simulações PhET",
+        "width": 346
+      }
+    ],
+    "radios": [
+      "Todos os níveis",
+      "Fácil",
+      "Médio",
+      "Difícil"
+    ]
+  },
+  {
+    "name": "Estudar — filtros limpos",
+    "notes": "",
+    "headings": [
+      "Dificuldade",
+      "Tema",
+      "Conteúdos"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Todos",
+        "width": 73
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 116
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 132
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 114
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ondas Eletromagnéticas",
+        "width": 196
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": true,
+        "name": "Carga elétrica e conservação",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 189,
+        "inViewport": true,
+        "name": "Eletrização e polarização",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": true,
+        "name": "Força Elétrica (Lei de Coulomb)",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Intensidade do Campo Elétrico",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Diferença de potencial e energia elétrica",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 213,
+        "inViewport": false,
+        "name": "Condutores em equilíbrio eletrostático",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Corrente elétrica e sentido convencional",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Resistência e lei de Ohm",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 203,
+        "inViewport": false,
+        "name": "Resistores em série e em paralelo",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Potência e consumo de energia elétrica",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 189,
+        "inViewport": false,
+        "name": "Campo magnético, polos e bússola",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 213,
+        "inViewport": false,
+        "name": "Materiais magnéticos, remanência e histerese",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Força Magnética sobre uma Carga em Movimento",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Campo Magnético de Fio Retilíneo (Lei de Ampère)",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Força Magnética sobre Fio Retilíneo",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Campo Magnético no Interior de um Solenoide",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Fluxo Magnético",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Lei da Indução de Faraday",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Tensão Induzida em Condutor Móvel",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Equação Fundamental da Onda",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 213,
+        "inViewport": false,
+        "name": "Espectro eletromagnético e interações",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Luz ao mudar de meio",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Raio da Trajetória Circular de uma Carga",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Período do Movimento de uma Carga no Campo Magnético",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Força Magnética entre Fios Paralelos",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Campo Magnético no Núcleo de um Toróide",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 262,
+        "inViewport": false,
+        "name": "Torque de Giro numa Espira",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 262,
+        "inViewport": false,
+        "name": "Força Magneto-Motriz (FMM)",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 263,
+        "inViewport": false,
+        "name": "Relutância e Lei de Hopkinson",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 262,
+        "inViewport": false,
+        "name": "Indutância de um Solenoide",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Indutância Mútua e Acoplamento Magnético",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Relação entre Campos na Onda Eletromagnética",
+        "width": 346
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 87,
+        "inViewport": false,
+        "name": "Explorar simulações PhET",
+        "width": 346
+      }
+    ],
+    "radios": [
+      "Todos os níveis",
+      "Fácil",
+      "Médio",
+      "Difícil"
+    ]
+  },
+  {
+    "name": "Conteúdo teórico — carga elétrica",
+    "notes": "Objetivo, conceito, expressão, grandezas, reflexão, exemplo e referências agrupados.",
+    "headings": [
+      "Carga elétrica e conservação",
+      "Grandezas e constantes físicas envolvidas",
+      "Uma confusão comum",
+      "Pare e pense"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 54,
+        "inViewport": true,
+        "name": "Ir para conceito",
+        "width": 110
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 54,
+        "inViewport": true,
+        "name": "Ir para expressão",
+        "width": 110
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 54,
+        "inViewport": true,
+        "name": "Ir para exemplo",
+        "width": 110
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": false,
+        "name": "Conferir raciocínio",
+        "width": 304
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": false,
+        "name": "Ver resolução passo a passo",
+        "width": 304
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": false,
+        "name": "Voltar para conteúdos",
+        "width": 346
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Conteúdo teórico — exemplo expandido",
+    "notes": "Atalho Exemplo expande a resolução.",
+    "headings": [
+      "Carga elétrica e conservação",
+      "Grandezas e constantes físicas envolvidas",
+      "Uma confusão comum",
+      "Pare e pense"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 54,
+        "inViewport": false,
+        "name": "Ir para conceito",
+        "width": 110
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 54,
+        "inViewport": false,
+        "name": "Ir para expressão",
+        "width": 110
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 54,
+        "inViewport": false,
+        "name": "Ir para exemplo",
+        "width": 110
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Conferir raciocínio",
+        "width": 304
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": false,
+        "name": "Ocultar resolução",
+        "width": 304
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": false,
+        "name": "Voltar para conteúdos",
+        "width": 346
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Retorno da teoria ao início",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Dúvidas — apresentação",
+    "notes": "Sugestões e campo de mensagem; sem enviar perguntas ao provedor.",
+    "headings": [
+      "Exemplos de perguntas"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "Como funciona um ímã?",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "Me explique a Lei de Ohm",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "O que são ondas eletromagnéticas?",
+        "width": 346
+      },
+      {
+        "background": "rgb(223, 232, 239)",
+        "disabled": true,
+        "height": 42,
+        "inViewport": true,
+        "name": "Enviar pergunta",
+        "width": 42
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Dúvidas — pergunta preparada",
+    "notes": "Sugestão preenche a mensagem sem enviar; botão de envio habilitado.",
+    "headings": [
+      "Exemplos de perguntas"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "Como funciona um ímã?",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "Me explique a Lei de Ohm",
+        "width": 346
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "O que são ondas eletromagnéticas?",
+        "width": 346
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 42,
+        "inViewport": true,
+        "name": "Enviar pergunta",
+        "width": 42
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Progresso",
+    "notes": "Histórico do ambiente de teste; não executada limpeza.",
+    "headings": [
+      "Seus dados"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Começar um quiz",
+        "width": 200
+      },
+      {
+        "background": "rgb(252, 237, 237)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Resetar meus dados",
+        "width": 346
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Progresso — confirmação de reset",
+    "notes": "Aviso de exclusão irreversível, cancelar disponível; confirmação usa azul de ação comum.",
+    "headings": [
+      "Seus dados",
+      "Resetar meus dados?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Começar um quiz",
+        "width": 200
+      },
+      {
+        "background": "rgb(252, 237, 237)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Resetar meus dados",
+        "width": 346
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Cancelar",
+        "width": 300
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Resetar dados",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Progresso — reset cancelado",
+    "notes": "Nenhum dado foi apagado.",
+    "headings": [
+      "Seus dados",
+      "Resetar meus dados?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Começar um quiz",
+        "width": 200
+      },
+      {
+        "background": "rgb(252, 237, 237)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Resetar meus dados",
+        "width": 346
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Início — antes das atividades",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Praticar",
+    "notes": "Cinco modalidades em lista com descrições.",
+    "headings": [
+      "Escolha uma atividade"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 95,
+        "inViewport": true,
+        "name": "Quiz",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Flashcards",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Memória",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Desafio",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Lacunas",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Quiz — preparação",
+    "notes": "Todas como padrão; dificuldade antes do tema; CTA no rodapé.",
+    "headings": [
+      "01 · Dificuldade",
+      "02 · Escolha um tema"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Ondas Eletromagnéticas",
+        "width": 356
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Começar quiz",
+        "width": 358
+      }
+    ],
+    "radios": [
+      "Todas (15)",
+      "Fácil (5)",
+      "Médio (5)",
+      "Difícil (5)"
+    ]
+  },
+  {
+    "name": "Quiz — execução e retomada",
+    "notes": "Alternativas e contador; rascunho de teste anterior pode retomar.",
+    "headings": [
+      "Questão",
+      "Alternativas",
+      "Resposta incorreta"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(252, 237, 237)",
+        "disabled": true,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa A: É nula apenas se a carga for positiva.. Resposta selecionada incorreta.",
+        "width": 343
+      },
+      {
+        "background": "rgb(234, 245, 238)",
+        "disabled": true,
+        "height": 56,
+        "inViewport": true,
+        "name": "Alternativa B: É nula, pois v⃗ × B⃗ = 0.. Resposta correta.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": true,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa C: É máxima, pois a velocidade e o campo têm a mesma direção.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": true,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa D: Tem necessariamente sentido contrário à velocidade.",
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 343
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Próxima questão",
+        "width": 300
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Sair da atividade",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Quiz — Escape no feedback",
+    "notes": "Verificar se fechar o popup também avança a questão.",
+    "headings": [
+      "Questão",
+      "Alternativas",
+      "Resposta correta!"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa A: Os módulos são iguais porque a corrente é a mesma.",
+        "width": 358
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 56,
+        "inViewport": true,
+        "name": "Alternativa B: Em 3r, o campo é três vezes maior.",
+        "width": 358
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 56,
+        "inViewport": true,
+        "name": "Alternativa C: Em 3r, o campo vale um nono.",
+        "width": 358
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa D: Em 3r, o campo vale um terço do campo em r.",
+        "width": 358
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 358
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Próxima questão",
+        "width": 300
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Sair da atividade",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Quiz — avanço 2",
+    "notes": "",
+    "headings": [
+      "Questão",
+      "Alternativas",
+      "Resposta correta!"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa A: Ela cai continuamente por a trajetória ser curva.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa B: Ela muda de sinal quando o sinal da carga muda.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa C: Ela aumenta necessariamente porque há força.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa D: Ela permanece constante porque a força é perpendicular à velocidade.",
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 343
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Quiz — avanço 3",
+    "notes": "",
+    "headings": [
+      "Questão",
+      "Alternativas",
+      "Resposta correta!"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa A: O material consome o fluxo e por isso funciona sem limites.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 98,
+        "inViewport": true,
+        "name": "Alternativa B: Uma camada de vidro bloqueia campos estáticos por impedir corrente elétrica.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 98,
+        "inViewport": true,
+        "name": "Alternativa C: Qualquer caixa metálica elimina perfeitamente qualquer campo magnético.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 98,
+        "inViewport": true,
+        "name": "Alternativa D: Ela pode redirecionar o campo, mas geometria, aberturas e saturação limitam a proteção.",
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": false,
+        "name": "Reiniciar atividade",
+        "width": 343
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Quiz — avanço 4",
+    "notes": "",
+    "headings": [
+      "Questão",
+      "Alternativas",
+      "Resposta correta!"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa A: Remanência: qualquer dependência exclusiva da temperatura.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa B: Indutância: razão entre força mecânica e massa.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 98,
+        "inViewport": true,
+        "name": "Alternativa C: Histerese: dependência da resposta em relação à história de magnetização.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa D: Neutralidade: ausência de todas as cargas na amostra.",
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 343
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Próxima questão",
+        "width": 300
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Sair da atividade",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Quiz — resultado",
+    "notes": "",
+    "headings": [
+      "Resposta correta!"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Continuar",
+        "width": 324
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Reiniciar sessão",
+        "width": 324
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Quiz — resultado estabilizado",
+    "notes": "Resultado apresenta percentual como pontos e ação genérica Continuar.",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Continuar",
+        "width": 324
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Reiniciar sessão",
+        "width": 324
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Quiz — destino de Continuar",
+    "notes": "O destino é a preparação de nova sessão, não uma continuação da anterior.",
+    "headings": [
+      "01 · Dificuldade",
+      "02 · Escolha um tema"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Ondas Eletromagnéticas",
+        "width": 356
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Começar quiz",
+        "width": 358
+      }
+    ],
+    "radios": [
+      "Todas (15)",
+      "Fácil (5)",
+      "Médio (5)",
+      "Difícil (5)"
+    ]
+  },
+  {
+    "name": "Início — depois do quiz",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Praticar — retorno",
+    "notes": "",
+    "headings": [
+      "Escolha uma atividade"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 95,
+        "inViewport": true,
+        "name": "Quiz",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Flashcards",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Memória",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Desafio",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Lacunas",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Flashcards — preparação",
+    "notes": "",
+    "headings": [
+      "01 · Dificuldade",
+      "02 · Escolha um tema"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Ondas Eletromagnéticas",
+        "width": 356
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Começar flashcards",
+        "width": 358
+      }
+    ],
+    "radios": [
+      "Todas (10)",
+      "Fácil (3)",
+      "Médio (4)",
+      "Difícil (3)"
+    ]
+  },
+  {
+    "name": "Flashcards — retomada no verso",
+    "notes": "Rascunho retomado com a resposta já revelada.",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 320,
+        "inViewport": true,
+        "name": "Resposta: Remanência é a resposta magnética residual após retirar o campo magnetizante; histerese é a dependência da resposta em relação à história do campo aplicado. Toque para voltar à pergunta.",
+        "width": 358
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Lembrei corretamente",
+        "width": 358
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Preciso revisar",
+        "width": 358
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 358
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Flashcards — frente",
+    "notes": "Autoavaliação só aparece após conferir o verso.",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 320,
+        "inViewport": true,
+        "name": "Pergunta: Como distinguir remanência e histerese em uma frase? Toque para ver a resposta.",
+        "width": 358
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Virar cartão e conferir",
+        "width": 358
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 358
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Flashcards — verso",
+    "notes": "",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 320,
+        "inViewport": true,
+        "name": "Resposta: Remanência é a resposta magnética residual após retirar o campo magnetizante; histerese é a dependência da resposta em relação à história do campo aplicado. Toque para voltar à pergunta.",
+        "width": 358
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Lembrei corretamente",
+        "width": 358
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Preciso revisar",
+        "width": 358
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 358
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Flashcards — feedback de autoavaliação",
+    "notes": "Explica que a autoavaliação não é nota.",
+    "headings": [
+      "Ponto para revisar"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 320,
+        "inViewport": true,
+        "name": "Resposta: Remanência é a resposta magnética residual após retirar o campo magnetizante; histerese é a dependência da resposta em relação à história do campo aplicado. Toque para voltar à pergunta.",
+        "width": 358
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Lembrei corretamente",
+        "width": 358
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Preciso revisar",
+        "width": 358
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 358
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Próximo cartão",
+        "width": 300
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Sair da atividade",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Flashcards — avanço",
+    "notes": "",
+    "headings": [
+      ""
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 329,
+        "inViewport": true,
+        "name": "Pergunta: Antes de calcular a força magnética, quais condições de uma carga puntiforme você precisa conhecer? Toque para ver a resposta.",
+        "width": 358
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Virar cartão e conferir",
+        "width": 358
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 358
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Início — atividade incompleta",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Praticar — atividade incompleta",
+    "notes": "",
+    "headings": [
+      "Escolha uma atividade"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 95,
+        "inViewport": true,
+        "name": "Quiz",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Flashcards",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Memória",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Desafio",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Lacunas",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Memória — preparação",
+    "notes": "",
+    "headings": [
+      "01 · Dificuldade",
+      "02 · Escolha um tema"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Ondas Eletromagnéticas",
+        "width": 356
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Começar memória",
+        "width": 358
+      }
+    ],
+    "radios": [
+      "Todas (8)",
+      "Fácil (3)",
+      "Médio (3)",
+      "Difícil (2)"
+    ]
+  },
+  {
+    "name": "Memória — tabuleiro",
+    "notes": "Cartas de tamanho normal e rodadas; sem popup automático.",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 4. Campo de um fio retilíneo longo",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 5. Histerese",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 6. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 7. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 8. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 12. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 50
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Conferir par",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Memória — terceira carta",
+    "notes": "A terceira escolha dispensa a conferência anterior e inicia tentativa; pontuação não se duplica.",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 4. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 5. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 6. Força magnética e trabalho",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 7. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 8. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 12. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 50
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": true,
+        "height": 50,
+        "inViewport": true,
+        "name": "Conferir par",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Memória — duas cartas abertas",
+    "notes": "As duas cartas permanecem legíveis antes da conferência opcional.",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 4. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 5. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 6. Força magnética e trabalho",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 7. B proporcional a I/r, nas hipóteses do modelo.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 8. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 12. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 50
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Conferir par",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Memória — conferência opcional",
+    "notes": "",
+    "headings": [
+      "Ainda não é esse par"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": true,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 4. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": true,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 5. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": true,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 6. Força magnética e trabalho",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": true,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 7. B proporcional a I/r, nas hipóteses do modelo.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": true,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 8. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": true,
+        "height": 220,
+        "inViewport": true,
+        "name": "Carta 12. Fechada. Toque para revelar.",
+        "width": 168
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 50
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Conferir par",
+        "width": 300
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Continuar jogando",
+        "width": 300
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Sair da atividade",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Praticar — saída da memória",
+    "notes": "",
+    "headings": [
+      "Escolha uma atividade"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 95,
+        "inViewport": true,
+        "name": "Quiz",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Flashcards",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Memória",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Desafio",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Lacunas",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Desafio — preparação",
+    "notes": "Um percurso por todos os níveis; meta de 80% informada.",
+    "headings": [
+      "01 · Níveis do desafio",
+      "02 · Escolha um tema"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Ondas Eletromagnéticas",
+        "width": 356
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Começar desafio",
+        "width": 358
+      }
+    ],
+    "radios": [
+      "Todas (6)"
+    ]
+  },
+  {
+    "name": "Desafio — execução",
+    "notes": "",
+    "headings": [
+      "Questão",
+      "Alternativas"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa A: Um mapa da força gravitacional do ímã.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa B: Uma representação da direção do campo em diferentes pontos.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa C: Uma fotografia de linhas materiais que saem do ímã.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa D: Um mapa das velocidades dos elétrons da agulha.",
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 343
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Desafio — feedback",
+    "notes": "",
+    "headings": [
+      "Questão",
+      "Alternativas",
+      "Resposta incorreta"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(252, 237, 237)",
+        "disabled": true,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa A: Um mapa da força gravitacional do ímã.. Resposta selecionada incorreta.",
+        "width": 343
+      },
+      {
+        "background": "rgb(234, 245, 238)",
+        "disabled": true,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa B: Uma representação da direção do campo em diferentes pontos.. Resposta correta.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": true,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa C: Uma fotografia de linhas materiais que saem do ímã.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": true,
+        "height": 74,
+        "inViewport": true,
+        "name": "Alternativa D: Um mapa das velocidades dos elétrons da agulha.",
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 343
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Continuar desafio",
+        "width": 300
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Sair da atividade",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Desafio — transição após erro",
+    "notes": "Checar conteúdo transitório do modal ao avançar.",
+    "headings": [
+      "Questão",
+      "Alternativas",
+      "Resposta correta!"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 56,
+        "inViewport": true,
+        "name": "Alternativa A: 18 μT.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 56,
+        "inViewport": true,
+        "name": "Alternativa B: 4 μT.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 56,
+        "inViewport": true,
+        "name": "Alternativa C: 36 μT.",
+        "width": 343
+      },
+      {
+        "background": "rgb(239, 244, 248)",
+        "disabled": false,
+        "height": 56,
+        "inViewport": false,
+        "name": "Alternativa D: 3 μT.",
+        "width": 343
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": false,
+        "name": "Reiniciar atividade",
+        "width": 343
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Início — saída do desafio",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Praticar — antes de lacunas",
+    "notes": "",
+    "headings": [
+      "Escolha uma atividade"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 95,
+        "inViewport": true,
+        "name": "Quiz",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Flashcards",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Memória",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Desafio",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Lacunas",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Lacunas — preparação",
+    "notes": "",
+    "headings": [
+      "01 · Dificuldade",
+      "02 · Escolha um tema"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Ondas eletromagnéticas",
+        "width": 356
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 356
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Começar lacunas",
+        "width": 358
+      }
+    ],
+    "radios": [
+      "Todas (10)",
+      "Fácil (5)",
+      "Médio (3)",
+      "Difícil (2)"
+    ]
+  },
+  {
+    "name": "Lacunas — execução",
+    "notes": "",
+    "headings": [
+      "Frase"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(223, 232, 239)",
+        "disabled": true,
+        "height": 50,
+        "inViewport": true,
+        "name": "Validar resposta",
+        "width": 358
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 358
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Lacunas — feedback",
+    "notes": "",
+    "headings": [
+      "Frase",
+      "Vamos revisar"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Validar resposta",
+        "width": 358
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Reiniciar atividade",
+        "width": 358
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Próxima lacuna",
+        "width": 300
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Sair da atividade",
+        "width": 300
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Praticar — saída de lacunas",
+    "notes": "",
+    "headings": [
+      "Escolha uma atividade"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 95,
+        "inViewport": true,
+        "name": "Quiz",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Flashcards",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Memória",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Desafio",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Lacunas",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Início — antes de simulações",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Simulações — catálogo",
+    "notes": "16 simulações em três grupos; lista sem busca.",
+    "headings": [
+      "Eletromagnetismo",
+      "Eletrostática",
+      "Circuitos"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": true,
+        "name": "Gerador",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": true,
+        "name": "Ímãs e Eletroímãs",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": true,
+        "name": "Ímã e Bússola",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 166,
+        "inViewport": true,
+        "name": "Laboratório Eletromagnético de Faraday",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Lei de Faraday",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Lei de Coulomb",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Cargas e Campos",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "John Travoltagem",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Balões e Eletricidade Estática",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Kit para Montar um Circuito: AC",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 166,
+        "inViewport": false,
+        "name": "Kit para Montar um Circuito: AC – Laboratório Virtual",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 166,
+        "inViewport": false,
+        "name": "Laboratório do Capacitor: Básico",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 166,
+        "inViewport": false,
+        "name": "Kit para Montar um Circuito DC – Laboratório Virtual",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Kit para Montar Circuito DC",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Lei de Ohm",
+        "width": 343
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Resistência em um Fio",
+        "width": 343
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Simulações — detalhes",
+    "notes": "Iniciar simulação fica após tópicos e objetivos.",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Iniciar simulação",
+        "width": 343
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Voltar para lista PhET",
+        "width": 343
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Simulações — visualizador",
+    "notes": "Carregamento com espera e recuperação; controles do conteúdo externo separados dos do app.",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Recarregar simulação",
+        "width": 100
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Simulações — controle externo",
+    "notes": "Pause mudou para Play com acionamento por teclado (Space). O clique automatizado anterior não confirmou mudança. O rodapé Recarregar do app respondeu.",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Recarregar simulação",
+        "width": 100
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Simulações — recarregar",
+    "notes": "",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Recarregar simulação",
+        "width": 100
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Início — após simulações",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 344
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 344
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Início — 360 px",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 113,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 314
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Praticar — 360 px",
+    "notes": "",
+    "headings": [
+      "Escolha uma atividade"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 95,
+        "inViewport": true,
+        "name": "Quiz",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Flashcards",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Memória",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Desafio",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 96,
+        "inViewport": true,
+        "name": "Lacunas",
+        "width": 314
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Quiz — preparação 360 px",
+    "notes": "",
+    "headings": [
+      "01 · Dificuldade",
+      "02 · Escolha um tema"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 326
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 326
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 326
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 64,
+        "inViewport": true,
+        "name": "Ondas Eletromagnéticas",
+        "width": 326
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Começar quiz",
+        "width": 328
+      }
+    ],
+    "radios": [
+      "Todas (15)",
+      "Fácil (5)",
+      "Médio (5)",
+      "Difícil (5)"
+    ]
+  },
+  {
+    "name": "Início — 360 px retorno",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 113,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 314
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Estudar — 360 px",
+    "notes": "Temas finais ficam fora da área horizontal visível, sem indicador de rolagem.",
+    "headings": [
+      "Dificuldade",
+      "Tema",
+      "Conteúdos"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Todos",
+        "width": 73
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Eletrostática",
+        "width": 116
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Eletrodinâmica",
+        "width": 132
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Magnetismo",
+        "width": 114
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ondas Eletromagnéticas",
+        "width": 196
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": true,
+        "name": "Carga elétrica e conservação",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 189,
+        "inViewport": true,
+        "name": "Eletrização e polarização",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": true,
+        "name": "Força Elétrica (Lei de Coulomb)",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Intensidade do Campo Elétrico",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Diferença de potencial e energia elétrica",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 213,
+        "inViewport": false,
+        "name": "Condutores em equilíbrio eletrostático",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Corrente elétrica e sentido convencional",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Resistência e lei de Ohm",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 227,
+        "inViewport": false,
+        "name": "Resistores em série e em paralelo",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Potência e consumo de energia elétrica",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 213,
+        "inViewport": false,
+        "name": "Campo magnético, polos e bússola",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 213,
+        "inViewport": false,
+        "name": "Materiais magnéticos, remanência e histerese",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Força Magnética sobre uma Carga em Movimento",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Campo Magnético de Fio Retilíneo (Lei de Ampère)",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Força Magnética sobre Fio Retilíneo",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Campo Magnético no Interior de um Solenoide",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Fluxo Magnético",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Lei da Indução de Faraday",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Tensão Induzida em Condutor Móvel",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 226,
+        "inViewport": false,
+        "name": "Equação Fundamental da Onda",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 213,
+        "inViewport": false,
+        "name": "Espectro eletromagnético e interações",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 202,
+        "inViewport": false,
+        "name": "Luz ao mudar de meio",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Raio da Trajetória Circular de uma Carga",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Período do Movimento de uma Carga no Campo Magnético",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Força Magnética entre Fios Paralelos",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Campo Magnético no Núcleo de um Toróide",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 262,
+        "inViewport": false,
+        "name": "Torque de Giro numa Espira",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 262,
+        "inViewport": false,
+        "name": "Força Magneto-Motriz (FMM)",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 263,
+        "inViewport": false,
+        "name": "Relutância e Lei de Hopkinson",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 262,
+        "inViewport": false,
+        "name": "Indutância de um Solenoide",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Indutância Mútua e Acoplamento Magnético",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 286,
+        "inViewport": false,
+        "name": "Relação entre Campos na Onda Eletromagnética",
+        "width": 316
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 111,
+        "inViewport": false,
+        "name": "Explorar simulações PhET",
+        "width": 316
+      }
+    ],
+    "radios": [
+      "Todos os níveis",
+      "Fácil",
+      "Médio",
+      "Difícil"
+    ]
+  },
+  {
+    "name": "Dúvidas — 360 px",
+    "notes": "",
+    "headings": [
+      "Exemplos de perguntas"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "Como funciona um ímã?",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "Me explique a Lei de Ohm",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "O que são ondas eletromagnéticas?",
+        "width": 316
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 42,
+        "inViewport": true,
+        "name": "Enviar pergunta",
+        "width": 42
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Dúvidas — envio 360 px",
+    "notes": "Mensagem preparada e não enviada.",
+    "headings": [
+      "Exemplos de perguntas"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "Como funciona um ímã?",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "Me explique a Lei de Ohm",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "O que são ondas eletromagnéticas?",
+        "width": 316
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 42,
+        "inViewport": true,
+        "name": "Enviar pergunta",
+        "width": 42
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Progresso — com resultado de teste",
+    "notes": "Resumo após quiz concluído na origem isolada localhost.",
+    "headings": [
+      "Por área de conhecimento",
+      "Últimas atividades",
+      "Seus dados"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(252, 237, 237)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": false,
+        "name": "Resetar meus dados",
+        "width": 316
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Reset — confirmação final 360 px",
+    "notes": "",
+    "headings": [
+      "Por área de conhecimento",
+      "Últimas atividades",
+      "Seus dados",
+      "Resetar meus dados?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(252, 237, 237)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Resetar meus dados",
+        "width": 316
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Cancelar",
+        "width": 270
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Resetar dados",
+        "width": 270
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Reset — cancelamento final",
+    "notes": "",
+    "headings": [
+      "Por área de conhecimento",
+      "Últimas atividades",
+      "Seus dados",
+      "Resetar meus dados?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(252, 237, 237)",
+        "disabled": false,
+        "height": 48,
+        "inViewport": true,
+        "name": "Resetar meus dados",
+        "width": 316
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Dúvidas — alvo final",
+    "notes": "",
+    "headings": [
+      "Exemplos de perguntas"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "Como funciona um ímã?",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "Me explique a Lei de Ohm",
+        "width": 316
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 53,
+        "inViewport": true,
+        "name": "O que são ondas eletromagnéticas?",
+        "width": 316
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 42,
+        "inViewport": true,
+        "name": "Enviar pergunta",
+        "width": 42
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Início — evidência de retomada",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 113,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 314
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Simulações — catálogo final",
+    "notes": "",
+    "headings": [
+      "Eletromagnetismo",
+      "Eletrostática",
+      "Circuitos"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": true,
+        "name": "Gerador",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": true,
+        "name": "Ímãs e Eletroímãs",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": true,
+        "name": "Ímã e Bússola",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 166,
+        "inViewport": true,
+        "name": "Laboratório Eletromagnético de Faraday",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Lei de Faraday",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Lei de Coulomb",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Cargas e Campos",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "John Travoltagem",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 166,
+        "inViewport": false,
+        "name": "Balões e Eletricidade Estática",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 166,
+        "inViewport": false,
+        "name": "Kit para Montar um Circuito: AC",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 166,
+        "inViewport": false,
+        "name": "Kit para Montar um Circuito: AC – Laboratório Virtual",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 166,
+        "inViewport": false,
+        "name": "Laboratório do Capacitor: Básico",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 166,
+        "inViewport": false,
+        "name": "Kit para Montar um Circuito DC – Laboratório Virtual",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Kit para Montar Circuito DC",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Lei de Ohm",
+        "width": 313
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 141,
+        "inViewport": false,
+        "name": "Resistência em um Fio",
+        "width": 313
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Simulações — detalhes final",
+    "notes": "",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(0, 102, 166)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": true,
+        "name": "Iniciar simulação",
+        "width": 313
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 50,
+        "inViewport": false,
+        "name": "Voltar para lista PhET",
+        "width": 313
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Simulações — retrato 360 px",
+    "notes": "Controles externos visualmente pequenos na área de simulação; oferecer tela cheia/paisagem é melhoria importante.",
+    "headings": [],
+    "buttons": [
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Voltar",
+        "width": 44
+      },
+      {
+        "background": "rgb(234, 245, 252)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ir ao início",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Recarregar simulação",
+        "width": 100
+      }
+    ],
+    "radios": []
+  },
+  {
+    "name": "Início — fim da inspeção",
+    "notes": "",
+    "headings": [
+      "O que você quer fazer?"
+    ],
+    "buttons": [
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 44,
+        "inViewport": true,
+        "name": "Ajuda",
+        "width": 44
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Estudar",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 102,
+        "inViewport": true,
+        "name": "Praticar",
+        "width": 314
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "disabled": false,
+        "height": 113,
+        "inViewport": true,
+        "name": "Simulações",
+        "width": 314
+      }
+    ],
+    "radios": []
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-22",
+  "preserved": [
+    {
+      "file": "logo-univasf.png",
+      "width": 1024,
+      "height": 318,
+      "sha256": "5789f8ed22e219e3e07ba1eea7909c1f7e99c9493406e3deb610f454039e6182",
+      "unchanged": true
+    },
+    {
+      "file": "icon.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "a86a8901520a03c1f2f9bef32e9f7a3669566567ce9287bb9b3ccebe25b632d7",
+      "unchanged": true
+    },
+    {
+      "file": "adaptive-icon.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "a86a8901520a03c1f2f9bef32e9f7a3669566567ce9287bb9b3ccebe25b632d7",
+      "unchanged": true
+    },
+    {
+      "file": "splash-icon.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "a86a8901520a03c1f2f9bef32e9f7a3669566567ce9287bb9b3ccebe25b632d7",
+      "unchanged": true
+    },
+    {
+      "file": "favicon.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "a86a8901520a03c1f2f9bef32e9f7a3669566567ce9287bb9b3ccebe25b632d7",
+      "unchanged": true
+    }
+  ],
+  "webCopiesIdentical": true
+}

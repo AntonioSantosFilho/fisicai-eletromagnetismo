@@ -1,0 +1,987 @@
+{
+  "date": "2026-10-18",
+  "findings": [
+    {
+      "id": "A01",
+      "priority": "P1",
+      "area": "Segurança e IA",
+      "title": "A chave da IA é distribuída no cliente",
+      "evidence": [
+        [
+          "services/iaService.ts",
+          "function endpoint"
+        ],
+        [
+          "server/tutor.cjs",
+          "function createTutorHandler"
+        ],
+        [
+          "tests/tutor.test.cjs",
+          "chave no servidor"
+        ]
+      ],
+      "impact": "Quando configurada em EXPO_PUBLIC_GEMINI_API_KEY, a credencial entra no aplicativo distribuído e a requisição sai diretamente para o Google. Isso permite extrair e reutilizar a chave. A cópia não recebeu a chave local da versão original.",
+      "action": "Mover a integração para um backend com controle de uso. Definir uma política de configuração antes da publicação.",
+      "kind": "Risco confirmado por código",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "A credencial foi retirada do cliente. A integração passa pelo servidor /api/tutor, com chave em cabeçalho privado, limites e validação de entrada. Middleware local, servidor separado e função Vercel foram incluídos; nenhuma publicação foi executada. O teste verifica que a chave não aparece na URL nem nos erros. Produção com múltiplas instâncias ainda precisa de cotas compartilhadas."
+    },
+    {
+      "id": "A02",
+      "priority": "P1",
+      "area": "Dados e conteúdo",
+      "title": "Uma dificuldade inválida esconde uma questão e quebra o selo de nível",
+      "evidence": [
+        [
+          "data/questoes.json",
+          "eld_q_005"
+        ],
+        [
+          "components/BadgeDificuldade.tsx",
+          "badges[key]"
+        ],
+        [
+          "tests/learning.test.cjs",
+          "todos os gabaritos"
+        ]
+      ],
+      "impact": "A questão eld_q_005 usa difícil com acento. O filtro por dificil não a encontra; ao alcançá-la em Todas, o selo recebe um valor sem configuração e tenta acessar backgroundColor de undefined.",
+      "action": "Padronizar o valor e validar o JSON antes da compilação. Adicionar proteção para valores inesperados no selo. Diagnóstico: invalid-question-difficulty.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Padronizado o nível da questão eld_q_005 para dificil. O selo tem fallback para valores inesperados. A suíte verifica os 20 níveis e a seleção de Eletrodinâmica em Difícil e Todas."
+    },
+    {
+      "id": "A03",
+      "priority": "P1",
+      "area": "Simulações",
+      "title": "A simulação não tem implementação web",
+      "evidence": [
+        [
+          "components/SimulationViewer.web.tsx",
+          "<iframe"
+        ],
+        [
+          "components/SimulationViewer.tsx",
+          "<WebView"
+        ],
+        [
+          "app/estudar/phet/simulacao.tsx",
+          "SimulationViewer"
+        ]
+      ],
+      "impact": "A rota usa react-native-webview em todas as plataformas. Ao abrir Gerador pela interface da prévia, a tela mostrou React Native WebView does not support this platform, confirmando a falta de implementação web. A listagem e os detalhes funcionaram, mas o experimento não abriu.",
+      "action": "Separar a implementação web da nativa, com iframe ou abertura externa permitida. Verificar interação e navegação de retorno no dispositivo.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Separada a implementação web com iframe da implementação nativa com WebView. O Gerador carregou dentro da prévia; pausa e recarga responderam na verificação de interface. A implementação nativa ainda precisa de teste em aparelho."
+    },
+    {
+      "id": "A04",
+      "priority": "P1",
+      "area": "Jogos e progresso",
+      "title": "O relógio continua depois de concluir a atividade",
+      "evidence": [
+        [
+          "hooks/useLearningSession.ts",
+          "setInterval"
+        ],
+        [
+          "tests/learning.test.cjs",
+          "os cinco modos concluem"
+        ]
+      ],
+      "impact": "O intervalo só termina na desmontagem. O teste concluiu o quiz com 0 segundos, avançou o relógio virtual e encontrou 10 segundos na tela, enquanto o histórico continuou com 0. O tempo apresentado no resultado pode divergir do registrado.",
+      "action": "Congelar o tempo ao finalizar e usar esse valor no resultado e na persistência. Diagnóstico: clock-after-completion.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "O controlador compartilhado interrompe o relógio na conclusão. Os cinco modos persistem o mesmo tempo exibido no resultado e o teste avança o relógio após concluir."
+    },
+    {
+      "id": "A05",
+      "priority": "P1",
+      "area": "Jogos e progresso",
+      "title": "Uma mesma pergunta pode ser contabilizada duas vezes",
+      "evidence": [
+        [
+          "hooks/useQuizSession.ts",
+          "function answerQuestion"
+        ],
+        [
+          "hooks/useMemoriaGame.ts",
+          "function selectCard"
+        ],
+        [
+          "tests/learning.test.cjs",
+          "clique repetido"
+        ]
+      ],
+      "impact": "No hook de flashcards, duas chamadas contam duas respostas sem avançar o cartão, mesmo com feedback aberto. No quiz, duas chamadas no mesmo lote de atualização encerram uma sessão de duas questões ainda na primeira. Os casos foram reproduzidos em teste de hook; a incidência de toque duplo em aparelhos ainda precisa de medição.",
+      "action": "Travar a resposta por identificador do item e garantir idempotência antes de atualizar o estado. Diagnósticos: flashcard-double-answer e quiz-same-batch-double-tap.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Respostas e avanços são verificados em atualizações funcionais atômicas por item. Cliques repetidos no mesmo lote não duplicam a pontuação. A memória também calcula o par no estado mais recente."
+    },
+    {
+      "id": "A06",
+      "priority": "P1",
+      "area": "Armazenamento",
+      "title": "Gravações simultâneas perdem registros",
+      "evidence": [
+        [
+          "services/storage.ts",
+          "function serializar"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "gravações concorrentes"
+        ]
+      ],
+      "impact": "Duas operações leem o mesmo histórico, adicionam um resultado e sobrescrevem o arquivo lógico uma da outra. No teste, foram solicitadas duas gravações e apenas uma permaneceu.",
+      "action": "Serializar gravações ou usar armazenamento transacional. Diagnóstico: concurrent-storage-writes.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "As gravações são serializadas por chave e uma falha não bloqueia as seguintes. O teste grava vinte sessões simultâneas e preserva as vinte. A proteção vale dentro do processo do app, sem sincronização entre abas ou aparelhos."
+    },
+    {
+      "id": "A07",
+      "priority": "P1",
+      "area": "Armazenamento",
+      "title": "JSON válido com formato errado interrompe o histórico",
+      "evidence": [
+        [
+          "services/progressoService.ts",
+          "function validarRegistros"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "formato inválido"
+        ]
+      ],
+      "impact": "A conversão de tipo não valida o conteúdo em execução. Armazenar {} faz obterResumo lançar registros is not iterable. Também faltam verificações de campos, números e datas.",
+      "action": "Validar o esquema e tratar dados inválidos com recuperação explícita. Diagnóstico: invalid-storage-shape.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Validação em execução confere estrutura, tipos, números, datas, atividade e nível antes de ler ou gravar. Dados inválidos são recusados e preservados."
+    },
+    {
+      "id": "A08",
+      "priority": "P1",
+      "area": "Armazenamento",
+      "title": "Histórico corrompido é tratado como vazio e sobrescrito",
+      "evidence": [
+        [
+          "services/progressoService.ts",
+          "async restaurarBackup"
+        ],
+        [
+          "components/ProfileControls.tsx",
+          "Resetar meus dados"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "restauração arquiva"
+        ]
+      ],
+      "impact": "Quando o JSON não pode ser lido, o serviço devolve uma lista vazia. A gravação seguinte substitui o valor corrompido sem oferecer recuperação ou informar o ocorrido.",
+      "action": "Preservar uma cópia do valor original, exibir o erro e oferecer restauração. Diagnóstico: corrupt-storage-overwrite.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Dados inválidos não são tratados como histórico vazio e não são sobrescritos silenciosamente. O serviço preserva cópias anteriores e permite recuperação técnica, coberta por testes. A interface foi simplificada por solicitação do usuário e oferece somente reset com confirmação, sem exportação nem restauração pelo aluno."
+    },
+    {
+      "id": "A09",
+      "priority": "P1",
+      "area": "Jogos e progresso",
+      "title": "A tela afirma que salvou antes de confirmar a gravação",
+      "evidence": [
+        [
+          "components/SessionStatus.tsx",
+          "Tentar salvar novamente"
+        ],
+        [
+          "hooks/useLearningSession.ts",
+          "setSaveStatus"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "falha de armazenamento"
+        ]
+      ],
+      "impact": "Os quatro hooks disparam a gravação sem aguardar nem apresentar falha. savedRef é marcado antes do término. Se o armazenamento recusar a escrita, não há nova tentativa e a interface pode continuar afirmando que o resultado foi salvo.",
+      "action": "Modelar os estados salvando, salvo e erro, aguardar a operação e permitir nova tentativa.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Os cinco modos mostram salvando, salvo ou erro conforme o término real da escrita. Há nova tentativa idempotente. O teste simula falha, verifica que nada foi anunciado como salvo e repete a gravação sem duplicar registros."
+    },
+    {
+      "id": "A10",
+      "priority": "P1",
+      "area": "Dependências e validação",
+      "title": "A árvore instalada contém alertas de segurança a triar",
+      "evidence": [
+        [
+          "auditoria/dependencias-atual.json",
+          "vulnerabilities"
+        ],
+        [
+          "package-lock.json",
+          "shell-quote"
+        ]
+      ],
+      "impact": "npm audit --omit=dev sinalizou 56 pacotes: 2 críticos, 36 altos, 17 moderados e 1 baixo. Os críticos incluem shell-quote e tar. A árvore inclui ferramentas de compilação, mesmo com omit=dev; a contagem não representa 56 falhas exploráveis no aplicativo final.",
+      "action": "Separar exposição de build e runtime, estudar os avisos e atualizar de forma compatível com Expo. Não executar audit fix --force indiscriminadamente.",
+      "kind": "Risco de dependências",
+      "origin": "Base Cursor",
+      "status": "Parcial",
+      "update": "Atualizadas dependências compatíveis com o SDK 54. A auditoria atual contém 48 alertas (27 altos, 21 moderados), sem críticos. Os dois críticos da árvore inicial foram eliminados. Permanecem avisos em ferramentas como braces, postcss e node-forge e em cadeias do Expo/React Native. Algumas correções propostas exigem mudança maior de SDK ou não têm versão compatível disponível; não foi usado audit fix --force. Esta triagem não declara o build ou runtime livres de riscos."
+    },
+    {
+      "id": "A11",
+      "priority": "P1",
+      "area": "Dados e conteúdo",
+      "title": "A dificuldade da teoria depende da ordem dos arquivos",
+      "evidence": [
+        [
+          "data/teoria.json",
+          "dificuldade"
+        ],
+        [
+          "hooks/useConteudoTeorico.ts",
+          "criarIdConteudo"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "theory.every"
+        ]
+      ],
+      "impact": "O algoritmo distribui os 20 textos em três blocos pela posição. Assim, Eletrostática e Ondas ficam inteiramente em Difícil. Reordenar o JSON muda o nível sem alterar o conteúdo.",
+      "action": "Definir e revisar dificuldade em cada conteúdo, considerando pré-requisitos. Diagnóstico: difficulty-by-position.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Os 32 textos possuem dificuldade explícita, objetivos, percurso essencial/aprofundamento e ordem de estudo. A classificação não depende da posição no JSON; os pré-requisitos são conferidos contra ciclos e ordem inválida. A calibração final ainda depende do professor."
+    },
+    {
+      "id": "A12",
+      "priority": "P2",
+      "area": "Armazenamento",
+      "title": "O mesmo tema vira grupos diferentes no progresso",
+      "evidence": [
+        [
+          "utils/identificadores.ts",
+          "normalizarModulo"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "une grafias antigas"
+        ]
+      ],
+      "impact": "Quiz salva Magnetismo; lacunas e as novas seleções de flashcards podem salvar magnetismo. O teste criou dois grupos para o mesmo assunto, dividindo o gráfico e a agregação.",
+      "action": "Persistir um identificador estável de módulo e traduzir apenas na interface. Migrar registros antigos. Diagnóstico: module-id-normalization.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Módulos são normalizados para identificadores sem acentos durante leitura e gravação. Registros antigos com título e slug são agrupados no mesmo tema."
+    },
+    {
+      "id": "A13",
+      "priority": "P2",
+      "area": "Armazenamento",
+      "title": "IDs de resultados colidem no mesmo milissegundo",
+      "evidence": [
+        [
+          "utils/identificadores.ts",
+          "novoId"
+        ],
+        [
+          "services/progressoService.ts",
+          "options.sessionId"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "idempotente"
+        ]
+      ],
+      "impact": "O ID depende apenas de tipo, módulo e Date.now. Com relógio fixado no mesmo milissegundo, duas gravações seriais resultaram em dois registros com um único ID, prejudicando chaves de listas e futuras operações por registro.",
+      "action": "Usar identificador único por sessão e tornar a gravação idempotente. Diagnóstico: same-millisecond-ids.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Cada sessão recebe ID com contador e sufixo aleatório, além do tempo. O mesmo ID é reutilizado em tentativas de gravação. O teste fixa o relógio e confirma IDs diferentes para sessões distintas e uma gravação para a mesma sessão."
+    },
+    {
+      "id": "A14",
+      "priority": "P2",
+      "area": "Jogos e progresso",
+      "title": "A porcentagem mistura conclusão com precisão",
+      "evidence": [
+        [
+          "services/progressoService.ts",
+          "const precisao"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "precisão usa tentativas"
+        ],
+        [
+          "app/(tabs)/progresso/index.tsx",
+          "tentativas nas atividades"
+        ]
+      ],
+      "impact": "No jogo da memória, dois pares encontrados após sete tentativas erradas produzem 100% de acertos, porque o denominador é o número de pares. Quiz e autoavaliação de flashcards medem coisas diferentes, mas entram na mesma média.",
+      "action": "Definir com o responsável pedagógico quais métricas serão comparadas: conclusão, tentativas, precisão e autoavaliação. Diagnóstico: memory-accuracy-semantics.",
+      "kind": "Decisão de métrica",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Precisão agora significa acertos divididos por tentativas. Dois pares após sete erros resultam em 22%, sem misturar autoavaliação de flashcards. Cartões lembrados e a revisar aparecem separadamente. A definição é comunicada na tela."
+    },
+    {
+      "id": "A15",
+      "priority": "P2",
+      "area": "Jogos e progresso",
+      "title": "Uma atividade interrompida não pode ser retomada",
+      "evidence": [
+        [
+          "services/sessoesService.ts",
+          "sessoesService"
+        ],
+        [
+          "hooks/useLearningSession.ts",
+          ".carregar(key, owner)"
+        ],
+        [
+          "components/BotaoReiniciar.tsx",
+          "ConfirmDialog"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "atividade retoma"
+        ]
+      ],
+      "impact": "Só o resultado final é persistido. Sair da rota ou reiniciar o app descarta a sessão em andamento; reiniciar o jogo também limpa o estado imediatamente.",
+      "action": "Salvar rascunho por sessão e oferecer continuar ou recomeçar. Para reinício, mostrar claramente o que será descartado.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "O estado em andamento é salvo por perfil e versão de conteúdo, incluindo ordem da memória, resposta, feedback e tempo. Há retomada automática e confirmação antes de reiniciar. O teste desmonta e reabre uma atividade. A saída das atividades agora tem acesso explícito ao início; virar uma primeira carta e sair antes de um segundo também preserva a seleção, conforme nova regressão."
+    },
+    {
+      "id": "A16",
+      "priority": "P2",
+      "area": "Jogos e progresso",
+      "title": "O tempo não distingue atividade de espera",
+      "evidence": [
+        [
+          "hooks/useAtividadeVisivel.ts",
+          "useAtividadeVisivel"
+        ],
+        [
+          "hooks/useLearningSession.ts",
+          "foreground"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "relógio pausa"
+        ]
+      ],
+      "impact": "Não existe integração com foco de navegação ou AppState para a contagem. Enquanto a tela permanecer montada, feedbacks e períodos sem interação são tratados como estudo. O comportamento em segundo plano depende do sistema operacional.",
+      "action": "Definir a regra de tempo e pausar por perda de foco ou background. Validar em Android e iOS.",
+      "kind": "Risco confirmado por código",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "O relógio considera foco da rota, AppState e feedback. Pausa em segundo plano e fora da atividade, e o andamento é gravado ao perder foco. O teste verifica fundo, retorno, perda de foco e feedback."
+    },
+    {
+      "id": "A17",
+      "priority": "P2",
+      "area": "Dados e conteúdo",
+      "title": "A cobertura de lacunas é desigual",
+      "evidence": [
+        [
+          "data/lacunas.json",
+          "novo_eletrostatica_1"
+        ],
+        [
+          "components/GameSetup.tsx",
+          "countItems(mode, selectedModule, level)"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "lacunas cobrem"
+        ]
+      ],
+      "impact": "Há 10 frases de Magnetismo, 9 de Eletrodinâmica, 1 de Ondas e nenhuma de Eletrostática. Em Ondas, os níveis Fácil e Médio ficam vazios; o aluno consegue selecioná-los, mas não começar.",
+      "action": "Completar a cobertura ou desabilitar níveis sem itens, indicando a disponibilidade antes da seleção.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "O banco de lacunas passou a quarenta itens: dez em cada um dos quatro temas, com os três níveis presentes. A seleção exibe quantidades e desabilita níveis sem itens. Os novos itens têm elaboração assistida por IA identificada e referência de apoio, sem atribuir uma origem externa inventada."
+    },
+    {
+      "id": "A18",
+      "priority": "P2",
+      "area": "Dados e conteúdo",
+      "title": "A validação de lacunas rejeita pontuação simples",
+      "evidence": [
+        [
+          "utils/normalizarResposta.ts",
+          "normalizarResposta"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "pontuação sem apagar sinais"
+        ]
+      ],
+      "impact": "A normalização trata maiúsculas, acentos e espaços, mas monopolo. não corresponde a monopolo. Respostas semanticamente equivalentes dependem de uma lista fechada de variantes.",
+      "action": "Definir tolerância a pontuação e variantes com revisão dos termos, evitando aceitar conceitos diferentes.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "A normalização tolera pontuação terminal, aspas, espaços, acentos e maiúsculas. Não remove sinais matemáticos: -2 continua diferente de 2. Respostas vazias não são contabilizadas."
+    },
+    {
+      "id": "A19",
+      "priority": "P2",
+      "area": "Dados e conteúdo",
+      "title": "A teoria se concentra em poucos assuntos",
+      "evidence": [
+        [
+          "REVISAO_PEDAGOGICA.md",
+          "Como a teoria"
+        ],
+        [
+          "tests/content.test.cjs",
+          "trilha tem pré-requisitos"
+        ]
+      ],
+      "impact": "Dos 20 textos, 8 são de Magnetismo, 8 de Eletrodinâmica, 2 de Eletrostática e 2 de Ondas. A organização reúne relutância e indutância mútua sem uma trilha explícita de pré-requisitos.",
+      "action": "Definir o recorte curricular para o ensino médio, revisar agrupamentos e oferecer uma ordem de estudo. Não ampliar o escopo apenas para aumentar a quantidade de temas.",
+      "kind": "Curadoria pedagógica",
+      "origin": "Base Cursor",
+      "status": "Parcial",
+      "update": "A teoria foi revisada e ampliada de 20 para 32 textos, com 12 fundamentos novos, percurso ordenado, pré-requisitos navegáveis e separação entre essencial e aprofundamento. Cada texto inclui objetivo, equívoco corrigido e pergunta de reflexão. Três roteiros do PhET pedem prever, observar e explicar. O equilíbrio curricular e a adequação à turma ainda precisam de validação docente."
+    },
+    {
+      "id": "A20",
+      "priority": "P2",
+      "area": "Dados e conteúdo",
+      "title": "Os exemplos precisam de revisão científica e didática",
+      "evidence": [
+        [
+          "REVISAO_PEDAGOGICA.md",
+          "Correções científicas"
+        ],
+        [
+          "tests/content.test.cjs",
+          "as contas dos vinte"
+        ],
+        [
+          "auditoria/revisao-conteudo.json",
+          "escopo"
+        ]
+      ],
+      "impact": "Um exemplo chama de íon um objeto de 0,001 kg e 2 C. O conteúdo de toroide apresenta B, mas resolve um exemplo em H. Isso exige explicitar hipóteses, unidades e a diferença entre as grandezas. São pontos para revisão docente; a auditoria não certifica a validade científica de todos os textos.",
+      "action": "Revisar os 20 textos, 20 questões e os demais bancos com um professor, com registro de versão e aprovação. Conferir o alinhamento entre conceitos, exemplos e público.",
+      "kind": "Revisão docente",
+      "origin": "Base Cursor",
+      "status": "Parcial",
+      "update": "Todos os bancos passaram por revisão editorial e científica assistida por IA: teoria, exemplos, quiz, desafio, flashcards, memória e lacunas. Corrigidas distinções entre campo e força, B e H, remanência e histerese, tensão e corrente induzidas, energia e potência e hipóteses de modelos. As contas dos vinte exemplos originais/substituídos e de novos exercícios têm regressões. Isto não representa aprovação por professor: a revisão docente e a avaliação com adolescentes continuam pendentes."
+    },
+    {
+      "id": "A21",
+      "priority": "P2",
+      "area": "Leitura e acessibilidade",
+      "title": "Fórmulas aparecem como código LaTeX cru",
+      "evidence": [
+        [
+          "components/MathExpression.tsx",
+          "SvgXml"
+        ],
+        [
+          "scripts/render-math.cjs",
+          "item.trim()"
+        ],
+        [
+          "app/jogos/flashcards/[modulo].tsx",
+          "session.isFlipped &&"
+        ]
+      ],
+      "impact": "A interface mostra comandos de formatação em vez de equações renderizadas. Isso adiciona leitura técnica desnecessária e pode dificultar a compreensão de frações e expoentes.",
+      "action": "Renderizar a notação matemática com alternativa textual acessível e retirar o código bruto do fluxo do aluno.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "As 60 expressões distintas de teoria, resoluções e flashcards são pré-renderizadas em SVG local. Tópicos conceituais podem não ter equação; não há preenchimento artificial desse campo. A expressão da seção de resposta no flashcard só aparece após virar o cartão; o enunciado pode fornecer uma relação para o aluno interpretar."
+    },
+    {
+      "id": "A22",
+      "priority": "P2",
+      "area": "Dados e conteúdo",
+      "title": "As referências não permitem verificar facilmente o material",
+      "evidence": [
+        [
+          "data/referencias.json",
+          "openstax-cp-2022"
+        ],
+        [
+          "components/References.tsx",
+          "edicaoPontuada"
+        ],
+        [
+          "REVISAO_PEDAGOGICA.md",
+          "17 exemplos"
+        ]
+      ],
+      "impact": "Muitas fontes são descrições abreviadas, como instituição, parte e problema, sem link, edição ou referência bibliográfica completa. A interface exibe a string sem navegação para o material.",
+      "action": "Manter referências bibliográficas verificáveis, autoria, versão e links quando disponíveis. Vincular cada item à sua fonte revisada.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Parcial",
+      "update": "Bibliografia em formato ABNT, links e acesso em 18 out. 2026. Adicionada a obra College physics, de Urone e Hinrichs (2. ed., 2022), com metadados conferidos no site oficial. Novas atividades identificam elaboração do projeto e apoio conceitual, sem atribuir enunciados a provas ou livros. Persistem 17 exemplos herdados com origem exata não confirmada; a revisão não inventou páginas ou autoria."
+    },
+    {
+      "id": "A23",
+      "priority": "P3",
+      "area": "Leitura e acessibilidade",
+      "title": "Metadados editoriais aparecem para o aluno",
+      "evidence": [
+        [
+          "components/References.tsx",
+          "fonte exata"
+        ],
+        [
+          "app/estudar/[modulo].tsx",
+          "content.referencias"
+        ]
+      ],
+      "impact": "O texto Fonte externa necessária: sim/não é um indicador interno de produção do conteúdo, sem explicar uma ação útil ao estudante.",
+      "action": "Mover esse campo para a documentação de curadoria e manter a referência útil para consulta.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "O indicador interno Fonte externa necessária foi retirado da tela. O aluno vê referências úteis e a informação sobre a confirmação da origem do exercício."
+    },
+    {
+      "id": "A24",
+      "priority": "P2",
+      "area": "Simulações",
+      "title": "A rota aceita um endereço de WebView arbitrário",
+      "evidence": [
+        [
+          "utils/simulacoes.ts",
+          "urlPhetPermitida"
+        ],
+        [
+          "tests/learning.test.cjs",
+          "URLs arbitrárias"
+        ]
+      ],
+      "impact": "O endereço vem do parâmetro url. Não há validação explícita de HTTPS e do domínio PhET nem controle de navegações posteriores. A existência do parâmetro é confirmada; exploração maliciosa não foi executada.",
+      "action": "Resolver a simulação por ID do catálogo e restringir domínio, protocolo e navegação permitida.",
+      "kind": "Risco confirmado por código",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "A abertura usa um ID do catálogo e valida protocolo HTTPS, domínio e caminho do PhET. Links antigos só são aceitos se corresponderem ao catálogo. Os testes rejeitam domínios falsos, credenciais na URL e protocolos não permitidos."
+    },
+    {
+      "id": "A25",
+      "priority": "P2",
+      "area": "Simulações",
+      "title": "A recuperação de falha da simulação é limitada",
+      "evidence": [
+        [
+          "app/estudar/phet/simulacao.tsx",
+          "Recarregar simulação"
+        ],
+        [
+          "components/SimulationViewer.tsx",
+          "onHttpError"
+        ]
+      ],
+      "impact": "A tela só trata onError, apresenta uma mensagem e não oferece recarregar. Não trata explicitamente erro HTTP. O cabeçalho absoluto usa deslocamento fixo, sem considerar a área segura do aparelho.",
+      "action": "Adicionar recarregar, retorno seguro e tratamento de status HTTP. Testar a sobreposição do cabeçalho e rotação em aparelhos reais.",
+      "kind": "Inspeção estática",
+      "origin": "Base Cursor",
+      "status": "Parcial",
+      "update": "Incluídos recarregar, abertura externa, timeout de carregamento e tratamento de erro HTTP na implementação nativa. O cabeçalho passou a usar a área segura compartilhada. Recarga e abertura do experimento foram verificadas na web; falta validar falhas de rede e layout em aparelhos Android/iOS."
+    },
+    {
+      "id": "A26",
+      "priority": "P2",
+      "area": "Segurança e IA",
+      "title": "Mensagens de falha entram no histórico como respostas da IA",
+      "evidence": [
+        [
+          "services/iaService.ts",
+          "response.ok"
+        ],
+        [
+          "hooks/useChat.ts",
+          "setError"
+        ],
+        [
+          "tests/tutor.test.cjs",
+          "não vazam credencial"
+        ]
+      ],
+      "impact": "Erro de rede, limite ou configuração retorna uma string. O hook a grava como mensagem enviada pelo assistente e a inclui no contexto das próximas perguntas. A interface também fala em arquivo .env para o estudante.",
+      "action": "Retornar erro estruturado, separar avisos do histórico pedagógico e apresentar uma orientação apropriada ao aluno.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "O serviço lança erros separados e o chat os mostra em aviso fora das mensagens do assistente. Falhas não são reenviadas como explicações da IA. Configuração interna e chave não aparecem para o aluno."
+    },
+    {
+      "id": "A27",
+      "priority": "P2",
+      "area": "Segurança e IA",
+      "title": "Não há limite de tamanho da conversa nem do envio",
+      "evidence": [
+        [
+          "hooks/useChat.ts",
+          "request.current"
+        ],
+        [
+          "server/tutor.cjs",
+          "hourlyLimit"
+        ],
+        [
+          "tests/tutor.test.cjs",
+          "limites de tamanho"
+        ]
+      ],
+      "impact": "O histórico completo é enviado a cada pergunta, sem limite de caracteres ou janela de contexto. Não há backend para limitar uso ou custo, e isTyping depende de atualização assíncrona de estado.",
+      "action": "Limitar entrada e contexto, usar bloqueio imediato por requisição e controlar cotas no servidor.",
+      "kind": "Risco confirmado por código",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Entrada limitada a 2.000 caracteres, janela de contexto limitada, corpo até 32 KiB e saída limitada. Há bloqueio imediato por AbortController, cancelamento, limpeza na troca de perfil e limites de uso no servidor. O orçamento em memória vale por instância e exige solução compartilhada em produção distribuída."
+    },
+    {
+      "id": "A28",
+      "priority": "P2",
+      "area": "Segurança e IA",
+      "title": "O tutor não está vinculado ao conteúdo revisado",
+      "evidence": [
+        [
+          "server/politica-tutor.cjs",
+          "ESCOPO OBRIGATÓRIO"
+        ],
+        [
+          "constants/assistente.ts",
+          "AI_PROVIDER"
+        ],
+        [
+          "tests/tutor.test.cjs",
+          "a recusa de tema externo"
+        ]
+      ],
+      "impact": "A instrução pede uma explicação de física, mas não fornece o material do app, critérios de fontes ou uma sequência didática. Respostas externas podem contradizer o conteúdo. Não foi feita avaliação com API real nem com alunos.",
+      "action": "Definir escopo e comportamento do tutor, explicar o envio de perguntas ao Google e avaliar respostas com um conjunto revisado por professor.",
+      "kind": "Risco pedagógico",
+      "origin": "Base Cursor",
+      "status": "Parcial",
+      "update": "O tutor recebe trechos do material e restringe as respostas a eletromagnetismo. O backend permite escolher o provedor pela configuracao. A versao beta atual mantem Gemini, aviso de privacidade, filtros de seguranca solicitados na API, limites de uso, bloqueio de padroes de dados pessoais e denuncia dentro do aplicativo. Os controles passaram em testes simulados; a chave local foi recusada pelo Google por exposicao e a geracao real permanece pendente. A adequacao contratual do uso escolar esta registrada nos termos e depende do responsavel."
+    },
+    {
+      "id": "A29",
+      "priority": "P2",
+      "area": "Armazenamento",
+      "title": "O histórico não distingue alunos em um aparelho compartilhado",
+      "evidence": [
+        [
+          "components/ProfileControls.tsx",
+          "Resetar dados"
+        ],
+        [
+          "context/PerfilContext.tsx",
+          "perfisService.ativo"
+        ],
+        [
+          "services/progressoService.ts",
+          "async limparRegistros"
+        ]
+      ],
+      "impact": "Todos os resultados usam uma única chave local. Não existe identificação de sessão de aluno, exportação ou ação de limpeza na tela de progresso. Em um dispositivo escolar compartilhado, os resultados podem ser misturados.",
+      "action": "Definir uso individual ou compartilhado e fornecer limpeza e exportação claras, com identificação mínima quando necessária.",
+      "kind": "Risco de uso escolar",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "O usuário definiu uso individual com reset manual. Foram removidas da interface a criação/troca de perfis e a exportação de progresso. Progresso oferece somente Resetar meus dados, com confirmação e tratamento de falha. Identificadores internos existentes são preservados para não perder o histórico; esta alteração não apagou dados. Em aparelho compartilhado, a separação de alunos depende do reset manual."
+    },
+    {
+      "id": "A30",
+      "priority": "P2",
+      "area": "Leitura e acessibilidade",
+      "title": "Há controles sem todos os estados de acessibilidade",
+      "evidence": [
+        [
+          "components/FeedbackModal.tsx",
+          "accessibilityViewIsModal"
+        ],
+        [
+          "components/ConfirmDialog.tsx",
+          "ScrollView"
+        ],
+        [
+          "components/FlashCard.tsx",
+          "accessibilityLabel"
+        ]
+      ],
+      "impact": "O exercício expansível não anuncia expanded; o campo de lacunas não tem rótulo acessível explícito; a animação de flashcard não oculta semanticamente a face inativa. Acessibilidade visual da página não substitui teste com leitor de tela.",
+      "action": "Completar nomes e estados, verificar ordem de leitura e foco dos modais e testar com TalkBack, VoiceOver e teclado.",
+      "kind": "Inspeção estática",
+      "origin": "Base Cursor",
+      "status": "Parcial",
+      "update": "Mantidos rótulos e estados de expansão, equações e esquemas com descrição e face única no flashcard. Modais agora anunciam conteúdo modal e permitem rolagem longa com ação acessível. A validação completa de foco e leitores TalkBack/VoiceOver continua dependente de aparelhos. Memória e flashcards compartilham giro em 3D com suporte a movimento reduzido e face oculta fora da leitura acessível. As duas cartas ficam abertas sem limite de tempo antes do feedback manual."
+    },
+    {
+      "id": "A31",
+      "priority": "P2",
+      "area": "Leitura e acessibilidade",
+      "title": "Alguns textos continuam pequenos",
+      "evidence": [
+        [
+          "components/StudyUI.tsx",
+          "fontSize: 14"
+        ],
+        [
+          "tailwind.config.js",
+          "xs: 14"
+        ]
+      ],
+      "impact": "Selos e descrições de telas internas ainda usam 10 a 12 px, herdados da primeira revisão visual. O menu principal foi ampliado, mas não houve teste com ampliação de fonte e leitor de tela em todas as telas.",
+      "action": "Revisar a escala tipográfica das telas internas e testar tamanhos de fonte do sistema sem corte ou sobreposição.",
+      "kind": "Confirmado",
+      "origin": "Revisão visual anterior",
+      "status": "Parcial",
+      "update": "Textos pequenos de 10–13 px das telas e controles foram ampliados para pelo menos 14 px, com ajustes de entrelinha; rótulos de esquemas matemáticos mantêm tratamento próprio. Ainda é necessário validar ampliação de fonte do sistema e telas pequenas em aparelhos reais."
+    },
+    {
+      "id": "A32",
+      "priority": "P2",
+      "area": "Dependências e validação",
+      "title": "Quatro pacotes estão fora da faixa recomendada pelo Expo",
+      "evidence": [
+        [
+          "package-lock.json",
+          "54.0.37"
+        ],
+        [
+          "package.json",
+          "babel-preset-expo"
+        ]
+      ],
+      "impact": "expo install --check pediu expo ~54.0.37, expo-constants ~18.0.14, expo-font ~14.0.12 e expo-router ~6.0.24. A instalação atual é 54.0.34, 18.0.13, 14.0.11 e 6.0.23, respectivamente.",
+      "action": "Alinhar as versões dentro do SDK e repetir build e navegação antes de planejar atualizações maiores.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Pacotes alinhados às recomendações do SDK 54 e dependências Babel usadas no projeto declaradas explicitamente. expo install --check retornou que as dependências estão atualizadas. Compilação e exportações foram repetidas; isto não elimina os alertas de segurança registrados em A10."
+    },
+    {
+      "id": "A33",
+      "priority": "P2",
+      "area": "Dependências e validação",
+      "title": "A base não possuía testes funcionais executáveis",
+      "evidence": [
+        [
+          "tests/content.test.cjs",
+          "quiz e desafio têm bancos próprios"
+        ],
+        [
+          "tests/persistence.test.cjs",
+          "gravações concorrentes"
+        ],
+        [
+          "../.github/workflows/independente.yml",
+          "npm test"
+        ]
+      ],
+      "impact": "O teste herdado é um snapshot do texto padrão do scaffold, sem comando test ou configuração de execução no pacote. TypeScript e exportação web não verificam pontuação, gravação, dados e recuperação. O diagnóstico criado nesta auditoria reproduz falhas, mas ainda não é uma suíte de regressão das correções.",
+      "action": "Criar testes de dados, lógica de sessão, armazenamento e fluxos essenciais; integrá-los à verificação de mudanças.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "A suíte atual inclui 35 testes de conteúdo, jogos, armazenamento, retomada, perfis e servidor. Verifica bancos separados, gabaritos, pré-requisitos, rodízio, ordem persistida, alternativas estáveis e autoavaliação após virar o flashcard. O workflow executa testes e exportações; nenhuma execução remota foi presumida. A memória em Todas percorre os três níveis e a resposta fixa de recusa do tutor também possuem regressões. Novas regressões verificam leitura das duas cartas, continuação pela terceira carta, preservação e retomada dos pares corretos, cobertura de todos os pares em rodadas e conclusão somente depois da confirmação do último par."
+    },
+    {
+      "id": "A34",
+      "priority": "P2",
+      "area": "Dependências e validação",
+      "title": "O checklist herdado declara validações que não estão comprovadas",
+      "evidence": [
+        [
+          "VERIFICACAO.md",
+          "Matriz de verificação"
+        ],
+        [
+          "CHECKLIST_FINAL.md",
+          "Registro histórico"
+        ]
+      ],
+      "impact": "O checklist marca requisitos como implementados e contém modelo Gemini, chave de armazenamento e navegação desatualizados. A implementação web de PhET é um exemplo de lacuna que a marcação não revela.",
+      "action": "Manter o documento como registro histórico e criar uma matriz de verificação com plataforma, teste e evidência para cada requisito.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "O checklist herdado continua identificado como histórico. Criada matriz atual com requisito, evidência e limite da verificação para web, bundle nativo, IA, armazenamento, acessibilidade e validação pedagógica."
+    },
+    {
+      "id": "A35",
+      "priority": "P3",
+      "area": "Jogos e progresso",
+      "title": "Desafio e quiz têm praticamente a mesma dinâmica",
+      "evidence": [
+        [
+          "data/desafios.json",
+          "des_magnetismo_1"
+        ],
+        [
+          "hooks/useQuizSession.ts",
+          "desafioAprovado"
+        ],
+        [
+          "tests/content.test.cjs",
+          "retomar preserva seleção"
+        ]
+      ],
+      "impact": "As duas telas usam a mesma sequência, perguntas e cálculo de pontuação. O parâmetro modo diferencia o tipo salvo, sem uma regra adicional de desafio.",
+      "action": "Definir se haverá limite, sequência temática ou outra regra de desafio; caso contrário, explicar a diferença ou unificar o acesso.",
+      "kind": "Decisão de produto",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "Quiz e desafio agora têm bancos separados: 60 itens de treino e 24 situações próprias de aplicação. O desafio seleciona cinco questões em progressão de nível e exige quatro acertos para a meta de 80%. Sessões usam rodízio e preservam a seleção e as alternativas quando retomadas."
+    },
+    {
+      "id": "A36",
+      "priority": "P3",
+      "area": "Manutenção",
+      "title": "O tema e a composição visual estão duplicados",
+      "evidence": [
+        [
+          "constants/colors.ts",
+          "palette"
+        ],
+        [
+          "tailwind.config.js",
+          "palette.json"
+        ],
+        [
+          "package.json",
+          "prettier"
+        ]
+      ],
+      "impact": "Os tokens existem em TypeScript e no Tailwind, e telas usam vários valores locais. Há trechos TSX longos em uma linha. Isso dificulta revisar contraste e consistência em novas mudanças.",
+      "action": "Usar uma fonte compartilhada de tokens e formatar os componentes. Preservar referências da identidade visual na documentação.",
+      "kind": "Inspeção estática",
+      "origin": "Base e revisões visuais",
+      "status": "Corrigido nesta revisão",
+      "update": "Paleta extraída para JSON compartilhado pelo código e Tailwind. Componentes, rotas e serviços foram formatados com Prettier, com comando reproduzível para novas edições. A logo original foi preservada."
+    },
+    {
+      "id": "A37",
+      "priority": "P2",
+      "area": "Dados e conteúdo",
+      "title": "Imagens didáticas não estão integradas aos conteúdos",
+      "evidence": [
+        [
+          "hooks/useConteudoTeorico.ts",
+          "diagrama?"
+        ],
+        [
+          "components/PhysicsDiagram.tsx",
+          "Esquema didático"
+        ],
+        [
+          "data/teoria.json",
+          "forca-magnetica"
+        ]
+      ],
+      "impact": "O requisito original menciona imagens e fórmulas, mas o esquema e a tela de teoria contemplam texto e fórmulas, sem campo ou componente para imagens didáticas. As imagens de marca do app não atendem a essa necessidade do conteúdo.",
+      "action": "Definir imagem, descrição alternativa, autoria e legenda no esquema. Integrar diagramas revisados aos assuntos que precisam de representação visual.",
+      "kind": "Confirmado",
+      "origin": "Base Cursor",
+      "status": "Corrigido nesta revisão",
+      "update": "O esquema de conteúdo passou a aceitar um diagrama didático. Há quatro esquemas vetoriais interativos em cinco conteúdos: força magnética, Coulomb, Faraday/Lenz e ondas. Todos possuem legenda e descrição textual e são identificados como esquemas sem escala."
+    },
+    {
+      "id": "V01",
+      "priority": "P2",
+      "area": "Visual corrigido",
+      "title": "Identidade institucional restaurada",
+      "evidence": [
+        [
+          "app/(tabs)/index.tsx",
+          "destinations"
+        ]
+      ],
+      "impact": "A primeira revisão introduziu uma paleta verde e um símbolo orbital no cabeçalho.",
+      "action": "Restaurada a imagem original da UNIVASF, sem alterar seus pixels. Os ícones de instalação também foram preservados. Azul e amarelo voltaram ao tema.",
+      "kind": "Revisão verificada na web",
+      "origin": "Revisão visual anterior",
+      "status": "Corrigido nesta revisão"
+    },
+    {
+      "id": "V02",
+      "priority": "P2",
+      "area": "Visual corrigido",
+      "title": "Menu inicial reduzido a três ações",
+      "evidence": [
+        [
+          "app/(tabs)/index.tsx",
+          "destinations"
+        ]
+      ],
+      "impact": "A tela anterior juntava destaque, seis atividades, quatro temas, progresso e tutor na mesma rolagem.",
+      "action": "O início agora oferece Estudar, Praticar e Simulações. Os cinco jogos ficam na página Praticar; progresso e dúvidas permanecem na barra inferior.",
+      "kind": "Revisão verificada na web",
+      "origin": "Revisão visual anterior",
+      "status": "Corrigido nesta revisão"
+    },
+    {
+      "id": "V03",
+      "priority": "P2",
+      "area": "Visual corrigido",
+      "title": "Linguagem promocional e decoração removidas",
+      "evidence": [
+        [
+          "app/(tabs)/index.tsx",
+          "destinations"
+        ]
+      ],
+      "impact": "Slogans, órbitas, brilhos e vários fundos pastel disputavam atenção com as ações.",
+      "action": "A tela inicial e as aberturas das abas usam rótulos diretos. O assistente continua identificado como IA, sem dar a entender que a resposta foi validada por professor.",
+      "kind": "Revisão verificada na web",
+      "origin": "Revisão visual anterior",
+      "status": "Corrigido nesta revisão"
+    },
+    {
+      "id": "V04",
+      "priority": "P2",
+      "area": "Visual corrigido",
+      "title": "Legibilidade das cores e instruções do menu ajustadas",
+      "evidence": [
+        [
+          "app/(tabs)/index.tsx",
+          "destinations"
+        ]
+      ],
+      "impact": "O azul oficial com texto branco pequeno não atinge 4,5:1; amarelo claro usado como texto também precisa de cuidado.",
+      "action": "A marca mantém as cores oficiais. Controles usam azul derivado #0066A6 e fundos amarelos usam texto escuro; a ajuda foi atualizada para a nova navegação.",
+      "kind": "Revisão verificada na web",
+      "origin": "Revisão visual anterior",
+      "status": "Corrigido nesta revisão"
+    }
+  ]
+}

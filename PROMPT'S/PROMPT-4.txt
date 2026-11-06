@@ -1,0 +1,116 @@
+﻿[CONTEXTO DO PROJETO]
+O projeto já possui scaffold configurado com Expo SDK 54, TypeScript strict,
+NativeWind e Expo Router. Os prompts anteriores já entregaram:
+- Prompt 1: navegação, interfaces TypeScript e tela Home
+- Prompt 2: design system completo com tokens em constants/colors.ts,
+  constants/typography.ts, constants/spacing.ts e componentes base
+  (Header, ModuloCard, BotaoPrimario, BotaoSecundario, BadgeDificuldade)
+- Prompt 3: seção de conteúdo teórico e integração PhET
+
+NÃO recrie arquivos de configuração (package.json, tsconfig.json,
+tailwind.config.js, babel.config.js).
+NÃO recrie componentes já existentes (Header, BotaoPrimario, BotaoSecundario,
+BadgeDificuldade).
+Use os tokens de constants/colors.ts e as classes NativeWind customizadas
+(bg-primary, text-secondary, etc.) em todos os componentes novos.
+Os JSONs de flashcards e memória já existem em data/. NÃO gere conteúdo
+— implemente apenas os componentes e telas que consomem esses arquivos.
+
+[PAPEL]
+Você é um engenheiro de software sênior especialista em React Native com experiência
+em gamificação de aplicativos educacionais. Você está dando continuidade ao projeto
+FisicAI, mantendo total consistência com a arquitetura, tipagem e convenções dos
+prompts anteriores.
+
+[ESPECIFICAÇÃO TÉCNICA]
+Implemente o módulo de Flashcards e o Jogo da Memória. Respeite obrigatoriamente:
+
+Stack já definida: React Native + Expo + TypeScript strict + NativeWind +
+AsyncStorage + Expo Router.
+
+Requisitos a implementar neste prompt:
+- RF01: Flashcards para revisão rápida; Jogo de associação (memória com conceitos
+  e definições)
+- RF02: Sequência de temas definida pelo sistema, sem escolha livre do usuário
+- RF05: Feedback imediato após cada ação, com explicação detalhada
+- RF06: Registro de acertos e tempo gasto (salvo via AsyncStorage)
+- RF07: Conteúdo agrupado por dificuldade
+- RNF02: Botão para reiniciar o jogo a qualquer momento
+- RNF04: Dicas/explicações extras para erros
+
+Schema do Flashcard — os JSONs já existem em data/. Implemente os componentes
+para consumir este schema exatamente:
+{
+  "modulo": "nome_modulo",
+  "flashcards": [
+    {
+      "id": "mag_fc_001",
+      "frente": "",
+      "verso": "<resposta concisa, 1-2 frases>",
+      "tipo": "<conceito | formula | aplicacao>",
+      "dificuldade": "<facil | medio | dificil>",
+      "fonte": "..."
+    }
+  ]
+}
+
+Schema do Jogo da Memória — os JSONs já existem em data/. Implemente os componentes
+para consumir este schema exatamente:
+{
+  "modulo": "nome_modulo",
+  "pares": [
+    {
+      "id": "mag_par_001",
+      "tipo_par": "<conceito_definicao | conceito_formula | termo_simbolo | fenomeno_aplicacao>",
+      "carta_a": { "tipo_conteudo": "<texto | formula>", "conteudo": "..." },
+      "carta_b": { "tipo_conteudo": "<texto | formula>", "conteudo": "..." },
+      "explicacao_pos_acerto": "",
+      "dificuldade": "<facil | medio | dificil>",
+      "fonte": "..."
+    }
+  ]
+}
+
+Entregáveis obrigatórios:
+1. app/jogos/flashcards/index.tsx — seleção de módulo e dificuldade.
+   Use BadgeDificuldade.tsx e tokens de constants/colors.ts
+2. app/jogos/flashcards/[modulo].tsx — sessão de flashcards com animação flip.
+   Use Header.tsx já existente
+3. app/jogos/memoria/index.tsx — seleção de módulo e dificuldade.
+   Use BadgeDificuldade.tsx e tokens de constants/colors.ts
+4. app/jogos/memoria/[modulo].tsx — jogo da memória em grid de cartas.
+   Use Header.tsx já existente
+5. components/FlashCard.tsx — carta com animação flip frente/verso (Animated API).
+   Use tokens de constants/colors.ts e constants/typography.ts
+6. components/CartaMemoria.tsx — carta virada/revelada com estado visual.
+   Use tokens de constants/colors.ts, cor de acerto success e erro error
+7. components/FeedbackModal.tsx — modal de feedback com explicação (RF05 + RNF04).
+   Use cores success/error de constants/colors.ts
+8. components/BotaoReiniciar.tsx — use BotaoSecundario.tsx já existente como base
+   (RNF02)
+9. hooks/useFlashcardSession.ts — lógica de sessão: ordem, progresso, timer, acertos
+10. hooks/useMemoriaGame.ts — embaralhamento, verificação de par, timer, acertos
+11. services/progressoService.ts — leitura e escrita de progresso no AsyncStorage
+
+[CHAIN-OF-THOUGHT ESTRUTURADO]
+Antes de gerar qualquer código, percorra estas etapas:
+
+ETAPA 1 — Análise do schema: mapeie como os campos alimentam os componentes
+visuais (frente/verso, carta_a/carta_b, explicacao_pos_acerto).
+
+ETAPA 2 — Lógica do jogo da memória: defina o algoritmo de embaralhamento e o
+fluxo de verificação de par (virar → comparar → acerto/erro → feedback).
+
+ETAPA 3 — Gerenciamento de estado: separe o que vai em useState, o que vai no
+hook customizado e o que precisa de AsyncStorage.
+
+ETAPA 4 — Animações: defina a abordagem de flip do flashcard (Animated API) e
+de revelação das cartas da memória, usando as cores do design system.
+
+ETAPA 5 — Implementação: gere todos os arquivos com código completo e tipado.
+
+ETAPA 6 — Validação: confirme que RF01 (flashcard + memória), RF02, RF05, RF06,
+RF07, RNF02 e RNF04 estão cobertos e que nenhum componente usa cores hardcoded
+fora dos tokens de constants/colors.ts.
+
+Execute cada etapa em sequência. Gere o código completo ao final.

@@ -1,0 +1,704 @@
+{
+  "lacunas": [
+    {
+      "id": "lac_mag_001",
+      "modulo_id": "magnetismo",
+      "frase": "Ao partir um ímã comum, não se obtém um _______ magnético isolado: cada pedaço continua com dois polos.",
+      "resposta": "monopolo",
+      "respostas_aceitas": [
+        "monopolo",
+        "polo",
+        "monopolo magnético"
+      ],
+      "explicacao": "A propriedade da inseparabilidade dos polos indica que não é possível isolar um polo norte ou sul; ao quebrar um ímã, dois novos ímãs completos se formam.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_mag_002",
+      "modulo_id": "magnetismo",
+      "frase": "A unidade de medida da densidade de campo magnético no SI é o _______.",
+      "resposta": "tesla",
+      "respostas_aceitas": [
+        "tesla",
+        "T"
+      ],
+      "explicacao": "A densidade de campo magnético (B) é medida em tesla (T), em homenagem ao cientista Nikola Tesla.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_mag_003",
+      "modulo_id": "magnetismo",
+      "frase": "A unidade de medida do fluxo magnético no Sistema Internacional é o _______.",
+      "resposta": "weber",
+      "respostas_aceitas": [
+        "weber",
+        "Wb"
+      ],
+      "explicacao": "Fluxo magnético é uma grandeza associada ao campo através de uma superfície orientada e sua unidade é weber (Wb). Linhas de campo são representação, não objetos materiais contáveis.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_ele_004",
+      "modulo_id": "magnetismo",
+      "frase": "Na representação usual de um ímã de barra, as linhas magnéticas continuam pelo interior do ímã, formando curvas _______.",
+      "resposta": "fechadas",
+      "respostas_aceitas": [
+        "fechadas",
+        "curvas fechadas"
+      ],
+      "explicacao": "As linhas magnéticas não começam nem terminam em polos isolados. Na eletrostática, as linhas elétricas podem começar em cargas positivas e terminar em negativas.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_eld_005",
+      "modulo_id": "eletrodinamica",
+      "frase": "A taxa de passagem de carga por uma seção de um fio é a _______ elétrica.",
+      "resposta": "corrente",
+      "respostas_aceitas": [
+        "corrente"
+      ],
+      "explicacao": "Corrente média é ΔQ/Δt e sua unidade é ampere (A).",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_mag_006",
+      "modulo_id": "magnetismo",
+      "frase": "Substâncias _______, como o ferro doce, o níquel e o cobalto, possuem alta permeabilidade magnética e são fortemente atraídas por ímãs.",
+      "resposta": "ferromagnéticas",
+      "respostas_aceitas": [
+        "ferromagnéticas",
+        "ferromagneticas",
+        "ferromagnéticos",
+        "ferromagneticos"
+      ],
+      "explicacao": "Nos materiais ferromagnéticos, os domínios magnéticos alinham-se facilmente e fortemente a favor do campo externo aplicado.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_mag_007",
+      "modulo_id": "magnetismo",
+      "frase": "Materiais como o bismuto apresentam magnetização induzida oposta ao campo aplicado e são classificados como _______.",
+      "resposta": "diamagnéticos",
+      "respostas_aceitas": [
+        "diamagnéticos",
+        "diamagneticos"
+      ],
+      "explicacao": "Materiais diamagnéticos têm suscetibilidade negativa. A tendência a regiões de campo menos intenso depende da não uniformidade do campo; magnetização e força resultante não são a mesma grandeza.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_eld_008",
+      "modulo_id": "eletrodinamica",
+      "frase": "Em um fio metálico, o sentido convencional da corrente é _______ ao da deriva dos elétrons.",
+      "resposta": "oposto",
+      "respostas_aceitas": [
+        "oposto"
+      ],
+      "explicacao": "O sentido convencional acompanha cargas positivas; elétrons têm carga negativa.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_eld_009",
+      "modulo_id": "eletrodinamica",
+      "frase": "Para um resistor ôhmico nas mesmas condições, a razão entre tensão e corrente é a _______ elétrica.",
+      "resposta": "resistência",
+      "respostas_aceitas": [
+        "resistência"
+      ],
+      "explicacao": "A lei de Ohm descreve a proporcionalidade entre U e I quando R é constante.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_eld_010",
+      "modulo_id": "eletrodinamica",
+      "frase": "A Lei da Indução de _______ estabelece que a variação do fluxo magnético através de um circuito induz nele uma força eletromotriz.",
+      "resposta": "Faraday",
+      "respostas_aceitas": [
+        "Faraday",
+        "faraday"
+      ],
+      "explicacao": "A Lei de Faraday explica o princípio de funcionamento dos geradores: uma tensão é induzida proporcionalmente à rapidez da variação do fluxo magnético no tempo.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_eld_011",
+      "modulo_id": "eletrodinamica",
+      "frase": "A Lei de _______ afirma que a corrente induzida tem um sentido tal que seu próprio campo magnético se opõe à variação do fluxo que a originou.",
+      "resposta": "Lenz",
+      "respostas_aceitas": [
+        "Lenz",
+        "lenz"
+      ],
+      "explicacao": "A Lei de Lenz é uma consequência do princípio da conservação da energia e determina o sentido da corrente elétrica induzida.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_ond_012",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "O valor máximo do campo em relação ao zero, em uma oscilação, corresponde à sua _______.",
+      "resposta": "amplitude",
+      "respostas_aceitas": [
+        "amplitude"
+      ],
+      "explicacao": "Amplitude caracteriza a oscilação do campo. Ela não é o comprimento de onda nem a frequência.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_mag_013",
+      "modulo_id": "magnetismo",
+      "frase": "Uma bobina longa, formada por um fio condutor enrolado em várias espiras juntas, é chamada de _______.",
+      "resposta": "solenoide",
+      "respostas_aceitas": [
+        "solenoide",
+        "solenóide",
+        "bobina longa"
+      ],
+      "explicacao": "Um solenoide longo em relação ao diâmetro pode ter campo aproximadamente uniforme na região interna central, distante das extremidades.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_eld_014",
+      "modulo_id": "eletrodinamica",
+      "frase": "Em resistores ligados aos mesmos dois nós, a _______ elétrica é a mesma nos ramos.",
+      "resposta": "tensão",
+      "respostas_aceitas": [
+        "tensão"
+      ],
+      "explicacao": "Em paralelo, a tensão é comum; a corrente depende de cada resistência.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_mag_015",
+      "modulo_id": "magnetismo",
+      "frase": "O campo magnético que permanece em um material após a retirada do campo externo é chamado de campo _______.",
+      "resposta": "remanente",
+      "respostas_aceitas": [
+        "remanente",
+        "remanescente"
+      ],
+      "explicacao": "A remanência descreve o campo que permanece. A histerese é a dependência da magnetização em relação à história do campo aplicado; são conceitos relacionados, mas distintos.",
+      "dificuldade": "dificil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_eld_016",
+      "modulo_id": "eletrodinamica",
+      "frase": "A energia medida em kWh resulta da potência em kW multiplicada pelo _______ em horas.",
+      "resposta": "tempo",
+      "respostas_aceitas": [
+        "tempo"
+      ],
+      "explicacao": "Potência e duração de uso precisam ser consideradas para calcular energia.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_mag_017",
+      "modulo_id": "magnetismo",
+      "frase": "O polo norte da agulha de uma bússola é atraído em direção ao polo sul magnético da Terra, que fica situado na região do polo _______ geográfico.",
+      "resposta": "norte",
+      "respostas_aceitas": [
+        "norte",
+        "Norte"
+      ],
+      "explicacao": "No modelo escolar de ímã equivalente, a região próxima ao norte geográfico atrai o polo norte da bússola e se comporta como polo sul. Nomes geofísicos podem seguir outra convenção; a bússola responde ao campo local.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_mag_018",
+      "modulo_id": "magnetismo",
+      "frase": "O análogo da resistência elétrica em circuitos magnéticos, ou seja, a medida de oposição que o material oferece ao fluxo magnético, é a _______ magnética.",
+      "resposta": "relutância",
+      "respostas_aceitas": [
+        "relutância",
+        "relutancia"
+      ],
+      "explicacao": "A relutância magnética depende inversamente da permeabilidade do material e afeta diretamente quão fácil é o estabelecimento do fluxo em um circuito magnético.",
+      "dificuldade": "dificil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_eld_019",
+      "modulo_id": "eletrodinamica",
+      "frase": "Em um caminho sem ramificações, resistores em série são atravessados pela mesma _______.",
+      "resposta": "corrente",
+      "respostas_aceitas": [
+        "corrente"
+      ],
+      "explicacao": "Em regime estacionário, sem acúmulo de carga, a corrente é igual no caminho em série. As tensões podem ser diferentes.",
+      "dificuldade": "dificil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "lac_eld_020",
+      "modulo_id": "eletrodinamica",
+      "frase": "Em um gerador ideal com espira girando uniformemente em campo fixo, a tensão muda periodicamente de sinal e é chamada de tensão _______.",
+      "resposta": "alternada",
+      "respostas_aceitas": [
+        "alternada"
+      ],
+      "explicacao": "A rotação muda o fluxo através da espira. Isso induz tensão alternada; a corrente também depende da conexão do circuito. Em uma máquina real, pode girar o campo em vez da espira.",
+      "dificuldade": "dificil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrostatica_1",
+      "modulo_id": "eletrostatica",
+      "frase": "O próton possui carga elétrica _______.",
+      "resposta": "positiva",
+      "respostas_aceitas": [
+        "positiva"
+      ],
+      "explicacao": "Elétrons têm carga negativa e prótons, positiva.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrostatica_2",
+      "modulo_id": "eletrostatica",
+      "frase": "Cargas de mesmo sinal se _______.",
+      "resposta": "repelem",
+      "respostas_aceitas": [
+        "repelem"
+      ],
+      "explicacao": "Cargas de sinais iguais se repelem; sinais opostos se atraem.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrostatica_3",
+      "modulo_id": "eletrostatica",
+      "frase": "No SI, a carga elétrica é medida em _______.",
+      "resposta": "coulomb",
+      "respostas_aceitas": [
+        "coulomb",
+        "C"
+      ],
+      "explicacao": "O símbolo da unidade de carga é C.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrostatica_4",
+      "modulo_id": "eletrostatica",
+      "frase": "Na lei de Coulomb, duplicar a distância reduz a força a um _______ do valor inicial.",
+      "resposta": "quarto",
+      "respostas_aceitas": [
+        "quarto"
+      ],
+      "explicacao": "A força entre cargas puntiformes varia com o inverso do quadrado da distância.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrostatica_5",
+      "modulo_id": "eletrostatica",
+      "frase": "A direção do campo elétrico é definida pela força sobre uma carga de prova _______.",
+      "resposta": "positiva",
+      "respostas_aceitas": [
+        "positiva"
+      ],
+      "explicacao": "Para uma carga negativa, a força aponta no sentido oposto ao campo.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrostatica_6",
+      "modulo_id": "eletrostatica",
+      "frase": "Em um sistema isolado, a soma das cargas elétricas se conserva: esse é o princípio da _______ da carga.",
+      "resposta": "conservação",
+      "respostas_aceitas": [
+        "conservação",
+        "conservacao"
+      ],
+      "explicacao": "Eletrizar corpos pode redistribuir cargas; não cria carga líquida no sistema isolado.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrostatica_7",
+      "modulo_id": "eletrostatica",
+      "frase": "O potencial elétrico é medido em _______.",
+      "resposta": "volt",
+      "respostas_aceitas": [
+        "volt"
+      ],
+      "explicacao": "Um volt equivale a um joule por coulomb.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrostatica_8",
+      "modulo_id": "eletrostatica",
+      "frase": "Em equilíbrio eletrostático, o campo no interior do material de um condutor é _______.",
+      "resposta": "nulo",
+      "respostas_aceitas": [
+        "nulo",
+        "zero"
+      ],
+      "explicacao": "As cargas livres se redistribuem até que o campo no material condutor seja zero.",
+      "dificuldade": "dificil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrostatica_9",
+      "modulo_id": "eletrostatica",
+      "frase": "Uma superfície em que o potencial tem o mesmo valor é chamada de _______.",
+      "resposta": "equipotencial",
+      "respostas_aceitas": [
+        "equipotencial"
+      ],
+      "explicacao": "Deslocar uma carga ao longo de uma equipotencial não altera sua energia potencial elétrica.",
+      "dificuldade": "dificil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrostatica_10",
+      "modulo_id": "eletrostatica",
+      "frase": "O trabalho da força elétrica entre dois pontos independe da trajetória: a força eletrostática é _______.",
+      "resposta": "conservativa",
+      "respostas_aceitas": [
+        "conservativa"
+      ],
+      "explicacao": "Na eletrostática, o trabalho pode ser calculado pela diferença de energia potencial.",
+      "dificuldade": "dificil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_ondas-eletromagneticas_1",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "Ondas eletromagnéticas podem se propagar no _______.",
+      "resposta": "vácuo",
+      "respostas_aceitas": [
+        "vácuo"
+      ],
+      "explicacao": "Diferentemente de ondas mecânicas, elas não precisam de um meio material.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_ondas-eletromagneticas_2",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "A luz visível é uma onda _______.",
+      "resposta": "eletromagnética",
+      "respostas_aceitas": [
+        "eletromagnética"
+      ],
+      "explicacao": "Luz visível, ondas de rádio e raios X pertencem ao espectro eletromagnético.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_ondas-eletromagneticas_3",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "A frequência é medida em _______ no SI.",
+      "resposta": "hertz",
+      "respostas_aceitas": [
+        "hertz",
+        "Hz"
+      ],
+      "explicacao": "Um hertz corresponde a um ciclo por segundo.",
+      "dificuldade": "facil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_ondas-eletromagneticas_4",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "A distância entre duas cristas consecutivas é o comprimento de _______.",
+      "resposta": "onda",
+      "respostas_aceitas": [
+        "onda"
+      ],
+      "explicacao": "O comprimento de onda é medido em metros no SI.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_ondas-eletromagneticas_5",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "No vácuo, aumentar a frequência reduz o comprimento de onda porque a velocidade permanece _______.",
+      "resposta": "constante",
+      "respostas_aceitas": [
+        "constante"
+      ],
+      "explicacao": "Para ondas eletromagnéticas no vácuo, c = λf.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_ondas-eletromagneticas_6",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "Em uma onda eletromagnética plana no vácuo, os campos elétrico e magnético são mutuamente _______.",
+      "resposta": "perpendiculares",
+      "respostas_aceitas": [
+        "perpendiculares"
+      ],
+      "explicacao": "Ambos também são perpendiculares à direção de propagação.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_ondas-eletromagneticas_7",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "A passagem da luz entre meios, com possível mudança de velocidade e direção, está associada ao fenômeno da _______.",
+      "resposta": "refração",
+      "respostas_aceitas": [
+        "refração"
+      ],
+      "explicacao": "Na refração em interface estacionária, a frequência se mantém e o comprimento de onda pode mudar. Na incidência normal, pode haver mudança de velocidade sem desvio.",
+      "dificuldade": "medio",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_ondas-eletromagneticas_8",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "Em uma onda plana no vácuo, o quociente E₀/B₀ corresponde à _______ da luz.",
+      "resposta": "velocidade",
+      "respostas_aceitas": [
+        "velocidade"
+      ],
+      "explicacao": "E₀ e B₀ são amplitudes; E₀/B₀ = c, embora os campos tenham unidades diferentes.",
+      "dificuldade": "dificil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_ondas-eletromagneticas_9",
+      "modulo_id": "ondas-eletromagneticas",
+      "frase": "Ao passar do vácuo para um meio transparente estacionário, a _______ da luz permanece a mesma.",
+      "resposta": "frequência",
+      "respostas_aceitas": [
+        "frequência"
+      ],
+      "explicacao": "A velocidade e o comprimento de onda podem mudar, mantendo v = λf.",
+      "dificuldade": "dificil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    },
+    {
+      "id": "novo_eletrodinamica_1",
+      "modulo_id": "eletrodinamica",
+      "frase": "A energia dissipada por unidade de tempo em um resistor é sua _______ elétrica.",
+      "resposta": "potência",
+      "respostas_aceitas": [
+        "potência"
+      ],
+      "explicacao": "Potência é medida em watt. Em um resistor ôhmico, P = UI = RI².",
+      "dificuldade": "dificil",
+      "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "referencias_apoio": [
+        "openstax-cp-2022"
+      ],
+      "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+      "versao_conteudo": "2026-10-18-r2"
+    }
+  ]
+}

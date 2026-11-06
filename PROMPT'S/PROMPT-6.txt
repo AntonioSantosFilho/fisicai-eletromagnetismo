@@ -1,0 +1,126 @@
+﻿[CONTEXTO DO PROJETO]
+O projeto já possui scaffold configurado com Expo SDK 54, TypeScript strict,
+NativeWind e Expo Router. Os prompts anteriores já entregaram:
+- Prompt 1: navegação, interfaces TypeScript e tela Home
+- Prompt 2: design system completo com tokens em constants/colors.ts,
+  constants/typography.ts, constants/spacing.ts e componentes base
+  (Header, ModuloCard, BotaoPrimario, BotaoSecundario, BadgeDificuldade)
+- Prompt 3: seção de conteúdo teórico e integração PhET
+- Prompt 4: módulo de Flashcards e Jogo da Memória, incluindo
+  FeedbackModal.tsx, BotaoReiniciar.tsx e services/progressoService.ts
+- Prompt 5: módulo de Quiz, Desafio Sequencial e Completar Lacunas,
+  incluindo AlternativaButton.tsx, EnunciadoCard.tsx, ResultadoSessao.tsx,
+  utils/embaralhar.ts e utils/normalizarResposta.ts
+
+NÃO recrie arquivos de configuração (package.json, tsconfig.json,
+tailwind.config.js, babel.config.js).
+NÃO recrie componentes já existentes (Header, BotaoPrimario, BotaoSecundario,
+BadgeDificuldade, FeedbackModal, BotaoReiniciar, HelpButton).
+NÃO recrie services/progressoService.ts — este prompt entrega a versão
+consolidada final substituindo todas as versões anteriores.
+Use os tokens de constants/colors.ts e as classes NativeWind customizadas
+(bg-primary, text-secondary, etc.) em todos os componentes novos.
+
+[PAPEL]
+Você é um engenheiro de software sênior especialista em React Native com experiência
+em integração de LLMs em aplicativos educacionais e em sistemas de acompanhamento
+de desempenho. Você está concluindo o projeto FisicAI, mantendo total consistência
+com a arquitetura e convenções dos prompts anteriores.
+
+[ESPECIFICAÇÃO TÉCNICA]
+Implemente a seção de Progresso do Aluno, a seção de IA Conversacional e realize
+a validação final. Respeite obrigatoriamente:
+
+Stack já definida: React Native + Expo + TypeScript strict + NativeWind +
+AsyncStorage + Expo Router.
+
+Requisitos a implementar neste prompt:
+- RF06: Acompanhamento de desempenho (acertos e tempo gasto)
+- RF09: Lista de progresso com dados salvos localmente via AsyncStorage
+- RF12: IA que responde dúvidas em linguagem natural, estilo conversacional
+- RNF01: Revisão final da Home garantindo grid completo
+- RNF02: Auditar presença do BotaoReiniciar em todos os modos de jogo
+- RNF03: Auditar presença do HelpButton em todas as telas de jogo
+
+Especificação da seção de IA (RF12):
+- Interface de chat com histórico de mensagens da sessão
+- Campo de input + botão enviar. Use BotaoPrimario.tsx já existente para o botão
+- Chamada à API Gemini configurável via variável de ambiente
+  EXPO_PUBLIC_GEMINI_API_KEY
+- O modelo Gemini também deve ser configurável via variável de ambiente
+  EXPO_PUBLIC_GEMINI_MODEL
+- Caso EXPO_PUBLIC_GEMINI_MODEL não esteja definida, usar como padrão:
+  gemini-2.0-flash-lite
+- A implementação deve adaptar o histórico do chat para o formato esperado pela
+  API Gemini, preservando os papéis de usuário e assistente. O serviço deve
+  retornar apenas o texto final da resposta para a tela.
+- System prompt fixo: "Você é um professor de física para alunos do ensino médio.
+  Responda em português, de forma didática e objetiva."
+- Indicador de "digitando..." durante a resposta
+- Histórico não persistido entre sessões (somente em memória)
+
+Entregáveis obrigatórios:
+1. app/(tabs)/progresso/index.tsx — total de sessões por módulo, média de acertos,
+   tempo total, histórico das últimas 5 sessões. Use Header.tsx já existente e
+   cor secondary (#f9ac03) para destaques de desempenho
+2. components/ProgressoCard.tsx — card de estatística por módulo.
+   Use tokens de constants/colors.ts e constants/typography.ts
+3. components/GraficoAcertos.tsx — gráfico de barras simples usando apenas
+   React Native (sem lib externa). Use cores primary e secondary do design system
+4. app/(tabs)/ia/index.tsx — tela de chat com IA. Use Header.tsx já existente
+5. components/BubbleChat.tsx — bolha de mensagem com estilo distinto para
+   usuário (bg-primary, texto branco) e assistente (bg-surface, texto escuro),
+   seguindo tokens de constants/colors.ts
+6. hooks/useChat.ts — gerenciamento do histórico de chat e chamada ao serviço Gemini.
+   Use a interface MensagemIA já definida em types/index.ts
+7. services/iaService.ts — chamada à API Gemini com tratamento de erro e timeout.
+   Deve ler a chave de process.env.EXPO_PUBLIC_GEMINI_API_KEY.
+   Deve ler opcionalmente process.env.EXPO_PUBLIC_GEMINI_MODEL.
+   Se EXPO_PUBLIC_GEMINI_MODEL não existir, usar gemini-2.0-flash-lite.
+   Deve adaptar o histórico da conversa para o formato esperado pela API Gemini,
+   removendo mensagens iniciais do assistente antes da primeira mensagem do usuário.
+   Deve tratar erros 400, 401, 403, 429, indisponibilidade temporária do modelo e timeout,
+   retornando mensagens amigáveis em português.
+   Deve retornar apenas o texto final da resposta.8. services/progressoService.ts — versão consolidada FINAL substituindo todas
+   as versões anteriores. Consolide todas as chaves AsyncStorage dos Prompts 4
+   e 5 sem duplicação
+9. app/(tabs)/index.tsx — revisão final da Home com grid completo e navegação
+   correta para todos os módulos. Use ModuloCard.tsx e tokens do design system
+10. CHECKLIST_FINAL.md — rastreabilidade de cada RF e RNF para o arquivo
+    que o implementa, incluindo número do prompt de origem
+
+Validação obrigatória da navegação:
+- A barra inferior deve exibir somente Home, Estudar, Progresso e Ajuda IA.
+- Nenhuma rota interna, jogo, detalhe de conteúdo, simulação ou rota dinâmica
+  deve aparecer como item da barra inferior.
+- Não registrar telas internas no Tabs usando href: null.
+
+[CHAIN-OF-THOUGHT ESTRUTURADO]
+Antes de gerar qualquer código, percorra estas etapas:
+
+ETAPA 1 — Auditoria de AsyncStorage: liste todas as chaves escritas nos Prompts
+4 e 5 via progressoService.ts e defina como a tela de progresso vai lê-las e
+agregá-las sem duplicação na versão consolidada final.
+
+ETAPA 2 — Arquitetura do chat: defina o fluxo completo — usuário digita →
+mensagem adicionada ao histórico local → histórico adaptado para o formato da
+API Gemini → resposta adicionada ao histórico → renderização da bolha.
+
+ETAPA 3 — Tratamento de erros da IA: defina o comportamento para ausência de
+chave, chave inválida/sem permissão, modelo indisponível, alta demanda do modelo,
+limite de uso (429), ausência de internet e timeout. Todas as mensagens de fallback
+devem ser amigáveis ao aluno e em português.
+
+ETAPA 4 — Consolidação do progressoService: mapeie todas as funções existentes
+nas versões dos Prompts 4 e 5, identifique inconsistências e defina a versão
+final unificada sem quebrar as chamadas já existentes nas telas anteriores.
+
+ETAPA 5 — Implementação: gere todos os arquivos com código completo e tipado,
+garantindo que nenhum componente novo use cores hardcoded fora dos tokens de
+constants/colors.ts.
+
+ETAPA 6 — Validação final: percorra RF01 a RF12 e RNF01 a RNF04, confirmando
+em qual arquivo e prompt cada requisito foi implementado. Gere o
+CHECKLIST_FINAL.md com essa rastreabilidade completa.
+
+Execute cada etapa em sequência. Gere o código completo de todos os arquivos ao final.

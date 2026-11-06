@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FisicAI · Prévia do aplicativo</title>
+  <link rel="icon" type="image/png" sizes="1024x1024" href="/branding/favicon.png" />
+  <link rel="apple-touch-icon" sizes="1024x1024" href="/branding/app-icon.png" />
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: #EDF2F7; color: #202C38; font: 14px system-ui,sans-serif; }
+    header { min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 28px; border-bottom: 1px solid #D8E1E9; background: #FFFFFF; }
+    .brand { font-size: 20px; font-weight: 750; letter-spacing: -.7px; }
+    .brand span { color: #0066A6; }
+    .subtitle { font-size: 11px; color: #526475; margin-top: 3px; }
+    .controls { display: flex; gap: 8px; align-items: center; }
+    button { border: 1px solid #D8E1E9; border-radius: 10px; background: #FFF; color: #0066A6; padding: 9px 12px; cursor: pointer; font: 600 11px system-ui; }
+    button[aria-pressed=true] { background: #0066A6; color: #FFF; border-color: #0066A6; }
+    button:focus-visible { outline: 3px solid #0289E0; outline-offset: 3px; }
+    main { display: flex; align-items: flex-start; justify-content: center; padding: 22px 12px 16px; }
+    .device-stage { margin: 0 auto; }
+    .device { width: 408px; padding: 9px; background: #202C38; border-radius: 48px; box-shadow: 0 28px 65px #17382D24,0 0 0 1px #718179; transform-origin: top left; }
+    .screen { height: 844px; background: #F7F9FC; border-radius: 39px; overflow: hidden; display: flex; flex-direction: column; }
+    .status { height: 36px; flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; padding: 5px 25px 0; font-size: 12px; font-weight: 700; position: relative; }
+    .island { position: absolute; width: 91px; height: 22px; left: 50%; transform: translateX(-50%); top: 5px; background: #202C38; border-radius: 20px; }
+    .signal { display: flex; gap: 6px; align-items: center; }
+    .battery { width: 20px; height: 10px; border: 1.5px solid #202C38; border-radius: 3px; padding: 1px; }
+    .battery:after { content: ''; display: block; background: #202C38; height: 5px; border-radius: 1px; }
+    iframe { display: block; width: 100%; flex: 1; border: 0; min-height: 0; background: #F7F9FC; }
+    .home-indicator { height: 19px; display: flex; align-items: center; justify-content: center; background: #FFF; }
+    .home-indicator:after { content: ''; width: 110px; height: 4px; border-radius: 8px; background: #202C38; }
+    .caption { text-align: center; margin: 16px 0 0; color: #526475; font-size: 11px; }
+    .live { display: inline-block; width: 6px; height: 6px; border-radius: 100%; background: #0289E0; margin-right: 6px; }
+    @media(max-width:580px) { header { padding: 12px 14px; } .subtitle { display: none; } .controls { gap: 5px; } button { padding: 8px; font-size: 10px; } .brand { font-size: 17px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div><div class="brand">FisicAI</div><div class="subtitle">Prévia do aplicativo</div></div>
+    <div class="controls">
+      <button data-size="390" aria-pressed="true">390 px</button>
+      <button data-size="360" aria-pressed="false">360 px</button>
+      <button id="zoom" aria-pressed="false">Ampliar</button>
+      <button id="reload" aria-label="Recarregar aplicativo">↻ Atualizar</button>
+    </div>
+  </header>
+  <main><div>
+    <div class="device-stage"><div class="device"><div class="screen">
+      <div class="status" aria-hidden="true"><span>9:41</span><div class="island"></div><div class="signal"><span>▮▮▮</span><span>⌁</span><div class="battery"></div></div></div>
+      <iframe src="/" title="FisicAI Independente — aplicativo interativo" allow="clipboard-write; fullscreen" allowfullscreen></iframe>
+      <div class="home-indicator" aria-hidden="true"></div>
+    </div></div></div>
+    <p class="caption"><span class="live"></span>Aplicativo real · Atualização automática</p>
+  </div></main>
+  <script>
+    const frame = document.querySelector('iframe');
+    const device = document.querySelector('.device');
+    const stage = document.querySelector('.device-stage');
+    const zoomButton = document.querySelector('#zoom');
+    let deviceWidth = 390;
+    let expanded = false;
+    function fitDevice() {
+      const width = deviceWidth + 18;
+      const availableHeight = window.innerHeight - document.querySelector('header').offsetHeight - 76;
+      const scale = Math.min(1, (window.innerWidth - 32) / width, expanded ? 1 : Math.max(240, availableHeight) / 862);
+      device.style.width = width + 'px';
+      device.style.transform = 'scale(' + scale + ')';
+      stage.style.width = (width * scale) + 'px';
+      stage.style.height = (862 * scale) + 'px';
+    }
+    document.querySelector('#reload').onclick = () => frame.contentWindow.location.reload();
+    zoomButton.onclick = () => { expanded = !expanded; zoomButton.textContent = expanded ? 'Ajustar à guia' : 'Ampliar'; zoomButton.setAttribute('aria-pressed', String(expanded)); fitDevice(); };
+    document.querySelectorAll('[data-size]').forEach(button => button.onclick = () => { deviceWidth = Number(button.dataset.size); document.querySelectorAll('[data-size]').forEach(item => item.setAttribute('aria-pressed', String(item === button))); fitDevice(); });
+    window.addEventListener('resize', fitDevice);
+    fitDevice();
+  </script>
+</body>
+</html>

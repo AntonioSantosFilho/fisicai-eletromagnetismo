@@ -1,0 +1,142 @@
+{
+  "privacy": {
+    "title": "Política de privacidade — FisicAI Beta",
+    "summary": "Esta política explica o uso de dados na versão beta para testes escolares. Responsável pela distribuição: {{developerName}}. Contato: {{supportEmail}}. Atualização: {{legalDate}}.",
+    "sections": [
+      {
+        "title": "Em poucas palavras",
+        "paragraphs": [
+          "Você pode estudar e praticar sem criar uma conta. O aplicativo não pede nome, CPF, escola, telefone ou data de nascimento. Não há anúncios, compras nem publicidade direcionada.",
+          "O histórico de atividades fica no aparelho. Se você escolher usar o chat de IA, sua pergunta e parte da conversa serão processadas pelo servidor do FisicAI e pelo Google, por meio da Gemini API. Simulações e referências externas precisam de internet e têm políticas próprias."
+        ]
+      },
+      {
+        "title": "Andamento salvo no aparelho",
+        "paragraphs": [
+          "O FisicAI guarda um identificador local de perfil, preferências, temas e níveis escolhidos, resultados, acertos e erros, duração e data das atividades e rascunhos de sessões, incluindo escolhas e termos digitados nas lacunas. Isso permite retomar tarefas e mostrar o progresso.",
+          "Esses registros não são enviados automaticamente ao responsável pela distribuição. A versão Android beta desativa o backup automático de dados do aplicativo. Não há sincronização de progresso entre aparelhos, coleta de localização, acesso à câmera, microfone ou agenda."
+        ]
+      },
+      {
+        "title": "Chat de IA: mensagens e moderação",
+        "paragraphs": [
+          "Antes do primeiro uso do chat na sessão, há um aviso sobre o envio de mensagens. Não informe nomes, escola, telefone, documentos, localização, senhas ou outros dados pessoais e sensíveis. A disponibilidade do tutor experimental depende da configuração do servidor.",
+          "As mensagens recentes da conversa e trechos de apoio do conteúdo do aplicativo passam pelo servidor do FisicAI e pelo Google para gerar respostas. A integração solicita filtros de segurança para entrada e saída. Um identificador aleatório permite organizar a sessão no aplicativo. Não há envio automático do seu histórico de jogos ao tutor.",
+          "A conversa fica no aplicativo durante a sessão e não é salva como histórico permanente do chat pelo FisicAI. O servidor não registra perguntas e conversas comuns nos seus logs. O tratamento pelo Google depende do serviço e da configuração da conta: em serviços não pagos, mensagens e respostas podem ser usadas para melhorar produtos e analisadas por revisores; em serviços pagos, o Google informa que não as utiliza para esse treinamento, mas pode mantê-las temporariamente para prevenção de abuso. Consulte os termos do provedor. Não há promessa de retenção zero.",
+          "Se você escolher Denunciar resposta, serão enviados o trecho revisado da resposta, sua categoria, uma observação opcional e o identificador da resposta. Esses relatos são registrados nos logs privados da hospedagem Expo, acessíveis ao responsável para análise, e seguem a retenção da hospedagem. Não envie dados pessoais em relatos. A equipe deve verificar esses registros periodicamente e usar os relatos para corrigir conteúdo e controles.",
+          "O servidor trata informações técnicas da conexão para entregar o serviço, proteger contra abuso e limitar solicitações. Os provedores de IA e infraestrutura podem processar dados fora do Brasil, conforme suas políticas e condições aplicáveis. Para interromper o envio de novas mensagens, deixe de usar o chat ou feche o aplicativo."
+        ],
+        "links": [
+          {
+            "label": "Termos e tratamento de dados na Gemini API",
+            "url": "https://ai.google.dev/gemini-api/terms"
+          },
+          {
+            "label": "Política de privacidade do Google",
+            "url": "https://policies.google.com/privacy"
+          }
+        ]
+      },
+      {
+        "title": "Simulações e sites de terceiros",
+        "paragraphs": [
+          "Ao iniciar uma simulação, seu aparelho se conecta ao PhET, da Universidade do Colorado Boulder. O PhET informa que registra dados técnicos de uso, como simulação e versão, idioma, horário, tipo de dispositivo e informações de navegador, e utiliza serviços de análise com medidas de anonimização de IP. Esses serviços não são operados pelo FisicAI.",
+          "Links de referências abrem os respectivos sites. Seus servidores recebem informações técnicas necessárias para entregar as páginas. Políticas de cookies e privacidade desses serviços se aplicam à navegação. O FisicAI não exige cadastro no PhET para usar as simulações.",
+          "Resetar o progresso no FisicAI não apaga cookies, histórico do navegador ou dados mantidos por serviços externos. Você pode gerenciar esses dados nas configurações do Android, do navegador e do próprio serviço."
+        ],
+        "links": [
+          {
+            "label": "Política de privacidade do PhET",
+            "url": "https://phet.colorado.edu/en/privacy-policy"
+          }
+        ]
+      },
+      {
+        "title": "Como apagar seus dados",
+        "paragraphs": [
+          "Em Progresso → Resetar meus dados, você pode apagar o histórico pedagógico, as atividades em andamento e o rodízio do perfil local, após confirmar a ação. Limpar os dados do aplicativo nas configurações do Android ou desinstalá-lo também remove seus registros locais.",
+          "Como o responsável não recebe automaticamente seu progresso, não mantém uma cópia central para restaurá-lo. Se você enviar uma mensagem de suporte por e-mail, poderá solicitar acesso, correção ou eliminação dos dados dessa comunicação pelo mesmo contato."
+        ]
+      },
+      {
+        "title": "Suporte e páginas públicas",
+        "paragraphs": [
+          "Se você escolher enviar um e-mail para {{supportEmail}}, serão recebidos seu endereço e o conteúdo que decidir enviar. Essas informações são usadas para responder ao pedido e ficam limitadas ao necessário para atendimento e obrigações aplicáveis. Evite incluir nomes de estudantes, documentos, senhas ou informações sensíveis.",
+          "As páginas públicas de privacidade e termos são hospedadas pelo Expo. Ao acessá-las, dados técnicos da requisição podem ser processados pela hospedagem para entrega e segurança do serviço. A hospedagem dos documentos não recebe o histórico pedagógico salvo no aplicativo."
+        ],
+        "links": [
+          {
+            "label": "Política de privacidade do Expo",
+            "url": "https://expo.dev/privacy"
+          }
+        ]
+      },
+      {
+        "title": "Adolescentes e uso em pesquisa",
+        "paragraphs": [
+          "O material se destina principalmente a estudantes do ensino médio. A privacidade e o melhor interesse dos adolescentes orientam a minimização de dados. Professores e responsáveis podem acompanhar o uso sem que seja necessário criar um cadastro do estudante.",
+          "Baixar ou usar o aplicativo não significa consentir em participar de uma pesquisa. Qualquer coleta para o TCC, questionário ou avaliação com estudantes deve ser apresentada separadamente pelos responsáveis pela pesquisa, com as autorizações cabíveis.",
+          "Questões sobre privacidade podem ser enviadas para {{supportEmail}}. Mudanças relevantes no tratamento de dados serão informadas nesta política antes de serem aplicadas."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Termos de uso — FisicAI Beta",
+    "summary": "Aplicativo educacional experimental. Responsável pela distribuição: {{developerName}}. Contato: {{supportEmail}}. Atualização: {{legalDate}}.",
+    "sections": [
+      {
+        "title": "Finalidade e fase de testes",
+        "paragraphs": [
+          "O FisicAI Beta oferece conteúdos de eletromagnetismo, atividades de prática, um tutor com IA e acesso a simulações externas. É uma versão gratuita de testes, desenvolvida no contexto de um trabalho acadêmico. Pode receber correções e mudanças a partir das avaliações de professores e testadores.",
+          "O material, as respostas da IA e os resultados não substituem a orientação do professor nem constituem nota escolar. O conteúdo continua sujeito à revisão científica e pedagógica."
+        ]
+      },
+      {
+        "title": "Uso responsável",
+        "paragraphs": [
+          "Use o aplicativo para estudar e praticar. Compare as explicações com as referências e com a orientação docente. Se identificar um erro, informe a tela, o tema e o item ao contato de suporte, evitando dados pessoais de estudantes.",
+          "Não use falhas do aplicativo para interferir no aparelho de outra pessoa, acessar dados sem autorização ou prejudicar serviços externos. Não há obrigação de fornecer informações pessoais para realizar as atividades locais."
+        ]
+      },
+      {
+        "title": "Simulações, referências e marcas",
+        "paragraphs": [
+          "As simulações do PhET e os materiais acessados por links pertencem aos respectivos titulares e seguem suas licenças, termos e políticas. O aplicativo indica fontes e referências de apoio; isso não implica aprovação de cada conteúdo por essas instituições.",
+          "As marcas e imagens de terceiros mantêm seus direitos e atribuições. A distribuição desta versão não deve ser interpretada como publicação oficial, certificação ou endosso da UNIVASF, do PhET ou da Universidade do Colorado Boulder."
+        ],
+        "links": [
+          {
+            "label": "Informações e licenciamento do PhET",
+            "url": "https://phet.colorado.edu/en/licensing"
+          }
+        ]
+      },
+      {
+        "title": "Uso do tutor com IA",
+        "paragraphs": [
+          "O tutor responde apenas a dúvidas de eletromagnetismo. Leia o aviso de privacidade antes de habilitar o chat. A disponibilização da IA depende também dos termos do provedor. O uso em testes não representa certificação de conformidade contratual ou autorização do provedor para uso com adolescentes; essa adequação precisa ser resolvida pelo responsável antes do uso escolar.",
+          "A IA pode gerar respostas incorretas ou incompletas. Confira cálculos, unidades, hipóteses e referências com seu professor. O tutor não deve ser usado para orientação profissional, atividades perigosas com eletricidade, produção de armas ou pedidos que coloquem alguém em risco.",
+          "Há filtros de segurança, limites de tamanho e de frequência de solicitações. Isso não garante que todo erro ou conteúdo inadequado seja detectado. Se identificar um problema, use Denunciar resposta e revise o conteúdo que será enviado ao responsável.",
+          "O chat depende de conexão, disponibilidade dos serviços e cotas do beta. O aplicativo pode limitar temporariamente as perguntas para preservar a segurança e os recursos do teste."
+        ]
+      },
+      {
+        "title": "Disponibilidade e progresso",
+        "paragraphs": [
+          "Conteúdos e atividades locais funcionam sem conexão após a instalação. Simulações e links externos dependem de internet e da disponibilidade de terceiros. O funcionamento pode variar entre aparelhos e versões do Android.",
+          "O progresso é local. Resetar os dados, limpar o armazenamento ou desinstalar o aplicativo pode eliminar esse andamento. O aplicativo não promete recuperação de registros apagados nem continuidade ilimitada de um link experimental de distribuição.",
+          "Problemas serão tratados dentro das possibilidades da fase de testes, preservados os direitos previstos na legislação aplicável. Estes termos não afastam direitos que não possam ser excluídos por lei."
+        ]
+      },
+      {
+        "title": "Privacidade, pesquisa e contato",
+        "paragraphs": [
+          "Consulte a Política de privacidade para entender os registros locais, as conexões com serviços externos e as opções de exclusão.",
+          "Usar o aplicativo não autoriza automaticamente a coleta de dados para pesquisa acadêmica. Eventuais pesquisas devem ter informações, procedimentos e autorizações próprios.",
+          "Para dúvidas, correções, acessibilidade ou questões sobre estes termos, escreva para {{supportEmail}}. Mudanças relevantes serão identificadas por uma nova data nos documentos."
+        ]
+      }
+    ]
+  }
+}

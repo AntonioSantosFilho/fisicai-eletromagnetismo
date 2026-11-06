@@ -1,0 +1,52 @@
+{
+  "referencias": [
+    {
+      "id": "ufrgs-2015",
+      "autores": "OLIVEIRA, Vagner; VEIT, Eliane Angela; ARAUJO, Ives Solano",
+      "titulo": "Breve introdução ao eletromagnetismo para o ensino médio: magnetismo",
+      "edicao": "",
+      "local": "Porto Alegre",
+      "editora": "UFRGS, Instituto de Física",
+      "ano": "2015",
+      "url": "https://www.if.ufrgs.br/gpef/textos/eletromagnetismo_oliveira_veit_araujo.pdf",
+      "data_acesso": "2026-10-18",
+      "verificacao": "Autoria, título, local, editora e ano conferidos na folha de rosto e ficha catalográfica."
+    },
+    {
+      "id": "mussoi-2007",
+      "autores": "MUSSOI, Fernando Luiz Rosa",
+      "titulo": "Fundamentos de eletromagnetismo",
+      "edicao": "Versão 3.3",
+      "local": "Florianópolis",
+      "editora": "CEFET/SC, Departamento Acadêmico de Eletrônica",
+      "ano": "2007",
+      "url": "https://wiki.ifsc.edu.br/mediawiki/images/8/8e/Apostila_Eletromagnetismo_CEFET.pdf",
+      "data_acesso": "2026-10-18",
+      "verificacao": "Autoria, versão e data conferidas nas duas primeiras páginas do PDF institucional."
+    },
+    {
+      "id": "openstax-2016",
+      "autores": "LING, Samuel J.; MOEBS, William; SANNY, Jeff",
+      "titulo": "University physics",
+      "edicao": "Volume 2",
+      "local": "Houston",
+      "editora": "OpenStax",
+      "ano": "2016",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/1-introduction",
+      "data_acesso": "2026-10-18",
+      "verificacao": "Dados bibliográficos conferidos no prefácio oficial. Referência complementar; não é atribuída como origem dos exercícios do aplicativo."
+    },
+    {
+      "id": "openstax-cp-2022",
+      "autores": "URONE, Paul Peter; HINRICHS, Roger",
+      "titulo": "College physics",
+      "edicao": "2. ed.",
+      "local": "Houston",
+      "editora": "OpenStax",
+      "ano": "2022",
+      "url": "https://openstax.org/books/college-physics-2e/pages/preface",
+      "data_acesso": "2026-10-18",
+      "verificacao": "Autoria e publicação (13 jul. 2022) conferidas na página oficial. Referência de apoio; novos enunciados são elaboração do projeto, não transcrição de exercícios do livro."
+    }
+  ]
+}

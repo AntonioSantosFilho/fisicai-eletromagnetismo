@@ -1,0 +1,557 @@
+{
+  "modulos": [
+    {
+      "id": "magnetismo",
+      "titulo": "Magnetismo",
+      "descricao": "Conceitos fundamentais de magnetismo, propriedades dos ímãs e interação magnética",
+      "flashcards": [
+        {
+          "id": "mag_fc_001",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "Que evidência obtemos ao partir um ímã comum?",
+          "verso": "Os pedaços podem continuar com dois polos. O procedimento não isola norte e sul nem cria cargas elétricas.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_fc_002",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "O que uma linha de campo magnético representa em cada ponto?",
+          "verso": "Sua tangente indica a direção do campo. Linhas são representações, não caminhos materiais por onde passa uma substância.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_fc_003",
+          "dificuldade": "medio",
+          "tipo": "aplicacao",
+          "frente": "Que propriedade permite manter uma informação em uma região magnética depois da gravação?",
+          "verso": "A magnetização remanente permite manter um estado após retirar o campo de gravação. Histerese descreve a dependência desse estado em relação à história de magnetização.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_fc_004",
+          "dificuldade": "dificil",
+          "tipo": "formula",
+          "frente": "Antes de calcular a força magnética, quais condições de uma carga puntiforme você precisa conhecer?",
+          "verso": "Seu módulo de carga, velocidade no referencial adotado, campo e ângulo entre velocidade e campo. Para o módulo: F = |q|vB sen θ. Movimento paralelo ao campo produz força magnética nula.",
+          "formula_latex": "F=|q|vB\\sin\\theta",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_fc_005",
+          "dificuldade": "medio",
+          "tipo": "conceito",
+          "frente": "Como distinguir remanência e histerese em uma frase?",
+          "verso": "Remanência é a resposta magnética residual após retirar o campo magnetizante; histerese é a dependência da resposta em relação à história do campo aplicado.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_fc_006",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "Um metal ser condutor garante que seja fortemente atraído por um ímã?",
+          "verso": "Não. Condutividade elétrica e resposta magnética são propriedades distintas. Ferro, cobre e alumínio não respondem do mesmo modo a um ímã.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_fc_007",
+          "dificuldade": "medio",
+          "tipo": "aplicacao",
+          "frente": "Por que uma bússola pode desviar perto de um fio com corrente?",
+          "verso": "A corrente contribui para o campo magnético local. A agulha tende a se alinhar com o campo resultante, e não obrigatoriamente com o norte geográfico.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_fc_008",
+          "dificuldade": "dificil",
+          "tipo": "conceito",
+          "frente": "Uma força magnética pode curvar uma trajetória sem aumentar a energia cinética?",
+          "verso": "Sim. Para carga puntiforme, a força magnética é perpendicular à velocidade e não realiza trabalho. Pode mudar a direção da velocidade sem mudar a rapidez.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_fc_009",
+          "dificuldade": "dificil",
+          "tipo": "conceito",
+          "frente": "B e H podem ser usados como se fossem a mesma grandeza?",
+          "verso": "Não. B é medido em tesla (T) e H em ampere por metro (A/m). Em um meio linear, homogêneo e isotrópico, B = μH; a resposta do material importa.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_fc_010",
+          "dificuldade": "medio",
+          "tipo": "aplicacao",
+          "frente": "Em que região um solenoide longo se aproxima de um campo uniforme?",
+          "verso": "Na região interna central, distante das extremidades. A aproximação não vale com a mesma precisão nas bordas nem para qualquer bobina curta.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "eletrodinamica",
+      "titulo": "Eletrodinâmica",
+      "descricao": "Corrente elétrica, campos gerados por correntes, força em fios e indução",
+      "flashcards": [
+        {
+          "id": "eld_fc_001",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "Corrente elétrica mede carga acumulada ou taxa de passagem de carga?",
+          "verso": "Taxa de passagem de carga por uma seção. Corrente média: I_m = ΔQ/Δt; 1 A = 1 C/s.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_fc_002",
+          "dificuldade": "medio",
+          "tipo": "conceito",
+          "frente": "Uma bobina aberta pode ter tensão induzida sem corrente sustentada?",
+          "verso": "Sim. A variação de fluxo pode produzir tensão nos terminais; a corrente sustentada também depende de um caminho condutor fechado.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_fc_003",
+          "dificuldade": "dificil",
+          "tipo": "formula",
+          "frente": "Quando a expressão B = μI/(2πr) é uma boa aproximação?",
+          "verso": "Para corrente estacionária em fio retilíneo muito longo, em meio uniforme. Ela é derivada da lei de Ampère para essa simetria, não sua forma geral.",
+          "formula_latex": "B=\\frac{\\mu I}{2\\pi r}",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_fc_004",
+          "dificuldade": "medio",
+          "tipo": "conceito",
+          "frente": "A resposta de Lenz sempre se opõe ao campo externo?",
+          "verso": "Não. Ela se opõe à variação do fluxo. Se o fluxo externo diminui, a resposta pode ter sentido que tende a sustentá-lo.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_fc_005",
+          "dificuldade": "dificil",
+          "tipo": "aplicacao",
+          "frente": "Um transformador ideal com corrente constante no primário mantém indução no secundário?",
+          "verso": "Não em regime rigorosamente constante. A indução requer fluxo variável. Há possíveis transitórios ao ligar ou variar a corrente; dizer que só uma corrente senoidal pode induzir seria excessivo.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_fc_006",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "Em um fio metálico, qual é a relação entre deriva eletrônica e sentido convencional?",
+          "verso": "São sentidos opostos. A convenção acompanha o movimento de cargas positivas; elétrons têm carga negativa.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_fc_007",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "O que diferencia tensão e corrente pelas unidades?",
+          "verso": "Tensão é energia por carga: volt equivale a J/C. Corrente é carga por tempo: ampere equivale a C/s.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_fc_008",
+          "dificuldade": "medio",
+          "tipo": "conceito",
+          "frente": "Que grandeza é igual em resistores em série? E em paralelo?",
+          "verso": "Em série sem ramificações, a corrente é a mesma. Em paralelo entre os mesmos dois nós, a tensão é a mesma.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_fc_009",
+          "dificuldade": "medio",
+          "tipo": "aplicacao",
+          "frente": "Como explicar que uma lâmpada não consome corrente?",
+          "verso": "Em regime estacionário, sem acúmulo de carga, a corrente de entrada é igual à de saída. A lâmpada transforma energia elétrica em outras formas.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_fc_010",
+          "dificuldade": "dificil",
+          "tipo": "aplicacao",
+          "frente": "Como comparar consumo de aparelhos com potências diferentes?",
+          "verso": "Considere potência e duração de uso. Com potência constante, E = PΔt. W mede potência; kWh mede energia e não deve ser escrito kW/h.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "eletrostatica",
+      "titulo": "Eletrostática",
+      "descricao": "Cargas elétricas em repouso e as características do campo elétrico",
+      "flashcards": [
+        {
+          "id": "ele_fc_001",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "Um corpo neutro não tem cargas elétricas?",
+          "verso": "Ele tem cargas positivas e negativas cuja soma é nula. Neutralidade não significa ausência de elétrons ou prótons.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_fc_002",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "Como se define o sentido do campo eletrostático nas linhas?",
+          "verso": "Pela força sobre uma carga de prova positiva. Linhas saem de cargas positivas e chegam a negativas ou se estendem ao infinito.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_fc_003",
+          "dificuldade": "medio",
+          "tipo": "conceito",
+          "frente": "Uma carga em repouso não pode sofrer nenhuma força?",
+          "verso": "Pode sofrer força elétrica e outras forças, como gravitacional. Somente a parcela magnética q(v⃗ × B⃗) é nula quando v = 0 no referencial considerado.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_fc_004",
+          "dificuldade": "medio",
+          "tipo": "conceito",
+          "frente": "Campo elétrico e força elétrica são a mesma grandeza?",
+          "verso": "Não. O campo depende das fontes; a força sobre uma carga de prova é F⃗ = qE⃗. Trocar a carga de prova sem perturbar as fontes altera a força, não o campo.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_fc_005",
+          "dificuldade": "dificil",
+          "tipo": "formula",
+          "frente": "Na lei de Coulomb em módulos, onde entram o sinal das cargas e a distância?",
+          "verso": "F = k|q₁q₂|/r² fornece o módulo. Os sinais determinam atração ou repulsão. A dependência é com r², não com r.",
+          "formula_latex": "F=k\\frac{|q_1q_2|}{r^2}",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_fc_006",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "Se um sólido perde elétrons, como fica sua carga resultante?",
+          "verso": "Positiva em relação ao estado neutro inicial. No processo usual, prótons não precisam sair dos núcleos.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_fc_007",
+          "dificuldade": "medio",
+          "tipo": "aplicacao",
+          "frente": "A atração de um objeto neutro por um carregado exige que o neutro adquira carga resultante?",
+          "verso": "Não. Polarização ou redistribuição de cargas pode gerar atração em campo não uniforme, mantendo a carga total nula.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_fc_008",
+          "dificuldade": "medio",
+          "tipo": "conceito",
+          "frente": "Qual é a diferença entre potencial constante e potencial nulo?",
+          "verso": "Constante significa mesmo valor em toda a região. Esse valor pode ser diferente de zero, pois a referência de potencial é escolhida.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_fc_009",
+          "dificuldade": "dificil",
+          "tipo": "aplicacao",
+          "frente": "Como calcular a variação de energia potencial sem perder o sinal?",
+          "verso": "Escolha origem e destino, calcule ΔV = V_final − V_inicial e use ΔU = qΔV com q incluindo o sinal. O trabalho elétrico é −ΔU.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_fc_010",
+          "dificuldade": "dificil",
+          "tipo": "conceito",
+          "frente": "Duas fontes produzem campos de mesmo módulo num ponto. O campo resultante é sempre o dobro?",
+          "verso": "Não. É preciso somar os vetores. Campos opostos podem se cancelar; campos no mesmo sentido somam seus módulos.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "ondas-eletromagneticas",
+      "titulo": "Ondas Eletromagnéticas",
+      "descricao": "Características e propagação de ondas eletromagnéticas",
+      "flashcards": [
+        {
+          "id": "ond_fc_001",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "No modelo de onda eletromagnética plana no vácuo, como se orientam E⃗, B⃗ e a propagação?",
+          "verso": "São mutuamente perpendiculares. Os campos são grandezas físicas acopladas; não são duas forças materiais transportadas pela onda.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_fc_002",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "Qual diferença entre som e rádio é importante para a propagação?",
+          "verso": "Som é uma onda mecânica e precisa de meio material. Rádio é eletromagnético e pode propagar-se no vácuo.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_fc_003",
+          "dificuldade": "medio",
+          "tipo": "conceito",
+          "frente": "Pertencer ao espectro eletromagnético torna todas as interações iguais?",
+          "verso": "Não. Frequência e propriedades do material influenciam absorção e transmissão. Amplitude e polarização também caracterizam uma onda.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_fc_004",
+          "dificuldade": "medio",
+          "tipo": "formula",
+          "frente": "Quando usar v = λf e quando substituir v por c?",
+          "verso": "A relação geral é v = λf. Para uma onda eletromagnética no vácuo, v = c. Em um meio material, verifique a velocidade adequada.",
+          "formula_latex": "v=\\lambda f",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_fc_005",
+          "dificuldade": "dificil",
+          "tipo": "formula",
+          "frente": "Ao usar E₀ = cB₀, quais grandezas e condições precisam estar claras?",
+          "verso": "E₀ e B₀ são amplitudes de uma onda plana no vácuo. E₀ está em V/m e B₀ em T. A relação não expressa força elétrica.",
+          "formula_latex": "E_0=cB_0",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_fc_006",
+          "dificuldade": "facil",
+          "tipo": "conceito",
+          "frente": "Como distinguir amplitude e comprimento de onda em um desenho espacial?",
+          "verso": "Amplitude é o valor máximo em relação ao equilíbrio. Comprimento de onda é a distância entre pontos consecutivos de mesma fase, como duas cristas.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_fc_007",
+          "dificuldade": "medio",
+          "tipo": "aplicacao",
+          "frente": "Que grandeza da luz permanece na passagem por uma interface estacionária?",
+          "verso": "A frequência. A velocidade, o comprimento de onda e eventualmente a direção podem mudar.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_fc_008",
+          "dificuldade": "medio",
+          "tipo": "conceito",
+          "frente": "Se a luz não desvia ao entrar num meio, sua velocidade necessariamente se mantém?",
+          "verso": "Não. Na incidência normal, pode haver mudança de velocidade sem mudança de direção.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_fc_009",
+          "dificuldade": "dificil",
+          "tipo": "aplicacao",
+          "frente": "No mesmo meio não dispersivo, o que ocorre com λ se f triplicar?",
+          "verso": "O comprimento cai para um terço, pois a velocidade é mantida e λ = v/f. A hipótese sobre o meio é necessária.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_fc_010",
+          "dificuldade": "dificil",
+          "tipo": "conceito",
+          "frente": "Duas ondas de mesma frequência podem transportar intensidades diferentes?",
+          "verso": "Sim. A intensidade também depende da amplitude. Ter mesma frequência não torna as ondas idênticas em todas as propriedades.",
+          "fonte": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3059 @@
+{
+  "data": "2026-10-18",
+  "escopo": "Versão independente. Revisão editorial e técnica assistida por IA; nenhuma aprovação docente foi presumida.",
+  "antes": {
+    "teoria": 20,
+    "quiz": 20,
+    "desafio": "Os mesmos 20 itens do quiz",
+    "flashcards": 20,
+    "pares": 20,
+    "lacunas": 40
+  },
+  "agora": {
+    "teoria": 32,
+    "quiz": 60,
+    "desafio": 24,
+    "flashcards": 40,
+    "pares": 32,
+    "lacunas": 40
+  },
+  "enunciados_duplicados_exatos_entre_quiz_e_desafio": [],
+  "limites": [
+    "Repetição de conceitos entre formatos é intencional; não foi declarada ausência de similaridade semântica.",
+    "Rodízio não é agendamento por intervalo de tempo nem sistema adaptativo.",
+    "Banco finito pode voltar a apresentar itens após um ciclo.",
+    "Questões novas e revisadas não são instrumentos psicométricos validados.",
+    "Origem exata de exemplos herdados sem autoria confirmada permanece sinalizada."
+  ],
+  "itens": [
+    {
+      "tipo": "teoria",
+      "id": "magnetismo-forca-magnetica-sobre-uma-carga-em-movimento",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Força Magnética sobre uma Carga em Movimento",
+      "objetivos": [
+        "Prever quando a força magnética é nula e determinar seu sentido."
+      ],
+      "pre_requisitos": [
+        "campo-magnetico-e-bussola",
+        "eletrostatica-intensidade-do-campo-eletrico"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "magnetismo-raio-da-trajetoria-circular-de-uma-carga",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Raio da Trajetória Circular de uma Carga",
+      "objetivos": [
+        "Relacionar massa, rapidez, carga e campo ao raio da trajetória."
+      ],
+      "pre_requisitos": [
+        "magnetismo-forca-magnetica-sobre-uma-carga-em-movimento"
+      ],
+      "etapa": "aprofundamento",
+      "referencias": [
+        "ufrgs-2015"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "magnetismo-periodo-do-movimento-de-uma-carga-no-campo-magnetico",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Período do Movimento de uma Carga no Campo Magnético",
+      "objetivos": [
+        "Explicar a independência do período em relação à rapidez neste modelo."
+      ],
+      "pre_requisitos": [
+        "magnetismo-raio-da-trajetoria-circular-de-uma-carga"
+      ],
+      "etapa": "aprofundamento",
+      "referencias": [
+        "ufrgs-2015"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "magnetismo-forca-magnetica-sobre-fio-retilineo",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Força Magnética sobre Fio Retilíneo",
+      "objetivos": [
+        "Prever o efeito da orientação do fio e da inversão da corrente."
+      ],
+      "pre_requisitos": [
+        "corrente-eletrica",
+        "magnetismo-forca-magnetica-sobre-uma-carga-em-movimento"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "magnetismo-forca-magnetica-entre-fios-paralelos",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Força Magnética entre Fios Paralelos",
+      "objetivos": [
+        "Explicar a interação entre correntes paralelas e aplicar ação e reação."
+      ],
+      "pre_requisitos": [
+        "magnetismo-forca-magnetica-sobre-fio-retilineo",
+        "magnetismo-campo-magnetico-de-fio-retilineo-lei-de-ampere"
+      ],
+      "etapa": "aprofundamento",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "magnetismo-campo-magnetico-de-fio-retilineo-lei-de-ampere",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Campo Magnético de Fio Retilíneo (Lei de Ampère)",
+      "objetivos": [
+        "Distinguir a expressão para fio longo da lei de Ampère geral."
+      ],
+      "pre_requisitos": [
+        "corrente-eletrica",
+        "campo-magnetico-e-bussola"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "magnetismo-campo-magnetico-no-interior-de-um-solenoide",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Campo Magnético no Interior de um Solenoide",
+      "objetivos": [
+        "Identificar as hipóteses do modelo de solenoide longo."
+      ],
+      "pre_requisitos": [
+        "magnetismo-campo-magnetico-de-fio-retilineo-lei-de-ampere"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "magnetismo-campo-magnetico-no-nucleo-de-um-toroide",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Campo Magnético no Núcleo de um Toróide",
+      "objetivos": [
+        "Distinguir B, em tesla, de H, em ampere por metro."
+      ],
+      "pre_requisitos": [
+        "magnetismo-campo-magnetico-no-interior-de-um-solenoide"
+      ],
+      "etapa": "aprofundamento",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrodinamica-torque-de-giro-numa-espira",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Torque de Giro numa Espira",
+      "objetivos": [
+        "Distinguir força resultante e torque e interpretar o ângulo da normal."
+      ],
+      "pre_requisitos": [
+        "magnetismo-forca-magnetica-sobre-fio-retilineo"
+      ],
+      "etapa": "aprofundamento",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrodinamica-forca-magneto-motriz-fmm",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Força Magneto-Motriz (FMM)",
+      "objetivos": [
+        "Interpretar força magnetomotriz sem confundi-la com força em newton."
+      ],
+      "pre_requisitos": [
+        "magnetismo-campo-magnetico-no-interior-de-um-solenoide"
+      ],
+      "etapa": "aprofundamento",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrodinamica-relutancia-e-lei-de-hopkinson",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Relutância e Lei de Hopkinson",
+      "objetivos": [
+        "Aplicar a relação de Hopkinson e reconhecer os limites da analogia elétrica."
+      ],
+      "pre_requisitos": [
+        "eletrodinamica-forca-magneto-motriz-fmm",
+        "eletrodinamica-fluxo-magnetico"
+      ],
+      "etapa": "aprofundamento",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrodinamica-fluxo-magnetico",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Fluxo Magnético",
+      "objetivos": [
+        "Interpretar fluxo e identificar o ângulo correto."
+      ],
+      "pre_requisitos": [
+        "campo-magnetico-e-bussola"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "ufrgs-2015"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrodinamica-lei-da-inducao-de-faraday",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Lei da Indução de Faraday",
+      "objetivos": [
+        "Distinguir tensão e corrente induzidas e interpretar fluxo por espira."
+      ],
+      "pre_requisitos": [
+        "eletrodinamica-fluxo-magnetico",
+        "corrente-eletrica"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrodinamica-tensao-induzida-em-condutor-movel",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Tensão Induzida em Condutor Móvel",
+      "objetivos": [
+        "Explicar tensão de movimento e reconhecer a configuração perpendicular."
+      ],
+      "pre_requisitos": [
+        "magnetismo-forca-magnetica-sobre-uma-carga-em-movimento",
+        "potencial-e-energia"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrodinamica-indutancia-de-um-solenoide",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Indutância de um Solenoide",
+      "objetivos": [
+        "Relacionar autoindução e variação de corrente e reconhecer o modelo ideal."
+      ],
+      "pre_requisitos": [
+        "magnetismo-campo-magnetico-no-interior-de-um-solenoide",
+        "eletrodinamica-lei-da-inducao-de-faraday"
+      ],
+      "etapa": "aprofundamento",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrodinamica-indutancia-mutua-e-acoplamento-magnetico",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Indutância Mútua e Acoplamento Magnético",
+      "objetivos": [
+        "Interpretar acoplamento sem confundir módulo e polaridade."
+      ],
+      "pre_requisitos": [
+        "eletrodinamica-indutancia-de-um-solenoide"
+      ],
+      "etapa": "aprofundamento",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrostatica-forca-eletrica-lei-de-coulomb",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Força Elétrica (Lei de Coulomb)",
+      "objetivos": [
+        "Prever a interação e distinguir sinal da carga e módulo da força."
+      ],
+      "pre_requisitos": [
+        "carga-e-conservacao"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-2016"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrostatica-intensidade-do-campo-eletrico",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Intensidade do Campo Elétrico",
+      "objetivos": [
+        "Distinguir campo e força e interpretar o sinal da carga de prova."
+      ],
+      "pre_requisitos": [
+        "eletrostatica-forca-eletrica-lei-de-coulomb"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-2016"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "ondas-eletromagneticas-equacao-fundamental-da-onda",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Equação Fundamental da Onda",
+      "objetivos": [
+        "Relacionar frequência, comprimento e velocidade, identificando o meio."
+      ],
+      "pre_requisitos": [
+        "campo-magnetico-e-bussola",
+        "eletrostatica-intensidade-do-campo-eletrico"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-2016",
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "ondas-eletromagneticas-relacao-entre-campos-na-onda-eletromagnetica",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Relação entre Campos na Onda Eletromagnética",
+      "objetivos": [
+        "Relacionar amplitudes dos campos sem confundir campo e força."
+      ],
+      "pre_requisitos": [
+        "ondas-eletromagneticas-equacao-fundamental-da-onda"
+      ],
+      "etapa": "aprofundamento",
+      "referencias": [
+        "openstax-2016",
+        "mussoi-2007"
+      ],
+      "origem": "Origem exata do exemplo herdado não confirmada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "carga-e-conservacao",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Carga elétrica e conservação",
+      "objetivos": [
+        "Distinguir neutralidade, eletrização e conservação da carga."
+      ],
+      "pre_requisitos": [],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "eletrizacao-e-polarizacao",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Eletrização e polarização",
+      "objetivos": [
+        "Explicar atração de um corpo neutro sem supor criação de carga."
+      ],
+      "pre_requisitos": [
+        "carga-e-conservacao"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "potencial-e-energia",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Diferença de potencial e energia elétrica",
+      "objetivos": [
+        "Relacionar tensão, carga e variação de energia com sinais consistentes."
+      ],
+      "pre_requisitos": [
+        "eletrostatica-intensidade-do-campo-eletrico"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "condutores-em-equilibrio",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Condutores em equilíbrio eletrostático",
+      "objetivos": [
+        "Distinguir equilíbrio eletrostático de fio percorrido por corrente."
+      ],
+      "pre_requisitos": [
+        "eletrostatica-intensidade-do-campo-eletrico"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "corrente-eletrica",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Corrente elétrica e sentido convencional",
+      "objetivos": [
+        "Interpretar corrente como taxa e distinguir sentido convencional e deriva eletrônica."
+      ],
+      "pre_requisitos": [
+        "carga-e-conservacao"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "resistencia-e-lei-de-ohm",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Resistência e lei de Ohm",
+      "objetivos": [
+        "Reconhecer proporcionalidade entre tensão e corrente e limites da lei de Ohm."
+      ],
+      "pre_requisitos": [
+        "corrente-eletrica",
+        "potencial-e-energia"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "resistores-serie-paralelo",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Resistores em série e em paralelo",
+      "objetivos": [
+        "Identificar a associação pelos nós e prever corrente e tensão."
+      ],
+      "pre_requisitos": [
+        "resistencia-e-lei-de-ohm"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "potencia-e-consumo",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Potência e consumo de energia elétrica",
+      "objetivos": [
+        "Distinguir potência e energia e calcular consumo a partir do tempo."
+      ],
+      "pre_requisitos": [
+        "resistencia-e-lei-de-ohm"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "campo-magnetico-e-bussola",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Campo magnético, polos e bússola",
+      "objetivos": [
+        "Interpretar a bússola como indicadora do campo local e distinguir polos e cargas."
+      ],
+      "pre_requisitos": [
+        "carga-e-conservacao"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "materiais-e-histerese",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Materiais magnéticos, remanência e histerese",
+      "objetivos": [
+        "Distinguir remanência e histerese e evitar tratar todos os metais como ímãs."
+      ],
+      "pre_requisitos": [
+        "campo-magnetico-e-bussola"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "espectro-e-interacoes",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Espectro eletromagnético e interações",
+      "objetivos": [
+        "Reconhecer faixas do espectro e relacionar frequência, interação e aplicação."
+      ],
+      "pre_requisitos": [
+        "ondas-eletromagneticas-equacao-fundamental-da-onda"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "teoria",
+      "id": "onda-ao-mudar-de-meio",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Luz ao mudar de meio",
+      "objetivos": [
+        "Prever o que muda na refração em uma interface estacionária."
+      ],
+      "pre_requisitos": [
+        "ondas-eletromagneticas-equacao-fundamental-da-onda"
+      ],
+      "etapa": "essencial",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Exemplo com origem editorial identificada"
+    },
+    {
+      "tipo": "questoes",
+      "id": "mag_q_001",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Uma barra imantada é partida em dois pedaços, sem aquecimento intenso. O que esperamos observar?",
+      "habilidade": "interpretar",
+      "conceito_id": "polos",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "mag_q_002",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Uma bússola gira ao ser aproximada de um ímã. O que sua agulha indica?",
+      "habilidade": "interpretar",
+      "conceito_id": "bussola",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "mag_q_003",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Uma amostra diamagnética é colocada em campo não uniforme, cuja intensidade aumenta para a direita. Qual tendência é compatível com esse comportamento?",
+      "habilidade": "analisar",
+      "conceito_id": "materiais-magneticos",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "mag_q_004",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Em duas medições, um material tem magnetizações diferentes sob o mesmo campo, pois foi magnetizado anteriormente de formas diferentes. Qual conceito descreve isso?",
+      "habilidade": "analisar",
+      "conceito_id": "remanencia-histerese",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "mag_q_005",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Uma proteção de alta permeabilidade é projetada para reduzir um campo magnético externo aproximadamente estático. Qual análise é adequada?",
+      "habilidade": "aplicar",
+      "conceito_id": "blindagem-magnetica",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "magnetismo_novo_01",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Uma bússola é colocada longe de ímãs artificiais. O que deve ser considerado ao interpretar sua orientação?",
+      "habilidade": "aplicar",
+      "conceito_id": "bussola",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "magnetismo_novo_02",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Um clipe de aço é atraído por um ímã. Qual conclusão é justificável?",
+      "habilidade": "interpretar",
+      "conceito_id": "materiais-magneticos",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "magnetismo_novo_03",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Qual par símbolo–unidade corresponde à indução magnética B?",
+      "habilidade": "recordar",
+      "conceito_id": "unidades-magneticas",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "magnetismo_novo_04",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Uma carga não nula se move paralelamente a um campo magnético uniforme. Despreze campo elétrico e outras forças. O que ocorre com a força magnética?",
+      "habilidade": "analisar",
+      "conceito_id": "forca-magnetica",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "magnetismo_novo_05",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Duas posições ficam a distâncias r e 3r de um fio retilíneo muito longo com corrente estacionária. No mesmo meio, como se comparam os módulos de B?",
+      "habilidade": "analisar",
+      "conceito_id": "campo-fio",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "magnetismo_novo_06",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Um material ainda apresenta magnetização depois que o campo magnetizante externo é retirado. Qual termo nomeia esse aspecto residual?",
+      "habilidade": "analisar",
+      "conceito_id": "remanencia-histerese",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "magnetismo_novo_07",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Uma carga de módulo 4,0 μC move-se a 2,0·10³ m/s perpendicularmente a B = 0,25 T. Qual é o módulo da força magnética?",
+      "habilidade": "calcular",
+      "conceito_id": "forca-magnetica",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "magnetismo_novo_08",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "No mesmo campo uniforme, duas partículas têm mesmo módulo de carga e mesma rapidez perpendicular ao campo. A segunda tem o dobro da massa. Compare os raios no modelo não relativístico.",
+      "habilidade": "analisar",
+      "conceito_id": "raio-carga",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "magnetismo_novo_09",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Uma carga puntiforme sofre apenas força magnética em um campo estático. Qual previsão sobre a energia cinética é adequada?",
+      "habilidade": "analisar",
+      "conceito_id": "trabalho-magnetico",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "magnetismo_novo_10",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Ao dobrar a corrente de uma bobina com núcleo ferromagnético real, um estudante prevê campo exatamente duplicado em qualquer condição. Qual crítica é adequada?",
+      "habilidade": "aplicar",
+      "conceito_id": "campo-solenoide",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eld_q_001",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Uma lâmpada funciona em regime estacionário. A corrente no fio antes dela é 0,30 A. Sem ramificações, qual é a corrente depois dela?",
+      "habilidade": "interpretar",
+      "conceito_id": "corrente-e-carga",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eld_q_002",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Dois resistores estão ligados aos mesmos dois nós de uma fonte ideal. Qual grandeza é necessariamente igual nos dois resistores?",
+      "habilidade": "interpretar",
+      "conceito_id": "serie-paralelo",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eld_q_003",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Um resistor ôhmico de 8,0 Ω está sob 24 V, mantendo a temperatura constante. Qual é a corrente?",
+      "habilidade": "calcular",
+      "conceito_id": "lei-de-ohm",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eld_q_004",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Uma luminária de potência constante de 40 W funciona durante 5 h. Qual energia ela transforma?",
+      "habilidade": "calcular",
+      "conceito_id": "energia-eletrica",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eld_q_005",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "No modelo de solenoide longo, uma bobina tem 600 espiras em 0,10 m e corrente de 2,0 A. Use H = NI/ℓ. Qual é H?",
+      "habilidade": "calcular",
+      "conceito_id": "campo-solenoide",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrodinamica_novo_01",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Qual associação entre grandeza e unidade é correta?",
+      "habilidade": "recordar",
+      "conceito_id": "unidades-circuito",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrodinamica_novo_02",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Em um fio metálico com corrente, como se relacionam a deriva dos elétrons e o sentido convencional?",
+      "habilidade": "interpretar",
+      "conceito_id": "corrente-convencional",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrodinamica_novo_03",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Uma chave interrompe o único caminho de um circuito ideal de corrente contínua. O que esperamos após o transitório?",
+      "habilidade": "interpretar",
+      "conceito_id": "circuito-aberto",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrodinamica_novo_04",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Uma seção de fio é atravessada por 18 C em 6,0 s. Qual é a corrente média?",
+      "habilidade": "calcular",
+      "conceito_id": "corrente-e-carga",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrodinamica_novo_05",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "O gráfico e a tabela representam medições em um resistor sob as mesmas condições de temperatura. Qual análise é compatível com os registros?",
+      "habilidade": "analisar",
+      "conceito_id": "lei-de-ohm",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrodinamica_novo_06",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Um ímã permanece parado em relação a uma bobina fixa, com fluxo constante. Qual previsão é correta para a indução por variação de fluxo?",
+      "habilidade": "analisar",
+      "conceito_id": "inducao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrodinamica_novo_07",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Resistores de 4,0 Ω e 8,0 Ω estão em série em uma fonte ideal de 24 V. Qual é a corrente e a tensão no resistor de 4,0 Ω?",
+      "habilidade": "calcular",
+      "conceito_id": "serie-paralelo",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrodinamica_novo_08",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Dois resistores de 12 Ω são ligados em paralelo sob 6,0 V de uma fonte ideal. Qual é a corrente total?",
+      "habilidade": "calcular",
+      "conceito_id": "serie-paralelo",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrodinamica_novo_09",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Um equipamento A de 100 W funciona por 4 h. Um B de 200 W funciona por 1 h, ambos com potência constante. Qual consome mais energia?",
+      "habilidade": "analisar",
+      "conceito_id": "potencia-e-tempo",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrodinamica_novo_10",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "O fluxo externo através de uma espira fechada diminui. Como a resposta induzida se relaciona com essa mudança?",
+      "habilidade": "analisar",
+      "conceito_id": "lenz",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ele_q_001",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Qual descrição das linhas de um campo eletrostático é correta?",
+      "habilidade": "interpretar",
+      "conceito_id": "linhas-eletricas",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ele_q_002",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Um objeto tem carga resultante nula. O que podemos concluir?",
+      "habilidade": "interpretar",
+      "conceito_id": "neutralidade",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ele_q_003",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Uma carga puntiforme não nula está instantaneamente em repouso num referencial. Há um campo elétrico não nulo e um campo magnético no local. Despreze outras interações. Qual afirmação é correta?",
+      "habilidade": "analisar",
+      "conceito_id": "campo-e-forca",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ele_q_004",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Uma carga de prova de módulo 3,0 μC sofre força elétrica de módulo 0,060 N. Qual é o módulo do campo no ponto, se a carga não perturba as fontes?",
+      "habilidade": "calcular",
+      "conceito_id": "campo-eletrico",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ele_q_005",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Duas cargas puntiformes de +2,0 μC e −3,0 μC estão separadas por 0,30 m no vácuo. Adote k = 9,0·10⁹ N·m²/C². Qual interação ocorre?",
+      "habilidade": "calcular",
+      "conceito_id": "coulomb",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrostatica_novo_01",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Um corpo inicialmente neutro perde elétrons. Qual é o sinal de sua carga resultante?",
+      "habilidade": "interpretar",
+      "conceito_id": "eletrizacao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrostatica_novo_02",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Um pente carregado atrai pedacinhos de papel neutros. Qual explicação é adequada?",
+      "habilidade": "aplicar",
+      "conceito_id": "polarizacao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrostatica_novo_03",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Qual grandeza é medida em coulomb (C)?",
+      "habilidade": "recordar",
+      "conceito_id": "carga-eletrica",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrostatica_novo_04",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Uma carga de prova positiva é trocada por outra de mesmo módulo e sinal negativo, sem perturbar as fontes. O que muda?",
+      "habilidade": "analisar",
+      "conceito_id": "campo-e-forca",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrostatica_novo_05",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "A distância entre duas cargas puntiformes triplica, mantendo cargas e meio. Como varia o módulo da força?",
+      "habilidade": "analisar",
+      "conceito_id": "coulomb",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrostatica_novo_06",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Uma esfera condutora isolada está em equilíbrio eletrostático e seu potencial é diferente de zero. Qual afirmação é compatível?",
+      "habilidade": "analisar",
+      "conceito_id": "condutor-equilibrio",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrostatica_novo_07",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Um corpo perde 2,0·10¹² elétrons. Adote e = 1,60·10⁻¹⁹ C. Qual é a carga adquirida?",
+      "habilidade": "calcular",
+      "conceito_id": "quantizacao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrostatica_novo_08",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Uma carga −2,0 μC vai de potencial 10 V para 30 V. Qual é sua variação de energia potencial?",
+      "habilidade": "calcular",
+      "conceito_id": "potencial-e-energia",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrostatica_novo_09",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Duas cargas puntiformes positivas e iguais ficam em extremos de um segmento. No ponto médio, qual é o campo elétrico resultante?",
+      "habilidade": "analisar",
+      "conceito_id": "superposicao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "eletrostatica_novo_10",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Duas cargas puntiformes têm módulos diferentes e interagem. Como se comparam as forças elétricas que exercem uma sobre a outra?",
+      "habilidade": "analisar",
+      "conceito_id": "acao-e-reacao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ond_q_001",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Em uma onda eletromagnética plana no vácuo, como se orientam os campos e a propagação?",
+      "habilidade": "interpretar",
+      "conceito_id": "natureza-onda",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ond_q_002",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Um equipamento envia uma mensagem por rádio entre dois pontos separados por uma região sem matéria. Qual propriedade permite isso?",
+      "habilidade": "aplicar",
+      "conceito_id": "meio-de-propagacao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ond_q_003",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Luz visível e micro-ondas pertencem ao espectro eletromagnético. Qual conclusão é adequada?",
+      "habilidade": "analisar",
+      "conceito_id": "espectro",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ond_q_004",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Um sinal eletromagnético no vácuo tem frequência de 75 MHz. Adote c = 3,0·10⁸ m/s. Qual é seu comprimento de onda?",
+      "habilidade": "calcular",
+      "conceito_id": "comprimento-frequencia",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ond_q_005",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Uma onda plana no vácuo tem amplitude B₀ = 0,50 μT. Adote c = 3,0·10⁸ m/s. Qual é a amplitude E₀ do campo elétrico?",
+      "habilidade": "calcular",
+      "conceito_id": "campos-na-onda",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ondas-eletromagneticas_novo_01",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Qual fenômeno é uma onda mecânica?",
+      "habilidade": "aplicar",
+      "conceito_id": "onda-mecanica",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ondas-eletromagneticas_novo_02",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Um sinal realiza 50 ciclos por segundo. Qual é sua frequência?",
+      "habilidade": "recordar",
+      "conceito_id": "unidades-ondas",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ondas-eletromagneticas_novo_03",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Em um desenho de onda periódica no espaço, qual distância representa um comprimento de onda?",
+      "habilidade": "interpretar",
+      "conceito_id": "comprimento-onda",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ondas-eletromagneticas_novo_04",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Duas ondas eletromagnéticas no vácuo têm frequências f e 2f. Como se comparam seus comprimentos de onda?",
+      "habilidade": "analisar",
+      "conceito_id": "comprimento-frequencia",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ondas-eletromagneticas_novo_05",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Qual ordem representa frequência crescente entre as três faixas?",
+      "habilidade": "interpretar",
+      "conceito_id": "espectro",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ondas-eletromagneticas_novo_06",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Luz atravessa uma interface estacionária do ar para o vidro. Qual grandeza se mantém?",
+      "habilidade": "analisar",
+      "conceito_id": "refracao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ondas-eletromagneticas_novo_07",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Para certa frequência, a luz tem velocidade de fase 2,0·10⁸ m/s em um material. Adote c = 3,0·10⁸ m/s. Qual é seu índice de refração?",
+      "habilidade": "calcular",
+      "conceito_id": "indice-refracao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ondas-eletromagneticas_novo_08",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Uma onda luminosa tem λ = 600 nm no vácuo. Ela entra em meio transparente de índice 1,5 para essa frequência. Qual é λ no meio?",
+      "habilidade": "calcular",
+      "conceito_id": "refracao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ondas-eletromagneticas_novo_09",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Um raio atinge perpendicularmente uma interface entre meios de índices diferentes. Qual afirmação é correta para a parte transmitida?",
+      "habilidade": "analisar",
+      "conceito_id": "reflexao-e-refracao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "questoes",
+      "id": "ondas-eletromagneticas_novo_10",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Duas ondas planas no vácuo têm a mesma frequência, mas amplitudes elétricas diferentes. Qual conclusão é adequada?",
+      "habilidade": "analisar",
+      "conceito_id": "campo-e-intensidade",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_magnetismo_1",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Uma equipe move uma bússola ao redor de um ímã de barra e registra várias orientações. O que esses registros permitem construir?",
+      "habilidade": "interpretar",
+      "conceito_id": "bussola",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_magnetismo_2",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Para prender um aviso em uma superfície de aço, uma equipe escolhe um pequeno ímã permanente. Qual característica do material do ímã é relevante após a retirada do campo usado em sua fabricação?",
+      "habilidade": "aplicar",
+      "conceito_id": "remanencia-histerese",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_magnetismo_3",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Uma equipe mediu o campo de um fio muito longo a diferentes distâncias, mantendo a corrente. Qual previsão para 6 cm segue o modelo compatível com os registros?",
+      "habilidade": "analisar",
+      "conceito_id": "campo-fio",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_magnetismo_4",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Um grupo quer investigar o efeito do número de espiras no campo de uma bobina. Qual comparação é mais adequada no modelo linear?",
+      "habilidade": "analisar",
+      "conceito_id": "planejamento-experimental",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_magnetismo_5",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Um feixe contém duas partículas com mesmo |q| e mesma rapidez perpendicular a B. A massa de Y é três vezes a de X. Se o raio de X é 2,0 cm, qual raio esperamos para Y no modelo não relativístico?",
+      "habilidade": "calcular",
+      "conceito_id": "campo-e-forca",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_magnetismo_6",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Uma espira está em campo uniforme com corrente. Uma estudante observa força resultante nula e conclui que ela não pode girar. Qual informação falta nessa análise?",
+      "habilidade": "analisar",
+      "conceito_id": "torque",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrodinamica_1",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Um circuito ideal tem uma fonte e uma lâmpada em um caminho fechado, sem ramificações. Qual frase explica corretamente o papel da fonte e da lâmpada?",
+      "habilidade": "interpretar",
+      "conceito_id": "circuito-e-energia",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrodinamica_2",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Na simulação de um resistor, um grupo deseja testar a relação entre U e I. Qual procedimento sustenta melhor uma conclusão?",
+      "habilidade": "analisar",
+      "conceito_id": "planejamento-experimental",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrodinamica_3",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Uma equipe registrou as medições abaixo. Mantendo as mesmas condições e o comportamento do modelo, qual corrente é prevista para 12 V?",
+      "habilidade": "analisar",
+      "conceito_id": "dados-circuito",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrodinamica_4",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Na simulação de Faraday, a lâmpada acende ao aproximar o ímã, mas apaga quando ele para perto da bobina. Qual explicação relaciona os dois resultados?",
+      "habilidade": "aplicar",
+      "conceito_id": "inducao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrodinamica_5",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Uma fonte ideal de 18 V alimenta resistores de 3 Ω e 6 Ω em série. Qual par corrente total–potência no resistor de 6 Ω é correto?",
+      "habilidade": "calcular",
+      "conceito_id": "serie-paralelo",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrodinamica_6",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Plano A: equipamento de 300 W por 2 h diárias. Plano B: equipamento de 100 W por 4 h diárias. Para 30 dias e potências constantes, qual comparação é correta?",
+      "habilidade": "analisar",
+      "conceito_id": "energia-eletrica",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrostatica_1",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Dois corpos isolados têm cargas iniciais +8 nC e −2 nC. Eles interagem sem troca de carga com o ambiente. Qual soma final é compatível com conservação?",
+      "habilidade": "analisar",
+      "conceito_id": "conservacao-carga",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrostatica_2",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Um grupo observa atração entre uma haste carregada e uma esfera metálica. Apenas isso permite afirmar que a esfera tinha carga resultante de sinal oposto?",
+      "habilidade": "aplicar",
+      "conceito_id": "polarizacao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrostatica_3",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Uma equipe mede a força em cargas de prova positivas q e 2q no mesmo ponto, sem alterar as fontes. Encontra F e 2F. O que pode concluir sobre o campo?",
+      "habilidade": "analisar",
+      "conceito_id": "campo-eletrico",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrostatica_4",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Duas cargas positivas iguais estão em posições simétricas à esquerda e à direita de um ponto P. Como avaliar o campo em P?",
+      "habilidade": "analisar",
+      "conceito_id": "superposicao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrostatica_5",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Em um experimento ideal, a força entre duas cargas puntiformes vale 8,0 N. Depois, uma carga é duplicada e a distância entre elas é duplicada, mantendo o meio. Qual é a nova força em módulo?",
+      "habilidade": "calcular",
+      "conceito_id": "coulomb",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_eletrostatica_6",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Uma carga positiva vai de A a B e sua energia potencial elétrica cai 0,20 J. Considerando apenas a força elétrica, qual análise do trabalho é correta?",
+      "habilidade": "analisar",
+      "conceito_id": "potencial-e-energia",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_ondas-eletromagneticas_1",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Um rádio recebe uma transmissão e seu alto-falante produz som. Qual descrição da sequência é adequada?",
+      "habilidade": "aplicar",
+      "conceito_id": "sinal-e-conversao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_ondas-eletromagneticas_2",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Um desenho mostra duas ondas no mesmo meio com igual distância entre cristas, mas alturas diferentes. O que é possível afirmar a partir desse desenho?",
+      "habilidade": "interpretar",
+      "conceito_id": "grandezas-ondas",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_ondas-eletromagneticas_3",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Uma onda periódica percorre 12 m em 2,0 s e tem frequência de 3,0 Hz. Qual é seu comprimento de onda?",
+      "habilidade": "calcular",
+      "conceito_id": "comprimento-frequencia",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_ondas-eletromagneticas_4",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Um grupo observa luz entrando perpendicularmente em uma placa de vidro. A direção da parte transmitida não muda. Isso prova que sua velocidade permaneceu igual?",
+      "habilidade": "analisar",
+      "conceito_id": "reflexao-e-refracao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_ondas-eletromagneticas_5",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Para uma luz de frequência fixa, dois meios têm índices nA = 1,2 e nB = 1,8. Qual é a razão entre os comprimentos λB/λA?",
+      "habilidade": "calcular",
+      "conceito_id": "refracao",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "desafios",
+      "id": "des_ondas-eletromagneticas_6",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Uma estudante conclui: “Duas ondas de mesma frequência são idênticas em todas as propriedades”. Qual observação refuta a afirmação?",
+      "habilidade": "analisar",
+      "conceito_id": "espectro-e-modelos",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração do projeto FisicAI com assistência de IA (2026)."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "mag_fc_001",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Que evidência obtemos ao partir um ímã comum?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "mag_fc_002",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "O que uma linha de campo magnético representa em cada ponto?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "mag_fc_003",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Que propriedade permite manter uma informação em uma região magnética depois da gravação?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "mag_fc_004",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Antes de calcular a força magnética, quais condições de uma carga puntiforme você precisa conhecer?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "mag_fc_005",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Como distinguir remanência e histerese em uma frase?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "mag_fc_006",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Um metal ser condutor garante que seja fortemente atraído por um ímã?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "mag_fc_007",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Por que uma bússola pode desviar perto de um fio com corrente?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "mag_fc_008",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Uma força magnética pode curvar uma trajetória sem aumentar a energia cinética?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "mag_fc_009",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "B e H podem ser usados como se fossem a mesma grandeza?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "mag_fc_010",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Em que região um solenoide longo se aproxima de um campo uniforme?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "eld_fc_001",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Corrente elétrica mede carga acumulada ou taxa de passagem de carga?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "eld_fc_002",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Uma bobina aberta pode ter tensão induzida sem corrente sustentada?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "eld_fc_003",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Quando a expressão B = μI/(2πr) é uma boa aproximação?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "eld_fc_004",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "A resposta de Lenz sempre se opõe ao campo externo?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "eld_fc_005",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Um transformador ideal com corrente constante no primário mantém indução no secundário?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "eld_fc_006",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Em um fio metálico, qual é a relação entre deriva eletrônica e sentido convencional?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "eld_fc_007",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "O que diferencia tensão e corrente pelas unidades?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "eld_fc_008",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Que grandeza é igual em resistores em série? E em paralelo?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "eld_fc_009",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Como explicar que uma lâmpada não consome corrente?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "eld_fc_010",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Como comparar consumo de aparelhos com potências diferentes?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ele_fc_001",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Um corpo neutro não tem cargas elétricas?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ele_fc_002",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Como se define o sentido do campo eletrostático nas linhas?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ele_fc_003",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Uma carga em repouso não pode sofrer nenhuma força?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ele_fc_004",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Campo elétrico e força elétrica são a mesma grandeza?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ele_fc_005",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Na lei de Coulomb em módulos, onde entram o sinal das cargas e a distância?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ele_fc_006",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Se um sólido perde elétrons, como fica sua carga resultante?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ele_fc_007",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "A atração de um objeto neutro por um carregado exige que o neutro adquira carga resultante?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ele_fc_008",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Qual é a diferença entre potencial constante e potencial nulo?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ele_fc_009",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Como calcular a variação de energia potencial sem perder o sinal?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ele_fc_010",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Duas fontes produzem campos de mesmo módulo num ponto. O campo resultante é sempre o dobro?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ond_fc_001",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "No modelo de onda eletromagnética plana no vácuo, como se orientam E⃗, B⃗ e a propagação?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ond_fc_002",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Qual diferença entre som e rádio é importante para a propagação?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ond_fc_003",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Pertencer ao espectro eletromagnético torna todas as interações iguais?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ond_fc_004",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Quando usar v = λf e quando substituir v por c?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ond_fc_005",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Ao usar E₀ = cB₀, quais grandezas e condições precisam estar claras?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ond_fc_006",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Como distinguir amplitude e comprimento de onda em um desenho espacial?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ond_fc_007",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Que grandeza da luz permanece na passagem por uma interface estacionária?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ond_fc_008",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Se a luz não desvia ao entrar num meio, sua velocidade necessariamente se mantém?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ond_fc_009",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "No mesmo meio não dispersivo, o que ocorre com λ se f triplicar?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "flashcards",
+      "id": "ond_fc_010",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Duas ondas de mesma frequência podem transportar intensidades diferentes?",
+      "habilidade": "recordar-e-explicar",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "magnetismo_associar_1",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Indução magnética B",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "magnetismo_associar_2",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Polos de um ímã partido",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "magnetismo_associar_3",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Remanência",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "magnetismo_associar_4",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Força magnética sobre carga",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "magnetismo_associar_5",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Histerese",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "magnetismo_associar_6",
+      "tema": "Magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Bússola",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "magnetismo_associar_7",
+      "tema": "Magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Campo de um fio retilíneo longo",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "magnetismo_associar_8",
+      "tema": "Magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "Força magnética e trabalho",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrodinamica_associar_1",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Corrente elétrica",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrodinamica_associar_2",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Tensão elétrica",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrodinamica_associar_3",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Associação em série",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrodinamica_associar_4",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Associação em paralelo",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrodinamica_associar_5",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Lei de Faraday",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrodinamica_associar_6",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "facil",
+      "titulo": "Potência elétrica",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrodinamica_associar_7",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "medio",
+      "titulo": "Lei de Lenz",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrodinamica_associar_8",
+      "tema": "Eletrodinâmica",
+      "dificuldade": "dificil",
+      "titulo": "Consumo em kWh",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrostatica_associar_1",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Carga elétrica",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrostatica_associar_2",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Corpo eletricamente neutro",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrostatica_associar_3",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Polarização",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrostatica_associar_4",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Campo elétrico E⃗",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrostatica_associar_5",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Lei de Coulomb",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrostatica_associar_6",
+      "tema": "Eletrostática",
+      "dificuldade": "facil",
+      "titulo": "Elétrons transferidos para um corpo neutro",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrostatica_associar_7",
+      "tema": "Eletrostática",
+      "dificuldade": "medio",
+      "titulo": "Condutor em equilíbrio eletrostático",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "eletrostatica_associar_8",
+      "tema": "Eletrostática",
+      "dificuldade": "dificil",
+      "titulo": "Variação de energia potencial elétrica",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "ondas-eletromagneticas_associar_1",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Frequência",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "ondas-eletromagneticas_associar_2",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Comprimento de onda",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "ondas-eletromagneticas_associar_3",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Amplitude",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "ondas-eletromagneticas_associar_4",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Luz em interface estacionária",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "ondas-eletromagneticas_associar_5",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Índice de refração",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "ondas-eletromagneticas_associar_6",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "facil",
+      "titulo": "Rádio",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "ondas-eletromagneticas_associar_7",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "medio",
+      "titulo": "Espectro eletromagnético",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "memoria",
+      "id": "ondas-eletromagneticas_associar_8",
+      "tema": "Ondas Eletromagnéticas",
+      "dificuldade": "dificil",
+      "titulo": "Onda plana no vácuo",
+      "habilidade": "associar-significados",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_mag_001",
+      "tema": "magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Ao partir um ímã comum, não se obtém um _______ magnético isolado: cada pedaço continua com dois polos.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_mag_002",
+      "tema": "magnetismo",
+      "dificuldade": "facil",
+      "titulo": "A unidade de medida da densidade de campo magnético no SI é o _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_mag_003",
+      "tema": "magnetismo",
+      "dificuldade": "medio",
+      "titulo": "A unidade de medida do fluxo magnético no Sistema Internacional é o _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_ele_004",
+      "tema": "magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Na representação usual de um ímã de barra, as linhas magnéticas continuam pelo interior do ímã, formando curvas _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_eld_005",
+      "tema": "eletrodinamica",
+      "dificuldade": "facil",
+      "titulo": "A taxa de passagem de carga por uma seção de um fio é a _______ elétrica.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_mag_006",
+      "tema": "magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Substâncias _______, como o ferro doce, o níquel e o cobalto, possuem alta permeabilidade magnética e são fortemente atraídas por ímãs.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_mag_007",
+      "tema": "magnetismo",
+      "dificuldade": "medio",
+      "titulo": "Materiais como o bismuto apresentam magnetização induzida oposta ao campo aplicado e são classificados como _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_eld_008",
+      "tema": "eletrodinamica",
+      "dificuldade": "facil",
+      "titulo": "Em um fio metálico, o sentido convencional da corrente é _______ ao da deriva dos elétrons.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_eld_009",
+      "tema": "eletrodinamica",
+      "dificuldade": "medio",
+      "titulo": "Para um resistor ôhmico nas mesmas condições, a razão entre tensão e corrente é a _______ elétrica.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_eld_010",
+      "tema": "eletrodinamica",
+      "dificuldade": "medio",
+      "titulo": "A Lei da Indução de _______ estabelece que a variação do fluxo magnético através de um circuito induz nele uma força eletromotriz.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_eld_011",
+      "tema": "eletrodinamica",
+      "dificuldade": "medio",
+      "titulo": "A Lei de _______ afirma que a corrente induzida tem um sentido tal que seu próprio campo magnético se opõe à variação do fluxo que a originou.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_ond_012",
+      "tema": "ondas-eletromagneticas",
+      "dificuldade": "facil",
+      "titulo": "O valor máximo do campo em relação ao zero, em uma oscilação, corresponde à sua _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_mag_013",
+      "tema": "magnetismo",
+      "dificuldade": "facil",
+      "titulo": "Uma bobina longa, formada por um fio condutor enrolado em várias espiras juntas, é chamada de _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_eld_014",
+      "tema": "eletrodinamica",
+      "dificuldade": "medio",
+      "titulo": "Em resistores ligados aos mesmos dois nós, a _______ elétrica é a mesma nos ramos.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_mag_015",
+      "tema": "magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "O campo magnético que permanece em um material após a retirada do campo externo é chamado de campo _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_eld_016",
+      "tema": "eletrodinamica",
+      "dificuldade": "medio",
+      "titulo": "A energia medida em kWh resulta da potência em kW multiplicada pelo _______ em horas.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_mag_017",
+      "tema": "magnetismo",
+      "dificuldade": "medio",
+      "titulo": "O polo norte da agulha de uma bússola é atraído em direção ao polo sul magnético da Terra, que fica situado na região do polo _______ geográfico.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_mag_018",
+      "tema": "magnetismo",
+      "dificuldade": "dificil",
+      "titulo": "O análogo da resistência elétrica em circuitos magnéticos, ou seja, a medida de oposição que o material oferece ao fluxo magnético, é a _______ magnética.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_eld_019",
+      "tema": "eletrodinamica",
+      "dificuldade": "dificil",
+      "titulo": "Em um caminho sem ramificações, resistores em série são atravessados pela mesma _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "lac_eld_020",
+      "tema": "eletrodinamica",
+      "dificuldade": "dificil",
+      "titulo": "Em um gerador ideal com espira girando uniformemente em campo fixo, a tensão muda periodicamente de sinal e é chamada de tensão _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrostatica_1",
+      "tema": "eletrostatica",
+      "dificuldade": "facil",
+      "titulo": "O próton possui carga elétrica _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrostatica_2",
+      "tema": "eletrostatica",
+      "dificuldade": "facil",
+      "titulo": "Cargas de mesmo sinal se _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrostatica_3",
+      "tema": "eletrostatica",
+      "dificuldade": "facil",
+      "titulo": "No SI, a carga elétrica é medida em _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrostatica_4",
+      "tema": "eletrostatica",
+      "dificuldade": "medio",
+      "titulo": "Na lei de Coulomb, duplicar a distância reduz a força a um _______ do valor inicial.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrostatica_5",
+      "tema": "eletrostatica",
+      "dificuldade": "medio",
+      "titulo": "A direção do campo elétrico é definida pela força sobre uma carga de prova _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrostatica_6",
+      "tema": "eletrostatica",
+      "dificuldade": "medio",
+      "titulo": "Em um sistema isolado, a soma das cargas elétricas se conserva: esse é o princípio da _______ da carga.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrostatica_7",
+      "tema": "eletrostatica",
+      "dificuldade": "medio",
+      "titulo": "O potencial elétrico é medido em _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrostatica_8",
+      "tema": "eletrostatica",
+      "dificuldade": "dificil",
+      "titulo": "Em equilíbrio eletrostático, o campo no interior do material de um condutor é _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrostatica_9",
+      "tema": "eletrostatica",
+      "dificuldade": "dificil",
+      "titulo": "Uma superfície em que o potencial tem o mesmo valor é chamada de _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrostatica_10",
+      "tema": "eletrostatica",
+      "dificuldade": "dificil",
+      "titulo": "O trabalho da força elétrica entre dois pontos independe da trajetória: a força eletrostática é _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_ondas-eletromagneticas_1",
+      "tema": "ondas-eletromagneticas",
+      "dificuldade": "facil",
+      "titulo": "Ondas eletromagnéticas podem se propagar no _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_ondas-eletromagneticas_2",
+      "tema": "ondas-eletromagneticas",
+      "dificuldade": "facil",
+      "titulo": "A luz visível é uma onda _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_ondas-eletromagneticas_3",
+      "tema": "ondas-eletromagneticas",
+      "dificuldade": "facil",
+      "titulo": "A frequência é medida em _______ no SI.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_ondas-eletromagneticas_4",
+      "tema": "ondas-eletromagneticas",
+      "dificuldade": "medio",
+      "titulo": "A distância entre duas cristas consecutivas é o comprimento de _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_ondas-eletromagneticas_5",
+      "tema": "ondas-eletromagneticas",
+      "dificuldade": "medio",
+      "titulo": "No vácuo, aumentar a frequência reduz o comprimento de onda porque a velocidade permanece _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_ondas-eletromagneticas_6",
+      "tema": "ondas-eletromagneticas",
+      "dificuldade": "medio",
+      "titulo": "Em uma onda eletromagnética plana no vácuo, os campos elétrico e magnético são mutuamente _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_ondas-eletromagneticas_7",
+      "tema": "ondas-eletromagneticas",
+      "dificuldade": "medio",
+      "titulo": "A passagem da luz entre meios, com possível mudança de velocidade e direção, está associada ao fenômeno da _______.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_ondas-eletromagneticas_8",
+      "tema": "ondas-eletromagneticas",
+      "dificuldade": "dificil",
+      "titulo": "Em uma onda plana no vácuo, o quociente E₀/B₀ corresponde à _______ da luz.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_ondas-eletromagneticas_9",
+      "tema": "ondas-eletromagneticas",
+      "dificuldade": "dificil",
+      "titulo": "Ao passar do vácuo para um meio transparente estacionário, a _______ da luz permanece a mesma.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    },
+    {
+      "tipo": "lacunas",
+      "id": "novo_eletrodinamica_1",
+      "tema": "eletrodinamica",
+      "dificuldade": "dificil",
+      "titulo": "A energia dissipada por unidade de tempo em um resistor é sua _______ elétrica.",
+      "habilidade": "completar-relacao-conceitual",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "origem": "Elaboração e revisão do projeto FisicAI com assistência de IA (2026). Referências como apoio conceitual; origem exata dos itens herdados não confirmada."
+    }
+  ]
+}

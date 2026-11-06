@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-18",
+  "escopo": "Apenas versão independente",
+  "ajustes": [
+    {
+      "problema": "Feedback automático impedia a leitura da segunda carta",
+      "causa": "O estado de feedback ativava imediatamente o Modal após selecionar a segunda carta.",
+      "correcao": "Cartas permanecem abertas até Conferir par; comparação dos dois textos no feedback; último par precisa de confirmação.",
+      "evidencia": [
+        "hooks/useMemoriaGame.ts",
+        "app/jogos/memoria/[modulo].tsx",
+        "tests/memory.test.cjs"
+      ]
+    },
+    {
+      "problema": "Botões secundários pouco distintos do fundo",
+      "causa": "Fundo colors.surface branco igual ao dos cards; bordas fracas. A configuração do app já fixa aparência clara.",
+      "correcao": "Fundo azul-claro e borda azul; ações principais e alternativas com cores explícitas e alvos de toque mínimos de 50 px.",
+      "evidencia": [
+        "components/BotaoSecundario.tsx",
+        "components/BotaoPrimario.tsx",
+        "components/AlternativaButton.tsx"
+      ]
+    },
+    {
+      "problema": "Saídas ausentes ou pouco claras",
+      "causa": "Desafio sem showBackButton e rota modal herdada sem navegação do aplicativo.",
+      "correcao": "Voltar e Início nas telas internas, saída nos feedbacks, redirecionamento da rota modal antiga e erro em português.",
+      "evidencia": [
+        "components/Header.tsx",
+        "app/jogos/desafio/[modulo].tsx",
+        "app/modal.tsx",
+        "app/+not-found.tsx"
+      ]
+    }
+  ],
+  "limites": [
+    "Conferência visual web realizada em localhost:8083, separada dos dados da prévia 127.0.0.1.",
+    "Não representa teste de animação ou leitor de tela em celular físico."
+  ]
+}

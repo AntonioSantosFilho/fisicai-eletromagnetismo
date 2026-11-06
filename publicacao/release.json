@@ -1,0 +1,17 @@
+{
+  "publicName": "FisicAI",
+  "androidPackage": "com.fisicai.independente",
+  "version": "1.0.0-beta.2",
+  "versionCode": 2,
+  "developerName": "HexFlow Tecnologia e Inovação",
+  "supportEmail": "hexflow.ti@gmail.com",
+  "legalBaseUrl": "https://fisicai-independente.expo.app",
+  "distribution": "open-testing",
+  "legalDate": "23/10/2026",
+  "chatEnabled": true,
+  "aiProvider": "Google Gemini",
+  "aiModel": "gemini-2.5-flash-lite",
+  "aiProviderApproved": true,
+  "backendUrl": "https://fisicai-independente.expo.app",
+  "backendVerified": false
+}

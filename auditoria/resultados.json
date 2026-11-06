@@ -1,0 +1,455 @@
+{
+  "date": "2026-11-06T13:01:08.463Z",
+  "scope": "independente",
+  "checks": [
+    {
+      "id": "difficulty-by-position",
+      "defectObserved": false,
+      "observation": [
+        {
+          "theme": "Eletrostática",
+          "total": 6,
+          "difficulties": {
+            "facil": 4,
+            "medio": 2,
+            "dificil": 0
+          }
+        },
+        {
+          "theme": "Eletrodinâmica",
+          "total": 12,
+          "difficulties": {
+            "facil": 2,
+            "medio": 6,
+            "dificil": 4
+          }
+        },
+        {
+          "theme": "Magnetismo",
+          "total": 10,
+          "difficulties": {
+            "facil": 2,
+            "medio": 5,
+            "dificil": 3
+          }
+        },
+        {
+          "theme": "Ondas Eletromagnéticas",
+          "total": 4,
+          "difficulties": {
+            "facil": 2,
+            "medio": 2,
+            "dificil": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "invalid-question-difficulty",
+      "defectObserved": false,
+      "observation": []
+    },
+    {
+      "id": "answer-key-integrity",
+      "defectObserved": false,
+      "observation": {
+        "questions": 60,
+        "invalid": []
+      }
+    },
+    {
+      "id": "unique-ids-questoes",
+      "defectObserved": false,
+      "observation": {
+        "count": 60,
+        "duplicates": []
+      }
+    },
+    {
+      "id": "unique-ids-flashcards",
+      "defectObserved": false,
+      "observation": {
+        "count": 40,
+        "duplicates": []
+      }
+    },
+    {
+      "id": "unique-ids-memoria",
+      "defectObserved": false,
+      "observation": {
+        "count": 32,
+        "duplicates": []
+      }
+    },
+    {
+      "id": "unique-ids-lacunas",
+      "defectObserved": false,
+      "observation": {
+        "count": 40,
+        "duplicates": []
+      }
+    },
+    {
+      "id": "concurrent-storage-writes",
+      "defectObserved": false,
+      "observation": {
+        "requested": 2,
+        "saved": 2
+      }
+    },
+    {
+      "id": "invalid-storage-shape",
+      "defectObserved": false,
+      "observation": "Não conseguimos ler os dados locais. Eles foram preservados para recuperação."
+    },
+    {
+      "id": "corrupt-storage-overwrite",
+      "defectObserved": false,
+      "observation": {
+        "refused": true,
+        "originalPreserved": true
+      }
+    },
+    {
+      "id": "same-millisecond-ids",
+      "defectObserved": false,
+      "observation": {
+        "records": 2,
+        "uniqueIds": 2
+      }
+    },
+    {
+      "id": "module-id-normalization",
+      "defectObserved": false,
+      "observation": {
+        "groupsForOneTheme": 1
+      }
+    },
+    {
+      "id": "memory-accuracy-semantics",
+      "defectObserved": false,
+      "observation": {
+        "correctPairs": 2,
+        "failedAttempts": 7,
+        "reportedPercent": 22
+      }
+    },
+    {
+      "id": "clock-after-completion",
+      "defectObserved": false,
+      "observation": {
+        "savedSeconds": 0,
+        "displayedSeconds": 0,
+        "complete": true
+      }
+    },
+    {
+      "id": "flashcard-double-answer",
+      "defectObserved": false,
+      "observation": {
+        "currentCard": 0,
+        "countedAnswers": 1,
+        "completeWithoutAdvancing": false
+      }
+    },
+    {
+      "id": "quiz-same-batch-double-tap",
+      "defectObserved": false,
+      "observation": {
+        "currentQuestion": 0,
+        "countedAnswers": 1,
+        "completed": false
+      }
+    }
+  ],
+  "coverage": {
+    "flashcards": [
+      {
+        "id": "magnetismo",
+        "title": "Magnetismo",
+        "total": 10,
+        "difficulties": {
+          "facil": 3,
+          "medio": 4,
+          "dificil": 3
+        }
+      },
+      {
+        "id": "eletrodinamica",
+        "title": "Eletrodinâmica",
+        "total": 10,
+        "difficulties": {
+          "facil": 3,
+          "medio": 4,
+          "dificil": 3
+        }
+      },
+      {
+        "id": "eletrostatica",
+        "title": "Eletrostática",
+        "total": 10,
+        "difficulties": {
+          "facil": 3,
+          "medio": 4,
+          "dificil": 3
+        }
+      },
+      {
+        "id": "ondas-eletromagneticas",
+        "title": "Ondas Eletromagnéticas",
+        "total": 10,
+        "difficulties": {
+          "facil": 3,
+          "medio": 4,
+          "dificil": 3
+        }
+      }
+    ],
+    "questoes": [
+      {
+        "id": "magnetismo",
+        "title": "Magnetismo",
+        "total": 15,
+        "difficulties": {
+          "facil": 5,
+          "medio": 5,
+          "dificil": 5
+        }
+      },
+      {
+        "id": "eletrodinamica",
+        "title": "Eletrodinâmica",
+        "total": 15,
+        "difficulties": {
+          "facil": 5,
+          "medio": 5,
+          "dificil": 5
+        }
+      },
+      {
+        "id": "eletrostatica",
+        "title": "Eletrostática",
+        "total": 15,
+        "difficulties": {
+          "facil": 5,
+          "medio": 5,
+          "dificil": 5
+        }
+      },
+      {
+        "id": "ondas-eletromagneticas",
+        "title": "Ondas Eletromagnéticas",
+        "total": 15,
+        "difficulties": {
+          "facil": 5,
+          "medio": 5,
+          "dificil": 5
+        }
+      }
+    ],
+    "memoria": [
+      {
+        "id": "magnetismo",
+        "title": "Magnetismo",
+        "total": 8,
+        "difficulties": {
+          "facil": 3,
+          "medio": 3,
+          "dificil": 2
+        }
+      },
+      {
+        "id": "eletrodinamica",
+        "title": "Eletrodinâmica",
+        "total": 8,
+        "difficulties": {
+          "facil": 3,
+          "medio": 3,
+          "dificil": 2
+        }
+      },
+      {
+        "id": "eletrostatica",
+        "title": "Eletrostática",
+        "total": 8,
+        "difficulties": {
+          "facil": 3,
+          "medio": 3,
+          "dificil": 2
+        }
+      },
+      {
+        "id": "ondas-eletromagneticas",
+        "title": "Ondas Eletromagnéticas",
+        "total": 8,
+        "difficulties": {
+          "facil": 3,
+          "medio": 3,
+          "dificil": 2
+        }
+      }
+    ],
+    "lacunas": [
+      {
+        "id": "magnetismo",
+        "total": 10,
+        "difficulties": {
+          "facil": 5,
+          "medio": 3,
+          "dificil": 2
+        }
+      },
+      {
+        "id": "eletrodinamica",
+        "total": 10,
+        "difficulties": {
+          "facil": 2,
+          "medio": 5,
+          "dificil": 3
+        }
+      },
+      {
+        "id": "ondas-eletromagneticas",
+        "total": 10,
+        "difficulties": {
+          "facil": 4,
+          "medio": 4,
+          "dificil": 2
+        }
+      },
+      {
+        "id": "eletrostatica",
+        "total": 10,
+        "difficulties": {
+          "facil": 3,
+          "medio": 4,
+          "dificil": 3
+        }
+      }
+    ],
+    "theory": [
+      {
+        "theme": "Eletrostática",
+        "total": 6,
+        "difficulties": {
+          "facil": 4,
+          "medio": 2,
+          "dificil": 0
+        }
+      },
+      {
+        "theme": "Eletrodinâmica",
+        "total": 12,
+        "difficulties": {
+          "facil": 2,
+          "medio": 6,
+          "dificil": 4
+        }
+      },
+      {
+        "theme": "Magnetismo",
+        "total": 10,
+        "difficulties": {
+          "facil": 2,
+          "medio": 5,
+          "dificil": 3
+        }
+      },
+      {
+        "theme": "Ondas Eletromagnéticas",
+        "total": 4,
+        "difficulties": {
+          "facil": 2,
+          "medio": 2,
+          "dificil": 0
+        }
+      }
+    ],
+    "simulations": [
+      {
+        "id": "phet_001",
+        "name": "Gerador",
+        "url": "https://phet.colorado.edu/sims/html/generator/latest/generator_pt_BR.html"
+      },
+      {
+        "id": "phet_002",
+        "name": "Ímãs e Eletroímãs",
+        "url": "https://phet.colorado.edu/sims/html/magnets-and-electromagnets/latest/magnets-and-electromagnets_pt_BR.html"
+      },
+      {
+        "id": "phet_003",
+        "name": "Ímã e Bússola",
+        "url": "https://phet.colorado.edu/sims/html/magnet-and-compass/latest/magnet-and-compass_pt_BR.html"
+      },
+      {
+        "id": "phet_004",
+        "name": "Laboratório Eletromagnético de Faraday",
+        "url": "https://phet.colorado.edu/sims/html/faradays-electromagnetic-lab/latest/faradays-electromagnetic-lab_pt_BR.html"
+      },
+      {
+        "id": "phet_005",
+        "name": "Kit para Montar um Circuito: AC",
+        "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-ac/latest/circuit-construction-kit-ac_pt_BR.html"
+      },
+      {
+        "id": "phet_006",
+        "name": "Kit para Montar um Circuito: AC – Laboratório Virtual",
+        "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-ac-virtual-lab/latest/circuit-construction-kit-ac-virtual-lab_pt_BR.html"
+      },
+      {
+        "id": "phet_007",
+        "name": "Lei de Coulomb",
+        "url": "https://phet.colorado.edu/sims/html/coulombs-law/latest/coulombs-law_pt_BR.html"
+      },
+      {
+        "id": "phet_008",
+        "name": "Laboratório do Capacitor: Básico",
+        "url": "https://phet.colorado.edu/sims/html/capacitor-lab-basics/latest/capacitor-lab-basics_pt_BR.html"
+      },
+      {
+        "id": "phet_009",
+        "name": "Kit para Montar um Circuito DC – Laboratório Virtual",
+        "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_pt_BR.html"
+      },
+      {
+        "id": "phet_010",
+        "name": "Kit para Montar Circuito DC",
+        "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_pt_BR.html"
+      },
+      {
+        "id": "phet_011",
+        "name": "Cargas e Campos",
+        "url": "https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html"
+      },
+      {
+        "id": "phet_012",
+        "name": "Lei de Faraday",
+        "url": "https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law_pt_BR.html"
+      },
+      {
+        "id": "phet_013",
+        "name": "John Travoltagem",
+        "url": "https://phet.colorado.edu/sims/html/john-travoltage/latest/john-travoltage_pt_BR.html"
+      },
+      {
+        "id": "phet_014",
+        "name": "Balões e Eletricidade Estática",
+        "url": "https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_pt_BR.html"
+      },
+      {
+        "id": "phet_015",
+        "name": "Lei de Ohm",
+        "url": "https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_pt_BR.html"
+      },
+      {
+        "id": "phet_016",
+        "name": "Resistência em um Fio",
+        "url": "https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_pt_BR.html"
+      }
+    ]
+  },
+  "summary": {
+    "diagnostics": 16,
+    "defectsObserved": 0
+  }
+}

@@ -1,0 +1,2182 @@
+{
+  "modulos": [
+    {
+      "id": "magnetismo",
+      "titulo": "Magnetismo",
+      "descricao": "Conceitos fundamentais de magnetismo, propriedades dos ímãs e interação magnética",
+      "questoes": [
+        {
+          "id": "mag_q_001",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma barra imantada é partida em dois pedaços, sem aquecimento intenso. O que esperamos observar?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Cada pedaço pode apresentar um polo norte e um polo sul."
+            },
+            {
+              "letra": "B",
+              "texto": "Uma metade fica apenas norte e a outra, apenas sul."
+            },
+            {
+              "letra": "C",
+              "texto": "Todos os pedaços necessariamente perdem a magnetização."
+            },
+            {
+              "letra": "D",
+              "texto": "As duas metades passam a ter carga elétrica positiva."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Partir um ímã comum não isola seus polos. Isso não equivale a criar cargas elétricas. O comportamento depende também do estado de magnetização do material.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "polos",
+          "objetivo": "Interpretar uma situação relacionada a polos.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_q_002",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma bússola gira ao ser aproximada de um ímã. O que sua agulha indica?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A direção da força gravitacional sobre o ímã."
+            },
+            {
+              "letra": "B",
+              "texto": "A direção do campo magnético resultante no local."
+            },
+            {
+              "letra": "C",
+              "texto": "Sempre a direção exata do norte geográfico."
+            },
+            {
+              "letra": "D",
+              "texto": "O sentido de movimento de elétrons em qualquer objeto próximo."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "A agulha tende a se alinhar com o campo local resultante, que inclui o campo da Terra e o do ímã. Ela não indica necessariamente o norte geográfico.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "bussola",
+          "objetivo": "Interpretar uma situação relacionada a bussola.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_q_003",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma amostra diamagnética é colocada em campo não uniforme, cuja intensidade aumenta para a direita. Qual tendência é compatível com esse comportamento?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Deslocar-se sempre para a região mais intensa, como um ferromagnético."
+            },
+            {
+              "letra": "B",
+              "texto": "Criar permanentemente polos isolados."
+            },
+            {
+              "letra": "C",
+              "texto": "Deslocar-se para a região de campo menos intenso."
+            },
+            {
+              "letra": "D",
+              "texto": "Apresentar força nula em qualquer campo, uniforme ou não."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "A magnetização induzida diamagnética é oposta ao campo aplicado. Em uma configuração não uniforme como a descrita, há tendência para a região de menor intensidade. O gradiente do campo é relevante para a força resultante.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "materiais-magneticos",
+          "objetivo": "Analisar uma situação relacionada a materiais magneticos.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_q_004",
+          "tipo": "multipla_escolha",
+          "enunciado": "Em duas medições, um material tem magnetizações diferentes sob o mesmo campo, pois foi magnetizado anteriormente de formas diferentes. Qual conceito descreve isso?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Remanência: qualquer dependência exclusiva da temperatura."
+            },
+            {
+              "letra": "B",
+              "texto": "Neutralidade: ausência de todas as cargas na amostra."
+            },
+            {
+              "letra": "C",
+              "texto": "Indutância: razão entre força mecânica e massa."
+            },
+            {
+              "letra": "D",
+              "texto": "Histerese: dependência da resposta em relação à história de magnetização."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "Histerese envolve a história do processo. Remanência refere-se à resposta que permanece após retirar o campo magnetizante; os termos são relacionados, mas não sinônimos.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "remanencia-histerese",
+          "objetivo": "Analisar uma situação relacionada a remanencia histerese.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "mag_q_005",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma proteção de alta permeabilidade é projetada para reduzir um campo magnético externo aproximadamente estático. Qual análise é adequada?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Ela pode redirecionar o campo, mas geometria, aberturas e saturação limitam a proteção."
+            },
+            {
+              "letra": "B",
+              "texto": "Qualquer caixa metálica elimina perfeitamente qualquer campo magnético."
+            },
+            {
+              "letra": "C",
+              "texto": "O material consome o fluxo e por isso funciona sem limites."
+            },
+            {
+              "letra": "D",
+              "texto": "Uma camada de vidro bloqueia campos estáticos por impedir corrente elétrica."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Blindagem magnética de alta permeabilidade depende da geometria e da resposta do material. Não se deve confundir isolamento elétrico com proteção contra campo magnético nem prometer blindagem perfeita.",
+          "dificuldade": "dificil",
+          "habilidade": "aplicar",
+          "conceito_id": "blindagem-magnetica",
+          "objetivo": "Aplicar uma situação relacionada a blindagem magnetica.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_novo_01",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma bússola é colocada longe de ímãs artificiais. O que deve ser considerado ao interpretar sua orientação?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Ela responde ao campo local da Terra, e norte magnético e geográfico não coincidem necessariamente."
+            },
+            {
+              "letra": "B",
+              "texto": "A gravidade define seu norte magnético."
+            },
+            {
+              "letra": "C",
+              "texto": "A agulha possui apenas um polo norte."
+            },
+            {
+              "letra": "D",
+              "texto": "Seu apontamento é independente de qualquer campo."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "A bússola indica a direção do campo local. A declinação e interferências impedem identificar automaticamente essa direção com o norte geográfico.",
+          "dificuldade": "facil",
+          "habilidade": "aplicar",
+          "conceito_id": "bussola",
+          "objetivo": "Aplicar uma situação relacionada a bussola.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_novo_02",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um clipe de aço é atraído por um ímã. Qual conclusão é justificável?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Todos os metais são igualmente ferromagnéticos."
+            },
+            {
+              "letra": "B",
+              "texto": "O material do clipe apresenta resposta magnética; não se pode generalizar isso a todo metal."
+            },
+            {
+              "letra": "C",
+              "texto": "O clipe necessariamente tem carga elétrica negativa."
+            },
+            {
+              "letra": "D",
+              "texto": "A atração prova que o clipe contém monopolos isolados."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "A resposta magnética depende do material. Atração por um ímã não identifica o sinal de carga elétrica de um objeto.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "materiais-magneticos",
+          "objetivo": "Interpretar uma situação relacionada a materiais magneticos.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_novo_03",
+          "tipo": "multipla_escolha",
+          "enunciado": "Qual par símbolo–unidade corresponde à indução magnética B?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "B — volt (V)."
+            },
+            {
+              "letra": "B",
+              "texto": "B — newton (N)."
+            },
+            {
+              "letra": "C",
+              "texto": "B — tesla (T)."
+            },
+            {
+              "letra": "D",
+              "texto": "B — ampere por metro (A/m)."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "B é expresso em tesla. H é expresso em A/m, e a distinção entre as grandezas deve ser mantida.",
+          "dificuldade": "facil",
+          "habilidade": "recordar",
+          "conceito_id": "unidades-magneticas",
+          "objetivo": "Recordar uma situação relacionada a unidades magneticas.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_novo_04",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma carga não nula se move paralelamente a um campo magnético uniforme. Despreze campo elétrico e outras forças. O que ocorre com a força magnética?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "É máxima, pois a velocidade e o campo têm a mesma direção."
+            },
+            {
+              "letra": "B",
+              "texto": "Tem necessariamente sentido contrário à velocidade."
+            },
+            {
+              "letra": "C",
+              "texto": "É nula apenas se a carga for positiva."
+            },
+            {
+              "letra": "D",
+              "texto": "É nula, pois v⃗ × B⃗ = 0."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "O seno de 0° ou 180° é zero. Ter carga e movimento não basta: é necessária componente de velocidade perpendicular ao campo.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "forca-magnetica",
+          "objetivo": "Analisar uma situação relacionada a forca magnetica.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_novo_05",
+          "tipo": "multipla_escolha",
+          "enunciado": "Duas posições ficam a distâncias r e 3r de um fio retilíneo muito longo com corrente estacionária. No mesmo meio, como se comparam os módulos de B?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Em 3r, o campo vale um terço do campo em r."
+            },
+            {
+              "letra": "B",
+              "texto": "Em 3r, o campo vale um nono."
+            },
+            {
+              "letra": "C",
+              "texto": "Os módulos são iguais porque a corrente é a mesma."
+            },
+            {
+              "letra": "D",
+              "texto": "Em 3r, o campo é três vezes maior."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Para essa geometria, B é proporcional a 1/r, não a 1/r². É preciso distinguir esse modelo da dependência da força de Coulomb.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "campo-fio",
+          "objetivo": "Analisar uma situação relacionada a campo fio.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_novo_06",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um material ainda apresenta magnetização depois que o campo magnetizante externo é retirado. Qual termo nomeia esse aspecto residual?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Histerese, definida exclusivamente como valor residual."
+            },
+            {
+              "letra": "B",
+              "texto": "Remanência."
+            },
+            {
+              "letra": "C",
+              "texto": "Resistência elétrica."
+            },
+            {
+              "letra": "D",
+              "texto": "Fluxo consumido."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Remanência é a resposta residual. Histerese diz respeito à dependência da resposta em relação à história do campo aplicado.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "remanencia-histerese",
+          "objetivo": "Analisar uma situação relacionada a remanencia histerese.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_novo_07",
+          "tipo": "calculo",
+          "enunciado": "Uma carga de módulo 4,0 μC move-se a 2,0·10³ m/s perpendicularmente a B = 0,25 T. Qual é o módulo da força magnética?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "2,0 N."
+            },
+            {
+              "letra": "B",
+              "texto": "8,0·10⁻³ N."
+            },
+            {
+              "letra": "C",
+              "texto": "2,0·10⁻³ N."
+            },
+            {
+              "letra": "D",
+              "texto": "2,0·10³ N."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "F = |q|vB = 4,0·10⁻⁶ × 2,0·10³ × 0,25 = 2,0·10⁻³ N. A orientação perpendicular faz o seno valer 1.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "forca-magnetica",
+          "objetivo": "Calcular uma situação relacionada a forca magnetica.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_novo_08",
+          "tipo": "multipla_escolha",
+          "enunciado": "No mesmo campo uniforme, duas partículas têm mesmo módulo de carga e mesma rapidez perpendicular ao campo. A segunda tem o dobro da massa. Compare os raios no modelo não relativístico.",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "O raio da segunda é a metade."
+            },
+            {
+              "letra": "B",
+              "texto": "Os raios são iguais, pois o campo é o mesmo."
+            },
+            {
+              "letra": "C",
+              "texto": "A segunda não sofre força magnética por ter mais massa."
+            },
+            {
+              "letra": "D",
+              "texto": "O raio da segunda é o dobro."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "Em r = mv/(|q|B), mantidas as demais grandezas, o raio é proporcional à massa. A força magnética de mesmo módulo produz curvaturas diferentes.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "raio-carga",
+          "objetivo": "Analisar uma situação relacionada a raio carga.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_novo_09",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma carga puntiforme sofre apenas força magnética em um campo estático. Qual previsão sobre a energia cinética é adequada?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Ela permanece constante porque a força é perpendicular à velocidade."
+            },
+            {
+              "letra": "B",
+              "texto": "Ela aumenta necessariamente porque há força."
+            },
+            {
+              "letra": "C",
+              "texto": "Ela cai continuamente por a trajetória ser curva."
+            },
+            {
+              "letra": "D",
+              "texto": "Ela muda de sinal quando o sinal da carga muda."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Trabalho depende da componente da força ao longo do deslocamento. A parcela magnética não realiza trabalho sobre a carga puntiforme neste modelo.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "trabalho-magnetico",
+          "objetivo": "Analisar uma situação relacionada a trabalho magnetico.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "magnetismo_novo_10",
+          "tipo": "multipla_escolha",
+          "enunciado": "Ao dobrar a corrente de uma bobina com núcleo ferromagnético real, um estudante prevê campo exatamente duplicado em qualquer condição. Qual crítica é adequada?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Está sempre correta porque todo núcleo tem permeabilidade constante."
+            },
+            {
+              "letra": "B",
+              "texto": "A previsão exige resposta linear; saturação e histerese podem invalidá-la."
+            },
+            {
+              "letra": "C",
+              "texto": "Está errada porque corrente não produz campo magnético."
+            },
+            {
+              "letra": "D",
+              "texto": "A previsão depende apenas da massa do fio."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Proporcionalidade em expressões com μ constante é uma hipótese de modelo. Um material ferromagnético real pode apresentar resposta não linear.",
+          "dificuldade": "dificil",
+          "habilidade": "aplicar",
+          "conceito_id": "campo-solenoide",
+          "objetivo": "Aplicar uma situação relacionada a campo solenoide.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "eletrodinamica",
+      "titulo": "Eletrodinâmica",
+      "descricao": "Corrente elétrica, campos gerados por correntes, força magnética em fios e indução eletromagnética",
+      "questoes": [
+        {
+          "id": "eld_q_001",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma lâmpada funciona em regime estacionário. A corrente no fio antes dela é 0,30 A. Sem ramificações, qual é a corrente depois dela?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Menor que 0,30 A, pois elétrons foram consumidos."
+            },
+            {
+              "letra": "B",
+              "texto": "0,30 A."
+            },
+            {
+              "letra": "C",
+              "texto": "Zero, pois toda a energia virou luz."
+            },
+            {
+              "letra": "D",
+              "texto": "0,60 A, pois a lâmpada cria carga."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Sem acúmulo de carga em regime estacionário e sem ramificações, a corrente é igual antes e depois. A lâmpada transforma energia, não consome a corrente.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "corrente-e-carga",
+          "objetivo": "Interpretar uma situação relacionada a corrente e carga.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_q_002",
+          "tipo": "multipla_escolha",
+          "enunciado": "Dois resistores estão ligados aos mesmos dois nós de uma fonte ideal. Qual grandeza é necessariamente igual nos dois resistores?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A corrente, mesmo que suas resistências sejam diferentes."
+            },
+            {
+              "letra": "B",
+              "texto": "A potência, qualquer que seja a resistência."
+            },
+            {
+              "letra": "C",
+              "texto": "A diferença de potencial entre seus terminais."
+            },
+            {
+              "letra": "D",
+              "texto": "A energia transformada, independentemente do tempo."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Estar ligado aos mesmos dois nós caracteriza associação em paralelo. A tensão é comum aos ramos; correntes e potências dependem das resistências.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "serie-paralelo",
+          "objetivo": "Interpretar uma situação relacionada a serie paralelo.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_q_003",
+          "tipo": "calculo",
+          "enunciado": "Um resistor ôhmico de 8,0 Ω está sob 24 V, mantendo a temperatura constante. Qual é a corrente?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "192 A."
+            },
+            {
+              "letra": "B",
+              "texto": "0,33 A."
+            },
+            {
+              "letra": "C",
+              "texto": "16 A."
+            },
+            {
+              "letra": "D",
+              "texto": "3,0 A."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "Para resistência constante, I = U/R = 24/8,0 = 3,0 A. Multiplicar tensão por resistência não fornece a corrente.",
+          "dificuldade": "medio",
+          "habilidade": "calcular",
+          "conceito_id": "lei-de-ohm",
+          "objetivo": "Calcular uma situação relacionada a lei de ohm.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_q_004",
+          "tipo": "calculo",
+          "enunciado": "Uma luminária de potência constante de 40 W funciona durante 5 h. Qual energia ela transforma?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "0,20 kWh."
+            },
+            {
+              "letra": "B",
+              "texto": "200 kWh."
+            },
+            {
+              "letra": "C",
+              "texto": "8 kWh."
+            },
+            {
+              "letra": "D",
+              "texto": "0,20 kW/h."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Converta 40 W para 0,040 kW e multiplique por 5 h: E = 0,20 kWh. kW/h não é a unidade de energia pedida.",
+          "dificuldade": "medio",
+          "habilidade": "calcular",
+          "conceito_id": "energia-eletrica",
+          "objetivo": "Calcular uma situação relacionada a energia eletrica.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eld_q_005",
+          "tipo": "calculo",
+          "enunciado": "No modelo de solenoide longo, uma bobina tem 600 espiras em 0,10 m e corrente de 2,0 A. Use H = NI/ℓ. Qual é H?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "1.200 A/m."
+            },
+            {
+              "letra": "B",
+              "texto": "12.000 A/m."
+            },
+            {
+              "letra": "C",
+              "texto": "6.000 T."
+            },
+            {
+              "letra": "D",
+              "texto": "24.000 V."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "H = 600 × 2,0/0,10 = 12.000 A/m. H não é B: A/m e T são unidades de grandezas diferentes.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "campo-solenoide",
+          "objetivo": "Calcular uma situação relacionada a campo solenoide.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_novo_01",
+          "tipo": "multipla_escolha",
+          "enunciado": "Qual associação entre grandeza e unidade é correta?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Corrente — volt; tensão — ampere; resistência — watt."
+            },
+            {
+              "letra": "B",
+              "texto": "Corrente — coulomb; tensão — joule; resistência — tesla."
+            },
+            {
+              "letra": "C",
+              "texto": "Corrente — ampere; tensão — volt; resistência — ohm."
+            },
+            {
+              "letra": "D",
+              "texto": "Corrente — watt; tensão — ohm; resistência — hertz."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "As unidades distinguem taxa de passagem de carga, energia por carga e resistência. Coulomb mede carga, e watt mede potência.",
+          "dificuldade": "facil",
+          "habilidade": "recordar",
+          "conceito_id": "unidades-circuito",
+          "objetivo": "Recordar uma situação relacionada a unidades circuito.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_novo_02",
+          "tipo": "multipla_escolha",
+          "enunciado": "Em um fio metálico com corrente, como se relacionam a deriva dos elétrons e o sentido convencional?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "São obrigatoriamente o mesmo sentido."
+            },
+            {
+              "letra": "B",
+              "texto": "A corrente convencional aponta para cima em qualquer fio."
+            },
+            {
+              "letra": "C",
+              "texto": "Não há elétrons em movimento em um metal."
+            },
+            {
+              "letra": "D",
+              "texto": "Têm sentidos opostos."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "O sentido convencional é definido pelo movimento de cargas positivas. Como elétrons têm carga negativa, sua deriva é oposta.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "corrente-convencional",
+          "objetivo": "Interpretar uma situação relacionada a corrente convencional.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_novo_03",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma chave interrompe o único caminho de um circuito ideal de corrente contínua. O que esperamos após o transitório?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Não há corrente sustentada nesse caminho."
+            },
+            {
+              "letra": "B",
+              "texto": "A corrente aumenta porque a chave tem espaço vazio."
+            },
+            {
+              "letra": "C",
+              "texto": "A bateria perde necessariamente toda a tensão."
+            },
+            {
+              "letra": "D",
+              "texto": "O resistor passa a gerar carga elétrica."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Sem caminho fechado, não há corrente sustentada no modelo ideal. Isso não implica ausência de diferença de potencial entre terminais.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "circuito-aberto",
+          "objetivo": "Interpretar uma situação relacionada a circuito aberto.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_novo_04",
+          "tipo": "calculo",
+          "enunciado": "Uma seção de fio é atravessada por 18 C em 6,0 s. Qual é a corrente média?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "108 A."
+            },
+            {
+              "letra": "B",
+              "texto": "3,0 A."
+            },
+            {
+              "letra": "C",
+              "texto": "0,33 A."
+            },
+            {
+              "letra": "D",
+              "texto": "12 A."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "I_m = ΔQ/Δt = 18/6,0 = 3,0 A. A razão C/s fornece ampere.",
+          "dificuldade": "medio",
+          "habilidade": "calcular",
+          "conceito_id": "corrente-e-carga",
+          "objetivo": "Calcular uma situação relacionada a corrente e carga.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_novo_05",
+          "tipo": "multipla_escolha",
+          "enunciado": "O gráfico e a tabela representam medições em um resistor sob as mesmas condições de temperatura. Qual análise é compatível com os registros?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A resistência aumenta com a tensão nessa tabela."
+            },
+            {
+              "letra": "B",
+              "texto": "A corrente é inversamente proporcional à tensão."
+            },
+            {
+              "letra": "C",
+              "texto": "U/I é constante e vale 4 Ω."
+            },
+            {
+              "letra": "D",
+              "texto": "O componente tem resistência de 0,25 Ω."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "A razão U/I vale 4 Ω nos três pontos. Os dados são compatíveis com comportamento ôhmico no intervalo, sem provar o comportamento fora dele.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "lei-de-ohm",
+          "objetivo": "Analisar uma situação relacionada a lei de ohm.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2",
+          "dados_tabela": {
+            "colunas": [
+              "Corrente I (A)",
+              "Tensão U (V)"
+            ],
+            "linhas": [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "1",
+                "4"
+              ],
+              [
+                "2",
+                "8"
+              ],
+              [
+                "3",
+                "12"
+              ]
+            ],
+            "legenda": "Medições de corrente e tensão."
+          },
+          "grafico": {
+            "titulo": "Tensão em função da corrente",
+            "eixo_x": "I (A)",
+            "eixo_y": "U (V)",
+            "pontos": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                12
+              ]
+            ],
+            "max_x": 3,
+            "max_y": 12
+          }
+        },
+        {
+          "id": "eletrodinamica_novo_06",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um ímã permanece parado em relação a uma bobina fixa, com fluxo constante. Qual previsão é correta para a indução por variação de fluxo?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Há tensão induzida constante apenas porque o campo existe."
+            },
+            {
+              "letra": "B",
+              "texto": "A tensão aumenta indefinidamente com o tempo parado."
+            },
+            {
+              "letra": "C",
+              "texto": "A bobina deve criar polos magnéticos isolados."
+            },
+            {
+              "letra": "D",
+              "texto": "A força eletromotriz induzida por esse mecanismo é nula."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "A lei de Faraday relaciona a tensão à variação do fluxo. Campo não nulo e fluxo constante não bastam para produzir esse mecanismo de indução.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "inducao",
+          "objetivo": "Analisar uma situação relacionada a inducao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_novo_07",
+          "tipo": "calculo",
+          "enunciado": "Resistores de 4,0 Ω e 8,0 Ω estão em série em uma fonte ideal de 24 V. Qual é a corrente e a tensão no resistor de 4,0 Ω?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "2,0 A e 8,0 V."
+            },
+            {
+              "letra": "B",
+              "texto": "6,0 A e 24 V."
+            },
+            {
+              "letra": "C",
+              "texto": "2,0 A e 16 V."
+            },
+            {
+              "letra": "D",
+              "texto": "3,0 A e 12 V."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "R_eq = 4 + 8 = 12 Ω; I = 24/12 = 2 A. A tensão no resistor de 4 Ω é U = RI = 8 V. A outra queda é 16 V, totalizando 24 V.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "serie-paralelo",
+          "objetivo": "Calcular uma situação relacionada a serie paralelo.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_novo_08",
+          "tipo": "calculo",
+          "enunciado": "Dois resistores de 12 Ω são ligados em paralelo sob 6,0 V de uma fonte ideal. Qual é a corrente total?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "0,50 A."
+            },
+            {
+              "letra": "B",
+              "texto": "1,0 A."
+            },
+            {
+              "letra": "C",
+              "texto": "0,25 A."
+            },
+            {
+              "letra": "D",
+              "texto": "4,0 A."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Cada ramo tem I = 6/12 = 0,50 A. A corrente total é a soma: 1,0 A. A resistência equivalente é 6,0 Ω.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "serie-paralelo",
+          "objetivo": "Calcular uma situação relacionada a serie paralelo.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_novo_09",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um equipamento A de 100 W funciona por 4 h. Um B de 200 W funciona por 1 h, ambos com potência constante. Qual consome mais energia?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "B, pois potência maior sempre implica energia maior."
+            },
+            {
+              "letra": "B",
+              "texto": "Os dois, pois 100 W e 200 W são a mesma energia."
+            },
+            {
+              "letra": "C",
+              "texto": "A: 0,40 kWh, contra 0,20 kWh de B."
+            },
+            {
+              "letra": "D",
+              "texto": "Não se pode comparar energia quando o tempo é conhecido."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Energia depende de potência e tempo. A: 0,100 × 4 = 0,40 kWh; B: 0,200 × 1 = 0,20 kWh.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "potencia-e-tempo",
+          "objetivo": "Analisar uma situação relacionada a potencia e tempo.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrodinamica_novo_10",
+          "tipo": "multipla_escolha",
+          "enunciado": "O fluxo externo através de uma espira fechada diminui. Como a resposta induzida se relaciona com essa mudança?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Tem sempre campo oposto ao campo externo, mesmo quando ele diminui."
+            },
+            {
+              "letra": "B",
+              "texto": "Elimina qualquer campo no espaço inteiro."
+            },
+            {
+              "letra": "C",
+              "texto": "Cria energia elétrica sem transferência de energia de outra origem."
+            },
+            {
+              "letra": "D",
+              "texto": "Tende a sustentar o fluxo que estava diminuindo, opondo-se à variação."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "Lenz se refere à oposição à variação do fluxo. Quando ele diminui, a resposta pode reforçar seu sentido original, sem contradizer a conservação de energia.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "lenz",
+          "objetivo": "Analisar uma situação relacionada a lenz.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "eletrostatica",
+      "titulo": "Eletrostática",
+      "descricao": "Cargas elétricas e características do campo elétrico",
+      "questoes": [
+        {
+          "id": "ele_q_001",
+          "tipo": "multipla_escolha",
+          "enunciado": "Qual descrição das linhas de um campo eletrostático é correta?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "São trajetórias materiais que transportam elétrons no vácuo."
+            },
+            {
+              "letra": "B",
+              "texto": "Sempre formam curvas fechadas em torno de qualquer carga."
+            },
+            {
+              "letra": "C",
+              "texto": "Elas partem de cargas positivas e chegam a negativas ou podem se estender ao infinito."
+            },
+            {
+              "letra": "D",
+              "texto": "Sua direção é definida pela força sobre uma carga de prova negativa."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "As linhas representam o campo, e seu sentido é definido por uma carga de prova positiva. Na eletrostática, podem começar ou terminar em cargas ou no infinito; não são fios materiais.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "linhas-eletricas",
+          "objetivo": "Interpretar uma situação relacionada a linhas eletricas.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_q_002",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um objeto tem carga resultante nula. O que podemos concluir?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "O objeto não contém elétrons nem prótons."
+            },
+            {
+              "letra": "B",
+              "texto": "Ele nunca pode ser atraído por um corpo carregado."
+            },
+            {
+              "letra": "C",
+              "texto": "Qualquer parte pequena do objeto também deve ter carga resultante nula."
+            },
+            {
+              "letra": "D",
+              "texto": "As cargas positivas e negativas se compensam no total."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "Neutralidade é uma condição da soma das cargas. Um objeto neutro contém cargas e pode ser polarizado por um campo externo.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "neutralidade",
+          "objetivo": "Interpretar uma situação relacionada a neutralidade.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_q_003",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma carga puntiforme não nula está instantaneamente em repouso num referencial. Há um campo elétrico não nulo e um campo magnético no local. Despreze outras interações. Qual afirmação é correta?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Há força elétrica, mas a parcela magnética da força é nula nesse instante."
+            },
+            {
+              "letra": "B",
+              "texto": "As duas parcelas são nulas porque a carga está parada."
+            },
+            {
+              "letra": "C",
+              "texto": "Só há força magnética, pois campo elétrico exige movimento."
+            },
+            {
+              "letra": "D",
+              "texto": "A força magnética necessariamente anula a elétrica."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "A força elétrica é qE⃗. A parcela magnética é q(v⃗ × B⃗) e se anula com v = 0. O enunciado não afirma que a carga permanecerá em repouso depois.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "campo-e-forca",
+          "objetivo": "Analisar uma situação relacionada a campo e forca.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_q_004",
+          "tipo": "calculo",
+          "enunciado": "Uma carga de prova de módulo 3,0 μC sofre força elétrica de módulo 0,060 N. Qual é o módulo do campo no ponto, se a carga não perturba as fontes?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "0,00000018 N/C."
+            },
+            {
+              "letra": "B",
+              "texto": "20.000 N/C."
+            },
+            {
+              "letra": "C",
+              "texto": "200 N/C."
+            },
+            {
+              "letra": "D",
+              "texto": "180.000 N/C."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Pela definição em módulos, E = F/|q| = 0,060/(3,0·10⁻⁶) = 2,0·10⁴ N/C. É necessário converter μC para C.",
+          "dificuldade": "medio",
+          "habilidade": "calcular",
+          "conceito_id": "campo-eletrico",
+          "objetivo": "Calcular uma situação relacionada a campo eletrico.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ele_q_005",
+          "tipo": "calculo",
+          "enunciado": "Duas cargas puntiformes de +2,0 μC e −3,0 μC estão separadas por 0,30 m no vácuo. Adote k = 9,0·10⁹ N·m²/C². Qual interação ocorre?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Repulsão com força de módulo 0,60 N."
+            },
+            {
+              "letra": "B",
+              "texto": "Atração com força de módulo 0,18 N."
+            },
+            {
+              "letra": "C",
+              "texto": "Atração com força de módulo 0,60 N."
+            },
+            {
+              "letra": "D",
+              "texto": "Atração, sendo a força sobre a carga menor maior que a outra."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "F = k|q₁q₂|/r² = 9·10⁹ × 6·10⁻¹²/0,09 = 0,60 N. Os sinais opostos determinam atração; as duas forças têm módulos iguais.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "coulomb",
+          "objetivo": "Calcular uma situação relacionada a coulomb.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_novo_01",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um corpo inicialmente neutro perde elétrons. Qual é o sinal de sua carga resultante?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Positivo."
+            },
+            {
+              "letra": "B",
+              "texto": "Negativo."
+            },
+            {
+              "letra": "C",
+              "texto": "Sempre nulo."
+            },
+            {
+              "letra": "D",
+              "texto": "Não se pode definir sinal para cargas elétricas."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "A perda de elétrons reduz a carga negativa, deixando excesso de carga positiva. Não é necessário transferir prótons.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "eletrizacao",
+          "objetivo": "Interpretar uma situação relacionada a eletrizacao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_novo_02",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um pente carregado atrai pedacinhos de papel neutros. Qual explicação é adequada?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "O papel precisa ter inicialmente carga resultante oposta."
+            },
+            {
+              "letra": "B",
+              "texto": "Polarização ou redistribuição de cargas pode produzir atração."
+            },
+            {
+              "letra": "C",
+              "texto": "O pente cria prótons dentro do papel."
+            },
+            {
+              "letra": "D",
+              "texto": "Todo objeto neutro repele qualquer carga."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "A polarização altera a distribuição das cargas sem exigir carga resultante não nula. Por isso, atração não prova que o papel já estava eletrizado.",
+          "dificuldade": "facil",
+          "habilidade": "aplicar",
+          "conceito_id": "polarizacao",
+          "objetivo": "Aplicar uma situação relacionada a polarizacao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_novo_03",
+          "tipo": "multipla_escolha",
+          "enunciado": "Qual grandeza é medida em coulomb (C)?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Campo elétrico."
+            },
+            {
+              "letra": "B",
+              "texto": "Diferença de potencial."
+            },
+            {
+              "letra": "C",
+              "texto": "Carga elétrica."
+            },
+            {
+              "letra": "D",
+              "texto": "Potência elétrica."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Coulomb mede carga. Campo pode ser medido em N/C; tensão, em V; potência, em W.",
+          "dificuldade": "facil",
+          "habilidade": "recordar",
+          "conceito_id": "carga-eletrica",
+          "objetivo": "Recordar uma situação relacionada a carga eletrica.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_novo_04",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma carga de prova positiva é trocada por outra de mesmo módulo e sinal negativo, sem perturbar as fontes. O que muda?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "O campo necessariamente inverte o sentido."
+            },
+            {
+              "letra": "B",
+              "texto": "A força mantém o sentido porque o módulo não mudou."
+            },
+            {
+              "letra": "C",
+              "texto": "As fontes deixam de produzir campo."
+            },
+            {
+              "letra": "D",
+              "texto": "A força inverte o sentido, mas o campo das fontes não muda."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "O campo é determinado pelas fontes. Em F⃗ = qE⃗, a troca do sinal de q inverte a força.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "campo-e-forca",
+          "objetivo": "Analisar uma situação relacionada a campo e forca.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_novo_05",
+          "tipo": "multipla_escolha",
+          "enunciado": "A distância entre duas cargas puntiformes triplica, mantendo cargas e meio. Como varia o módulo da força?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Passa a 1/9 do inicial."
+            },
+            {
+              "letra": "B",
+              "texto": "Passa a 1/3 do inicial."
+            },
+            {
+              "letra": "C",
+              "texto": "Triplica."
+            },
+            {
+              "letra": "D",
+              "texto": "Aumenta nove vezes."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "A lei de Coulomb tem dependência 1/r². Substituir r por 3r introduz um fator 1/9.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "coulomb",
+          "objetivo": "Analisar uma situação relacionada a coulomb.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_novo_06",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma esfera condutora isolada está em equilíbrio eletrostático e seu potencial é diferente de zero. Qual afirmação é compatível?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Campo nulo exige necessariamente potencial zero."
+            },
+            {
+              "letra": "B",
+              "texto": "O campo no material pode ser nulo, embora o potencial não seja zero."
+            },
+            {
+              "letra": "C",
+              "texto": "O equilíbrio exige corrente contínua dentro da esfera."
+            },
+            {
+              "letra": "D",
+              "texto": "Todo excesso de carga permanece uniformemente no volume do metal."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Campo nulo no material implica potencial constante, não necessariamente nulo. O valor do potencial também depende da referência escolhida.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "condutor-equilibrio",
+          "objetivo": "Analisar uma situação relacionada a condutor equilibrio.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_novo_07",
+          "tipo": "calculo",
+          "enunciado": "Um corpo perde 2,0·10¹² elétrons. Adote e = 1,60·10⁻¹⁹ C. Qual é a carga adquirida?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "−3,2·10⁻⁷ C."
+            },
+            {
+              "letra": "B",
+              "texto": "+3,2·10⁻³¹ C."
+            },
+            {
+              "letra": "C",
+              "texto": "+3,2·10⁻⁷ C."
+            },
+            {
+              "letra": "D",
+              "texto": "+1,25·10³¹ C."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Perder elétrons deixa sinal positivo. O módulo é ne = 2,0·10¹² × 1,60·10⁻¹⁹ = 3,2·10⁻⁷ C.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "quantizacao",
+          "objetivo": "Calcular uma situação relacionada a quantizacao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_novo_08",
+          "tipo": "calculo",
+          "enunciado": "Uma carga −2,0 μC vai de potencial 10 V para 30 V. Qual é sua variação de energia potencial?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "+4,0·10⁻⁵ J."
+            },
+            {
+              "letra": "B",
+              "texto": "−1,0·10⁻⁷ J."
+            },
+            {
+              "letra": "C",
+              "texto": "+40 J."
+            },
+            {
+              "letra": "D",
+              "texto": "−4,0·10⁻⁵ J."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "ΔV = 30 − 10 = +20 V. Assim, ΔU = qΔV = −2,0·10⁻⁶ × 20 = −4,0·10⁻⁵ J. O sinal da carga importa.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "potencial-e-energia",
+          "objetivo": "Calcular uma situação relacionada a potencial e energia.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_novo_09",
+          "tipo": "multipla_escolha",
+          "enunciado": "Duas cargas puntiformes positivas e iguais ficam em extremos de um segmento. No ponto médio, qual é o campo elétrico resultante?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Nulo, pois as contribuições têm mesmos módulos e sentidos opostos."
+            },
+            {
+              "letra": "B",
+              "texto": "Duas vezes o campo de uma carga, pois campos sempre se somam como números positivos."
+            },
+            {
+              "letra": "C",
+              "texto": "Não nulo por serem as duas cargas positivas."
+            },
+            {
+              "letra": "D",
+              "texto": "Nulo porque nenhuma carga produz campo no ponto médio."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Campos se somam vetorialmente. Cada carga produz campo não nulo, mas as contribuições se cancelam no ponto médio.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "superposicao",
+          "objetivo": "Analisar uma situação relacionada a superposicao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "eletrostatica_novo_10",
+          "tipo": "multipla_escolha",
+          "enunciado": "Duas cargas puntiformes têm módulos diferentes e interagem. Como se comparam as forças elétricas que exercem uma sobre a outra?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A carga maior exerce mais força do que recebe."
+            },
+            {
+              "letra": "B",
+              "texto": "Têm módulos iguais e sentidos opostos."
+            },
+            {
+              "letra": "C",
+              "texto": "A carga menor não exerce força."
+            },
+            {
+              "letra": "D",
+              "texto": "Só são iguais se as massas também forem iguais."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Pela interação de Coulomb e pela terceira lei de Newton, as forças do par têm módulos iguais e sentidos opostos. Massas diferentes podem produzir acelerações diferentes.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "acao-e-reacao",
+          "objetivo": "Analisar uma situação relacionada a acao e reacao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "ondas-eletromagneticas",
+      "titulo": "Ondas Eletromagnéticas",
+      "descricao": "Propagação e características das ondas eletromagnéticas no espaço",
+      "questoes": [
+        {
+          "id": "ond_q_001",
+          "tipo": "multipla_escolha",
+          "enunciado": "Em uma onda eletromagnética plana no vácuo, como se orientam os campos e a propagação?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Os campos são paralelos entre si e à propagação."
+            },
+            {
+              "letra": "B",
+              "texto": "Há somente campo elétrico, sem componente magnética."
+            },
+            {
+              "letra": "C",
+              "texto": "Há compressões do ar que constituem os campos."
+            },
+            {
+              "letra": "D",
+              "texto": "Os campos elétrico e magnético são perpendiculares entre si e à propagação."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "Nesse modelo, a onda é transversal: E⃗ e B⃗ são perpendiculares entre si e à direção de propagação. A propagação no vácuo não exige ar.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "natureza-onda",
+          "objetivo": "Interpretar uma situação relacionada a natureza onda.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_q_002",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um equipamento envia uma mensagem por rádio entre dois pontos separados por uma região sem matéria. Qual propriedade permite isso?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Ondas eletromagnéticas podem se propagar no vácuo."
+            },
+            {
+              "letra": "B",
+              "texto": "Rádio é som de frequência muito alta que dispensa ar."
+            },
+            {
+              "letra": "C",
+              "texto": "Todo sinal elétrico precisa de fio contínuo entre os pontos."
+            },
+            {
+              "letra": "D",
+              "texto": "O sinal usa a gravidade como meio material."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Sinais de rádio são eletromagnéticos. A informação pode ser codificada neles e transportada no vácuo, sem serem ondas sonoras.",
+          "dificuldade": "facil",
+          "habilidade": "aplicar",
+          "conceito_id": "meio-de-propagacao",
+          "objetivo": "Aplicar uma situação relacionada a meio de propagacao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_q_003",
+          "tipo": "multipla_escolha",
+          "enunciado": "Luz visível e micro-ondas pertencem ao espectro eletromagnético. Qual conclusão é adequada?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Têm necessariamente a mesma frequência e absorção."
+            },
+            {
+              "letra": "B",
+              "texto": "No vácuo têm a mesma velocidade, mas podem interagir de formas diferentes com um material."
+            },
+            {
+              "letra": "C",
+              "texto": "A luz visível é mais rápida no vácuo por ser visível."
+            },
+            {
+              "letra": "D",
+              "texto": "A frequência é a única propriedade possível de uma onda."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "No vácuo, ambas têm velocidade c. Frequência, amplitude e polarização caracterizam as ondas; a interação também depende do material.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "espectro",
+          "objetivo": "Analisar uma situação relacionada a espectro.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_q_004",
+          "tipo": "calculo",
+          "enunciado": "Um sinal eletromagnético no vácuo tem frequência de 75 MHz. Adote c = 3,0·10⁸ m/s. Qual é seu comprimento de onda?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "0,25 m."
+            },
+            {
+              "letra": "B",
+              "texto": "40 m."
+            },
+            {
+              "letra": "C",
+              "texto": "4,0 m."
+            },
+            {
+              "letra": "D",
+              "texto": "4,0·10⁶ m."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Converta 75 MHz em 75·10⁶ Hz. Então λ = c/f = 3,0·10⁸/(75·10⁶) = 4,0 m. O resultado não é o mesmo exemplo numérico do texto teórico.",
+          "dificuldade": "medio",
+          "habilidade": "calcular",
+          "conceito_id": "comprimento-frequencia",
+          "objetivo": "Calcular uma situação relacionada a comprimento frequencia.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ond_q_005",
+          "tipo": "calculo",
+          "enunciado": "Uma onda plana no vácuo tem amplitude B₀ = 0,50 μT. Adote c = 3,0·10⁸ m/s. Qual é a amplitude E₀ do campo elétrico?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "150 N."
+            },
+            {
+              "letra": "B",
+              "texto": "1.500 V/m."
+            },
+            {
+              "letra": "C",
+              "texto": "0,50 V/m."
+            },
+            {
+              "letra": "D",
+              "texto": "150 V/m."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "E₀ = cB₀ = 3,0·10⁸ × 0,50·10⁻⁶ = 150 V/m. O resultado é campo elétrico, não força; uma força exige especificar uma carga.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "campos-na-onda",
+          "objetivo": "Calcular uma situação relacionada a campos na onda.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_novo_01",
+          "tipo": "multipla_escolha",
+          "enunciado": "Qual fenômeno é uma onda mecânica?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Sinal de Wi-Fi."
+            },
+            {
+              "letra": "B",
+              "texto": "Luz de uma tela."
+            },
+            {
+              "letra": "C",
+              "texto": "Som em uma sala."
+            },
+            {
+              "letra": "D",
+              "texto": "Sinal de rádio no vácuo."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Som envolve perturbações em um meio material. Wi-Fi, luz e rádio são sinais eletromagnéticos.",
+          "dificuldade": "facil",
+          "habilidade": "aplicar",
+          "conceito_id": "onda-mecanica",
+          "objetivo": "Aplicar uma situação relacionada a onda mecanica.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_novo_02",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um sinal realiza 50 ciclos por segundo. Qual é sua frequência?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "50 m."
+            },
+            {
+              "letra": "B",
+              "texto": "50 m/s."
+            },
+            {
+              "letra": "C",
+              "texto": "0,02 Hz."
+            },
+            {
+              "letra": "D",
+              "texto": "50 Hz."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "Hertz significa ciclos por segundo. Metros medem comprimento e m/s medem velocidade. O período seria 1/50 s.",
+          "dificuldade": "facil",
+          "habilidade": "recordar",
+          "conceito_id": "unidades-ondas",
+          "objetivo": "Recordar uma situação relacionada a unidades ondas.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_novo_03",
+          "tipo": "multipla_escolha",
+          "enunciado": "Em um desenho de onda periódica no espaço, qual distância representa um comprimento de onda?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "De uma crista à crista consecutiva."
+            },
+            {
+              "letra": "B",
+              "texto": "Da linha de equilíbrio à crista."
+            },
+            {
+              "letra": "C",
+              "texto": "De uma crista ao vale consecutivo."
+            },
+            {
+              "letra": "D",
+              "texto": "O tempo de uma oscilação."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Comprimento de onda é a distância entre pontos consecutivos de mesma fase. A distância ao equilíbrio é amplitude; crista a vale corresponde a meio comprimento.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "comprimento-onda",
+          "objetivo": "Interpretar uma situação relacionada a comprimento onda.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_novo_04",
+          "tipo": "multipla_escolha",
+          "enunciado": "Duas ondas eletromagnéticas no vácuo têm frequências f e 2f. Como se comparam seus comprimentos de onda?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A de frequência 2f tem o dobro do comprimento."
+            },
+            {
+              "letra": "B",
+              "texto": "A onda de frequência 2f tem metade do comprimento."
+            },
+            {
+              "letra": "C",
+              "texto": "Os comprimentos são iguais porque a velocidade é a mesma."
+            },
+            {
+              "letra": "D",
+              "texto": "A de frequência 2f viaja duas vezes mais rápido."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Como c = λf e c é igual para ambas no vácuo, dobrar a frequência reduz λ à metade.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "comprimento-frequencia",
+          "objetivo": "Analisar uma situação relacionada a comprimento frequencia.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_novo_05",
+          "tipo": "multipla_escolha",
+          "enunciado": "Qual ordem representa frequência crescente entre as três faixas?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Raios X, luz visível, rádio."
+            },
+            {
+              "letra": "B",
+              "texto": "Luz visível, rádio, raios X."
+            },
+            {
+              "letra": "C",
+              "texto": "Rádio, luz visível, raios X."
+            },
+            {
+              "letra": "D",
+              "texto": "Rádio, raios X, luz visível."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "No espectro, rádio tem frequências menores que o visível, que tem frequências menores que raios X. No vácuo, maior frequência corresponde a menor comprimento.",
+          "dificuldade": "medio",
+          "habilidade": "interpretar",
+          "conceito_id": "espectro",
+          "objetivo": "Interpretar uma situação relacionada a espectro.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_novo_06",
+          "tipo": "multipla_escolha",
+          "enunciado": "Luz atravessa uma interface estacionária do ar para o vidro. Qual grandeza se mantém?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Necessariamente velocidade."
+            },
+            {
+              "letra": "B",
+              "texto": "Necessariamente comprimento de onda."
+            },
+            {
+              "letra": "C",
+              "texto": "Necessariamente direção, mesmo em incidência oblíqua."
+            },
+            {
+              "letra": "D",
+              "texto": "Frequência."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "A frequência se mantém na interface estacionária. A velocidade e o comprimento podem mudar; a direção depende da incidência.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "refracao",
+          "objetivo": "Analisar uma situação relacionada a refracao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_novo_07",
+          "tipo": "calculo",
+          "enunciado": "Para certa frequência, a luz tem velocidade de fase 2,0·10⁸ m/s em um material. Adote c = 3,0·10⁸ m/s. Qual é seu índice de refração?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "1,5."
+            },
+            {
+              "letra": "B",
+              "texto": "0,67."
+            },
+            {
+              "letra": "C",
+              "texto": "6,0·10¹⁶."
+            },
+            {
+              "letra": "D",
+              "texto": "5,0·10⁸."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Pela definição, n = c/v = 3,0·10⁸/(2,0·10⁸) = 1,5. O índice é adimensional.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "indice-refracao",
+          "objetivo": "Calcular uma situação relacionada a indice refracao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_novo_08",
+          "tipo": "calculo",
+          "enunciado": "Uma onda luminosa tem λ = 600 nm no vácuo. Ela entra em meio transparente de índice 1,5 para essa frequência. Qual é λ no meio?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "900 nm."
+            },
+            {
+              "letra": "B",
+              "texto": "400 nm."
+            },
+            {
+              "letra": "C",
+              "texto": "600 nm, pois a frequência é fixa."
+            },
+            {
+              "letra": "D",
+              "texto": "0,0025 nm."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "A frequência se mantém e a velocidade passa a c/n. Portanto, λ_meio = λ_vácuo/n = 600/1,5 = 400 nm.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "refracao",
+          "objetivo": "Calcular uma situação relacionada a refracao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_novo_09",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um raio atinge perpendicularmente uma interface entre meios de índices diferentes. Qual afirmação é correta para a parte transmitida?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Muda obrigatoriamente de frequência."
+            },
+            {
+              "letra": "B",
+              "texto": "Não pode atravessar a interface."
+            },
+            {
+              "letra": "C",
+              "texto": "Pode mudar de velocidade sem mudar de direção."
+            },
+            {
+              "letra": "D",
+              "texto": "Desvia obrigatoriamente 90°."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Na incidência normal, a direção da parte transmitida é mantida, embora sua velocidade e seu comprimento de onda possam mudar.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "reflexao-e-refracao",
+          "objetivo": "Analisar uma situação relacionada a reflexao e refracao.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "ondas-eletromagneticas_novo_10",
+          "tipo": "multipla_escolha",
+          "enunciado": "Duas ondas planas no vácuo têm a mesma frequência, mas amplitudes elétricas diferentes. Qual conclusão é adequada?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Têm necessariamente a mesma intensidade porque suas frequências são iguais."
+            },
+            {
+              "letra": "B",
+              "texto": "A de maior amplitude viaja mais rapidamente no vácuo."
+            },
+            {
+              "letra": "C",
+              "texto": "A frequência determina sozinha todas as propriedades da onda."
+            },
+            {
+              "letra": "D",
+              "texto": "Podem transportar intensidades médias diferentes apesar de terem a mesma frequência."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "A frequência não caracteriza sozinha uma onda. A intensidade média depende das amplitudes dos campos; no vácuo, ambas se propagam com c.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "campo-e-intensidade",
+          "objetivo": "Analisar uma situação relacionada a campo e intensidade.",
+          "fonte": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026). Referências de apoio conceitual; não transcrição de prova ou livro.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    }
+  ]
+}

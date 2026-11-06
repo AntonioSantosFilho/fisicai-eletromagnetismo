@@ -1,0 +1,85 @@
+{
+  "metodo": "Busca textual das primeiras 14 palavras normalizadas de cada enunciado nos dois PDFs consultados. A ausência de correspondência não exclui adaptação, diferenças de extração ou outra edição.",
+  "resultados": [
+    {
+      "topico": "Força Magnética sobre uma Carga em Movimento",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Raio da Trajetória Circular de uma Carga",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Período do Movimento de uma Carga no Campo Magnético",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Força Magnética sobre Fio Retilíneo",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Força Magnética entre Fios Paralelos",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Campo Magnético de Fio Retilíneo (Lei de Ampère)",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Campo Magnético no Interior de um Solenoide",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Campo Magnético no Núcleo de um Toróide",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Torque de Giro numa Espira",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Força Magneto-Motriz (FMM)",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Relutância e Lei de Hopkinson",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Fluxo Magnético",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Lei da Indução de Faraday",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Tensão Induzida em Condutor Móvel",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Indutância de um Solenoide",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Indutância Mútua e Acoplamento Magnético",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Força Elétrica (Lei de Coulomb)",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Intensidade do Campo Elétrico",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Equação Fundamental da Onda",
+      "correspondencia_inicio_enunciado": []
+    },
+    {
+      "topico": "Relação entre Campos na Onda Eletromagnética",
+      "correspondencia_inicio_enunciado": []
+    }
+  ]
+}

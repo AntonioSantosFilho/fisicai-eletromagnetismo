@@ -1,0 +1,123 @@
+﻿[CONTEXTO DO PROJETO]
+O projeto já possui um scaffold base configurado com Expo SDK 54, TypeScript strict,
+NativeWind e Expo Router, e o Prompt 1 já implementou a navegação, interfaces
+TypeScript e tela Home básica. Os seguintes arquivos já existem e devem ser
+ATUALIZADOS, não recriados:
+
+- tailwind.config.js     ← atualizar adicionando os tokens da UNIVASF.
+                           NÃO substitua as configurações de content e
+                           presets já existentes
+- constants/index.ts     ← substituir pelo conteúdo de colors.ts,
+                           typography.ts e spacing.ts
+- app/(tabs)/index.tsx   ← atualizar aplicando o design system
+
+NÃO gere: package.json, tsconfig.json, babel.config.js.
+
+
+[PAPEL]
+Você é um designer de interfaces e engenheiro frontend especialista em React Native, 
+com experiência em sistemas de design para aplicativos educacionais. Você está 
+configurando a identidade visual do FisicAI, aplicativo oficial vinculado à 
+Universidade Federal do Vale do São Francisco (UNIVASF). Mantenha total consistência 
+com a arquitetura e stack já estabelecidas no prompt anterior.
+
+[ESPECIFICAÇÃO TÉCNICA]
+Implemente o design system completo do FisicAI seguindo rigorosamente o Manual de 
+Identidade Visual da UNIVASF. Respeite obrigatoriamente:
+
+Stack já definida: React Native + Expo + TypeScript strict + NativeWind + Expo Router.
+
+Identidade visual da UNIVASF:
+- Cor primária (azul Rio São Francisco): #0289e0
+- Cor secundária (amarelo Sol): #f9ac03
+- Tipografia institucional: Arial (para todos os textos do app)
+- Asset disponível: logo-univasf.png (localizado em assets/images/logo-univasf.png)
+
+Princípios de usabilidade para jogos educacionais a aplicar:
+- Não usar texto branco em nenhum componente do app, incluindo botões, badges,
+  cards, headers, modais e estados de feedback.
+- Texto sobre fundos institucionais, de destaque ou feedback deve usar cor escura
+  (#1a1a1a), garantindo consistência visual.
+- Não usar botões com fundo branco (#FFFFFF). Botões devem usar azul primário,
+  azul claro institucional ou amarelo secundário, sempre com texto escuro.
+- Hierarquia visual clara: títulos de módulo em azul primário,
+  destaques e badges em amarelo secundário.
+- Feedback visual de acerto em verde (#22c55e) e erro em vermelho (#ef4444),
+  mantendo texto escuro (#1a1a1a).
+- Botões primários: fundo #0289e0 com texto #1a1a1a.
+- Botões primários desabilitados: fundo #e0f2fe com texto #0289e0.
+- Botões secundários/reiniciar: fundo #e0f2fe, borda #0289e0 e texto #0289e0.
+- Cards de conteúdo: fundo branco ou azul claro, borda sutil cinza (#e5e7eb),
+  cabeçalho do card em #0289e0.
+- Tela de resultado/acerto: destaque em #f9ac03 com texto escuro (#1a1a1a).
+- Fonte Arial em todos os textos via fontFamily configurado globalmente.
+
+Entregáveis obrigatórios:
+1. constants/colors.ts — objeto de design tokens com todas as cores nomeadas 
+   semanticamente (primary, secondary, success, error, background, card, text, etc.)
+2. constants/typography.ts — escala tipográfica completa com fontFamily Arial, 
+   tamanhos (xs, sm, md, lg, xl, 2xl) e pesos (regular, medium, bold)
+3. constants/spacing.ts — escala de espaçamento consistente (4, 8, 12, 16, 24, 32, 48)
+4. tailwind.config.js — atualizado com os tokens de cor e tipografia da UNIVASF 
+   como extensão do tema NativeWind
+5. components/Header.tsx — cabeçalho padrão reutilizável, visualmente polido e
+   institucional, com logo-univasf.png, fundo azul claro institucional (#e0f2fe),
+   faixa inferior em amarelo secundário (#f9ac03), logo alinhada à esquerda e
+   título da tela centralizado.
+
+   A logo deve usar resizeMode="contain" e tamanho fixo adequado para imagem
+   horizontal, por exemplo width: 156 e height: 30, evitando que imagens grandes
+   como 500x500 estourem o layout.
+
+   Quando houver botão de voltar, ele deve aparecer à esquerda antes da logo,
+   com área tocável confortável. O título deve permanecer visualmente centralizado
+   na barra, com numberOfLines={1} e truncamento se necessário.
+
+   Não usar fundo azul primário no Header, pois a logo possui elementos azuis
+   que perdem contraste sobre #0289e0. Use o azul primário apenas no texto do
+   título e no ícone de voltar. Não implementar tema claro/escuro.6. components/ModuloCard.tsx — card de módulo para o grid da Home com cabeçalho 
+   azul, ícone em amarelo e nome do módulo
+7. components/BadgeDificuldade.tsx — badge de dificuldade com cores semânticas 
+   (fácil: verde, médio: amarelo #f9ac03, difícil: vermelho) sobre base institucional
+8. components/BotaoPrimario.tsx — botão primário padronizado (#0289e0)
+9. components/BotaoSecundario.tsx — botão secundário outlined padronizado
+10. app/(tabs)/index.tsx — atualização da Home com o design system aplicado: 
+    Header com logo UNIVASF, grid de ModuloCards com cores institucionais
+
+[CHAIN-OF-THOUGHT ESTRUTURADO]
+Antes de gerar qualquer código, percorra estas etapas:
+
+ETAPA 1 — Análise de acessibilidade: verifique se as combinações de cor atendem
+ao contraste mínimo WCAG AA (4.5:1 para texto normal), respeitando a regra de
+não usar texto branco no app. Use texto escuro (#1a1a1a) sobre fundos azul,
+amarelo, verde ou vermelho. Ajuste fundos e estados visuais mantendo fidelidade
+à identidade UNIVASF.
+
+ETAPA 2 — Mapeamento semântico de cores: defina um nome semântico para cada 
+cor do sistema (não use "azul" ou "amarelo" como nome — use "primary", 
+"secondary", "success", "error", "surface", etc.) para que os componentes 
+não dependam de valores hexadecimais hardcoded.
+
+ETAPA 3 — Integração com NativeWind: defina como os tokens de cor e tipografia 
+serão expostos como classes Tailwind customizadas no tailwind.config.js, 
+garantindo que os prompts seguintes possam usar classes como 
+bg-primary, text-secondary, font-arial.
+
+ETAPA 4 — Componentização: defina quais elementos visuais se repetem em todas 
+as telas (header, cards, botões, badges) e confirme que os componentes 
+entregáveis cobrem todos eles. O Header deve funcionar como elemento de identidade
+do app: elegante, limpo, com presença institucional, sem aparência genérica de
+template.
+
+ETAPA 5 — Implementação: gere todos os arquivos com código completo e tipado, 
+aplicando o logo-univasf.png no Header com dimensões apropriadas para 
+mobile (altura máxima 36px na barra de navegação). O título não deve quebrar o
+layout em telas pequenas; se necessário, use truncamento ou ajuste de largura.
+O botão de voltar deve ter área tocável confortável e estado visual coerente com
+o cabeçalho.
+
+ETAPA 6 — Validação: confirme que qualquer desenvolvedor dos Prompts 2 a 5 
+pode usar apenas os tokens de constants/colors.ts e as classes NativeWind 
+customizadas, sem precisar conhecer os hex codes originais da UNIVASF.
+
+Execute cada etapa em sequência. Gere o código completo de todos os arquivos ao final.

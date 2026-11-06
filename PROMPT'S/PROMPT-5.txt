@@ -1,0 +1,163 @@
+﻿[CONTEXTO DO PROJETO]
+O projeto já possui scaffold configurado com Expo SDK 54, TypeScript strict,
+NativeWind e Expo Router. Os prompts anteriores já entregaram:
+- Prompt 1: navegação, interfaces TypeScript e tela Home
+- Prompt 2: design system completo com tokens em constants/colors.ts,
+  constants/typography.ts, constants/spacing.ts e componentes base
+  (Header, ModuloCard, BotaoPrimario, BotaoSecundario, BadgeDificuldade)
+- Prompt 3: seção de conteúdo teórico e integração PhET
+- Prompt 4: módulo de Flashcards e Jogo da Memória, incluindo
+  FeedbackModal.tsx, BotaoReiniciar.tsx, services/progressoService.ts
+  e hooks useFlashcardSession.ts e useMemoriaGame.ts
+
+NÃO recrie arquivos de configuração (package.json, tsconfig.json,
+tailwind.config.js, babel.config.js).
+NÃO recrie componentes já existentes (Header, BotaoPrimario, BotaoSecundario,
+BadgeDificuldade, FeedbackModal, BotaoReiniciar).
+NÃO recrie services/progressoService.ts — expanda-o se necessário.
+Use os tokens de constants/colors.ts e as classes NativeWind customizadas
+(bg-primary, text-secondary, etc.) em todos os componentes novos.
+Os JSONs de questões e lacunas já existem em data/. NÃO gere conteúdo —
+implemente apenas os componentes e telas que consomem esses arquivos.
+Use data/questoes.json para quiz e desafio. Use data/lacunas.json exclusivamente
+para o jogo de completar lacunas; não derive lacunas automaticamente de questoes.json.
+
+[PAPEL]
+Você é um engenheiro de software sênior especialista em React Native com experiência
+em sistemas de avaliação e gamificação educacional. Você está dando continuidade ao
+projeto FisicAI, mantendo total consistência com a arquitetura, tipagem e convenções
+dos prompts anteriores.
+
+[ESPECIFICAÇÃO TÉCNICA]
+Implemente o módulo de Quiz (múltipla escolha), o Desafio Sequencial e o jogo de
+Completar Lacunas. Respeite obrigatoriamente:
+
+Stack já definida: React Native + Expo + TypeScript strict + NativeWind +
+AsyncStorage + Expo Router.
+
+Requisitos a implementar neste prompt:
+- RF01: Quizzes de múltipla escolha; Desafios sequenciais; Jogos de completar
+  lacunas em sentenças ou fórmulas
+- RF02: Sequência de temas definida pelo sistema, sem escolha livre
+- RF03: Perguntas cobrindo definições/conceitos, fórmulas/cálculos e aplicações
+  práticas
+- RF04: Entre 3 e 5 temas distintos
+- RF05: Feedback imediato com explicação após cada resposta
+- RF06: Registro de acertos e tempo gasto por sessão
+- RF07: Questões agrupadas por dificuldade
+- RNF02: Botão de reinício a qualquer momento
+- RNF04: Dicas/explicações extras para respostas incorretas
+
+A experiência do usuário deve seguir o fluxo:
+Quiz → escolha do módulo → escolha da dificuldade ou todas → sessão com perguntas
+sequenciais → resultado final.
+
+As perguntas são conteúdo interno da sessão. Elas não devem aparecer como itens
+principais de navegação ou cards individuais na tela inicial do quiz.
+
+Schema conceitual do banco de questões — os JSONs devem representar uma coleção
+de módulos de estudo, e não uma lista plana de perguntas. Cada módulo deve possuir
+seus próprios metadados e sua coleção de questões:
+{
+  "modulos": [
+    {
+      "id": "magnetismo",
+      "titulo": "Magnetismo",
+      "descricao": "Conceitos fundamentais de magnetismo",
+      "questoes": [
+        {
+          "id": "mag_q_001",
+          "tipo": "<multipla_escolha | calculo>",
+          "enunciado": "<pergunta completa, com dados se for cálculo>",
+          "alternativas": [
+            {"letra": "A", "texto": "..."},
+            {"letra": "B", "texto": "..."},
+            {"letra": "C", "texto": "..."},
+            {"letra": "D", "texto": "..."}
+          ],
+          "resposta_correta": "",
+          "explicacao": "<resolução comentada, mostrando o raciocínio>",
+          "dificuldade": "<facil | medio | dificil>",
+          "fonte": "..."
+        }
+      ]
+    }
+  ]
+}
+
+Schema do banco de lacunas — consumir data/lacunas.json:
+{
+  "lacunas": [
+    {
+      "id": "lac_mag_001",
+      "modulo_id": "magnetismo",
+      "frase": "A unidade de medida da densidade de campo magnético no SI é _______.",
+      "resposta": "tesla",
+      "respostas_aceitas": ["tesla", "T"],
+      "explicacao": "Explicação didática exibida após a resposta.",
+      "dificuldade": "<facil | medio | dificil>",
+      "fonte": "..."
+    }
+  ]
+}
+
+Cada lacuna deve possuir modulo_id para indicar a qual módulo pertence.
+Não inferir o módulo pelo prefixo do id.
+
+Entregáveis obrigatórios:
+1. app/jogos/quiz/index.tsx — tela de preparação da sessão de quiz.
+   Deve apresentar os módulos de estudo disponíveis e permitir escolher a
+   dificuldade: fácil, médio, difícil ou todas. A tela não deve listar perguntas
+   individuais.
+2. app/jogos/quiz/[modulo].tsx — sessão de quiz com perguntas sequenciais
+   carregadas a partir do módulo selecionado e filtradas pela dificuldade
+   escolhida. Use Header.tsx já existente.
+3. app/jogos/desafio/[modulo].tsx — desafio sequencial usando as questões
+   do módulo selecionado, com filtro de dificuldade quando informado, uma questão
+   por vez e sem voltar. Use Header.tsx e BotaoReiniciar.tsx já existentes
+4. app/jogos/lacunas/[modulo].tsx — sessão de completar lacunas carregando
+   itens de data/lacunas.json pelo modulo_id selecionado e filtrando por
+   dificuldade quando informado. Deve exibir uma frase por vez, campo de input,
+   validação com respostas_aceitas, feedback imediato e resultado final.
+   Use Header.tsx e BotaoReiniciar.tsx já existentes
+5. components/AlternativaButton.tsx — botão de alternativa com estados: neutro,
+   correto, incorreto. Use cores success/error/surface de constants/colors.ts
+6. components/EnunciadoCard.tsx — card de enunciado reutilizável nos três modos.
+   Use tokens de constants/colors.ts e constants/typography.ts
+7. components/ResultadoSessao.tsx — tela de resultado final com acertos, erros,
+   tempo e pontuação. Use cor secondary (#f9ac03) para destaque de pontuação
+   e BotaoPrimario.tsx para ação de continuar
+8. hooks/useQuizSession.ts — ordem das questões, score, timer, filtro por
+   dificuldade. Siga o mesmo padrão de useFlashcardSession.ts já existente
+9. hooks/useLacunasSession.ts — controlar índice, timer, acertos, erros, filtro por
+   módulo/dificuldade e validação comparando a resposta digitada com resposta e
+   respostas_aceitas, usando normalizarResposta.ts para ignorar acentos,
+   maiúsculas, minúsculas e espaços extras
+10. utils/embaralhar.ts — algoritmo Fisher-Yates para embaralhamento de array
+11. utils/normalizarResposta.ts — comparação ignorando acentos, maiúsculas e
+    espaços extras
+
+[CHAIN-OF-THOUGHT ESTRUTURADO]
+Antes de gerar qualquer código, percorra estas etapas:
+
+ETAPA 1 — Análise do schema: identifique como "tipo" (multipla_escolha | calculo)
+e "dificuldade" afetam renderização e lógica de validação em cada modo.
+
+ETAPA 2 — Diferenciação de modos: defina as diferenças comportamentais entre
+quiz (pode revisar), desafio (sem voltar) e lacunas (input de texto +
+normalização).
+
+ETAPA 3 — Reuso de componentes existentes: defina como FeedbackModal.tsx e
+BotaoReiniciar.tsx do Prompt 4 são reaproveitados aqui e o que muda no conteúdo
+do feedback para questões de cálculo vs múltipla escolha.
+
+ETAPA 4 — Persistência: mapeie o que cada modo precisa salvar no AsyncStorage
+e como isso se integra ao progressoService.ts já existente, sem duplicar chaves.
+
+ETAPA 5 — Implementação: gere todos os arquivos com código completo e tipado.
+
+ETAPA 6 — Validação: confirme que RF01 (quiz + desafio + lacunas), RF02, RF03,
+RF04, RF05, RF06, RF07, RNF02 e RNF04 estão cobertos e que nenhum componente
+usa cores hardcoded fora dos tokens de constants/colors.ts.
+
+Execute cada etapa em sequência. Gere o código completo ao final.

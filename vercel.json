@@ -1,0 +1,27 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    },
+    {
+      "src": "api/tutor.cjs",
+      "use": "@vercel/node",
+      "config": { "includeFiles": ["server/**", "data/teoria.json", "data/referencias.json"] }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/tutor",
+      "dest": "/api/tutor.cjs"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "simulacoes": [
+    {
+      "id": "phet_001",
+      "nome": "Gerador",
+      "url": "https://phet.colorado.edu/sims/html/generator/latest/generator_pt_BR.html",
+      "tema": "eletromagnetismo",
+      "descricao": "Explore como um ímã giratório gera eletricidade e descubra como maximizar o brilho de uma lâmpada.",
+      "topicos": ["Eletricidade", "Indução eletromagnética", "Campo magnético", "Lei de Faraday"],
+      "objetivos": [
+        "Identificar as condições que produzem indução eletromagnética",
+        "Comparar como a lâmpada e o voltímetro evidenciam a corrente induzida",
+        "Prever como a corrente induzida muda ao alterar as condições experimentais",
+        "Explicar a causa física da indução eletromagnética"
+      ]
+    },
+    {
+      "id": "phet_002",
+      "nome": "Ímãs e Eletroímãs",
+      "url": "https://phet.colorado.edu/sims/html/magnets-and-electromagnets/latest/magnets-and-electromagnets_pt_BR.html",
+      "tema": "eletromagnetismo",
+      "descricao": "Explore as interações entre uma bússola e um ímã de barra, e aprenda a criar um eletroímã com bateria e bobina.",
+      "topicos": ["Campo magnético", "Ímãs", "Eletroímãs", "Bússola"],
+      "objetivos": [
+        "Descrever as linhas de campo magnético ao redor de um ímã de barra",
+        "Comparar o campo de um ímã permanente com o de um eletroímã",
+        "Relacionar o sentido da corrente elétrica com a polaridade do eletroímã",
+        "Medir a direção e magnitude do campo magnético em diferentes pontos"
+      ]
+    },
+    {
+      "id": "phet_003",
+      "nome": "Ímã e Bússola",
+      "url": "https://phet.colorado.edu/sims/html/magnet-and-compass/latest/magnet-and-compass_pt_BR.html",
+      "tema": "eletromagnetismo",
+      "descricao": "Explore como um ímã de barra influencia uma bússola e relacione o campo magnético terrestre com o de um ímã.",
+      "topicos": ["Campo magnético", "Magnetismo", "Bússola", "Campo magnético terrestre"],
+      "objetivos": [
+        "Relacionar o comportamento da bússola ao campo magnético local",
+        "Comparar o campo magnético terrestre com o de um ímã de barra",
+        "Prever a orientação da bússola em diferentes posições ao redor do ímã",
+        "Medir a direção e magnitude do campo magnético ao variar a força do ímã"
+      ]
+    },
+    {
+      "id": "phet_004",
+      "nome": "Laboratório Eletromagnético de Faraday",
+      "url": "https://phet.colorado.edu/sims/html/faradays-electromagnetic-lab/latest/faradays-electromagnetic-lab_pt_BR.html",
+      "tema": "eletromagnetismo",
+      "descricao": "Faça experimentos com ímãs e bobinas para explorar a Lei de Faraday, transformadores e geradores.",
+      "topicos": ["Lei de Faraday", "Lei de Lenz", "Força eletromotriz", "Indução eletromagnética", "Transformadores"],
+      "objetivos": [
+        "Explicar como a variação do fluxo magnético induz corrente elétrica",
+        "Relacionar o número de espiras e a velocidade do ímã com a FEM induzida",
+        "Comparar o funcionamento de transformadores e geradores",
+        "Aplicar a Lei de Lenz para determinar o sentido da corrente induzida"
+      ]
+    },
+    {
+      "id": "phet_005",
+      "nome": "Kit para Montar um Circuito: AC",
+      "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-ac/latest/circuit-construction-kit-ac_pt_BR.html",
+      "tema": "circuitos",
+      "descricao": "Monte circuitos em corrente alternada com resistores, capacitores, indutores e fontes AC, medindo tensão e corrente em tempo real.",
+      "topicos": ["Corrente alternada", "Resistores", "Capacitores", "Indutores", "Circuitos elétricos"],
+      "objetivos": [
+        "Construir e analisar circuitos em corrente alternada",
+        "Medir tensão e corrente com amperímetro e voltímetro virtuais",
+        "Interpretar gráficos de corrente e tensão em função do tempo",
+        "Comparar o comportamento de resistores, capacitores e indutores em CA"
+      ]
+    },
+    {
+      "id": "phet_006",
+      "nome": "Kit para Montar um Circuito: AC – Laboratório Virtual",
+      "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-ac-virtual-lab/latest/circuit-construction-kit-ac-virtual-lab_pt_BR.html",
+      "tema": "circuitos",
+      "descricao": "Versão laboratório do kit AC com amperímetros em série, ideal para medições precisas em circuitos de corrente alternada.",
+      "topicos": ["Corrente alternada", "Circuitos RLC", "Amperímetro", "Voltímetro", "Diagrama esquemático"],
+      "objetivos": [
+        "Montar circuitos AC com componentes reais e esquemáticos",
+        "Realizar medições precisas com amperímetros em série",
+        "Analisar graficamente o comportamento da corrente e tensão ao longo do tempo",
+        "Diferenciar a visão esquemática da visão realista de um circuito"
+      ]
+    },
+    {
+      "id": "phet_007",
+      "nome": "Lei de Coulomb",
+      "url": "https://phet.colorado.edu/sims/html/coulombs-law/latest/coulombs-law_pt_BR.html",
+      "tema": "eletrostatica",
+      "descricao": "Visualize a força eletrostática entre duas cargas e observe como ela varia com a magnitude das cargas e a distância.",
+      "topicos": ["Lei de Coulomb", "Força eletrostática", "Cargas elétricas", "Eletrostática"],
+      "objetivos": [
+        "Descrever como a força entre cargas varia com a distância e com a magnitude das cargas",
+        "Aplicar a Lei de Coulomb para calcular a força eletrostática",
+        "Distinguir força atrativa de força repulsiva entre cargas de sinais diferentes",
+        "Relacionar o sinal das cargas com o sentido da força resultante"
+      ]
+    },
+    {
+      "id": "phet_008",
+      "nome": "Laboratório do Capacitor: Básico",
+      "url": "https://phet.colorado.edu/sims/html/capacitor-lab-basics/latest/capacitor-lab-basics_pt_BR.html",
+      "tema": "circuitos",
+      "descricao": "Explore como um capacitor armazena carga ao variar o tamanho das placas, a distância entre elas e a tensão aplicada.",
+      "topicos": ["Capacitor", "Campo elétrico", "Carga elétrica", "Circuito RC", "Capacitância"],
+      "objetivos": [
+        "Relacionar as dimensões das placas e a distância com a capacitância",
+        "Observar como a tensão influencia a carga acumulada nas placas",
+        "Medir o campo elétrico entre as placas de um capacitor",
+        "Analisar a descarga de um capacitor em um circuito RC com lâmpada"
+      ]
+    },
+    {
+      "id": "phet_009",
+      "nome": "Kit para Montar um Circuito DC – Laboratório Virtual",
+      "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_pt_BR.html",
+      "tema": "circuitos",
+      "descricao": "Versão laboratório do kit DC com amperímetros em série para investigar circuitos de corrente contínua com precisão.",
+      "topicos": ["Corrente contínua", "Resistência", "Condutores e isolantes", "Amperímetro", "Voltímetro"],
+      "objetivos": [
+        "Construir circuitos DC e realizar medições com instrumentos virtuais",
+        "Classificar materiais do cotidiano como condutores ou isolantes",
+        "Utilizar amperímetros em série para medições precisas de corrente",
+        "Alternar entre visão esquemática e realista de circuitos"
+      ]
+    },
+    {
+      "id": "phet_010",
+      "nome": "Kit para Montar Circuito DC",
+      "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_pt_BR.html",
+      "tema": "circuitos",
+      "descricao": "Monte circuitos de corrente contínua com baterias, resistores e lâmpadas, e faça medições com amperímetro e voltímetro.",
+      "topicos": ["Corrente contínua", "Resistência", "Lâmpadas", "Baterias", "Circuitos série e paralelo"],
+      "objetivos": [
+        "Construir circuitos em série e em paralelo com componentes virtuais",
+        "Medir corrente e tensão em diferentes pontos do circuito",
+        "Distinguir condutores de isolantes com base em objetos do cotidiano",
+        "Interpretar diagramas esquemáticos de circuitos elétricos"
+      ]
+    },
+    {
+      "id": "phet_011",
+      "nome": "Cargas e Campos",
+      "url": "https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html",
+      "tema": "eletrostatica",
+      "descricao": "Posicione cargas positivas e negativas e visualize o campo elétrico e o potencial eletrostático resultantes.",
+      "topicos": ["Campo elétrico", "Potencial elétrico", "Linhas equipotenciais", "Cargas elétricas", "Dipolo elétrico"],
+      "objetivos": [
+        "Relacionar a distribuição de cargas com o campo elétrico resultante",
+        "Traçar linhas equipotenciais e interpretar sua relação com o campo elétrico",
+        "Distinguir campo elétrico de potencial eletrostático",
+        "Modelar dipolos e capacitores a partir da disposição de cargas"
+      ]
+    },
+    {
+      "id": "phet_012",
+      "nome": "Lei de Faraday",
+      "url": "https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law_pt_BR.html",
+      "tema": "eletromagnetismo",
+      "descricao": "Investigue como a variação do fluxo magnético produz corrente elétrica, explorando a Lei de Faraday de forma interativa.",
+      "topicos": ["Lei de Faraday", "Fluxo magnético", "Indução eletromagnética", "Corrente induzida"],
+      "objetivos": [
+        "Demonstrar que a variação do fluxo magnético induz corrente elétrica",
+        "Relacionar a velocidade de movimento do ímã com a intensidade da corrente induzida",
+        "Verificar como o número de espiras influencia a FEM induzida",
+        "Associar o sentido do movimento do ímã com o sentido da corrente induzida"
+      ]
+    },
+    {
+      "id": "phet_013",
+      "nome": "John Travoltagem",
+      "url": "https://phet.colorado.edu/sims/html/john-travoltage/latest/john-travoltage_pt_BR.html",
+      "tema": "eletrostatica",
+      "descricao": "Explore a eletricidade estática movendo o pé e o braço de John para acumular cargas e provocar uma descarga elétrica.",
+      "topicos": ["Eletricidade estática", "Acúmulo de cargas", "Descarga elétrica", "Transferência de carga"],
+      "objetivos": [
+        "Explicar como cargas elétricas se acumulam por atrito",
+        "Identificar as condições que provocam uma descarga eletrostática",
+        "Relacionar o acúmulo de cargas com a intensidade do choque",
+        "Compreender o fenômeno da descarga elétrica no cotidiano"
+      ]
+    },
+    {
+      "id": "phet_014",
+      "nome": "Balões e Eletricidade Estática",
+      "url": "https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_pt_BR.html",
+      "tema": "eletrostatica",
+      "descricao": "Use um balão para explorar transferência de carga, atração, repulsão e carga induzida na eletricidade estática.",
+      "topicos": ["Eletricidade estática", "Transferência de carga", "Atração e repulsão", "Carga induzida"],
+      "objetivos": [
+        "Explicar a transferência de cargas por atrito entre materiais",
+        "Distinguir atração e repulsão entre corpos com diferentes cargas",
+        "Descrever o fenômeno da indução eletrostática",
+        "Relacionar o excesso ou déficit de elétrons com o sinal da carga do objeto"
+      ]
+    },
+    {
+      "id": "phet_015",
+      "nome": "Lei de Ohm",
+      "url": "https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_pt_BR.html",
+      "tema": "circuitos",
+      "descricao": "Visualize a relação entre tensão, resistência e corrente em um circuito simples ajustando os controles interativos.",
+      "topicos": ["Lei de Ohm", "Tensão elétrica", "Resistência elétrica", "Corrente elétrica"],
+      "objetivos": [
+        "Enunciar a Lei de Ohm e identificar suas variáveis",
+        "Prever como a corrente varia ao alterar tensão ou resistência",
+        "Relacionar graficamente tensão, corrente e resistência",
+        "Aplicar a equação V = R·I na resolução de problemas simples"
+      ]
+    },
+    {
+      "id": "phet_016",
+      "nome": "Resistência em um Fio",
+      "url": "https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_pt_BR.html",
+      "tema": "circuitos",
+      "descricao": "Observe como a resistência elétrica de um fio varia com a resistividade, o comprimento e a área da seção transversal.",
+      "topicos": ["Resistência elétrica", "Resistividade", "Comprimento do condutor", "Seção transversal"],
+      "objetivos": [
+        "Relacionar resistência elétrica com as propriedades físicas do condutor",
+        "Aplicar a equação R = ρ·L/A para calcular a resistência de um fio",
+        "Prever como alterações no material, comprimento e espessura afetam a resistência",
+        "Comparar diferentes materiais condutores com base em sua resistividade"
+      ]
+    }
+  ]
+}

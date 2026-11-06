@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-18",
+  "platform": "web em moldura de celular",
+  "results": [
+    { "case": "Menu inicial", "result": "Três ações principais: Estudar, Praticar e Simulações; marca original da UNIVASF visível", "passed": true },
+    { "case": "Praticar", "result": "Página abre os acessos a Quiz, Flashcards, Memória, Desafio e Lacunas", "passed": true },
+    { "case": "PhET Gerador", "result": "Lista e detalhes funcionam; Iniciar simulação mostra React Native WebView does not support this platform.", "passed": false, "finding": "A03" }
+  ],
+  "limits": "Não representa teste de Android, iOS ou usabilidade com adolescentes. Não foram enviados dados à API de IA."
+}

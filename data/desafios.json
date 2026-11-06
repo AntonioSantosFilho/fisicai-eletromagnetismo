@@ -1,0 +1,910 @@
+{
+  "modulos": [
+    {
+      "id": "magnetismo",
+      "titulo": "Magnetismo",
+      "descricao": "Situações novas para integrar conceitos, dados e justificativas.",
+      "questoes": [
+        {
+          "id": "des_magnetismo_1",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma equipe move uma bússola ao redor de um ímã de barra e registra várias orientações. O que esses registros permitem construir?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Uma representação da direção do campo em diferentes pontos."
+            },
+            {
+              "letra": "B",
+              "texto": "Uma fotografia de linhas materiais que saem do ímã."
+            },
+            {
+              "letra": "C",
+              "texto": "Um mapa das velocidades dos elétrons da agulha."
+            },
+            {
+              "letra": "D",
+              "texto": "Um mapa da força gravitacional do ímã."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "A bússola permite investigar direções do campo local. A representação obtida não transforma linhas de campo em objetos físicos.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "bussola",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_magnetismo_2",
+          "tipo": "multipla_escolha",
+          "enunciado": "Para prender um aviso em uma superfície de aço, uma equipe escolhe um pequeno ímã permanente. Qual característica do material do ímã é relevante após a retirada do campo usado em sua fabricação?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Ser obrigatoriamente um bom isolante elétrico."
+            },
+            {
+              "letra": "B",
+              "texto": "Manter magnetização remanente."
+            },
+            {
+              "letra": "C",
+              "texto": "Possuir um único polo isolado."
+            },
+            {
+              "letra": "D",
+              "texto": "Perder toda magnetização assim que o campo é retirado."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Um ímã permanente deve manter magnetização após o processo de magnetização. Esse aspecto residual é a remanência; a histerese descreve a dependência da história.",
+          "dificuldade": "facil",
+          "habilidade": "aplicar",
+          "conceito_id": "remanencia-histerese",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_magnetismo_3",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma equipe mediu o campo de um fio muito longo a diferentes distâncias, mantendo a corrente. Qual previsão para 6 cm segue o modelo compatível com os registros?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "3 μT."
+            },
+            {
+              "letra": "B",
+              "texto": "18 μT."
+            },
+            {
+              "letra": "C",
+              "texto": "4 μT."
+            },
+            {
+              "letra": "D",
+              "texto": "36 μT."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Os dados são compatíveis com B proporcional a 1/r. O produto B·r é 24 μT·cm; em 6 cm, B = 24/6 = 4 μT.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "campo-fio",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2",
+          "dados_tabela": {
+            "colunas": [
+              "Distância r (cm)",
+              "Campo B (μT)"
+            ],
+            "linhas": [
+              [
+                "2",
+                "12"
+              ],
+              [
+                "4",
+                "6"
+              ]
+            ],
+            "legenda": "Módulo do campo magnético versus distância."
+          }
+        },
+        {
+          "id": "des_magnetismo_4",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um grupo quer investigar o efeito do número de espiras no campo de uma bobina. Qual comparação é mais adequada no modelo linear?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Variar simultaneamente N, corrente, comprimento e núcleo."
+            },
+            {
+              "letra": "B",
+              "texto": "Medir somente a massa das bobinas sem controlar a corrente."
+            },
+            {
+              "letra": "C",
+              "texto": "Comparar bobinas com correntes desconhecidas e ignorar suas dimensões."
+            },
+            {
+              "letra": "D",
+              "texto": "Variar N, mantendo corrente, comprimento e núcleo constantes."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "Para atribuir a variação do campo a N, é preciso controlar as outras grandezas relevantes. A conclusão será válida dentro das condições do modelo investigado.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "planejamento-experimental",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_magnetismo_5",
+          "tipo": "calculo",
+          "enunciado": "Um feixe contém duas partículas com mesmo |q| e mesma rapidez perpendicular a B. A massa de Y é três vezes a de X. Se o raio de X é 2,0 cm, qual raio esperamos para Y no modelo não relativístico?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "6,0 cm."
+            },
+            {
+              "letra": "B",
+              "texto": "0,67 cm."
+            },
+            {
+              "letra": "C",
+              "texto": "2,0 cm."
+            },
+            {
+              "letra": "D",
+              "texto": "18 cm."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Como r = mv/(|q|B), o raio é proporcional à massa quando as outras grandezas são iguais. Assim, rY = 3 × 2,0 = 6,0 cm.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "campo-e-forca",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_magnetismo_6",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma espira está em campo uniforme com corrente. Uma estudante observa força resultante nula e conclui que ela não pode girar. Qual informação falta nessa análise?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A comprovação de que toda força produz translação e nunca rotação."
+            },
+            {
+              "letra": "B",
+              "texto": "As posições de aplicação das forças, pois elas podem produzir torque resultante não nulo."
+            },
+            {
+              "letra": "C",
+              "texto": "A suposição de que corrente cancela automaticamente todos os torques."
+            },
+            {
+              "letra": "D",
+              "texto": "A existência de polos magnéticos isolados na espira."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Força resultante nula não implica torque nulo. Forças opostas em lados distintos podem formar um binário; a orientação da espira também importa.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "torque",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "eletrodinamica",
+      "titulo": "Eletrodinâmica",
+      "descricao": "Situações novas para integrar conceitos, dados e justificativas.",
+      "questoes": [
+        {
+          "id": "des_eletrodinamica_1",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um circuito ideal tem uma fonte e uma lâmpada em um caminho fechado, sem ramificações. Qual frase explica corretamente o papel da fonte e da lâmpada?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A fonte cria elétrons e a lâmpada os destrói continuamente."
+            },
+            {
+              "letra": "B",
+              "texto": "A corrente diminui a cada volta até desaparecer na lâmpada."
+            },
+            {
+              "letra": "C",
+              "texto": "A fonte transfere energia ao circuito e a lâmpada transforma energia; a carga não é consumida."
+            },
+            {
+              "letra": "D",
+              "texto": "A lâmpada produz toda a energia sem contribuição da fonte."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Em regime estacionário, a carga se conserva e não se acumula na lâmpada. Diferencie transporte de carga de transformação de energia.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "circuito-e-energia",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_eletrodinamica_2",
+          "tipo": "multipla_escolha",
+          "enunciado": "Na simulação de um resistor, um grupo deseja testar a relação entre U e I. Qual procedimento sustenta melhor uma conclusão?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Observar apenas a cor do componente sem registrar valores."
+            },
+            {
+              "letra": "B",
+              "texto": "Mudar U e R simultaneamente sem anotar as alterações."
+            },
+            {
+              "letra": "C",
+              "texto": "Escolher uma única medição e generalizar para todos os dispositivos."
+            },
+            {
+              "letra": "D",
+              "texto": "Registrar vários pares U e I com R fixo e comparar U/I."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "Vários pares com resistência controlada permitem analisar proporcionalidade. A conclusão vale para as condições observadas, não para todo componente possível.",
+          "dificuldade": "facil",
+          "habilidade": "analisar",
+          "conceito_id": "planejamento-experimental",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_eletrodinamica_3",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma equipe registrou as medições abaixo. Mantendo as mesmas condições e o comportamento do modelo, qual corrente é prevista para 12 V?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "2,0 A."
+            },
+            {
+              "letra": "B",
+              "texto": "6,0 A."
+            },
+            {
+              "letra": "C",
+              "texto": "18 A."
+            },
+            {
+              "letra": "D",
+              "texto": "0,125 A."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "A razão U/I vale 6 Ω nos três pontos. A previsão ôhmica é I = 12/6 = 2 A, desde que a resistência permaneça constante.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "dados-circuito",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2",
+          "dados_tabela": {
+            "colunas": [
+              "Tensão U (V)",
+              "Corrente I (A)"
+            ],
+            "linhas": [
+              [
+                "3",
+                "0,5"
+              ],
+              [
+                "6",
+                "1,0"
+              ],
+              [
+                "9",
+                "1,5"
+              ]
+            ],
+            "legenda": "Registros do experimento com resistor."
+          }
+        },
+        {
+          "id": "des_eletrodinamica_4",
+          "tipo": "multipla_escolha",
+          "enunciado": "Na simulação de Faraday, a lâmpada acende ao aproximar o ímã, mas apaga quando ele para perto da bobina. Qual explicação relaciona os dois resultados?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A lâmpada precisa tocar fisicamente no ímã."
+            },
+            {
+              "letra": "B",
+              "texto": "Mover o ímã varia o fluxo; mantê-lo parado pode manter o fluxo constante."
+            },
+            {
+              "letra": "C",
+              "texto": "A presença de campo sempre produz a mesma tensão, mesmo parado."
+            },
+            {
+              "letra": "D",
+              "texto": "O ímã gasta todos os elétrons ao parar."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Os resultados distinguem presença de campo e variação de fluxo. No modelo de indução, a força eletromotriz depende da taxa de variação do fluxo.",
+          "dificuldade": "medio",
+          "habilidade": "aplicar",
+          "conceito_id": "inducao",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_eletrodinamica_5",
+          "tipo": "calculo",
+          "enunciado": "Uma fonte ideal de 18 V alimenta resistores de 3 Ω e 6 Ω em série. Qual par corrente total–potência no resistor de 6 Ω é correto?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "3 A e 54 W."
+            },
+            {
+              "letra": "B",
+              "texto": "2 A e 12 W."
+            },
+            {
+              "letra": "C",
+              "texto": "2 A e 24 W."
+            },
+            {
+              "letra": "D",
+              "texto": "6 A e 216 W."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "R_eq = 9 Ω e I = 18/9 = 2 A. No resistor de 6 Ω, P = RI² = 6 × 4 = 24 W. A potência total é 36 W, repartida entre os resistores.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "serie-paralelo",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_eletrodinamica_6",
+          "tipo": "multipla_escolha",
+          "enunciado": "Plano A: equipamento de 300 W por 2 h diárias. Plano B: equipamento de 100 W por 4 h diárias. Para 30 dias e potências constantes, qual comparação é correta?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A transforma 9 kWh e B, 12 kWh."
+            },
+            {
+              "letra": "B",
+              "texto": "Os dois transformam 12 kWh."
+            },
+            {
+              "letra": "C",
+              "texto": "B transforma mais energia só porque funciona por mais horas."
+            },
+            {
+              "letra": "D",
+              "texto": "A transforma 18 kWh e B, 12 kWh."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "A: 0,300 × 2 × 30 = 18 kWh. B: 0,100 × 4 × 30 = 12 kWh. Potência e tempo precisam ser considerados em conjunto.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "energia-eletrica",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "eletrostatica",
+      "titulo": "Eletrostática",
+      "descricao": "Situações novas para integrar conceitos, dados e justificativas.",
+      "questoes": [
+        {
+          "id": "des_eletrostatica_1",
+          "tipo": "multipla_escolha",
+          "enunciado": "Dois corpos isolados têm cargas iniciais +8 nC e −2 nC. Eles interagem sem troca de carga com o ambiente. Qual soma final é compatível com conservação?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "+6 nC."
+            },
+            {
+              "letra": "B",
+              "texto": "+10 nC."
+            },
+            {
+              "letra": "C",
+              "texto": "−6 nC."
+            },
+            {
+              "letra": "D",
+              "texto": "Zero, independentemente do processo."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "A soma algébrica inicial é +8 − 2 = +6 nC. A distribuição pode mudar, mas a carga total do sistema isolado se conserva.",
+          "dificuldade": "facil",
+          "habilidade": "analisar",
+          "conceito_id": "conservacao-carga",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_eletrostatica_2",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um grupo observa atração entre uma haste carregada e uma esfera metálica. Apenas isso permite afirmar que a esfera tinha carga resultante de sinal oposto?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Sim. Um corpo neutro nunca sofre atração elétrica."
+            },
+            {
+              "letra": "B",
+              "texto": "Não. A esfera poderia estar neutra e polarizar-se."
+            },
+            {
+              "letra": "C",
+              "texto": "Sim. A atração prova ausência de elétrons na esfera."
+            },
+            {
+              "letra": "D",
+              "texto": "Não, porque cargas elétricas nunca produzem atração."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "A observação de atração admite mais de uma explicação. Um condutor neutro pode redistribuir suas cargas em presença da haste.",
+          "dificuldade": "facil",
+          "habilidade": "aplicar",
+          "conceito_id": "polarizacao",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_eletrostatica_3",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma equipe mede a força em cargas de prova positivas q e 2q no mesmo ponto, sem alterar as fontes. Encontra F e 2F. O que pode concluir sobre o campo?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Dobrou no segundo ensaio."
+            },
+            {
+              "letra": "B",
+              "texto": "É zero porque as razões são iguais."
+            },
+            {
+              "letra": "C",
+              "texto": "É o mesmo nos dois ensaios, pois F/q é igual."
+            },
+            {
+              "letra": "D",
+              "texto": "Depende somente da massa das cargas de prova."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "A razão F/|q| é a mesma. O campo das fontes não se altera ao trocar uma carga de prova que não perturba o sistema.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "campo-eletrico",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_eletrostatica_4",
+          "tipo": "multipla_escolha",
+          "enunciado": "Duas cargas positivas iguais estão em posições simétricas à esquerda e à direita de um ponto P. Como avaliar o campo em P?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Somar apenas os módulos porque as duas fontes são positivas."
+            },
+            {
+              "letra": "B",
+              "texto": "Considerar somente a carga da direita."
+            },
+            {
+              "letra": "C",
+              "texto": "Concluir que cada fonte individual tem campo nulo em P."
+            },
+            {
+              "letra": "D",
+              "texto": "Somar vetorialmente: contribuições iguais e opostas se cancelam."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "O resultado nulo decorre da composição vetorial, não da inexistência dos campos individuais. A simetria é a informação central.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "superposicao",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_eletrostatica_5",
+          "tipo": "calculo",
+          "enunciado": "Em um experimento ideal, a força entre duas cargas puntiformes vale 8,0 N. Depois, uma carga é duplicada e a distância entre elas é duplicada, mantendo o meio. Qual é a nova força em módulo?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "4,0 N."
+            },
+            {
+              "letra": "B",
+              "texto": "8,0 N."
+            },
+            {
+              "letra": "C",
+              "texto": "16 N."
+            },
+            {
+              "letra": "D",
+              "texto": "32 N."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "O produto das cargas ganha fator 2 e o quadrado da distância ganha fator 4. O fator resultante é 2/4 = 1/2; a nova força vale 4 N.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "coulomb",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_eletrostatica_6",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma carga positiva vai de A a B e sua energia potencial elétrica cai 0,20 J. Considerando apenas a força elétrica, qual análise do trabalho é correta?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A força elétrica realiza −0,20 J de trabalho."
+            },
+            {
+              "letra": "B",
+              "texto": "A força elétrica realiza +0,20 J de trabalho."
+            },
+            {
+              "letra": "C",
+              "texto": "O trabalho é nulo porque carga se conserva."
+            },
+            {
+              "letra": "D",
+              "texto": "A queda de energia potencial significa que toda a energia desapareceu."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "O trabalho da força elétrica é −ΔU. Com ΔU = −0,20 J, W_el = +0,20 J. A conservação da carga não implica trabalho nulo.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "potencial-e-energia",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    },
+    {
+      "id": "ondas-eletromagneticas",
+      "titulo": "Ondas Eletromagnéticas",
+      "descricao": "Situações novas para integrar conceitos, dados e justificativas.",
+      "questoes": [
+        {
+          "id": "des_ondas-eletromagneticas_1",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um rádio recebe uma transmissão e seu alto-falante produz som. Qual descrição da sequência é adequada?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Uma mesma onda sonora atravessa o vácuo e entra no alto-falante."
+            },
+            {
+              "letra": "B",
+              "texto": "O alto-falante converte ar em campo magnético estático que viaja até o ouvido."
+            },
+            {
+              "letra": "C",
+              "texto": "Sinal eletromagnético recebido, processamento elétrico e geração de onda mecânica no ar."
+            },
+            {
+              "letra": "D",
+              "texto": "O receptor transforma o sinal em corrente consumida sem gerar movimento."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "O sistema converte informação entre formas de sinal. A onda que chega à antena e a onda sonora no ar têm naturezas físicas diferentes.",
+          "dificuldade": "facil",
+          "habilidade": "aplicar",
+          "conceito_id": "sinal-e-conversao",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_ondas-eletromagneticas_2",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um desenho mostra duas ondas no mesmo meio com igual distância entre cristas, mas alturas diferentes. O que é possível afirmar a partir desse desenho?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Têm obrigatoriamente frequências diferentes no mesmo meio não dispersivo."
+            },
+            {
+              "letra": "B",
+              "texto": "A mais alta tem necessariamente maior velocidade."
+            },
+            {
+              "letra": "C",
+              "texto": "A amplitude é a distância entre cristas."
+            },
+            {
+              "letra": "D",
+              "texto": "Elas têm o mesmo comprimento de onda e amplitudes diferentes."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "A distância entre cristas mede λ e a altura em relação ao equilíbrio representa amplitude. A frequência também depende da velocidade de propagação.",
+          "dificuldade": "facil",
+          "habilidade": "interpretar",
+          "conceito_id": "grandezas-ondas",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_ondas-eletromagneticas_3",
+          "tipo": "calculo",
+          "enunciado": "Uma onda periódica percorre 12 m em 2,0 s e tem frequência de 3,0 Hz. Qual é seu comprimento de onda?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "2,0 m."
+            },
+            {
+              "letra": "B",
+              "texto": "4,0 m."
+            },
+            {
+              "letra": "C",
+              "texto": "6,0 m."
+            },
+            {
+              "letra": "D",
+              "texto": "18 m."
+            }
+          ],
+          "resposta_correta": "A",
+          "explicacao": "Primeiro, v = 12/2 = 6 m/s. Depois, λ = v/f = 6/3 = 2 m. O enunciado não diz que a onda é luz no vácuo; portanto, não se deve inserir c.",
+          "dificuldade": "medio",
+          "habilidade": "calcular",
+          "conceito_id": "comprimento-frequencia",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_ondas-eletromagneticas_4",
+          "tipo": "multipla_escolha",
+          "enunciado": "Um grupo observa luz entrando perpendicularmente em uma placa de vidro. A direção da parte transmitida não muda. Isso prova que sua velocidade permaneceu igual?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "Sim. Ausência de desvio sempre implica velocidades iguais."
+            },
+            {
+              "letra": "B",
+              "texto": "Não. Na incidência normal, a velocidade pode mudar sem desvio."
+            },
+            {
+              "letra": "C",
+              "texto": "Sim. A frequência obrigatoriamente dobrou."
+            },
+            {
+              "letra": "D",
+              "texto": "Não, porque a luz não pode atravessar materiais."
+            }
+          ],
+          "resposta_correta": "B",
+          "explicacao": "Direção e velocidade são aspectos diferentes. Na interface estacionária, a frequência se mantém; o índice diferente pode alterar velocidade e comprimento de onda.",
+          "dificuldade": "medio",
+          "habilidade": "analisar",
+          "conceito_id": "reflexao-e-refracao",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_ondas-eletromagneticas_5",
+          "tipo": "calculo",
+          "enunciado": "Para uma luz de frequência fixa, dois meios têm índices nA = 1,2 e nB = 1,8. Qual é a razão entre os comprimentos λB/λA?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "3/2."
+            },
+            {
+              "letra": "B",
+              "texto": "1."
+            },
+            {
+              "letra": "C",
+              "texto": "2/3."
+            },
+            {
+              "letra": "D",
+              "texto": "3."
+            }
+          ],
+          "resposta_correta": "C",
+          "explicacao": "Como λ = c/(nf), a razão λB/λA = nA/nB = 1,2/1,8 = 2/3. A frequência é a mesma na comparação.",
+          "dificuldade": "dificil",
+          "habilidade": "calcular",
+          "conceito_id": "refracao",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        },
+        {
+          "id": "des_ondas-eletromagneticas_6",
+          "tipo": "multipla_escolha",
+          "enunciado": "Uma estudante conclui: “Duas ondas de mesma frequência são idênticas em todas as propriedades”. Qual observação refuta a afirmação?",
+          "alternativas": [
+            {
+              "letra": "A",
+              "texto": "A frequência determina obrigatoriamente a amplitude."
+            },
+            {
+              "letra": "B",
+              "texto": "No vácuo, a amplitude determina uma velocidade diferente para cada onda."
+            },
+            {
+              "letra": "C",
+              "texto": "Todas as ondas de mesma frequência têm o mesmo efeito em qualquer material."
+            },
+            {
+              "letra": "D",
+              "texto": "Ondas de mesma frequência podem ter amplitudes e polarizações diferentes."
+            }
+          ],
+          "resposta_correta": "D",
+          "explicacao": "Frequência não esgota a descrição da onda. Amplitude e polarização também importam para sua caracterização e interação com a matéria.",
+          "dificuldade": "dificil",
+          "habilidade": "analisar",
+          "conceito_id": "espectro-e-modelos",
+          "objetivo": "Integrar conceitos e justificar uma previsão em uma situação diferente do treino.",
+          "referencias_apoio": [
+            "openstax-cp-2022"
+          ],
+          "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (2026).",
+          "fonte": "Elaboração própria do projeto; apoio conceitual: URONE; HINRICHS, 2022.",
+          "versao_conteudo": "2026-10-18-r2"
+        }
+      ]
+    }
+  ]
+}

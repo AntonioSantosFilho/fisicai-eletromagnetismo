@@ -1,0 +1,13 @@
+{
+  "assets/images/logo-univasf.png": "5789f8ed22e219e3e07ba1eea7909c1f7e99c9493406e3deb610f454039e6182",
+  "constants/index.ts": "f9eebcdd641b6ae7b0557b48322f20953cdb40ed9485400b66ef9c1a3c70dd90",
+  "data/desafios.json": "59372ae6f82cc336479052d4b8b22d3f8b63f586f8f0fb717050cee460defb80",
+  "data/flashcards.json": "2a14685065c5e68065517ef2a1d91aa4986b1caa4e365d1972815c19fe806e55",
+  "data/lacunas.json": "623bb9196df0ee5f582fa051a280f2e2a30adab8b7a817ac316c38f4daf822ed",
+  "data/math-rendered.json": "cc32af9beccd0903e2a9b7efc1186e6dcf5f89ee3125716186d34fca5f3ac538",
+  "data/memoria.json": "bd5fe503b5d29854830ba84b879ccfee1d03cb7c9eb901ffc5a7ca76d79a422d",
+  "data/phet-simulacoes.json": "09c7c417cfb99c5764a0ac4fe5dda5a75a9b4e4bd66b40db3e8dde7797d37531",
+  "data/questoes.json": "282f2d149dfb99a6c5ba9b00520adcc6111385db3892f61c3f4dec35e190319f",
+  "data/referencias.json": "f70380028a025529cdc9a9e30d84e2ebcb907f5303e6c834dcf78fdc881bf62c",
+  "data/teoria.json": "dc483d5d65c59555a88202e388513bcf6f307d2a58e2efbeff9d26dca294b477"
+}

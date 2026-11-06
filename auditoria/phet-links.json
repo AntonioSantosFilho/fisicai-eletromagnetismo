@@ -1,0 +1,102 @@
+{
+  "checkedAt": "2026-10-18T05:32:15.592Z",
+  "method": "HEAD",
+  "rows": [
+    {
+      "id": "phet_001",
+      "name": "Gerador",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/generator/latest/generator_pt_BR.html"
+    },
+    {
+      "id": "phet_002",
+      "name": "Ímãs e Eletroímãs",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/magnets-and-electromagnets/latest/magnets-and-electromagnets_pt_BR.html"
+    },
+    {
+      "id": "phet_003",
+      "name": "Ímã e Bússola",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/magnet-and-compass/latest/magnet-and-compass_pt_BR.html"
+    },
+    {
+      "id": "phet_004",
+      "name": "Laboratório Eletromagnético de Faraday",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/faradays-electromagnetic-lab/latest/faradays-electromagnetic-lab_pt_BR.html"
+    },
+    {
+      "id": "phet_005",
+      "name": "Kit para Montar um Circuito: AC",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-ac/latest/circuit-construction-kit-ac_pt_BR.html"
+    },
+    {
+      "id": "phet_006",
+      "name": "Kit para Montar um Circuito: AC – Laboratório Virtual",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-ac-virtual-lab/latest/circuit-construction-kit-ac-virtual-lab_pt_BR.html"
+    },
+    {
+      "id": "phet_007",
+      "name": "Lei de Coulomb",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/coulombs-law/latest/coulombs-law_pt_BR.html"
+    },
+    {
+      "id": "phet_008",
+      "name": "Laboratório do Capacitor: Básico",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/capacitor-lab-basics/latest/capacitor-lab-basics_pt_BR.html"
+    },
+    {
+      "id": "phet_009",
+      "name": "Kit para Montar um Circuito DC – Laboratório Virtual",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_pt_BR.html"
+    },
+    {
+      "id": "phet_010",
+      "name": "Kit para Montar Circuito DC",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_pt_BR.html"
+    },
+    {
+      "id": "phet_011",
+      "name": "Cargas e Campos",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html"
+    },
+    {
+      "id": "phet_012",
+      "name": "Lei de Faraday",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law_pt_BR.html"
+    },
+    {
+      "id": "phet_013",
+      "name": "John Travoltagem",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/john-travoltage/latest/john-travoltage_pt_BR.html"
+    },
+    {
+      "id": "phet_014",
+      "name": "Balões e Eletricidade Estática",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_pt_BR.html"
+    },
+    {
+      "id": "phet_015",
+      "name": "Lei de Ohm",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_pt_BR.html"
+    },
+    {
+      "id": "phet_016",
+      "name": "Resistência em um Fio",
+      "status": 200,
+      "url": "https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_pt_BR.html"
+    }
+  ]
+}

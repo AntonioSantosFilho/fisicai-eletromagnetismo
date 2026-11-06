@@ -1,0 +1,78 @@
+﻿[CONTEXTO DO PROJETO]
+O projeto já possui um scaffold base configurado com Expo SDK 54, TypeScript strict,
+NativeWind e Expo Router. A estrutura de pastas já existe e as dependências já estão
+instaladas. Os seguintes arquivos já existem e devem ser ATUALIZADOS, não recriados:
+
+- app/_layout.tsx        ← atualizar
+- app/(tabs)/_layout.tsx ← atualizar
+- app/(tabs)/index.tsx   ← atualizar
+- types/index.ts         ← preencher as interfaces vazias
+- constants/index.ts     ← preencher os objetos vazios
+
+NÃO gere: package.json, tsconfig.json, tailwind.config.js, babel.config.js.
+Esses arquivos já estão configurados e funcionando.
+
+[PAPEL]
+Você é um engenheiro de software sênior especialista em desenvolvimento mobile com
+React Native, com 8+ anos de experiência em aplicativos educacionais. Você segue
+rigorosamente arquitetura limpa, tipagem estrita e convenções modernas de projeto mobile.
+
+[ESPECIFICAÇÃO TÉCNICA]
+Configure a fundação do aplicativo mobile de ensino de física FisicAI sobre o
+scaffold existente. Respeite obrigatoriamente:
+
+Stack já configurada: React Native + Expo SDK 54 + TypeScript strict +
+NativeWind + AsyncStorage + Expo Router.
+
+Requisitos a implementar neste prompt:
+- RNF01: Tela inicial com acesso direto aos principais conteúdos em formato de grid
+- RNF03: Botão de "Ajuda" com instruções básicas de uso (componente reutilizável)
+
+Entregáveis obrigatórios:
+1. app/_layout.tsx — configurar apenas a navegação raiz com Expo Router e
+   StatusBar. Não implementar ThemeProvider, DarkTheme, DefaultTheme,
+   useColorScheme ou alternância de tema.
+2. app/(tabs)/_layout.tsx — registrar apenas as abas visíveis: Home, Estudar,
+   Progresso e Ajuda IA. Não registrar telas internas, detalhes, jogos, sessões,
+   simulações ou rotas dinâmicas usando href: null dentro do Tabs.
+3. app/(tabs)/index.tsx — implementar tela Home com grid de acesso rápido
+   aos módulos (RNF01)
+4. components/HelpButton.tsx — botão de ajuda reutilizável (RNF03)
+5. types/index.ts — preencher todas as interfaces TypeScript do projeto:
+   Flashcard, Questao, ParMemoria, ConteudoTeorico, ProgressoAluno, MensagemIA,
+   SimulacaoPhET
+
+[CHAIN-OF-THOUGHT ESTRUTURADO]
+Antes de gerar qualquer código, percorra estas etapas e registre brevemente
+o raciocínio de cada uma:
+
+Regra visual obrigatória: o app deve usar estilo visual fixo pelos tokens do
+design system e classes NativeWind. Não implementar sistema de tema claro/escuro
+nem provider de tema.
+
+ETAPA 1 — Análise de escopo: liste todas as telas, componentes e tipos de dados
+que o projeto completo precisará, considerando RF01 a RF12 e RNF01 a RNF04.
+
+ETAPA 2 — Arquitetura de navegação: defina a estrutura completa de rotas com
+Expo Router, nomeando cada arquivo e pasta que será criado ao longo dos 6 prompts.
+O grupo app/(tabs) deve conter somente telas que aparecem diretamente na barra
+inferior. Telas internas, rotas dinâmicas, detalhes, jogos, sessões, simulações
+e páginas auxiliares devem ficar fora do grupo de abas e ser acessadas via
+router.push.
+
+ETAPA 3 — Modelagem de dados: defina todas as interfaces TypeScript centrais,
+garantindo que cubram todos os schemas JSON que serão consumidos nos prompts
+seguintes (conteúdo teórico, flashcard, questão, par de memória, simulação PhET,
+progresso e mensagem de IA).
+
+ETAPA 4 — Mapa de navegação: documente o fluxo completo de telas do app,
+identificando quais telas pertencem a cada aba e como se conectam entre si.
+
+ETAPA 5 — Implementação: atualize e crie todos os arquivos dos Entregáveis
+com código completo, funcional e tipado.
+
+ETAPA 6 — Validação: verifique se a tela Home (grid) cobre acesso direto a
+todas as seções exigidas pelos RFs e se as interfaces em types/index.ts são
+suficientes para os prompts seguintes.
+
+Execute cada etapa em sequência. Gere o código completo de todos os arquivos ao final.

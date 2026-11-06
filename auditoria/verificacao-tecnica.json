@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-06T13:02:56.632Z",
+  "checks": [
+    {
+      "name": "TypeScript",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "Testes automatizados",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "Diagnóstico do app",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "Exportação web e Android",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "Relatório com evidências",
+      "passed": true,
+      "exitCode": 0
+    }
+  ],
+  "limits": [
+    "Sem aparelho físico.",
+    "Sem requisição real ao Google.",
+    "Sem publicação ou execução remota de CI."
+  ]
+}

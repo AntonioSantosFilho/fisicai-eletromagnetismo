@@ -1,0 +1,73 @@
+# Dependências e saídas reproduzíveis
+node_modules/
+.expo/
+/dist/
+/web-build/
+/coverage/
+expo-env.d.ts
+*.tsbuildinfo
+
+# Projetos nativos gerados pelo Expo Prebuild
+/android/
+/ios/
+.gradle/
+.cxx/
+.kotlin/
+
+# Segredos: apenas os modelos vazios podem ser publicados
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+.credentials/
+credentials.json
+*-service-account.json
+*service_account*.json
+*.jks
+*.keystore
+*.p8
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+
+# Pacotes de distribuição ficam fora do código-fonte
+*.apk
+*.aab
+*.ipa
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Operação da loja: fontes e diagnóstico técnico público
+/publicacao/*
+!/publicacao/release.json
+!/publicacao/legal.json
+!/publicacao/2026-10-28/
+/publicacao/2026-10-28/*
+!/publicacao/2026-10-28/diagnostico-ui-android.md
+
+# Logs, capturas particulares, caches e configurações da máquina
+*.log
+*.tap
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.metro-health-check*
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.orig.*
+.vscode/
+.idea/
+.audit-tmp/
+.taste-skill/
+/problemas loja ui/
+/independente/
+/auditoria/identidade-2026-10-22/native-assets/
+/auditoria-ci.json
+/repository-manifest.json

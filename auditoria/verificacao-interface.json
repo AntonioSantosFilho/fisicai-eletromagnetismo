@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-18",
+  "platform": "web em moldura de celular",
+  "checks": [
+    {
+      "feature": "Menu inicial e Praticar",
+      "result": "Acessos a conteúdos, atividades e simulações preservados",
+      "status": "verificado na interface"
+    },
+    {
+      "feature": "Atalhos Conceito, Expressão e Exemplo",
+      "result": "Navegam pela leitura; Exemplo expande a resolução",
+      "status": "verificado na interface"
+    },
+    {
+      "feature": "Força magnética",
+      "result": "Troca do sinal da carga altera o sentido da força e a descrição textual",
+      "status": "verificado na interface"
+    },
+    {
+      "feature": "Faraday e Lenz",
+      "result": "Aproximar e afastar mudam a orientação do campo induzido e a face da bobina",
+      "status": "verificado na interface"
+    },
+    {
+      "feature": "Coulomb",
+      "result": "Sinais opostos ativam a atração com forças opostas",
+      "status": "verificado na interface"
+    },
+    {
+      "feature": "Ondas",
+      "result": "Menor comprimento de onda altera o esquema e explica a frequência maior",
+      "status": "verificado na interface"
+    },
+    {
+      "feature": "Equações e resolução",
+      "result": "Notação matemática SVG, sem comandos LaTeX visíveis; solução e referências expandem",
+      "status": "verificado na interface"
+    },
+    {
+      "feature": "Referências",
+      "result": "Autoria, publicação, links reais e acesso em 18 out. 2026 visíveis; folhas de rosto das fontes brasileiras conferidas",
+      "status": "verificado na interface e nos documentos"
+    },
+    {
+      "feature": "Flashcards",
+      "result": "Iniciar, virar, Preciso revisar, Próximo cartão e Reiniciar responderam; sessão de teste não foi concluída",
+      "status": "verificado na interface"
+    },
+    {
+      "feature": "PhET Gerador",
+      "result": "Carregou dentro do app; Pause alterou para Play e Recarregar restaurou a simulação",
+      "status": "verificado na interface"
+    },
+    {
+      "feature": "Cinco jogos",
+      "result": "Concluem em armazenamento isolado, registram uma sessão e congelam o tempo",
+      "status": "verificado em teste automatizado"
+    },
+    {
+      "feature": "Clique repetido",
+      "result": "Quiz, desafio, flashcards e lacunas protegem resposta e avanço",
+      "status": "verificado em teste automatizado"
+    },
+    {
+      "feature": "Perfis e proteção de limpeza",
+      "result": "Controles de perfil, exportação e limpeza presentes. Diálogo de apagar abriu; Tab percorreu controles do diálogo; Cancelar fechou sem apagar dados.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Tutor e privacidade",
+      "result": "Aviso de envio ao Google aparece antes de ativar; Enviar permanece desabilitado. Nenhuma pergunta enviada.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Desafio",
+      "result": "Seleciona todos os níveis; explica sequência do básico ao avançado e meta de 80%.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Lacunas em 360 px",
+      "result": "Quatro temas com dez itens; Eletrostática oferece Fácil 3, Médio 4, Difícil 3. Rolagem e botão de início visíveis.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Trilha pedagógica",
+      "result": "32 conteúdos em ordem, com fundamentos e aprofundamentos. Carga elétrica abriu com objetivo, expressão e exemplo; reflexão e resolução expandiram.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Tópico qualitativo",
+      "result": "Polarização abriu sem equação artificial. Exemplo qualitativo exibe passos e resultado, sem seção matemática vazia. Link da investigação abriu Balões e Eletricidade Estática.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Flashcard e autoavaliação",
+      "result": "Pergunta sem controles de autoavaliação; virar revelou o verso. Feedback trouxe Autoavaliação e referência ABNT. Próximo voltou à pergunta; a expressão de apoio apareceu após virar o segundo cartão. A sessão não foi concluída.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Seleção e cores de dificuldade",
+      "result": "Quiz e memória abriram com Todas. A memória mostrou oito pares e os três níveis. Difícil exibiu botão e resumo vermelhos; Médio, âmbar; Todas, azul. Estado marcado confirmado por aria-checked.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Progresso simplificado",
+      "result": "Não há adicionar/trocar perfil nem exportar. Resetar meus dados abre confirmação; Cancelar fechou sem apagar dados.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Ajuda do tutor",
+      "result": "Não há card de aceite. Ao preencher uma sugestão, Enviar ficou disponível. Ajuda abriu Sobre o assistente com escopo e aviso de envio ao Google; nenhuma pergunta foi enviada.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Cards da teoria",
+      "result": "Expressão e confusão comum exibidas sem faixas laterais. Resultado também usa superfície neutra. Nenhum borderLeft de destaque permanece nos componentes de conteúdo.",
+      "status": "verificado na interface e no código"
+    },
+    {
+      "feature": "Memória: tempo para leitura",
+      "result": "Em localhost, separado da prévia 127.0.0.1, duas cartas ficaram abertas sem Modal automático. Conferir par abriu a comparação com os dois textos e ações Próxima tentativa e Sair da atividade.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Memória: saída e retomada",
+      "result": "Sair da atividade voltou a Praticar. Reabrir preservou cartas 13 e 15, tempo e tentativa, sem abrir o painel automaticamente. Ir ao início voltou ao menu com abas.",
+      "status": "verificado na interface web"
+    },
+    {
+      "feature": "Cartas padronizadas",
+      "result": "Versos azuis com logo original UNIVASF; faces de tamanho uniforme e giro compartilhado. A frente e o verso do flashcard foram conferidos e somente a face ativa apareceu na árvore acessível.",
+      "status": "verificado na interface web; aparelho físico pendente"
+    },
+    {
+      "feature": "Botões e navegação",
+      "result": "Alternativas do desafio têm texto escuro, fundo claro e contorno azul; Reiniciar tem azul-claro e borda. Desafio mostrou Voltar e Ir ao início. Rodapés de feedback mostram continuar e sair.",
+      "status": "verificado na interface web"
+    },
+    {
+      "date": "2026-10-19",
+      "feature": "Memória: explicação opcional e tabuleiro compacto",
+      "result": "No mockup web de 360 e 390 px, seis cartas e controles fixos couberam sem rolagem; a área rolável teve 594 px de conteúdo para 594 px disponíveis, inclusive com textos revelados. Terceira carta fechou o par incorreto, dispensou o feedback e iniciou nova tentativa; pares corretos permaneceram abertos. Conferir par abriu explicação e Próxima rodada preservou o placar. Testado na origem localhost, separada da prévia do usuário em 127.0.0.1. Fontes ampliadas e telas menores podem precisar de rolagem.",
+      "status": "verificado na interface web",
+      "evidence": "C:/Users/Antonio/.codex/visualizations/2026/10/18/01a14d5f-b8e9-77a1-9d7d-cc1553df70a5/fisicai-memoria-rodadas-compactas.jpg"
+    },
+    {
+      "date": "2026-10-19",
+      "feature": "Revisão geral de organização e restauração das cartas",
+      "result": "Preparação dos cinco jogos usa seções Dificuldade e Tema, sem ícone decorativo, título duplicado ou texto longo de rodízio. Quiz preparado em 360 e 390 px; seleção Fácil atualizou o resumo para três questões. Questão testada mostrou enunciado, quatro alternativas e reinício sem rolagem em 360 px (722 px de conteúdo para 722 px disponíveis); resposta abriu feedback e Próxima questão avançou. Estudar separa filtros e resultados; Progresso vazio tem uma única chamada e seção Seus dados; simulações têm grupos com títulos e divisórias, sem decoração repetida. Cartas de memória medidas em 220 px; rolagem preservada. Verificações em localhost, sem alterar o perfil da prévia 127.0.0.1. Conteúdos longos, gráficos e fontes ampliadas podem exigir rolagem.",
+      "status": "verificado na interface web",
+      "evidence": [
+        "C:/Users/Antonio/.codex/visualizations/2026/10/18/01a14d5f-b8e9-77a1-9d7d-cc1553df70a5/fisicai-quiz-secoes.jpg",
+        "C:/Users/Antonio/.codex/visualizations/2026/10/18/01a14d5f-b8e9-77a1-9d7d-cc1553df70a5/fisicai-quiz-questao-organizada.jpg",
+        "C:/Users/Antonio/.codex/visualizations/2026/10/18/01a14d5f-b8e9-77a1-9d7d-cc1553df70a5/fisicai-conteudos-secoes.jpg"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "feature": "Quiz: pausa e resultado explícito",
+      "result": "Na origem de teste localhost, uma resposta incorreta marcou a escolha em vermelho e o gabarito em verde; a inspeção imediatamente após o clique encontrou zero popups. Após a espera, o popup exibiu Resposta incorreta, alternativa escolhida A, correta B e explicação. Os testes com relógio controlado verificam 1499/1500 ms, troca de questão/sessão, foco e cancelamento; cliques repetidos não alteram pontuação. O mesmo atraso é usado no desafio.",
+      "status": "verificado na interface web e em testes automatizados",
+      "evidence": "C:/Users/Antonio/.codex/visualizations/2026/10/18/01a14d5f-b8e9-77a1-9d7d-cc1553df70a5/fisicai-quiz-feedback-claro.jpg"
+    },
+    {
+      "date": "2026-10-19",
+      "feature": "Área segura da navegação inferior",
+      "result": "Proteção inferior centralizada em SafeAreaView no layout raiz, aproveitando o provider do Expo Router. Abas não reaplicam inset inferior; rodapés de preparação e memória compartilham a proteção raiz. Janelas dos modais usam proteção própria. Na prévia web em 360/390 px, barra de 72 px com quatro rótulos completos, navegação para Praticar/Quiz, rodapé Começar quiz e abertura/fechamento da ajuda responderam. Confirmado viewport-fit=cover no HTML. O mockup não simula os insets nativos: validação física com Android por três botões/gestos e indicador do iOS permanece pendente. Sem ADB disponível.",
+      "status": "código e regressão web verificados; aparelho físico pendente",
+      "evidence": "C:/Users/Antonio/.codex/visualizations/2026/10/18/01a14d5f-b8e9-77a1-9d7d-cc1553df70a5/fisicai-navegacao-area-segura.jpg"
+    }
+  ],
+  "limits": [
+    "Não houve teste em Android ou iOS reais.",
+    "Não houve envio de perguntas à API de IA.",
+    "Os 16 experimentos externos não tiveram todos os seus controles examinados.",
+    "A autoria específica de cada enunciado resolvido continua em conferência.",
+    "O gráfico e as tabelas novos têm integridade verificada e bundle exportado; a validação de todos os itens com estudantes permanece pendente."
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "name": "FisicAI Independente",
+  "slug": "fisicai-independente",
+  "version": "1.0.0",
+  "orientation": "default",
+  "icon": "./assets/images/icon.png",
+  "backgroundColor": "#FFFFFF",
+  "scheme": "fisicaiindependente",
+  "userInterfaceStyle": "light",
+  "newArchEnabled": true,
+  "ios": {
+    "icon": "./assets/images/icon.png",
+    "requireFullScreen": true,
+    "supportsTablet": true,
+    "bundleIdentifier": "com.fisicai.independente",
+    "infoPlist": {
+      "CFBundleDevelopmentRegion": "$(DEVELOPMENT_LANGUAGE)",
+      "CFBundleExecutable": "$(EXECUTABLE_NAME)",
+      "CFBundleIdentifier": "$(PRODUCT_BUNDLE_IDENTIFIER)",
+      "CFBundleName": "$(PRODUCT_NAME)",
+      "CFBundlePackageType": "$(PRODUCT_BUNDLE_PACKAGE_TYPE)",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundleSignature": "????",
+      "LSMinimumSystemVersion": "12.0",
+      "LSRequiresIPhoneOS": true,
+      "NSAppTransportSecurity": {
+        "NSAllowsArbitraryLoads": true,
+        "NSExceptionDomains": {
+          "localhost": {
+            "NSExceptionAllowsInsecureHTTPLoads": true
+          }
+        }
+      },
+      "UILaunchStoryboardName": "SplashScreen",
+      "UIRequiredDeviceCapabilities": [
+        "armv7"
+      ],
+      "UIViewControllerBasedStatusBarAppearance": false,
+      "UIStatusBarStyle": "UIStatusBarStyleDefault",
+      "CADisableMinimumFrameDurationOnPhone": true,
+      "RCTNewArchEnabled": true,
+      "CFBundleShortVersionString": "1.0.0",
+      "CFBundleVersion": "1",
+      "CFBundleURLTypes": [
+        {
+          "CFBundleURLSchemes": [
+            "fisicaiindependente",
+            "com.fisicai.independente"
+          ]
+        }
+      ],
+      "UIRequiresFullScreen": true,
+      "UISupportedInterfaceOrientations": [
+        "UIInterfaceOrientationPortrait",
+        "UIInterfaceOrientationPortraitUpsideDown",
+        "UIInterfaceOrientationLandscapeLeft",
+        "UIInterfaceOrientationLandscapeRight"
+      ],
+      "CFBundleDisplayName": "FisicAI Independente",
+      "UIUserInterfaceStyle": "Automatic",
+      "NSUserActivityTypes": [
+        "$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route"
+      ]
+    },
+    "entitlements": {}
+  },
+  "android": {
+    "icon": "./assets/images/icon.png",
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/images/adaptive-icon.png",
+      "backgroundColor": "#ffffff"
+    },
+    "edgeToEdgeEnabled": true,
+    "predictiveBackGestureEnabled": false,
+    "package": "com.fisicai.independente"
+  },
+  "web": {
+    "bundler": "metro",
+    "output": "static",
+    "favicon": "./assets/images/favicon.png"
+  },
+  "plugins": [
+    "expo-router",
+    [
+      "expo-splash-screen",
+      {
+        "image": "./assets/images/splash-icon.png",
+        "imageWidth": 320,
+        "resizeMode": "contain",
+        "backgroundColor": "#FFFFFF",
+        "dark": {
+          "image": "./assets/images/splash-icon.png",
+          "backgroundColor": "#FFFFFF"
+        }
+      }
+    ]
+  ],
+  "experiments": {
+    "typedRoutes": true
+  },
+  "extra": {
+    "router": {}
+  },
+  "_internal": {
+    "isDebug": false,
+    "projectRoot": "D:\\ENGCOMP\\TCC\\aplicativos\\independente",
+    "dynamicConfigPath": {},
+    "staticConfigPath": "D:\\ENGCOMP\\TCC\\aplicativos\\independente\\app.json",
+    "packageJsonPath": "D:\\ENGCOMP\\TCC\\aplicativos\\independente\\package.json",
+    "pluginHistory": {
+      "expo-splash-screen": {
+        "name": "expo-splash-screen",
+        "version": "31.0.13"
+      },
+      "react-native-maps": {
+        "name": "react-native-maps",
+        "version": "UNVERSIONED"
+      },
+      "expo-ads-admob": {
+        "name": "expo-ads-admob",
+        "version": "UNVERSIONED"
+      },
+      "expo-apple-authentication": {
+        "name": "expo-apple-authentication",
+        "version": "UNVERSIONED"
+      },
+      "expo-contacts": {
+        "name": "expo-contacts",
+        "version": "UNVERSIONED"
+      },
+      "expo-notifications": {
+        "name": "expo-notifications",
+        "version": "UNVERSIONED"
+      },
+      "expo-updates": {
+        "name": "expo-updates",
+        "version": "UNVERSIONED"
+      },
+      "expo-document-picker": {
+        "name": "expo-document-picker",
+        "version": "UNVERSIONED"
+      },
+      "expo-system-ui": {
+        "name": "expo-system-ui",
+        "version": "UNVERSIONED"
+      },
+      "expo-navigation-bar": {
+        "name": "expo-navigation-bar",
+        "version": "UNVERSIONED"
+      }
+    },
+    "autolinkedModules": [
+      "expo",
+      "expo-asset",
+      "expo-constants",
+      "expo-file-system",
+      "expo-font",
+      "expo-keep-awake",
+      "expo-linking",
+      "expo-modules-core",
+      "expo-router",
+      "expo-splash-screen",
+      "expo-web-browser"
+    ],
+    "modResults": {
+      "ios": {
+        "infoPlist": {
+          "CFBundleDevelopmentRegion": "$(DEVELOPMENT_LANGUAGE)",
+          "CFBundleExecutable": "$(EXECUTABLE_NAME)",
+          "CFBundleIdentifier": "$(PRODUCT_BUNDLE_IDENTIFIER)",
+          "CFBundleName": "$(PRODUCT_NAME)",
+          "CFBundlePackageType": "$(PRODUCT_BUNDLE_PACKAGE_TYPE)",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "12.0",
+          "LSRequiresIPhoneOS": true,
+          "NSAppTransportSecurity": {
+            "NSAllowsArbitraryLoads": true,
+            "NSExceptionDomains": {
+              "localhost": {
+                "NSExceptionAllowsInsecureHTTPLoads": true
+              }
+            }
+          },
+          "UILaunchStoryboardName": "SplashScreen",
+          "UIRequiredDeviceCapabilities": [
+            "armv7"
+          ],
+          "UIViewControllerBasedStatusBarAppearance": false,
+          "UIStatusBarStyle": "UIStatusBarStyleDefault",
+          "CADisableMinimumFrameDurationOnPhone": true,
+          "RCTNewArchEnabled": true,
+          "CFBundleShortVersionString": "1.0.0",
+          "CFBundleVersion": "1",
+          "CFBundleURLTypes": [
+            {
+              "CFBundleURLSchemes": [
+                "fisicaiindependente",
+                "com.fisicai.independente"
+              ]
+            }
+          ],
+          "UIRequiresFullScreen": true,
+          "UISupportedInterfaceOrientations": [
+            "UIInterfaceOrientationPortrait",
+            "UIInterfaceOrientationPortraitUpsideDown",
+            "UIInterfaceOrientationLandscapeLeft",
+            "UIInterfaceOrientationLandscapeRight"
+          ],
+          "CFBundleDisplayName": "FisicAI Independente",
+          "UIUserInterfaceStyle": "Automatic",
+          "NSUserActivityTypes": [
+            "$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route"
+          ]
+        },
+        "splashScreenStoryboard": {
+          "document": {
+            "$": {
+              "type": "com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB",
+              "version": "3.0",
+              "toolsVersion": "32700.99.1234",
+              "targetRuntime": "iOS.CocoaTouch",
+              "propertyAccessControl": "none",
+              "useAutolayout": "YES",
+              "launchScreen": "YES",
+              "useTraitCollections": "YES",
+              "useSafeAreas": "YES",
+              "colorMatched": "YES",
+              "initialViewController": "EXPO-VIEWCONTROLLER-1"
+            },
+            "device": [
+              {
+                "$": {
+                  "id": "retina6_12",
+                  "orientation": "portrait",
+                  "appearance": "light"
+                }
+              }
+            ],
+            "dependencies": [
+              {
+                "deployment": [
+                  {
+                    "$": {
+                      "identifier": "iOS"
+                    }
+                  }
+                ],
+                "plugIn": [
+                  {
+                    "$": {
+                      "identifier": "com.apple.InterfaceBuilder.IBCocoaTouchPlugin",
+                      "version": "22685"
+                    }
+                  }
+                ],
+                "capability": [
+                  {
+                    "$": {
+                      "name": "Safe area layout guides",
+                      "minToolsVersion": "9.0"
+                    }
+                  },
+                  {
+                    "$": {
+                      "name": "documents saved in the Xcode 8 format",
+                      "minToolsVersion": "8.0"
+                    }
+                  }
+                ]
+              }
+            ],
+            "scenes": [
+              {
+                "scene": [
+                  {
+                    "$": {
+                      "sceneID": "EXPO-SCENE-1"
+                    },
+                    "objects": [
+                      {
+                        "viewController": [
+                          {
+                            "$": {
+                              "storyboardIdentifier": "SplashScreenViewController",
+                              "id": "EXPO-VIEWCONTROLLER-1",
+                              "sceneMemberID": "viewController"
+                            },
+                            "view": [
+                              {
+                                "$": {
+                                  "key": "view",
+                                  "userInteractionEnabled": "NO",
+                                  "contentMode": "scaleToFill",
+                                  "insetsLayoutMarginsFromSafeArea": "NO",
+                                  "id": "EXPO-ContainerView",
+                                  "userLabel": "ContainerView"
+                                },
+                                "rect": [
+                                  {
+                                    "$": {
+                                      "key": "frame",
+                                      "x": "0.0",
+                                      "y": "0.0",
+                                      "width": "393",
+                                      "height": "852"
+                                    }
+                                  }
+                                ],
+                                "autoresizingMask": [
+                                  {
+                                    "$": {
+                                      "key": "autoresizingMask",
+                                      "flexibleMaxX": "YES",
+                                      "flexibleMaxY": "YES"
+                                    }
+                                  }
+                                ],
+                                "subviews": [
+                                  {
+                                    "imageView": [
+                                      {
+                                        "$": {
+                                          "id": "EXPO-SplashScreen",
+                                          "userLabel": "SplashScreenLogo",
+                                          "image": "SplashScreenLogo",
+                                          "contentMode": "scaleAspectFit",
+                                          "clipsSubviews": true,
+                                          "userInteractionEnabled": false,
+                                          "translatesAutoresizingMaskIntoConstraints": false
+                                        },
+                                        "rect": [
+                                          {
+                                            "$": {
+                                              "key": "frame",
+                                              "x": 36.5,
+                                              "y": 266,
+                                              "width": 320,
+                                              "height": 320
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "viewLayoutGuide": [
+                                  {
+                                    "$": {
+                                      "key": "safeArea",
+                                      "id": "Rmq-lb-GrQ"
+                                    }
+                                  }
+                                ],
+                                "constraints": [
+                                  {
+                                    "constraint": [
+                                      {
+                                        "$": {
+                                          "firstItem": "EXPO-SplashScreen",
+                                          "firstAttribute": "centerX",
+                                          "secondItem": "EXPO-ContainerView",
+                                          "secondAttribute": "centerX",
+                                          "id": "cad2ab56f97c5429bf29decf850647a4216861d4"
+                                        }
+                                      },
+                                      {
+                                        "$": {
+                                          "firstItem": "EXPO-SplashScreen",
+                                          "firstAttribute": "centerY",
+                                          "secondItem": "EXPO-ContainerView",
+                                          "secondAttribute": "centerY",
+                                          "id": "1a145271b085b6ce89b1405a310f5b1bb7656595"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "color": [
+                                  {
+                                    "$": {
+                                      "key": "backgroundColor",
+                                      "name": "SplashScreenBackground"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "placeholder": [
+                          {
+                            "$": {
+                              "placeholderIdentifier": "IBFirstResponder",
+                              "id": "EXPO-PLACEHOLDER-1",
+                              "userLabel": "First Responder",
+                              "sceneMemberID": "firstResponder"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "point": [
+                      {
+                        "$": {
+                          "key": "canvasLocation",
+                          "x": "140.625",
+                          "y": "129.4921875"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "image": [
+                  {
+                    "$": {
+                      "name": "SplashScreenLogo",
+                      "width": 320,
+                      "height": 320
+                    }
+                  }
+                ],
+                "namedColor": [
+                  {
+                    "$": {
+                      "name": "SplashScreenBackground"
+                    },
+                    "color": [
+                      {
+                        "$": {
+                          "alpha": "1.000",
+                          "blue": "1.00000000000000",
+                          "green": "1.00000000000000",
+                          "red": "1.00000000000000",
+                          "customColorSpace": "sRGB",
+                          "colorSpace": "custom"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "entitlements": {},
+        "expoPlist": {
+          "EXUpdatesEnabled": false,
+          "EXUpdatesCheckOnLaunch": "ALWAYS",
+          "EXUpdatesLaunchWaitMs": 0
+        },
+        "podfileProperties": {
+          "newArchEnabled": "true",
+          "expo.jsEngine": "hermes"
+        }
+      },
+      "android": {
+        "colors": {
+          "resources": {
+            "color": [
+              {
+                "$": {
+                  "name": "iconBackground"
+                },
+                "_": "#ffffff"
+              },
+              {
+                "$": {
+                  "name": "colorPrimary"
+                },
+                "_": "#023c69"
+              },
+              {
+                "$": {
+                  "name": "colorPrimaryDark"
+                },
+                "_": "#FFFFFF"
+              },
+              {
+                "$": {
+                  "name": "activityBackground"
+                },
+                "_": "#FFFFFF"
+              },
+              {
+                "$": {
+                  "name": "splashscreen_background"
+                },
+                "_": "#FFFFFF"
+              }
+            ]
+          }
+        },
+        "colorsNight": {
+          "resources": {
+            "color": [
+              {
+                "$": {
+                  "name": "splashscreen_background"
+                },
+                "_": "#FFFFFF"
+              }
+            ]
+          }
+        },
+        "styles": {
+          "resources": {
+            "$": {
+              "xmlns:tools": "http://schemas.android.com/tools"
+            },
+            "style": [
+              {
+                "$": {
+                  "name": "AppTheme",
+                  "parent": "Theme.AppCompat.Light.NoActionBar"
+                },
+                "item": [
+                  {
+                    "$": {
+                      "name": "colorPrimary"
+                    },
+                    "_": "@color/colorPrimary"
+                  },
+                  {
+                    "$": {
+                      "name": "android:statusBarColor"
+                    },
+                    "_": "#FFFFFF"
+                  },
+                  {
+                    "$": {
+                      "name": "android:windowBackground"
+                    },
+                    "_": "@color/activityBackground"
+                  }
+                ]
+              },
+              {
+                "$": {
+                  "name": "Theme.App.SplashScreen",
+                  "parent": "Theme.SplashScreen"
+                },
+                "item": [
+                  {
+                    "$": {
+                      "name": "windowSplashScreenBackground"
+                    },
+                    "_": "@color/splashscreen_background"
+                  },
+                  {
+                    "$": {
+                      "name": "windowSplashScreenAnimatedIcon"
+                    },
+                    "_": "@drawable/splashscreen_logo"
+                  },
+                  {
+                    "$": {
+                      "name": "postSplashScreenTheme"
+                    },
+                    "_": "@style/AppTheme"
+                  },
+                  {
+                    "$": {
+                      "name": "android:windowSplashScreenBehavior"
+                    },
+                    "_": "icon_preferred"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "strings": {
+          "resources": {
+            "string": [
+              {
+                "$": {
+                  "name": "app_name"
+                },
+                "_": "FisicAI Independente"
+              },
+              {
+                "$": {
+                  "name": "expo_splash_screen_resize_mode",
+                  "translatable": "false"
+                },
+                "_": "contain"
+              },
+              {
+                "$": {
+                  "name": "expo_splash_screen_status_bar_translucent",
+                  "translatable": "false"
+                },
+                "_": "false"
+              }
+            ]
+          }
+        },
+        "manifest": {
+          "manifest": {
+            "$": {
+              "xmlns:android": "http://schemas.android.com/apk/res/android",
+              "package": "com.fisicai.independente"
+            },
+            "uses-permission": [
+              {
+                "$": {
+                  "android:name": "android.permission.INTERNET"
+                }
+              },
+              {
+                "$": {
+                  "android:name": "android.permission.SYSTEM_ALERT_WINDOW"
+                }
+              },
+              {
+                "$": {
+                  "android:name": "android.permission.VIBRATE"
+                }
+              },
+              {
+                "$": {
+                  "android:name": "android.permission.READ_EXTERNAL_STORAGE"
+                }
+              },
+              {
+                "$": {
+                  "android:name": "android.permission.WRITE_EXTERNAL_STORAGE"
+                }
+              }
+            ],
+            "queries": [
+              {
+                "intent": [
+                  {
+                    "action": [
+                      {
+                        "$": {
+                          "android:name": "android.intent.action.VIEW"
+                        }
+                      }
+                    ],
+                    "category": [
+                      {
+                        "$": {
+                          "android:name": "android.intent.category.BROWSABLE"
+                        }
+                      }
+                    ],
+                    "data": [
+                      {
+                        "$": {
+                          "android:scheme": "https"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "application": [
+              {
+                "$": {
+                  "android:name": ".MainApplication",
+                  "android:label": "@string/app_name",
+                  "android:icon": "@mipmap/ic_launcher",
+                  "android:roundIcon": "@mipmap/ic_launcher_round",
+                  "android:allowBackup": "true",
+                  "android:theme": "@style/AppTheme",
+                  "android:supportsRtl": "true",
+                  "android:enableOnBackInvokedCallback": "false"
+                },
+                "activity": [
+                  {
+                    "$": {
+                      "android:name": ".MainActivity",
+                      "android:configChanges": "keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode",
+                      "android:launchMode": "singleTask",
+                      "android:windowSoftInputMode": "adjustResize",
+                      "android:theme": "@style/Theme.App.SplashScreen",
+                      "android:exported": "true",
+                      "android:screenOrientation": "unspecified"
+                    },
+                    "intent-filter": [
+                      {
+                        "action": [
+                          {
+                            "$": {
+                              "android:name": "android.intent.action.MAIN"
+                            }
+                          }
+                        ],
+                        "category": [
+                          {
+                            "$": {
+                              "android:name": "android.intent.category.LAUNCHER"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "action": [
+                          {
+                            "$": {
+                              "android:name": "android.intent.action.VIEW"
+                            }
+                          }
+                        ],
+                        "category": [
+                          {
+                            "$": {
+                              "android:name": "android.intent.category.DEFAULT"
+                            }
+                          },
+                          {
+                            "$": {
+                              "android:name": "android.intent.category.BROWSABLE"
+                            }
+                          }
+                        ],
+                        "data": [
+                          {
+                            "$": {
+                              "android:scheme": "fisicaiindependente"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "meta-data": [
+                  {
+                    "$": {
+                      "android:name": "expo.modules.updates.ENABLED",
+                      "android:value": "false"
+                    }
+                  },
+                  {
+                    "$": {
+                      "android:name": "expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH",
+                      "android:value": "ALWAYS"
+                    }
+                  },
+                  {
+                    "$": {
+                      "android:name": "expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS",
+                      "android:value": "0"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "gradleProperties": [
+          {
+            "type": "comment",
+            "value": "Specifies whether the app is configured to use edge-to-edge via the app config or plugin\n# WARNING: This property has been deprecated and will be removed in Expo SDK 55. Use `edgeToEdgeEnabled` or `react.edgeToEdgeEnabled` to determine whether the project is using edge-to-edge."
+          },
+          {
+            "type": "property",
+            "key": "expo.edgeToEdgeEnabled",
+            "value": "true\n"
+          },
+          {
+            "type": "comment",
+            "value": "Use this property to enable edge-to-edge display support.\n# This allows your app to draw behind system bars for an immersive UI.\n# Note: Only works with ReactActivity and should not be used with custom Activity."
+          },
+          {
+            "type": "property",
+            "key": "edgeToEdgeEnabled",
+            "value": "true\n"
+          },
+          {
+            "type": "property",
+            "key": "newArchEnabled",
+            "value": "true"
+          },
+          {
+            "type": "property",
+            "key": "hermesEnabled",
+            "value": "true"
+          }
+        ]
+      }
+    }
+  },
+  "sdkVersion": "54.0.0",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "mods": {
+    "ios": {},
+    "android": {}
+  },
+  "androidStatusBar": {
+    "backgroundColor": "#FFFFFF"
+  }
+}

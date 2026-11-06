@@ -1,0 +1,2182 @@
+{
+  "conteudos": [
+    {
+      "tema": "Magnetismo",
+      "topico": "Força Magnética sobre uma Carga em Movimento",
+      "conceito": "Uma carga em movimento sofre força magnética quando sua velocidade tem componente perpendicular ao campo. Para o módulo, usamos |q|. A força é perpendicular à velocidade e ao campo; inverter o sinal da carga inverte seu sentido.\n\nUm campo exclusivamente magnético não realiza trabalho sobre uma carga puntiforme. Pode mudar a direção da velocidade, sem alterar a energia cinética. Um campo elétrico simultâneo exige outra análise.",
+      "formula_legivel": "F = |q|·v·B·sen(θ)",
+      "formula_latex": "F = |q| \\cdot v \\cdot B \\cdot \\text{sen}(\\theta)",
+      "variaveis": [
+        {
+          "simbolo": "F",
+          "significado": "Força magnética resultante na partícula (newton, N)"
+        },
+        {
+          "simbolo": "q",
+          "significado": "Módulo da carga elétrica (coulomb, C)"
+        },
+        {
+          "simbolo": "v",
+          "significado": "Velocidade de deslocamento da carga (m/s)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        },
+        {
+          "simbolo": "θ",
+          "significado": "Ângulo entre a velocidade e as linhas de campo (graus ou radianos)"
+        }
+      ],
+      "nota_pedagogica": "Para velocidade paralela ou antiparalela ao campo, a força é nula.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma partícula com carga de 2 μC move-se a 3·10⁴ m/s em um campo magnético uniforme de 0,15 T. A velocidade forma 30° com o campo. Calcule o módulo da força magnética (sen 30° = 0,5).",
+        "passo_a_passo": "Converta a carga para 2·10⁻⁶ C. Para o módulo, use o valor absoluto da carga e o seno do ângulo entre velocidade e campo. Substitua os valores em F = |q|vB sen θ.",
+        "resolucao_legivel": "F = 2·10⁻⁶ × 3·10⁴ × 0,15 × 0,5 = 4,5·10⁻³ N",
+        "resolucao_latex": "F = (2\\times10^{-6})(3\\times10^4)(0{,}15)\\sin30^\\circ = 4{,}5\\times10^{-3}\\,\\mathrm{N}",
+        "resposta_final": "4,5·10⁻³ N",
+        "referencias_apoio": [
+          "ufrgs-2015",
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Exercício elaborado nesta revisão do FisicAI com assistência de IA (18 out. 2026). Referências abaixo sustentam os conceitos; revisão docente pendente."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 3 / CEFET/SC, Parte II, Seção 5.1",
+      "natureza_expressao": "equacao-definicao",
+      "contexto_expressao": "Equação de definição do módulo da força magnética sobre uma carga puntiforme em movimento. O sentido depende do sinal da carga e da orientação entre a velocidade e o campo.",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "diagrama": "forca-magnetica",
+      "dificuldade": "medio",
+      "id": "magnetismo-forca-magnetica-sobre-uma-carga-em-movimento",
+      "objetivos": [
+        "Prever quando a força magnética é nula e determinar seu sentido."
+      ],
+      "erro_comum": {
+        "afirmacao": "Uma carga em movimento sempre sofre força magnética.",
+        "correcao": "Para velocidade paralela ou antiparalela ao campo, a força é nula."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Trocar o sinal da carga muda o módulo da força?",
+        "resposta": "Não, mantendo |q|, velocidade e campo. O sentido da força se inverte."
+      },
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "campo-magnetico-e-bussola",
+        "eletrostatica-intensidade-do-campo-eletrico"
+      ],
+      "ordem_estudo": 13,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Raio da Trajetória Circular de uma Carga",
+      "conceito": "Uma carga que entra perpendicularmente em campo magnético uniforme pode descrever uma circunferência. A força magnética desempenha o papel de resultante centrípeta: não são duas forças independentes.\n\nO modelo supõe outras forças desprezíveis e movimento não relativístico. Com componente de velocidade paralela ao campo, a trajetória pode ser helicoidal.",
+      "formula_legivel": "R = (m·v) / (|q|·B)",
+      "formula_latex": "R = \\frac{m \\cdot v}{|q| \\cdot B}",
+      "variaveis": [
+        {
+          "simbolo": "R",
+          "significado": "Raio da trajetória circular (metros, m)"
+        },
+        {
+          "simbolo": "m",
+          "significado": "Massa da partícula (quilogramas, kg)"
+        },
+        {
+          "simbolo": "v",
+          "significado": "Velocidade da partícula (m/s)"
+        },
+        {
+          "simbolo": "q",
+          "significado": "Módulo da carga elétrica (coulomb, C)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        }
+      ],
+      "nota_pedagogica": "Centrípeta descreve a função da resultante voltada para o centro; aqui ela é desempenhada pela força magnética.",
+      "exercicio_resolvido": {
+        "enunciado": "Um próton (massa 1,67·10⁻²⁷ kg e carga 1,60·10⁻¹⁹ C) entra perpendicularmente em um campo magnético uniforme de 0,20 T com velocidade de 2,0·10⁶ m/s. Desprezando outras forças e efeitos relativísticos, calcule o raio da trajetória.",
+        "passo_a_passo": "Como a velocidade é perpendicular ao campo, a força magnética faz o papel de resultante centrípeta. Igualando |q|vB = mv²/r, obtemos r = mv/(|q|B).",
+        "resolucao_legivel": "r = (1,67·10⁻²⁷ × 2,0·10⁶)/(1,60·10⁻¹⁹ × 0,20) ≈ 0,104 m",
+        "resolucao_latex": "r = \\frac{(1{,}67\\times10^{-27})(2{,}0\\times10^6)}{(1{,}60\\times10^{-19})(0{,}20)} \\approx 0{,}104\\,\\mathrm{m}",
+        "resposta_final": "Aproximadamente 0,104 m (10,4 cm)",
+        "referencias_apoio": [
+          "ufrgs-2015"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Exercício elaborado nesta revisão do FisicAI com assistência de IA (18 out. 2026). Referências abaixo sustentam os conceitos; revisão docente pendente."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 3, Seção 2.1",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Expressão derivada de |q|vB = mv²/r, para campo uniforme, entrada perpendicular, outras forças desprezíveis e movimento não relativístico.",
+      "referencias": [
+        "ufrgs-2015"
+      ],
+      "dificuldade": "dificil",
+      "id": "magnetismo-raio-da-trajetoria-circular-de-uma-carga",
+      "objetivos": [
+        "Relacionar massa, rapidez, carga e campo ao raio da trajetória."
+      ],
+      "erro_comum": {
+        "afirmacao": "Devemos somar uma força centrípeta à força magnética.",
+        "correcao": "Centrípeta descreve a função da resultante voltada para o centro; aqui ela é desempenhada pela força magnética."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Dobrar a rapidez perpendicular ao campo altera o raio como?",
+        "resposta": "Dobra o raio, mantidas as demais condições do modelo."
+      },
+      "etapa": "aprofundamento",
+      "pre_requisitos": [
+        "magnetismo-forca-magnetica-sobre-uma-carga-em-movimento"
+      ],
+      "ordem_estudo": 23,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Período do Movimento de uma Carga no Campo Magnético",
+      "conceito": "O período é o tempo de uma volta no movimento circular de uma carga em campo magnético uniforme. No modelo não relativístico, partículas com mesma massa e mesmo |q| têm o mesmo período no mesmo campo, mesmo com rapidez e raio diferentes.\n\nA independência em relação à rapidez tem limites: a expressão simples não deve ser generalizada para velocidades relativísticas.",
+      "formula_legivel": "T = 2πm / (|q|B)",
+      "formula_latex": "T = \\frac{2\\pi m}{|q|B}",
+      "variaveis": [
+        {
+          "simbolo": "T",
+          "significado": "Período da volta completa (segundos, s)"
+        },
+        {
+          "simbolo": "m",
+          "significado": "Massa da partícula (quilogramas, kg)"
+        },
+        {
+          "simbolo": "q",
+          "significado": "Carga da partícula (coulomb, C)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        }
+      ],
+      "nota_pedagogica": "Aumentar a rapidez também aumenta o raio. Neste modelo, os efeitos se compensam no período.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma partícula com massa de 4 mg (4·10⁻⁶ kg) e carga de 2 μC (2·10⁻⁶ C) está em movimento circular num campo de 3 T. Calcule o período (adote π = 3).",
+        "passo_a_passo": "1. O período não depende da velocidade: T = (2·π·m) / (q·B). \n2. Substitua os dados: m = 4·10⁻⁶ kg, q = 2·10⁻⁶ C, B = 3 T, π = 3. \n3. Fica T = (2 · 3 · 4·10⁻⁶) / (2·10⁻⁶ · 3). \n4. T = (24·10⁻⁶) / (6·10⁻⁶). \n5. As potências de 10 se anulam, resultando T = 24 / 6 = 4 s.",
+        "resolucao_legivel": "T = (2 · 3 · 4·10⁻⁶) / (2·10⁻⁶ · 3) => T = 24 / 6 => T = 4 s",
+        "resolucao_latex": "T = \\frac{2 \\cdot 3 \\cdot 4 \\cdot 10^{-6}}{2 \\cdot 10^{-6} \\cdot 3} = \\frac{24}{6} = 4 \\text{ s}",
+        "resposta_final": "4 s",
+        "referencias_apoio": [
+          "ufrgs-2015"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 3, Seção 2.2, Eq. 3.5",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Expressão derivada para movimento circular não relativístico em campo uniforme. Usa-se |q| para um período positivo.",
+      "referencias": [
+        "ufrgs-2015"
+      ],
+      "dificuldade": "dificil",
+      "id": "magnetismo-periodo-do-movimento-de-uma-carga-no-campo-magnetico",
+      "objetivos": [
+        "Explicar a independência do período em relação à rapidez neste modelo."
+      ],
+      "erro_comum": {
+        "afirmacao": "A partícula mais rápida sempre completa a volta em menos tempo.",
+        "correcao": "Aumentar a rapidez também aumenta o raio. Neste modelo, os efeitos se compensam no período."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Duas partículas iguais com raios diferentes podem ter o mesmo período?",
+        "resposta": "Sim, no mesmo campo e sob as hipóteses do modelo não relativístico."
+      },
+      "etapa": "aprofundamento",
+      "pre_requisitos": [
+        "magnetismo-raio-da-trajetoria-circular-de-uma-carga"
+      ],
+      "ordem_estudo": 24,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Força Magnética sobre Fio Retilíneo",
+      "conceito": "Um trecho de fio com corrente em um campo magnético externo pode sofrer força. A relação usa o sentido convencional da corrente e o comprimento do trecho imerso no campo. Para fio retilíneo e campo uniforme, também depende do ângulo entre fio e campo.\n\nEssa interação participa de motores e alto-falantes. Um dispositivo real também envolve alimentação, geometria e outras forças.",
+      "formula_legivel": "F = B·I·L·sen(θ)",
+      "formula_latex": "F = B \\cdot I \\cdot L \\cdot \\text{sen}(\\theta)",
+      "variaveis": [
+        {
+          "simbolo": "F",
+          "significado": "Força magnética sobre o fio (newton, N)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        },
+        {
+          "simbolo": "I",
+          "significado": "Intensidade da corrente elétrica (Ampère, A)"
+        },
+        {
+          "simbolo": "L",
+          "significado": "Comprimento do fio imerso no campo (metros, m)"
+        },
+        {
+          "simbolo": "θ",
+          "significado": "Ângulo entre o fio e as linhas do campo"
+        }
+      ],
+      "nota_pedagogica": "A força é nula quando fio e campo são paralelos neste modelo.",
+      "exercicio_resolvido": {
+        "enunciado": "Um fio com 0,2 m de comprimento é percorrido por 5 A num campo magnético uniforme de 3 T. O fio forma 30° com as linhas do campo (sen 30° = 0,5). Calcule a força magnética sobre ele.",
+        "passo_a_passo": "1. Temos os valores B = 3 T, I = 5 A, L = 0,2 m, sen(30°) = 0,5. \n2. Usamos a expressão matemática da força sobre o condutor: F = B·I·L·sen(θ). \n3. Substituímos: F = 3 · 5 · 0,2 · 0,5. \n4. Multiplicamos: F = 15 · 0,1 = 1,5 N.",
+        "resolucao_legivel": "F = 3 · 5 · 0,2 · 0,5 => F = 15 · 0,1 => F = 1,5 N",
+        "resolucao_latex": "F = 3 \\cdot 5 \\cdot 0,2 \\cdot 0,5 = 1,5 \\text{ N}",
+        "resposta_final": "1,5 N",
+        "referencias_apoio": [
+          "ufrgs-2015",
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 5.1 / UFRGS, Cap. 4, Seção 1",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Derivada da ação magnética sobre as cargas em um trecho retilíneo de condutor, em campo uniforme.",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "dificuldade": "facil",
+      "id": "magnetismo-forca-magnetica-sobre-fio-retilineo",
+      "objetivos": [
+        "Prever o efeito da orientação do fio e da inversão da corrente."
+      ],
+      "erro_comum": {
+        "afirmacao": "Um fio energizado sofre a mesma força em qualquer orientação.",
+        "correcao": "A força é nula quando fio e campo são paralelos neste modelo."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Inverter a corrente em um campo fixo altera o quê?",
+        "resposta": "Inverte o sentido da força; o módulo permanece se as demais grandezas forem mantidas."
+      },
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "corrente-eletrica",
+        "magnetismo-forca-magnetica-sobre-uma-carga-em-movimento"
+      ],
+      "ordem_estudo": 15,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Força Magnética entre Fios Paralelos",
+      "conceito": "Cada fio longo com corrente produz campo que atua sobre o outro. No modelo de fios retilíneos paralelos, correntes no mesmo sentido produzem atração; em sentidos opostos, repulsão. As forças sobre os fios têm módulos iguais e sentidos opostos.\n\nA expressão se aplica a trechos cujos efeitos das extremidades dos fios sejam desprezíveis.",
+      "formula_legivel": "F = (μ·I1·I2·L) / (2·π·d)",
+      "formula_latex": "F = \\frac{\\mu \\cdot I_1 \\cdot I_2 \\cdot L}{2 \\cdot \\pi \\cdot d}",
+      "variaveis": [
+        {
+          "simbolo": "F",
+          "significado": "Força magnética mútua de atração ou repulsão (newton, N)"
+        },
+        {
+          "simbolo": "μ",
+          "significado": "Permeabilidade magnética do meio (T·m/A)"
+        },
+        {
+          "simbolo": "I1, I2",
+          "significado": "Correntes elétricas nos condutores (Ampère, A)"
+        },
+        {
+          "simbolo": "L",
+          "significado": "Comprimento dos condutores paralelo (metros, m)"
+        },
+        {
+          "simbolo": "d",
+          "significado": "Distância entre os fios (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "As forças de interação têm o mesmo módulo, mesmo que as correntes sejam diferentes.",
+      "exercicio_resolvido": {
+        "enunciado": "Dois fios retilíneos muito longos estão separados por 0,050 m no vácuo e têm correntes de 5,0 A e 8,0 A. Adote μ₀ = 4π·10⁻⁷ T·m/A. Calcule o módulo da força sobre um trecho de 1,0 m de cada fio, desprezando efeitos das extremidades.",
+        "passo_a_passo": "1. Identifique os dados: I1 = 5 A, I2 = 8 A, d = 0,05 m, L = 1 m. \n2. Expressão matemática: F = (μ·I1·I2·L) / (2·π·d). \n3. F = (4π·10⁻⁷ · 5 · 8 · 1) / (2·π · 0,05). \n4. Cancelando π e o 2: F = (2·10⁻⁷ · 40) / 0,05. \n5. F = 80·10⁻⁷ / 0,05 = 1600·10⁻⁷ N = 1,6·10⁻⁴ N.",
+        "resolucao_legivel": "F = (4π·10⁻⁷ · 5 · 8 · 1) / (2π · 0,05) => F = (2·10⁻⁷ · 40) / 0,05 => F = 80·10⁻⁷ / 0,05 => F = 1,6·10⁻⁴ N",
+        "resolucao_latex": "F = \\frac{4\\pi \\cdot 10^{-7} \\cdot 5 \\cdot 8 \\cdot 1}{2\\pi \\cdot 0,05} = \\frac{80 \\cdot 10^{-7}}{0,05} = 1,6 \\cdot 10^{-4} \\text{ N}",
+        "resposta_final": "1,6·10⁻⁴ N",
+        "referencias_apoio": [
+          "ufrgs-2015",
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 4, Seção 3 / CEFET/SC, Parte II, Seção 5.4",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Expressão derivada para fios longos, retilíneos e paralelos. Correntes no mesmo sentido atraem os fios; em sentidos opostos, repelem.",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "dificuldade": "medio",
+      "id": "magnetismo-forca-magnetica-entre-fios-paralelos",
+      "objetivos": [
+        "Explicar a interação entre correntes paralelas e aplicar ação e reação."
+      ],
+      "erro_comum": {
+        "afirmacao": "O fio de maior corrente exerce mais força sobre o outro do que recebe.",
+        "correcao": "As forças de interação têm o mesmo módulo, mesmo que as correntes sejam diferentes."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Dobrar a separação, mantendo as correntes, altera a força por metro como?",
+        "resposta": "Ela cai à metade no modelo de fios muito longos."
+      },
+      "etapa": "aprofundamento",
+      "pre_requisitos": [
+        "magnetismo-forca-magnetica-sobre-fio-retilineo",
+        "magnetismo-campo-magnetico-de-fio-retilineo-lei-de-ampere"
+      ],
+      "ordem_estudo": 25,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Campo Magnético de Fio Retilíneo (Lei de Ampère)",
+      "conceito": "Uma corrente estacionária em um fio retilíneo muito longo produz linhas de campo magnético circulares ao redor do fio. O módulo cresce com a corrente e diminui com a distância.\n\nA expressão é derivada da lei de Ampère para essa simetria. Não é a forma geral da lei e depende das hipóteses de geometria e meio uniforme.",
+      "formula_legivel": "B = (μ·I) / (2·π·r)",
+      "formula_latex": "B = \\frac{\\mu \\cdot I}{2 \\cdot \\pi \\cdot r}",
+      "variaveis": [
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        },
+        {
+          "simbolo": "μ",
+          "significado": "Permeabilidade magnética do meio (T·m/A)"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Corrente no fio (Ampère, A)"
+        },
+        {
+          "simbolo": "r",
+          "significado": "Distância do ponto até o centro do fio (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "O campo circula ao redor do fio; a regra da mão direita relaciona seu sentido ao da corrente convencional.",
+      "exercicio_resolvido": {
+        "enunciado": "Calcule a densidade de campo magnético a 0,2 metros de um fio reto muito longo que transporta uma corrente de 10 A no vácuo (μ = 4π·10⁻⁷ T·m/A).",
+        "passo_a_passo": "1. Organizando os dados: I = 10 A, r = 0,2 m. \n2. Usamos B = (μ·I) / (2·π·r). \n3. Substituindo: B = (4π·10⁻⁷ · 10) / (2π · 0,2). \n4. Dividimos 4π por 2π, restando 2 em cima: B = (2·10⁻⁷ · 10) / 0,2. \n5. B = (20·10⁻⁷) / 0,2 = 100·10⁻⁷ = 10·10⁻⁶ T (ou 10 μT).",
+        "resolucao_legivel": "B = (4π·10⁻⁷ · 10) / (2π · 0,2) => B = (2·10⁻⁷ · 10) / 0,2 => B = 10·10⁻⁶ T",
+        "resolucao_latex": "B = \\frac{4\\pi \\cdot 10^{-7} \\cdot 10}{2\\pi \\cdot 0,2} = \\frac{40\\pi \\cdot 10^{-7}}{0,4\\pi} = 100 \\cdot 10^{-7} = 10^{-5} \\text{ T}",
+        "resposta_final": "10 μT (ou 10⁻⁵ T)",
+        "referencias_apoio": [
+          "ufrgs-2015",
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 2, Eq 2.1 / CEFET/SC, Parte II, Seção 4.1",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Resultado da lei de Ampère para um fio retilíneo muito longo e um meio com permeabilidade uniforme.",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "dificuldade": "medio",
+      "id": "magnetismo-campo-magnetico-de-fio-retilineo-lei-de-ampere",
+      "objetivos": [
+        "Distinguir a expressão para fio longo da lei de Ampère geral."
+      ],
+      "erro_comum": {
+        "afirmacao": "O campo aponta ao longo do fio porque a corrente segue essa direção.",
+        "correcao": "O campo circula ao redor do fio; a regra da mão direita relaciona seu sentido ao da corrente convencional."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Dobrar corrente e distância simultaneamente muda o campo?",
+        "resposta": "Não neste modelo: a razão I/r permanece igual."
+      },
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "corrente-eletrica",
+        "campo-magnetico-e-bussola"
+      ],
+      "ordem_estudo": 14,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Campo Magnético no Interior de um Solenoide",
+      "conceito": "Um solenoide é uma bobina com muitas espiras. Se seu comprimento for grande em relação ao diâmetro, o campo na região central pode ser aproximado como uniforme. Nas extremidades, a aproximação perde precisão.\n\nA expressão usa a densidade de espiras N/ℓ e um meio linear de permeabilidade uniforme. Um núcleo ferromagnético real pode apresentar saturação e histerese.",
+      "formula_legivel": "B = (N·μ·I) / L",
+      "formula_latex": "B = \\frac{N \\cdot \\mu \\cdot I}{L}",
+      "variaveis": [
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número total de voltas/espiras"
+        },
+        {
+          "simbolo": "μ",
+          "significado": "Permeabilidade magnética do núcleo (T·m/A)"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Corrente elétrica (Ampère, A)"
+        },
+        {
+          "simbolo": "L",
+          "significado": "Comprimento do tubo do solenoide (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "A uniformidade é aproximada e restrita à região central de uma bobina longa; materiais reais podem ser não lineares.",
+      "exercicio_resolvido": {
+        "enunciado": "Determine o campo magnético no interior de um solenoide com 1000 espiras, 0,5 metros de comprimento, núcleo de ar (μ = 4π·10⁻⁷ T·m/A) percorrido por uma corrente de 2 A. Adote π = 3,14.",
+        "passo_a_passo": "1. Identifique os dados: N = 1000, L = 0,5 m, I = 2 A. \n2. Expressão matemática do solenoide: B = (N·μ·I) / L. \n3. Substituindo: B = (1000 · 4π·10⁻⁷ · 2) / 0,5. \n4. Multiplicando tudo em cima: B = (8000π·10⁻⁷) / 0,5 = 16000π·10⁻⁷ T. \n5. Adotando π=3,14: B = 16000 · 3,14 · 10⁻⁷ = 50240 · 10⁻⁷ T = 5,024·10⁻³ T.",
+        "resolucao_legivel": "B = (1000 · 4π·10⁻⁷ · 2) / 0,5 => B = 16000π·10⁻⁷ => B ≈ 5,024·10⁻³ T",
+        "resolucao_latex": "B = \\frac{1000 \\cdot 4\\pi \\cdot 10^{-7} \\cdot 2}{0,5} = 16000\\pi \\cdot 10^{-7} \\approx 5,024 \\cdot 10^{-3} \\text{ T}",
+        "resposta_final": "5,024·10⁻³ T",
+        "referencias_apoio": [
+          "ufrgs-2015",
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 2, Eq 2.3 / CEFET/SC, Parte II, Seção 4.3",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Resultado aproximado para um solenoide longo, desprezando efeitos das extremidades.",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "dificuldade": "medio",
+      "id": "magnetismo-campo-magnetico-no-interior-de-um-solenoide",
+      "objetivos": [
+        "Identificar as hipóteses do modelo de solenoide longo."
+      ],
+      "erro_comum": {
+        "afirmacao": "Qualquer bobina produz campo perfeitamente uniforme, com permeabilidade sempre constante.",
+        "correcao": "A uniformidade é aproximada e restrita à região central de uma bobina longa; materiais reais podem ser não lineares."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Dobrar N, mantendo comprimento e corrente, muda o campo como?",
+        "resposta": "Dobra o campo no modelo linear apresentado."
+      },
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "magnetismo-campo-magnetico-de-fio-retilineo-lei-de-ampere"
+      ],
+      "ordem_estudo": 16,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Magnetismo",
+      "topico": "Campo Magnético no Núcleo de um Toróide",
+      "conceito": "Um toroide é uma bobina enrolada em torno de um núcleo em forma de anel. No modelo ideal, o campo se concentra no interior do anel; componentes reais podem apresentar fluxo de dispersão.\n\nH e B são grandezas diferentes. Em meio linear, homogêneo e isotrópico, B = μH. Usar o raio médio é uma aproximação adequada para um núcleo de seção fina.",
+      "formula_legivel": "B = (μ·N·I) / (2·π·R)",
+      "formula_latex": "B = \\frac{\\mu \\cdot N \\cdot I}{2 \\cdot \\pi \\cdot R}",
+      "variaveis": [
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        },
+        {
+          "simbolo": "μ",
+          "significado": "Permeabilidade magnética do material do núcleo (T·m/A)"
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número de espiras enroladas"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Corrente elétrica contínua (Ampère, A)"
+        },
+        {
+          "simbolo": "R",
+          "significado": "Raio médio do toróide (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "B é medido em T; H, em A/m. Sua relação depende do meio.",
+      "exercicio_resolvido": {
+        "enunciado": "Um toroide ideal com núcleo de ar possui raio médio de 0,10 m e 500 espiras percorridas por 3,0 A. Calcule a intensidade do campo magnético H pela relação H = NI/(2πr). Adote π = 3.",
+        "passo_a_passo": "1. O problema pede H, em A/m, não B, em T.\n2. No modelo ideal: H = NI/(2πr).\n3. H = 500 × 3/(2 × 3 × 0,10) = 2500 A/m.\n4. Obter B exige usar a relação constitutiva do meio: B = μH no caso linear.",
+        "resolucao_legivel": "H = (500 · 3) / (2 · 3 · 0,1) => H = 1500 / 0,6 => H = 2500 A/m",
+        "resolucao_latex": "H = \\frac{N \\cdot I}{2 \\cdot \\pi \\cdot R} = \\frac{500 \\cdot 3}{2 \\cdot 3 \\cdot 0,1} = 2500 \\text{ A/m}",
+        "resposta_final": "2500 A/m",
+        "referencias_apoio": [
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 4.4",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Resultado da lei de Ampère para um toroide ideal. B é medido em tesla e não deve ser confundido com H, medido em ampere por metro.",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "relacao_complementar": {
+        "natureza": "relacao-constitutiva",
+        "latex": "B = \\mu \\cdot H",
+        "legivel": "B = μ·H",
+        "contexto": "Relação constitutiva de um meio magnético linear e isotrópico. A permeabilidade μ relaciona B e H; não é constante para todo material em qualquer situação."
+      },
+      "dificuldade": "dificil",
+      "id": "magnetismo-campo-magnetico-no-nucleo-de-um-toroide",
+      "objetivos": [
+        "Distinguir B, em tesla, de H, em ampere por metro."
+      ],
+      "erro_comum": {
+        "afirmacao": "B e H são a mesma grandeza com duas letras.",
+        "correcao": "B é medido em T; H, em A/m. Sua relação depende do meio."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "O raio da expressão é o raio da pequena espira em torno da seção?",
+        "resposta": "Não. É a distância ao eixo central do toroide; o raio médio aproxima essa distância."
+      },
+      "etapa": "aprofundamento",
+      "pre_requisitos": [
+        "magnetismo-campo-magnetico-no-interior-de-um-solenoide"
+      ],
+      "ordem_estudo": 26,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Torque de Giro numa Espira",
+      "conceito": "Uma espira com corrente em campo magnético uniforme pode sofrer torque. Forças em lados opostos podem ter resultante nula e, ainda assim, produzir tendência de rotação. O ângulo é medido entre o campo e a normal ao plano da espira.\n\nA rotação contínua de um motor exige também alimentação e comutação adequadas; a expressão do torque não descreve sozinha todo o motor.",
+      "formula_legivel": "τ = N·I·A·B·sen(θ)",
+      "formula_latex": "\\tau = N \\cdot I \\cdot A \\cdot B \\cdot \\text{sen}(\\theta)",
+      "variaveis": [
+        {
+          "simbolo": "τ",
+          "significado": "Torque ou momento de rotação (newton-metro, N·m)"
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número de espiras juntas na bobina"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Intensidade da corrente (Ampère, A)"
+        },
+        {
+          "simbolo": "A",
+          "significado": "Área da face da espira (metros quadrados, m²)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        },
+        {
+          "simbolo": "θ",
+          "significado": "Ângulo entre o campo e a reta perpendicular (normal) à espira"
+        }
+      ],
+      "nota_pedagogica": "Forças opostas aplicadas em pontos diferentes podem formar um binário.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma bobina de 50 espiras, com área de 0,01 m², é percorrida por 2 A e imersa num campo B = 0,5 T. Quando seu plano está paralelo às linhas de campo (formando um ângulo θ de 90° com a normal), qual o torque máximo de giro gerado?",
+        "passo_a_passo": "1. Identificar dados: N=50, I=2 A, A=0,01 m², B=0,5 T e sen(90°)=1. \n2. Aplicar a expressão matemática do torque: τ = N·I·A·B·sen(θ). \n3. Substituindo os valores: τ = 50 · 2 · 0,01 · 0,5 · 1. \n4. Multiplicando: τ = 100 · 0,01 · 0,5 = 1 · 0,5 = 0,5 N·m.",
+        "resolucao_legivel": "τ = 50 · 2 · 0,01 · 0,5 · 1 => τ = 100 · 0,005 => τ = 0,5 N·m",
+        "resolucao_latex": "\\tau = 50 \\cdot 2 \\cdot 0,01 \\cdot 0,5 \\cdot 1 = 0,5 \\text{ N}\\cdot\\text{m}",
+        "resposta_final": "0,5 N·m",
+        "referencias_apoio": [
+          "ufrgs-2015",
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 5.5 / UFRGS, Cap. 4, Seção 2",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Expressão derivada para o torque de uma bobina em campo uniforme. O ângulo é medido entre a normal à espira e o campo.",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "dificuldade": "dificil",
+      "id": "eletrodinamica-torque-de-giro-numa-espira",
+      "objetivos": [
+        "Distinguir força resultante e torque e interpretar o ângulo da normal."
+      ],
+      "erro_comum": {
+        "afirmacao": "Força resultante nula implica necessariamente torque nulo.",
+        "correcao": "Forças opostas aplicadas em pontos diferentes podem formar um binário."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "O torque é máximo com o plano da espira paralelo ao campo?",
+        "resposta": "Sim. Nesse caso, a normal faz 90° com o campo."
+      },
+      "etapa": "aprofundamento",
+      "pre_requisitos": [
+        "magnetismo-forca-magnetica-sobre-fio-retilineo"
+      ],
+      "ordem_estudo": 27,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Força Magneto-Motriz (FMM)",
+      "conceito": "A força magnetomotriz de uma bobina caracteriza sua ação magnetizante no modelo de circuito magnético. Ela depende do número de espiras e da corrente. Apesar do nome histórico, não é uma força mecânica.\n\nComo o número de espiras é adimensional, a unidade SI é ampere. A escrita ampere-espira destaca a construção da bobina.",
+      "formula_legivel": "FMM = N·I",
+      "formula_latex": "\\text{FMM} = N \\cdot I",
+      "variaveis": [
+        {
+          "simbolo": "FMM",
+          "significado": "Força magnetomotriz, em ampere (A). Ampere-espira destaca o enrolamento; não é força mecânica."
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número de espiras ou voltas da bobina (adimensional)"
+        },
+        {
+          "simbolo": "I",
+          "significado": "Intensidade da corrente elétrica aplicável (Ampère, A)"
+        }
+      ],
+      "nota_pedagogica": "A grandeza magnetizante é expressa em A e não em N.",
+      "exercicio_resolvido": {
+        "enunciado": "Qual a Força Magneto-Motriz produzida por uma bobina de um relé que tem 120 espiras e está ligada em um circuito que consome 0,5 A?",
+        "passo_a_passo": "1. Identificamos: N = 120 espiras, I = 0,5 A. \n2. Aplicamos a expressão matemática FMM = N·I. \n3. Substituindo os valores, temos FMM = 120 · 0,5. \n4. Multiplicando: FMM = 60 A.",
+        "resolucao_legivel": "FMM = 120 · 0,5 => FMM = 60 A",
+        "resolucao_latex": "\\text{FMM} = 120 \\cdot 0,5 = 60 \\text{ A}",
+        "resposta_final": "60 A",
+        "referencias_apoio": [
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 4.4",
+      "natureza_expressao": "equacao-definicao",
+      "contexto_expressao": "Define a força magnetomotriz de uma bobina pelo produto entre número de espiras e corrente.",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "dificuldade": "medio",
+      "id": "eletrodinamica-forca-magneto-motriz-fmm",
+      "objetivos": [
+        "Interpretar força magnetomotriz sem confundi-la com força em newton."
+      ],
+      "erro_comum": {
+        "afirmacao": "Uma força magnetomotriz de 50 A é uma força mecânica de 50 N.",
+        "correcao": "A grandeza magnetizante é expressa em A e não em N."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Duas bobinas com NI igual necessariamente têm o mesmo fluxo?",
+        "resposta": "Não. O fluxo também depende da geometria, do núcleo e das condições do circuito magnético."
+      },
+      "etapa": "aprofundamento",
+      "pre_requisitos": [
+        "magnetismo-campo-magnetico-no-interior-de-um-solenoide"
+      ],
+      "ordem_estudo": 28,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Relutância e Lei de Hopkinson",
+      "conceito": "A relutância relaciona força magnetomotriz e fluxo no modelo de circuito magnético. Depende da geometria e da permeabilidade. A lei de Hopkinson é uma aproximação útil quando suas hipóteses são respeitadas.\n\nFluxo não é uma substância que percorre o núcleo nem é consumido. Em materiais não lineares, não se deve supor relutância constante para qualquer corrente.",
+      "formula_legivel": "φ = FMM / ℜ",
+      "formula_latex": "\\varphi = \\frac{\\text{FMM}}{\\Re}",
+      "variaveis": [
+        {
+          "simbolo": "φ",
+          "significado": "Fluxo Magnético gerado (weber, Wb)"
+        },
+        {
+          "simbolo": "FMM",
+          "significado": "Força Magneto-Motriz aplicada (Ampère-espira, Ae)"
+        },
+        {
+          "simbolo": "ℜ",
+          "significado": "Relutância Magnética do material (A/Wb)"
+        }
+      ],
+      "nota_pedagogica": "Fluxo é uma grandeza associada ao campo através de uma superfície. A analogia com corrente tem limites.",
+      "exercicio_resolvido": {
+        "enunciado": "Em um transformador, uma bobina gera uma FMM de 500 A. Se a relutância do núcleo de ferro é de 100.000 A/Wb, qual o fluxo magnético (φ) que irá atravessá-lo?",
+        "passo_a_passo": "1. Dados: FMM = 500 A, ℜ = 100.000 A/Wb. \n2. Usamos a Lei de Hopkinson: φ = FMM / ℜ. \n3. Substituímos os valores: φ = 500 / 100000. \n4. Fazendo a divisão: φ = 0,005 Wb.",
+        "resolucao_legivel": "φ = 500 / 100000 => φ = 5 / 1000 => φ = 0,005 Wb",
+        "resolucao_latex": "\\varphi = \\frac{500}{100000} = 0,005 \\text{ Wb}",
+        "resposta_final": "0,005 Wb",
+        "referencias_apoio": [
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 4.4",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Lei de Hopkinson: relação de um modelo de circuito magnético, obtida sob hipóteses de fluxo bem definido e relutância representativa do caminho.",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "dificuldade": "dificil",
+      "id": "eletrodinamica-relutancia-e-lei-de-hopkinson",
+      "objetivos": [
+        "Aplicar a relação de Hopkinson e reconhecer os limites da analogia elétrica."
+      ],
+      "erro_comum": {
+        "afirmacao": "Fluxo magnético é uma corrente de matéria que se perde no núcleo.",
+        "correcao": "Fluxo é uma grandeza associada ao campo através de uma superfície. A analogia com corrente tem limites."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Duplicar a relutância, mantendo a força magnetomotriz, muda o fluxo como?",
+        "resposta": "Reduz o fluxo à metade no modelo de relutância constante."
+      },
+      "etapa": "aprofundamento",
+      "pre_requisitos": [
+        "eletrodinamica-forca-magneto-motriz-fmm",
+        "eletrodinamica-fluxo-magnetico"
+      ],
+      "ordem_estudo": 29,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Fluxo Magnético",
+      "conceito": "Fluxo magnético mede a contribuição do campo através de uma superfície orientada. Para campo uniforme e superfície plana, depende do campo, da área e do cosseno do ângulo entre campo e normal à superfície.\n\nLinhas de campo são uma representação; fluxo não é uma contagem literal de objetos. A orientação escolhida para a normal determina o sinal do fluxo.",
+      "formula_legivel": "φ = B·A·cos(θ)",
+      "formula_latex": "\\varphi = B \\cdot A \\cdot \\cos(\\theta)",
+      "variaveis": [
+        {
+          "simbolo": "φ",
+          "significado": "Fluxo magnético total (weber, Wb)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        },
+        {
+          "simbolo": "A",
+          "significado": "Área da superfície atravessada (metros quadrados, m²)"
+        },
+        {
+          "simbolo": "θ",
+          "significado": "Ângulo entre as linhas do campo e a reta Normal (perpendicular) à área"
+        }
+      ],
+      "nota_pedagogica": "Linhas são uma representação, e o ângulo é medido com a normal ao plano.",
+      "exercicio_resolvido": {
+        "enunciado": "Um aro quadrado tem uma área de 0,05 m² e está num campo magnético uniforme de 0,2 T. Qual o fluxo se a normal à área forma um ângulo de 60° com as linhas do campo? (cos(60°) = 0,5)",
+        "passo_a_passo": "1. Valores: B = 0,2 T, A = 0,05 m², e cos(60°) = 0,5. \n2. Expressão matemática: φ = B·A·cos(θ). \n3. Substituindo: φ = 0,2 · 0,05 · 0,5. \n4. Multiplicando: φ = 0,01 · 0,5 = 0,005 Wb.",
+        "resolucao_legivel": "φ = 0,2 · 0,05 · 0,5 => φ = 0,01 · 0,5 => φ = 0,005 Wb",
+        "resolucao_latex": "\\varphi = 0,2 \\cdot 0,05 \\cdot 0,5 = 0,005 \\text{ Wb}",
+        "resposta_final": "0,005 Wb",
+        "referencias_apoio": [
+          "ufrgs-2015"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 6, Seção 2, Eq 6.1",
+      "natureza_expressao": "equacao-definicao",
+      "contexto_expressao": "Equação de definição do fluxo para campo uniforme e superfície plana. O ângulo é medido com a normal à superfície.",
+      "referencias": [
+        "ufrgs-2015"
+      ],
+      "dificuldade": "medio",
+      "id": "eletrodinamica-fluxo-magnetico",
+      "objetivos": [
+        "Interpretar fluxo e identificar o ângulo correto."
+      ],
+      "erro_comum": {
+        "afirmacao": "Fluxo é a quantidade de linhas materiais que atravessa uma área.",
+        "correcao": "Linhas são uma representação, e o ângulo é medido com a normal ao plano."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Uma espira em campo não nulo pode ter fluxo nulo?",
+        "resposta": "Sim, quando o campo é paralelo ao plano da espira."
+      },
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "campo-magnetico-e-bussola"
+      ],
+      "ordem_estudo": 17,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Lei da Indução de Faraday",
+      "conceito": "A lei de Faraday relaciona força eletromotriz à taxa de variação do fluxo magnético. O fluxo pode variar por mudança do campo, da área ou da orientação da espira. A forma ΔΦ/Δt fornece a média no intervalo.\n\nTensão induzida não garante corrente sustentada: é preciso considerar o caminho condutor. A lei de Lenz indica o sentido da resposta, em oposição à variação do fluxo.",
+      "formula_legivel": "e = - N · (Δφ / Δt)",
+      "formula_latex": "e = - N \\cdot \\frac{\\Delta \\varphi}{\\Delta t}",
+      "variaveis": [
+        {
+          "simbolo": "e",
+          "significado": "Força eletromotriz induzida ou tensão média (volt, V)"
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número de espiras da bobina (adimensional)"
+        },
+        {
+          "simbolo": "Δφ",
+          "significado": "Variação do fluxo magnético: final menos inicial (weber, Wb)"
+        },
+        {
+          "simbolo": "Δt",
+          "significado": "Intervalo de tempo onde ocorreu a variação (segundos, s)"
+        }
+      ],
+      "nota_pedagogica": "O que importa é a variação do fluxo. Uma bobina aberta pode ter tensão nos terminais sem corrente sustentada.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma bobina de 100 espiras idênticas sofre variação de fluxo de 0,002 Wb em cada espira, durante 0,10 s. Qual é o módulo da força eletromotriz média induzida?",
+        "passo_a_passo": "1. Valores: N = 100, Δφ = 0,002 Wb, Δt = 0,1 s. \n2. Aplicar a Lei de Faraday (considerando apenas a magnitude ou intensidade da tensão): e = N · (Δφ / Δt). \n3. Fica e = 100 · (0,002 / 0,1). \n4. Dividindo 0,002 por 0,1 obtemos 0,02. \n5. Multiplicando: e = 100 · 0,02 = 2 V.",
+        "resolucao_legivel": "e = 100 · (0,002 / 0,1) => e = 100 · 0,02 => e = 2 V",
+        "resolucao_latex": "e = 100 \\cdot \\frac{0,002}{0,1} = 100 \\cdot 0,02 = 2 \\text{ V}",
+        "resposta_final": "2 V",
+        "referencias_apoio": [
+          "ufrgs-2015",
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "UFRGS, Cap. 6, Eq 6.2 / CEFET/SC, Parte II, Seção 7",
+      "natureza_expressao": "lei-fisica",
+      "contexto_expressao": "Lei de Faraday: uma variação do fluxo magnético produz força eletromotriz. O sinal negativo expressa a lei de Lenz: a resposta induzida se opõe à variação do fluxo. Esta forma usa a tensão média no intervalo.",
+      "referencias": [
+        "ufrgs-2015",
+        "mussoi-2007"
+      ],
+      "diagrama": "inducao",
+      "dificuldade": "medio",
+      "id": "eletrodinamica-lei-da-inducao-de-faraday",
+      "objetivos": [
+        "Distinguir tensão e corrente induzidas e interpretar fluxo por espira."
+      ],
+      "erro_comum": {
+        "afirmacao": "Só existe indução com ímã em movimento, e tensão sempre implica corrente.",
+        "correcao": "O que importa é a variação do fluxo. Uma bobina aberta pode ter tensão nos terminais sem corrente sustentada."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Um campo constante pode produzir fluxo variável?",
+        "resposta": "Sim, se a área ou a orientação da espira mudar ao longo do tempo."
+      },
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "eletrodinamica-fluxo-magnetico",
+        "corrente-eletrica"
+      ],
+      "ordem_estudo": 18,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      },
+      "investigacao": {
+        "simulacao_id": "phet_012",
+        "prever": "A lâmpada continuará acesa se o ímã ficar parado em relação à bobina?",
+        "observar": "Compare aproximar, afastar e manter o ímã parado. Repita lentamente e rapidamente.",
+        "explicar": "Relacione o efeito observado à variação de fluxo, e não apenas à presença do ímã."
+      }
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Tensão Induzida em Condutor Móvel",
+      "conceito": "Uma barra condutora em movimento em campo magnético pode ter separação de cargas e diferença de potencial entre suas extremidades. Na configuração perpendicular entre barra, velocidade e campo, o módulo é BLv.\n\nUma barra isolada não se transforma em pilha química. A separação de cargas cria campo elétrico interno que pode equilibrar a força magnética sobre as cargas.",
+      "formula_legivel": "e = B·L·v",
+      "formula_latex": "e = B \\cdot L \\cdot v",
+      "variaveis": [
+        {
+          "simbolo": "e",
+          "significado": "Força eletromotriz ou tensão induzida (volt, V)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        },
+        {
+          "simbolo": "L",
+          "significado": "Comprimento da haste que está cortando as linhas (metros, m)"
+        },
+        {
+          "simbolo": "v",
+          "significado": "Velocidade da haste puxada (m/s)"
+        }
+      ],
+      "nota_pedagogica": "A orientação importa: movimento paralelo ao campo não produz esse efeito no modelo.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma barra condutora de 0,40 m move-se a 3,0 m/s em campo magnético uniforme de 0,50 T. Barra, velocidade e campo são mutuamente perpendiculares. Determine o módulo da diferença de potencial entre suas extremidades.",
+        "passo_a_passo": "1. Verifique a configuração perpendicular.\n2. Use |ε| = BLv.\n3. |ε| = 0,50 × 0,40 × 3,0 = 0,60 V.\n4. Tensão nos terminais não implica corrente sustentada em uma barra isolada.",
+        "resolucao_legivel": "|ε| = 0,50 × 0,40 × 3,0 = 0,60 V",
+        "resolucao_latex": "|\\varepsilon|=0{,}50\\times0{,}40\\times3{,}0=0{,}60\\,\\mathrm{V}",
+        "resposta_final": "0,60 V",
+        "referencias_apoio": [
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Exercício elaborado para o FisicAI com assistência de IA (18 out. 2026). Referências de apoio abaixo."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 7.1",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Expressão derivada para uma haste em movimento em uma configuração perpendicular entre campo, velocidade e comprimento efetivo.",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "dificuldade": "medio",
+      "id": "eletrodinamica-tensao-induzida-em-condutor-movel",
+      "objetivos": [
+        "Explicar tensão de movimento e reconhecer a configuração perpendicular."
+      ],
+      "erro_comum": {
+        "afirmacao": "Qualquer movimento de uma barra gera a tensão BLv.",
+        "correcao": "A orientação importa: movimento paralelo ao campo não produz esse efeito no modelo."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Uma barra isolada precisa ter corrente sustentada para ter tensão nos terminais?",
+        "resposta": "Não. Separação de cargas pode produzir diferença de potencial sem corrente sustentada."
+      },
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "magnetismo-forca-magnetica-sobre-uma-carga-em-movimento",
+        "potencial-e-energia"
+      ],
+      "ordem_estudo": 19,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Indutância de um Solenoide",
+      "conceito": "A indutância caracteriza a relação entre corrente e fluxo magnético concatenado com um circuito. Quando a corrente varia, surge tensão autoinduzida que se opõe à variação, conforme Faraday e Lenz. A grandeza não é mecânica.\n\nA expressão é aproximada para solenoide longo e meio linear. Armazenamento de energia no campo e dissipação na resistência do fio são aspectos diferentes.",
+      "formula_legivel": "L = (μ·N²·A) / l",
+      "formula_latex": "L = \\frac{\\mu \\cdot N^2 \\cdot A}{l}",
+      "variaveis": [
+        {
+          "simbolo": "L",
+          "significado": "Indutância do indutor (henry, H)"
+        },
+        {
+          "simbolo": "μ",
+          "significado": "Permeabilidade magnética do núcleo (T·m/A ou H/m)"
+        },
+        {
+          "simbolo": "N",
+          "significado": "Número de espiras"
+        },
+        {
+          "simbolo": "A",
+          "significado": "Área de seção transversal do núcleo (metros quadrados, m²)"
+        },
+        {
+          "simbolo": "l",
+          "significado": "Comprimento longitudinal do indutor (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "A tensão de autoindução depende da variação da corrente; em regime ideal constante ela é nula.",
+      "exercicio_resolvido": {
+        "enunciado": "Calcule a indutância de uma bobina com núcleo de ar (μ = 4π·10⁻⁷), 100 espiras, comprimento de 0,1 m e área de 0,002 m². Adote π = 3.",
+        "passo_a_passo": "1. Dados: N = 100, N² = 10000, l = 0,1, A = 0,002, μ = 12·10⁻⁷ (usando π=3). \n2. Usar L = (μ·N²·A) / l. \n3. L = (12·10⁻⁷ · 10000 · 0,002) / 0,1. \n4. Multiplicando: L = (12·10⁻⁷ · 20) / 0,1 = 240·10⁻⁷ / 0,1. \n5. L = 2400·10⁻⁷ H = 2,4·10⁻⁴ H (ou 240 μH).",
+        "resolucao_legivel": "L = (12·10⁻⁷ · 10000 · 0,002) / 0,1 => L = (240·10⁻⁷) / 0,1 => L = 2400·10⁻⁷ H",
+        "resolucao_latex": "L = \\frac{12 \\cdot 10^{-7} \\cdot 10^4 \\cdot 2 \\cdot 10^{-3}}{0,1} = \\frac{24 \\cdot 10^{-6}}{0,1} = 2,4 \\cdot 10^{-4} \\text{ H}",
+        "resposta_final": "240 μH",
+        "referencias_apoio": [
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 9, Exemplo 9.1",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Expressão derivada para um solenoide ideal em um meio linear e uniforme.",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "dificuldade": "dificil",
+      "id": "eletrodinamica-indutancia-de-um-solenoide",
+      "objetivos": [
+        "Relacionar autoindução e variação de corrente e reconhecer o modelo ideal."
+      ],
+      "erro_comum": {
+        "afirmacao": "Um indutor sempre impede qualquer corrente, inclusive constante.",
+        "correcao": "A tensão de autoindução depende da variação da corrente; em regime ideal constante ela é nula."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Quadruplicar N quadruplica L?",
+        "resposta": "Não. Mantidas as outras condições, L varia com N²: aumenta 16 vezes."
+      },
+      "etapa": "aprofundamento",
+      "pre_requisitos": [
+        "magnetismo-campo-magnetico-no-interior-de-um-solenoide",
+        "eletrodinamica-lei-da-inducao-de-faraday"
+      ],
+      "ordem_estudo": 30,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Eletrodinâmica",
+      "topico": "Indutância Mútua e Acoplamento Magnético",
+      "conceito": "Duas bobinas podem compartilhar parte do fluxo magnético. A variação de corrente em uma pode induzir tensão na outra. A indutância mútua quantifica o acoplamento, que depende da geometria e do meio.\n\nA expressão para o módulo M usa as autoindutâncias e um coeficiente entre zero e um. A polaridade da tensão também depende do sentido dos enrolamentos.",
+      "formula_legivel": "M = k · √(L1 · L2)",
+      "formula_latex": "M = k \\cdot \\sqrt{L_1 \\cdot L_2}",
+      "variaveis": [
+        {
+          "simbolo": "M",
+          "significado": "Indutância Mútua acoplada (henry, H)"
+        },
+        {
+          "simbolo": "k",
+          "significado": "Coeficiente de acoplamento entre as bobinas (entre 0 e 1, adimensional)"
+        },
+        {
+          "simbolo": "L1",
+          "significado": "Autoindutância da bobina 1 (henry, H)"
+        },
+        {
+          "simbolo": "L2",
+          "significado": "Autoindutância da bobina 2 (henry, H)"
+        }
+      ],
+      "nota_pedagogica": "O compartilhamento pode ser parcial e a tensão depende da variação do fluxo.",
+      "exercicio_resolvido": {
+        "enunciado": "Duas bobinas estão enroladas bem próximas, e sabemos que L1 = 4 mH e L2 = 9 mH. O fabricante aponta um ótimo coeficiente de acoplamento k = 0,8. Qual a indutância mútua (M) entre elas?",
+        "passo_a_passo": "1. Extrair os valores: L1 = 4, L2 = 9, k = 0,8. \n2. Usar a expressão matemática M = k · √(L1 · L2). \n3. Substituindo: M = 0,8 · √(4 · 9). \n4. Fazemos a multiplicação na raiz: √(36) = 6. \n5. Por fim: M = 0,8 · 6 = 4,8 mH.",
+        "resolucao_legivel": "M = 0,8 · √(4 · 9) => M = 0,8 · √(36) => M = 0,8 · 6 => M = 4,8 mH",
+        "resolucao_latex": "M = 0,8 \\cdot \\sqrt{4 \\cdot 9} = 0,8 \\cdot \\sqrt{36} = 0,8 \\cdot 6 = 4,8 \\text{ mH}",
+        "resposta_final": "4,8 mH",
+        "referencias_apoio": [
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "CEFET/SC, Parte II, Seção 16",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Expressão obtida da definição do coeficiente de acoplamento entre as duas bobinas.",
+      "referencias": [
+        "mussoi-2007"
+      ],
+      "dificuldade": "dificil",
+      "id": "eletrodinamica-indutancia-mutua-e-acoplamento-magnetico",
+      "objetivos": [
+        "Interpretar acoplamento sem confundir módulo e polaridade."
+      ],
+      "erro_comum": {
+        "afirmacao": "Bobinas próximas sempre têm acoplamento perfeito e indução com corrente constante.",
+        "correcao": "O compartilhamento pode ser parcial e a tensão depende da variação do fluxo."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Corrente contínua rigorosamente constante mantém indução no secundário ideal?",
+        "resposta": "Não. Ao ligar ou variar a corrente, podem ocorrer transitórios; em regime constante não há indução sustentada."
+      },
+      "etapa": "aprofundamento",
+      "pre_requisitos": [
+        "eletrodinamica-indutancia-de-um-solenoide"
+      ],
+      "ordem_estudo": 31,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Eletrostática",
+      "topico": "Força Elétrica (Lei de Coulomb)",
+      "conceito": "A lei de Coulomb descreve a força entre cargas puntiformes em repouso. No vácuo, o módulo depende do produto dos módulos das cargas e do inverso do quadrado da distância. Sinais iguais produzem repulsão; opostos, atração.\n\nAs forças têm módulos iguais e sentidos opostos. A aproximação puntiforme exige tamanhos desprezíveis na escala da separação, ou uma simetria que permita esse tratamento.",
+      "formula_legivel": "F = (k·|q1|·|q2|) / d²",
+      "formula_latex": "F = k \\frac{|q_1| \\cdot |q_2|}{d^2}",
+      "variaveis": [
+        {
+          "simbolo": "F",
+          "significado": "Intensidade da força elétrica de atração/repulsão (newton, N)"
+        },
+        {
+          "simbolo": "k",
+          "significado": "Constante eletrostática do vácuo (N·m²/C²)"
+        },
+        {
+          "simbolo": "q1, q2",
+          "significado": "Cargas elétricas pontuais interagindo (coulomb, C)"
+        },
+        {
+          "simbolo": "d",
+          "significado": "Distância retilínea entre as cargas (metros, m)"
+        }
+      ],
+      "nota_pedagogica": "As duas forças têm módulos iguais e sentidos opostos.",
+      "exercicio_resolvido": {
+        "enunciado": "Duas pequenas esferas no vácuo (k = 9·10⁹) possuem cargas de 4 μC (4·10⁻⁶ C) e 5 μC (5·10⁻⁶ C) e estão distantes 0,2 metros. Qual o valor da força elétrica gerada entre elas?",
+        "passo_a_passo": "1. Dados: q1=4·10⁻⁶ C, q2=5·10⁻⁶ C, d=0,2 m (d² = 0,04 m²), k=9·10⁹. \n2. Aplicamos F = (k·q1·q2) / d². \n3. Numerador: 9·10⁹ · 4·10⁻⁶ · 5·10⁻⁶ = 9·10⁹ · 20·10⁻¹² = 180·10⁻³ = 0,18. \n4. Dividimos pelo quadrado da distância: F = 0,18 / 0,04 = 4,5 N.",
+        "resolucao_legivel": "F = (9·10⁹ · 20·10⁻¹²) / 0,04 => F = 180·10⁻³ / 0,04 => F = 0,18 / 0,04 => F = 4,5 N",
+        "resolucao_latex": "F = \\frac{9\\cdot 10^9 \\cdot 4\\cdot 10^{-6} \\cdot 5\\cdot 10^{-6}}{0,2^2} = \\frac{180 \\cdot 10^{-3}}{0,04} = 4,5 \\text{ N}",
+        "resposta_final": "4,5 N",
+        "referencias_apoio": [
+          "openstax-2016"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": true,
+      "fonte": "Conhecimento geral (Introduzido por menções de cargas no material da UFRGS)",
+      "natureza_expressao": "lei-fisica",
+      "contexto_expressao": "Lei de Coulomb para o módulo da interação entre cargas puntiformes no vácuo. O sinal das cargas determina atração ou repulsão.",
+      "referencias": [
+        "openstax-2016"
+      ],
+      "diagrama": "coulomb",
+      "dificuldade": "facil",
+      "id": "eletrostatica-forca-eletrica-lei-de-coulomb",
+      "objetivos": [
+        "Prever a interação e distinguir sinal da carga e módulo da força."
+      ],
+      "erro_comum": {
+        "afirmacao": "A carga maior exerce mais força sobre a menor do que recebe dela.",
+        "correcao": "As duas forças têm módulos iguais e sentidos opostos."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Triplicar a distância, mantendo as cargas, altera a força como?",
+        "resposta": "Reduz o módulo a 1/9 do inicial."
+      },
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "carga-e-conservacao"
+      ],
+      "ordem_estudo": 3,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Eletrostática",
+      "topico": "Intensidade do Campo Elétrico",
+      "conceito": "O campo elétrico descreve a interação elétrica em cada ponto. A força sobre uma carga de prova é F⃗ = qE⃗. Se a carga de prova não perturba as fontes, trocar essa carga não altera o campo produzido por elas.\n\nO sentido do campo é definido pela força sobre uma carga positiva. Para carga negativa, força e campo têm sentidos opostos. Na relação em módulos usa-se |q|.",
+      "formula_legivel": "E = F / |q|",
+      "formula_latex": "E = \\frac{F}{|q|}",
+      "variaveis": [
+        {
+          "simbolo": "E",
+          "significado": "Módulo do campo elétrico, em newton por coulomb (N/C)."
+        },
+        {
+          "simbolo": "F",
+          "significado": "Força elétrica sentida pela carga de prova (newton, N)"
+        },
+        {
+          "simbolo": "q",
+          "significado": "Módulo da carga de prova depositada (coulomb, C)"
+        }
+      ],
+      "nota_pedagogica": "A carga de prova permite inferir o campo; não é necessária à existência do campo produzido pelas fontes.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma carga de prova positiva de 5 μC sofre uma força elétrica de 0,20 N em determinado ponto. Admitindo que ela não altera o campo produzido pelas cargas-fonte, calcule o módulo do campo elétrico nesse ponto.",
+        "passo_a_passo": "1. Identificamos: q = 5·10⁻⁶ C, F = 0,2 N. \n2. Usamos a relação de campo e força: E = F / q. \n3. Substituindo: E = 0,2 / (5·10⁻⁶). \n4. Isso é o mesmo que E = 0,2 · 10⁶ / 5. \n5. E = 200.000 / 5 = 40.000 N/C.",
+        "resolucao_legivel": "E = 0,2 / (5·10⁻⁶) => E = 200.000 / 5 => E = 40.000 N/C",
+        "resolucao_latex": "E = \\frac{0,2}{5 \\cdot 10^{-6}} = 0,04 \\cdot 10^6 = 40.000 \\text{ N/C}",
+        "resposta_final": "40.000 N/C",
+        "referencias_apoio": [
+          "openstax-2016"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": true,
+      "fonte": "Conhecimento geral (Introduzido por analogia no material da UFRGS, Cap 1.3)",
+      "natureza_expressao": "equacao-definicao",
+      "contexto_expressao": "Equação de definição do módulo do campo elétrico a partir da força elétrica sobre uma carga de prova.",
+      "referencias": [
+        "openstax-2016"
+      ],
+      "dificuldade": "facil",
+      "id": "eletrostatica-intensidade-do-campo-eletrico",
+      "objetivos": [
+        "Distinguir campo e força e interpretar o sinal da carga de prova."
+      ],
+      "erro_comum": {
+        "afirmacao": "Retirar a carga de prova faz desaparecer o campo das fontes.",
+        "correcao": "A carga de prova permite inferir o campo; não é necessária à existência do campo produzido pelas fontes."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Dobrar a carga de prova dobra o campo?",
+        "resposta": "Não. Dobra a força sobre a carga, mantendo as fontes e o campo inalterados."
+      },
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "eletrostatica-forca-eletrica-lei-de-coulomb"
+      ],
+      "ordem_estudo": 4,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Ondas Eletromagnéticas",
+      "topico": "Equação Fundamental da Onda",
+      "conceito": "Uma onda é uma perturbação que se propaga transportando energia. Comprimento de onda é a distância entre pontos consecutivos de mesma fase; frequência é o número de ciclos por segundo. A relação geral é v = λf.\n\nOndas eletromagnéticas podem se propagar no vácuo, onde v = c. Em materiais, a velocidade pode ser diferente e depender da frequência. Não se deve usar c em qualquer meio.",
+      "formula_legivel": "c = λ·f",
+      "formula_latex": "c = \\lambda \\cdot f",
+      "variaveis": [
+        {
+          "simbolo": "c",
+          "significado": "Velocidade da luz no vácuo (aproximadamente 3·10⁸ m/s)"
+        },
+        {
+          "simbolo": "λ",
+          "significado": "Comprimento de onda, distância entre dois picos (metros, m)"
+        },
+        {
+          "simbolo": "f",
+          "significado": "Frequência de oscilação da onda eletromagnética (Hertz, Hz)"
+        }
+      ],
+      "nota_pedagogica": "c é a velocidade no vácuo; em materiais, a propagação depende do meio.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma rádio FM popular emite suas ondas eletromagnéticas na frequência de 100 MHz (100 milhões de oscilações por segundo, ou 10⁸ Hz). Dado que viajam à velocidade da luz (3·10⁸ m/s), qual o comprimento de onda do sinal?",
+        "passo_a_passo": "1. Dados: c = 3·10⁸ m/s e f = 10⁸ Hz. \n2. Na equação c = λ·f, queremos isolar λ, portanto λ = c / f. \n3. Substituindo: λ = (3·10⁸) / (10⁸). \n4. Cancelando as potências de dez, sobra λ = 3 metros.",
+        "resolucao_legivel": "λ = (3·10⁸) / (10⁸) => λ = 3 m",
+        "resolucao_latex": "\\lambda = \\frac{3 \\cdot 10^8}{10^8} = 3 \\text{ m}",
+        "resposta_final": "3 metros",
+        "referencias_apoio": [
+          "openstax-2016",
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": true,
+      "fonte": "Conhecimento geral do Ensino Médio sobre o tema abordado em CEFET/SC Cap. 13",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Relação entre velocidade de propagação, comprimento de onda e frequência. Para uma onda eletromagnética no vácuo, a velocidade é c.",
+      "referencias": [
+        "openstax-2016",
+        "mussoi-2007"
+      ],
+      "diagrama": "onda",
+      "dificuldade": "facil",
+      "id": "ondas-eletromagneticas-equacao-fundamental-da-onda",
+      "objetivos": [
+        "Relacionar frequência, comprimento e velocidade, identificando o meio."
+      ],
+      "erro_comum": {
+        "afirmacao": "Ondas eletromagnéticas têm velocidade c em qualquer material.",
+        "correcao": "c é a velocidade no vácuo; em materiais, a propagação depende do meio."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Com velocidade fixa, dobrar a frequência muda λ como?",
+        "resposta": "O comprimento de onda cai à metade."
+      },
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "campo-magnetico-e-bussola",
+        "eletrostatica-intensidade-do-campo-eletrico"
+      ],
+      "ordem_estudo": 20,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "tema": "Ondas Eletromagnéticas",
+      "topico": "Relação entre Campos na Onda Eletromagnética",
+      "conceito": "Uma onda eletromagnética plana no vácuo tem campos elétrico e magnético perpendiculares entre si e à propagação. Seus módulos satisfazem E = cB; suas amplitudes satisfazem E₀ = cB₀.\n\nSão grandezas diferentes, em V/m e T. Comparar somente valores numéricos não compara suas intensidades físicas, e um campo elétrico não é uma força.",
+      "formula_legivel": "E = c·B",
+      "formula_latex": "E = c \\cdot B",
+      "variaveis": [
+        {
+          "simbolo": "E",
+          "significado": "Intensidade do componente de Campo Elétrico (volt por metro, V/m)"
+        },
+        {
+          "simbolo": "c",
+          "significado": "Velocidade da propagação no vácuo (aproximadamente 3·10⁸ m/s)"
+        },
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        }
+      ],
+      "nota_pedagogica": "E é campo elétrico em V/m; uma força exige especificar também uma carga.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma onda eletromagnética plana no vácuo tem amplitude do campo magnético B₀ = 2 μT. Sendo c = 3·10⁸ m/s, calcule a amplitude correspondente do campo elétrico E₀.",
+        "passo_a_passo": "1. Identificando os dados: B = 2·10⁻⁶ T e c = 3·10⁸ m/s. \n2. Como é uma onda eletromagnética, usamos E = c·B. \n3. E = (3·10⁸) · (2·10⁻⁶). \n4. Multiplicando as bases e somando expoentes: 3·2 = 6 e 10^(8-6) = 10². \n5. E = 6 · 100 = 600 V/m.",
+        "resolucao_legivel": "E = (3·10⁸) · (2·10⁻⁶) => E = 6 · 10² => E = 600 V/m",
+        "resolucao_latex": "E = 3 \\cdot 10^8 \\cdot 2 \\cdot 10^{-6} = 6 \\cdot 10^2 = 600 \\text{ V/m}",
+        "resposta_final": "600 V/m",
+        "referencias_apoio": [
+          "openstax-2016",
+          "mussoi-2007"
+        ],
+        "fonte_exata_confirmada": false
+      },
+      "fonte_externa_necessaria": true,
+      "fonte": "Conhecimento geral complementar à Teoria de Maxwell do CEFET/SC Cap. 13",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Relação derivada das equações de Maxwell para uma onda eletromagnética no vácuo. Relaciona os módulos dos campos elétrico e magnético.",
+      "referencias": [
+        "openstax-2016",
+        "mussoi-2007"
+      ],
+      "diagrama": "onda",
+      "dificuldade": "medio",
+      "id": "ondas-eletromagneticas-relacao-entre-campos-na-onda-eletromagnetica",
+      "objetivos": [
+        "Relacionar amplitudes dos campos sem confundir campo e força."
+      ],
+      "erro_comum": {
+        "afirmacao": "E é uma força em newton e deve ter o mesmo número que B.",
+        "correcao": "E é campo elétrico em V/m; uma força exige especificar também uma carga."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Reduzir B₀ à metade altera E₀ como?",
+        "resposta": "E₀ também cai à metade neste modelo."
+      },
+      "etapa": "aprofundamento",
+      "pre_requisitos": [
+        "ondas-eletromagneticas-equacao-fundamental-da-onda"
+      ],
+      "ordem_estudo": 32,
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "id": "carga-e-conservacao",
+      "tema": "Eletrostática",
+      "topico": "Carga elétrica e conservação",
+      "dificuldade": "facil",
+      "conceito": "Carga elétrica é uma propriedade da matéria. Elétrons têm carga negativa e prótons, positiva. Um corpo neutro tem carga resultante nula, o que não significa ausência de cargas.\n\nNa eletrização usual de sólidos há transferência de elétrons: atrito não cria carga. Em um sistema isolado, a soma algébrica das cargas se conserva. Em q = ne, n é um inteiro com sinal e e é o módulo positivo da carga elementar.",
+      "objetivos": [
+        "Distinguir neutralidade, eletrização e conservação da carga."
+      ],
+      "erro_comum": {
+        "afirmacao": "Atrito cria elétrons e faz prótons circularem de um sólido para outro.",
+        "correcao": "O processo redistribui cargas existentes. Na eletrização usual de sólidos, elétrons são transferidos."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Um corpo que perdeu elétrons ficou positivo ou negativo?",
+        "resposta": "Positivo: ficou com excesso de carga positiva em relação à negativa."
+      },
+      "formula_legivel": "q = ne",
+      "formula_latex": "q=ne",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Relação de quantização da carga, com n inteiro com sinal. Adote e = 1,60·10⁻¹⁹ C nos cálculos escolares.",
+      "variaveis": [
+        {
+          "simbolo": "q",
+          "significado": "Carga resultante, em coulomb (C)."
+        },
+        {
+          "simbolo": "n",
+          "significado": "Número inteiro com sinal associado à falta ou ao excesso de elétrons."
+        },
+        {
+          "simbolo": "e",
+          "significado": "Módulo da carga elementar: aproximadamente 1,60·10⁻¹⁹ C."
+        }
+      ],
+      "nota_pedagogica": "O processo redistribui cargas existentes. Na eletrização usual de sólidos, elétrons são transferidos.",
+      "exercicio_resolvido": {
+        "enunciado": "Um corpo neutro perde 5,0·10¹² elétrons. Adote e = 1,60·10⁻¹⁹ C. Determine sua carga final.",
+        "passo_a_passo": "1. Perder elétrons deixa carga positiva.\n2. q = ne = +5,0·10¹² × 1,60·10⁻¹⁹ C.\n3. A carga final é +8,0·10⁻⁷ C.",
+        "resolucao_legivel": "q = 5,0·10¹² × 1,60·10⁻¹⁹ C = +8,0·10⁻⁷ C",
+        "resolucao_latex": "q=(5{,}0\\times10^{12})(1{,}60\\times10^{-19})=+8{,}0\\times10^{-7}\\,\\mathrm{C}",
+        "resposta_final": "+8,0·10⁻⁷ C",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [],
+      "ordem_estudo": 1,
+      "leitura_apoio": {
+        "titulo": "Condutores e eletrização",
+        "url": "https://openstax.org/books/college-physics-2e/pages/18-2-conductors-and-insulators"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "id": "eletrizacao-e-polarizacao",
+      "tema": "Eletrostática",
+      "topico": "Eletrização e polarização",
+      "dificuldade": "facil",
+      "conceito": "Um corpo carregado pode atrair um corpo neutro ao redistribuir suas cargas ou polarizar suas moléculas. Em campo não uniforme, a atração sobre cargas mais próximas pode superar a repulsão sobre as mais distantes.\n\nPolarização não implica carga resultante não nula. Eletrização por contato e por indução com conexão à Terra são processos distintos; na indução, a ordem de retirar o aterramento e o indutor importa.",
+      "objetivos": [
+        "Explicar atração de um corpo neutro sem supor criação de carga."
+      ],
+      "erro_comum": {
+        "afirmacao": "Se há atração, os corpos necessariamente têm cargas resultantes opostas.",
+        "correcao": "Um corpo neutro pode ser atraído por polarização. Atração sozinha não determina sua carga resultante."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Papel inicialmente neutro pode ser atraído por um pente carregado?",
+        "resposta": "Sim. A redistribuição de cargas ou polarização pode produzir atração."
+      },
+      "formula_legivel": "",
+      "formula_latex": "",
+      "natureza_expressao": "conceitual",
+      "contexto_expressao": "Este tópico trabalha relações conceituais e não exige uma nova equação.",
+      "variaveis": [],
+      "nota_pedagogica": "Um corpo neutro pode ser atraído por polarização. Atração sozinha não determina sua carga resultante.",
+      "exercicio_resolvido": {
+        "enunciado": "Um balão carregado atrai uma parede neutra. Uma estudante conclui que a parede inteira adquiriu carga oposta. Essa conclusão é necessária?",
+        "passo_a_passo": "1. Diferencie carga resultante de distribuição das cargas.\n2. O campo do balão pode polarizar a região próxima da parede.\n3. A parede pode continuar globalmente neutra e ser atraída.",
+        "resolucao_legivel": "",
+        "resolucao_latex": "",
+        "resposta_final": "Não. Polarização pode explicar a atração sem carga resultante na parede.",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "carga-e-conservacao"
+      ],
+      "ordem_estudo": 2,
+      "leitura_apoio": {
+        "titulo": "Eletrização e polarização",
+        "url": "https://openstax.org/books/college-physics-2e/pages/18-2-conductors-and-insulators"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      },
+      "investigacao": {
+        "simulacao_id": "phet_014",
+        "prever": "Antes de esfregar o balão, preveja se ele será atraído pela parede neutra.",
+        "observar": "Esfregue o balão na simulação e aproxime-o da parede. Observe a distribuição de cargas na parede, sem mudar outras condições.",
+        "explicar": "Explique como pode haver atração sem a parede adquirir carga resultante."
+      }
+    },
+    {
+      "id": "potencial-e-energia",
+      "tema": "Eletrostática",
+      "topico": "Diferença de potencial e energia elétrica",
+      "dificuldade": "medio",
+      "conceito": "Diferença de potencial, ou tensão, relaciona a variação de energia potencial elétrica à carga. Volt equivale a joule por coulomb. Tensão não é quantidade de elétrons que atravessa um fio nem força em newton.\n\nPara uma carga q deslocada de A até B, ΔU = q(VB − VA). O trabalho da força elétrica é −ΔU. O sinal da carga e a ordem dos pontos são necessários para interpretar a variação de energia.",
+      "objetivos": [
+        "Relacionar tensão, carga e variação de energia com sinais consistentes."
+      ],
+      "erro_comum": {
+        "afirmacao": "Uma tensão de 12 V significa passagem de 12 C por segundo.",
+        "correcao": "12 V representa 12 J por coulomb na diferença de potencial; carga por segundo mede corrente."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Elétron e próton têm a mesma variação de energia na mesma diferença de potencial?",
+        "resposta": "Não. Suas cargas têm sinais opostos e mesmo módulo, produzindo variações com sinais opostos."
+      },
+      "formula_legivel": "ΔU = qΔV",
+      "formula_latex": "\\Delta U=q\\Delta V",
+      "natureza_expressao": "equacao-definicao",
+      "contexto_expressao": "Definição de diferença de potencial a partir da variação de energia potencial por unidade de carga.",
+      "variaveis": [
+        {
+          "simbolo": "ΔU",
+          "significado": "Variação da energia potencial elétrica, em joule (J)."
+        },
+        {
+          "simbolo": "q",
+          "significado": "Carga com sinal, em coulomb (C)."
+        },
+        {
+          "simbolo": "ΔV",
+          "significado": "VB − VA, em volt (V)."
+        }
+      ],
+      "nota_pedagogica": "12 V representa 12 J por coulomb na diferença de potencial; carga por segundo mede corrente.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma carga +2,0 μC vai de A, com potencial 10 V, até B, com potencial 40 V. Calcule a variação de energia potencial.",
+        "passo_a_passo": "1. ΔV = 40 − 10 = +30 V.\n2. q = +2,0·10⁻⁶ C.\n3. ΔU = qΔV = +6,0·10⁻⁵ J. O sinal indica aumento da energia potencial.",
+        "resolucao_legivel": "ΔU = 2,0·10⁻⁶ × 30 J = +6,0·10⁻⁵ J",
+        "resolucao_latex": "\\Delta U=(2{,}0\\times10^{-6})(40-10)=+6{,}0\\times10^{-5}\\,\\mathrm{J}",
+        "resposta_final": "+6,0·10⁻⁵ J",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "eletrostatica-intensidade-do-campo-eletrico"
+      ],
+      "ordem_estudo": 5,
+      "leitura_apoio": {
+        "titulo": "Potencial e diferença de potencial",
+        "url": "https://openstax.org/books/college-physics-2e/pages/19-1-electric-potential-energy-potential-difference"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "id": "condutores-em-equilibrio",
+      "tema": "Eletrostática",
+      "topico": "Condutores em equilíbrio eletrostático",
+      "dificuldade": "medio",
+      "conceito": "Condutores têm portadores de carga que podem se redistribuir. No equilíbrio eletrostático, o campo no material condutor é nulo e seu potencial é constante. Um campo interno manteria as cargas livres em movimento, contrariando o equilíbrio.\n\nO excesso de carga fica na superfície. Uma cavidade sem cargas internas pode ser protegida do campo eletrostático externo por uma envoltória condutora fechada. Aberturas e campos variáveis no tempo exigem outra análise.",
+      "objetivos": [
+        "Distinguir equilíbrio eletrostático de fio percorrido por corrente."
+      ],
+      "erro_comum": {
+        "afirmacao": "O campo é nulo em qualquer metal, mesmo com corrente resistiva.",
+        "correcao": "A condição aqui se refere ao equilíbrio eletrostático, não a um fio resistivo com corrente."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Um fio resistivo ligado a uma bateria está em equilíbrio eletrostático?",
+        "resposta": "Não. No modelo usual há campo no material e movimento dos portadores de carga."
+      },
+      "formula_legivel": "",
+      "formula_latex": "",
+      "natureza_expressao": "conceitual",
+      "contexto_expressao": "Este tópico trabalha relações conceituais e não exige uma nova equação.",
+      "variaveis": [],
+      "nota_pedagogica": "A condição aqui se refere ao equilíbrio eletrostático, não a um fio resistivo com corrente.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma esfera metálica isolada atingiu equilíbrio após ser eletrizada. Qual é o campo no material condutor? Isso exige potencial nulo?",
+        "passo_a_passo": "1. Um campo interno manteria as cargas livres em movimento.\n2. No equilíbrio, o campo no material é nulo.\n3. Potencial constante não significa potencial igual a zero.",
+        "resolucao_legivel": "",
+        "resolucao_latex": "",
+        "resposta_final": "O campo no material é nulo; o potencial pode ser diferente de zero.",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "eletrostatica-intensidade-do-campo-eletrico"
+      ],
+      "ordem_estudo": 6,
+      "leitura_apoio": {
+        "titulo": "Condutores e isolantes",
+        "url": "https://openstax.org/books/college-physics-2e/pages/18-2-conductors-and-insulators"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "id": "corrente-eletrica",
+      "tema": "Eletrodinâmica",
+      "topico": "Corrente elétrica e sentido convencional",
+      "dificuldade": "facil",
+      "conceito": "Corrente mede a taxa de passagem de carga por uma seção. A corrente média é a carga que atravessa a seção dividida pelo intervalo de tempo. Um ampere equivale a um coulomb por segundo.\n\nO sentido convencional é o do movimento de cargas positivas. Em fios metálicos, a deriva dos elétrons tem sentido oposto. Uma lâmpada transforma energia; em regime estacionário, ela não consome os elétrons nem faz desaparecer corrente.",
+      "objetivos": [
+        "Interpretar corrente como taxa e distinguir sentido convencional e deriva eletrônica."
+      ],
+      "erro_comum": {
+        "afirmacao": "Uma lâmpada consome elétrons e deixa sair menos corrente.",
+        "correcao": "Sem acúmulo de carga em regime estacionário, a corrente de entrada é igual à de saída. O que se transforma é energia."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Passam 4 C em 2 s. Qual grandeza vale 2 A?",
+        "resposta": "A corrente média. A carga que passou é 4 C."
+      },
+      "formula_legivel": "I_m = ΔQ/Δt",
+      "formula_latex": "I_m=\\frac{\\Delta Q}{\\Delta t}",
+      "natureza_expressao": "equacao-definicao",
+      "contexto_expressao": "Definição de corrente média através de uma seção; o sinal depende da orientação escolhida.",
+      "variaveis": [
+        {
+          "simbolo": "I_m",
+          "significado": "Corrente média, em ampere (A)."
+        },
+        {
+          "simbolo": "ΔQ",
+          "significado": "Carga que atravessa a seção no intervalo, em coulomb (C)."
+        },
+        {
+          "simbolo": "Δt",
+          "significado": "Intervalo de tempo, em segundo (s)."
+        }
+      ],
+      "nota_pedagogica": "Sem acúmulo de carga em regime estacionário, a corrente de entrada é igual à de saída. O que se transforma é energia.",
+      "exercicio_resolvido": {
+        "enunciado": "Em 3,0 s, uma seção de fio é atravessada por 12 C no sentido convencional positivo. Determine a corrente média.",
+        "passo_a_passo": "1. Identifique 12 C e 3,0 s.\n2. I_m = ΔQ/Δt = 12/3,0.\n3. A unidade C/s equivale a A.",
+        "resolucao_legivel": "I_m = 12 C / 3,0 s = 4,0 A",
+        "resolucao_latex": "I_m=\\frac{12}{3{,}0}=4{,}0\\,\\mathrm{A}",
+        "resposta_final": "4,0 A",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "carga-e-conservacao"
+      ],
+      "ordem_estudo": 7,
+      "leitura_apoio": {
+        "titulo": "Corrente, resistência e circuitos",
+        "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "id": "resistencia-e-lei-de-ohm",
+      "tema": "Eletrodinâmica",
+      "topico": "Resistência e lei de Ohm",
+      "dificuldade": "facil",
+      "conceito": "A resistência relaciona tensão nos terminais e corrente em um componente. Um resistor ôhmico apresenta proporcionalidade entre tensão e corrente nas condições em que sua resistência permanece constante.\n\nTemperatura e outras condições podem alterar a resistência. Lâmpadas com filamento aquecido e diodos não devem ser automaticamente tratados como resistores de resistência constante. No gráfico U × I de um resistor ôhmico, a inclinação corresponde à resistência.",
+      "objetivos": [
+        "Reconhecer proporcionalidade entre tensão e corrente e limites da lei de Ohm."
+      ],
+      "erro_comum": {
+        "afirmacao": "Dobrar a tensão sempre dobra a corrente em qualquer dispositivo.",
+        "correcao": "Essa previsão exige comportamento ôhmico e resistência constante nas condições analisadas."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Maior inclinação em um gráfico U × I de resistor ôhmico indica o quê?",
+        "resposta": "Maior resistência, pois R = U/I."
+      },
+      "formula_legivel": "U = RI",
+      "formula_latex": "U=RI",
+      "natureza_expressao": "relacao-constitutiva",
+      "contexto_expressao": "Relação constitutiva linear para um condutor ôhmico, nas condições em que R permanece constante. É conhecida como lei de Ohm; não é uma lei universal para qualquer componente.",
+      "variaveis": [
+        {
+          "simbolo": "U",
+          "significado": "Diferença de potencial, em volt (V)."
+        },
+        {
+          "simbolo": "R",
+          "significado": "Resistência, em ohm (Ω)."
+        },
+        {
+          "simbolo": "I",
+          "significado": "Corrente, em ampere (A)."
+        }
+      ],
+      "nota_pedagogica": "Essa previsão exige comportamento ôhmico e resistência constante nas condições analisadas.",
+      "exercicio_resolvido": {
+        "enunciado": "Um resistor ôhmico de 6,0 Ω é ligado a uma fonte ideal de 12 V. Admitindo temperatura constante, determine a corrente.",
+        "passo_a_passo": "1. Verifique o comportamento ôhmico e R constante.\n2. I = U/R = 12/6,0.\n3. A corrente é 2,0 A.",
+        "resolucao_legivel": "I = 12 V / 6,0 Ω = 2,0 A",
+        "resolucao_latex": "I=\\frac{12}{6{,}0}=2{,}0\\,\\mathrm{A}",
+        "resposta_final": "2,0 A",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "corrente-eletrica",
+        "potencial-e-energia"
+      ],
+      "ordem_estudo": 8,
+      "leitura_apoio": {
+        "titulo": "Lei de Ohm e seus limites",
+        "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      },
+      "investigacao": {
+        "simulacao_id": "phet_015",
+        "prever": "Com resistência fixa, o que acontece com a corrente ao dobrar a tensão?",
+        "observar": "Escolha três tensões mantendo R fixo e registre a corrente em cada caso. Compare a razão U/I.",
+        "explicar": "Use seus registros para explicar a proporcionalidade entre U e I e as condições em que ela vale."
+      }
+    },
+    {
+      "id": "resistores-serie-paralelo",
+      "tema": "Eletrodinâmica",
+      "topico": "Resistores em série e em paralelo",
+      "dificuldade": "medio",
+      "conceito": "Resistores em série pertencem a um caminho sem ramificações: têm a mesma corrente e suas tensões se somam. Em paralelo, os resistores estão ligados aos mesmos dois nós: têm a mesma tensão e as correntes dos ramos se somam.\n\nObserve as conexões, não apenas a aparência do desenho. A corrente não é consumida pelo resistor: a energia elétrica pode ser transformada em energia térmica.",
+      "objetivos": [
+        "Identificar a associação pelos nós e prever corrente e tensão."
+      ],
+      "erro_comum": {
+        "afirmacao": "Todo resistor em paralelo tem a mesma corrente dos demais.",
+        "correcao": "A tensão é a mesma nos ramos; as correntes dependem das resistências."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "A resistência equivalente de dois resistores de 6 Ω é maior em série ou paralelo?",
+        "resposta": "Em série: 12 Ω. Em paralelo: 3 Ω."
+      },
+      "formula_legivel": "R_s = R₁ + R₂; 1/R_p = 1/R₁ + 1/R₂",
+      "formula_latex": "R_s=R_1+R_2,\\qquad\\frac{1}{R_p}=\\frac{1}{R_1}+\\frac{1}{R_2}",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "Relações derivadas da lei de Ohm e das conservações de carga e energia para resistores ideais.",
+      "variaveis": [
+        {
+          "simbolo": "R_s",
+          "significado": "Resistência equivalente em série, em Ω."
+        },
+        {
+          "simbolo": "R_p",
+          "significado": "Resistência equivalente em paralelo, em Ω."
+        },
+        {
+          "simbolo": "R₁, R₂",
+          "significado": "Resistências dos componentes, em Ω."
+        }
+      ],
+      "nota_pedagogica": "A tensão é a mesma nos ramos; as correntes dependem das resistências.",
+      "exercicio_resolvido": {
+        "enunciado": "Dois resistores de 6,0 Ω são ligados em paralelo a uma fonte ideal de 12 V. Determine resistência equivalente e corrente total.",
+        "passo_a_passo": "1. Os resistores estão ligados aos mesmos dois nós.\n2. 1/R_p = 1/6 + 1/6 = 1/3, logo R_p = 3,0 Ω.\n3. I_total = 12/3,0 = 4,0 A.\n4. Cada ramo tem 2,0 A, e a soma confere a corrente total.",
+        "resolucao_legivel": "R_p = 6 × 6 / 12 = 3,0 Ω; I = 12 / 3 = 4,0 A",
+        "resolucao_latex": "R_p=\\frac{6\\times6}{6+6}=3{,}0\\,\\Omega,\\qquad I=\\frac{12}{3}=4{,}0\\,\\mathrm{A}",
+        "resposta_final": "R_p = 3,0 Ω; I_total = 4,0 A",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "resistencia-e-lei-de-ohm"
+      ],
+      "ordem_estudo": 9,
+      "leitura_apoio": {
+        "titulo": "Resistores em série e paralelo",
+        "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "id": "potencia-e-consumo",
+      "tema": "Eletrodinâmica",
+      "topico": "Potência e consumo de energia elétrica",
+      "dificuldade": "medio",
+      "conceito": "Potência é taxa de transformação ou transferência de energia. Em corrente contínua com tensão e corrente constantes, a potência elétrica é P = UI. Em um intervalo, a energia transformada é PΔt se a potência permanecer constante.\n\nWatt mede potência; joule e quilowatt-hora medem energia. Menor potência não garante menor consumo no mês, pois o tempo também importa. Em corrente alternada, valores eficazes e fator de potência exigem cuidado.",
+      "objetivos": [
+        "Distinguir potência e energia e calcular consumo a partir do tempo."
+      ],
+      "erro_comum": {
+        "afirmacao": "Quilowatt-hora mede potência e pode ser escrito como kW/h.",
+        "correcao": "kWh é potência multiplicada por tempo e mede energia. kW/h expressa outra grandeza."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Dois aparelhos de mesma potência funcionam por tempos diferentes. Consomem a mesma energia?",
+        "resposta": "Não. Com potência constante, o consumo é proporcional ao tempo."
+      },
+      "formula_legivel": "P = UI; E = PΔt",
+      "formula_latex": "P=UI,\\qquad E=P\\Delta t",
+      "natureza_expressao": "expressao-derivada",
+      "contexto_expressao": "P = UI combina potência e energia por carga. E = PΔt exige potência constante; corrente alternada requer verificar as condições.",
+      "variaveis": [
+        {
+          "simbolo": "P",
+          "significado": "Potência elétrica, em watt (W)."
+        },
+        {
+          "simbolo": "U",
+          "significado": "Tensão, em volt (V)."
+        },
+        {
+          "simbolo": "I",
+          "significado": "Corrente, em ampere (A)."
+        },
+        {
+          "simbolo": "E",
+          "significado": "Energia, em J ou kWh, de acordo com a conversão."
+        },
+        {
+          "simbolo": "Δt",
+          "significado": "Tempo, em s ou h, coerente com a unidade de potência."
+        }
+      ],
+      "nota_pedagogica": "kWh é potência multiplicada por tempo e mede energia. kW/h expressa outra grandeza.",
+      "exercicio_resolvido": {
+        "enunciado": "Um equipamento de potência constante de 200 W funciona por 3,0 h. Qual é o consumo em kWh?",
+        "passo_a_passo": "1. Converta 200 W em 0,200 kW.\n2. E = 0,200 kW × 3,0 h.\n3. E = 0,600 kWh. O resultado mede energia.",
+        "resolucao_legivel": "E = 0,200 kW × 3,0 h = 0,600 kWh",
+        "resolucao_latex": "E=0{,}200\\times3{,}0=0{,}600\\,\\mathrm{kWh}",
+        "resposta_final": "0,600 kWh",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "resistencia-e-lei-de-ohm"
+      ],
+      "ordem_estudo": 10,
+      "leitura_apoio": {
+        "titulo": "Potência e energia elétrica",
+        "url": "https://openstax.org/books/college-physics-2e/pages/20-4-electric-power-and-energy"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "id": "campo-magnetico-e-bussola",
+      "tema": "Magnetismo",
+      "topico": "Campo magnético, polos e bússola",
+      "dificuldade": "facil",
+      "conceito": "Uma bússola tende a se alinhar com o campo magnético resultante no local. As linhas representam a direção tangente ao campo, não fios materiais. No exterior de um ímã, vão do norte ao sul e continuam pelo interior.\n\nPartir um ímã comum não isola seus polos. No modelo escolar, a região próxima do norte geográfico terrestre se comporta como polo sul de um ímã. A nomenclatura geofísica pode empregar outra convenção para nomear os polos da Terra.",
+      "objetivos": [
+        "Interpretar a bússola como indicadora do campo local e distinguir polos e cargas."
+      ],
+      "erro_comum": {
+        "afirmacao": "Uma bússola aponta exatamente para o norte geográfico mesmo perto de ímãs ou correntes.",
+        "correcao": "A agulha responde ao campo resultante local e pode ser desviada por ímãs ou fios com corrente."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Afastar uma bússola de um ímã faz as linhas deixarem de existir?",
+        "resposta": "Linhas são representações. O campo do ímã diminui com a distância e outros campos podem predominar."
+      },
+      "formula_legivel": "",
+      "formula_latex": "",
+      "natureza_expressao": "conceitual",
+      "contexto_expressao": "Este tópico trabalha relações conceituais e não exige uma nova equação.",
+      "variaveis": [
+        {
+          "simbolo": "B",
+          "significado": "Indução magnética ou campo B, em tesla (T)."
+        }
+      ],
+      "nota_pedagogica": "A agulha responde ao campo resultante local e pode ser desviada por ímãs ou fios com corrente.",
+      "exercicio_resolvido": {
+        "enunciado": "Perto de um fio com corrente, a agulha de uma bússola desvia. O norte geográfico mudou? Explique.",
+        "passo_a_passo": "1. A bússola responde ao campo no local.\n2. O fio contribui para o campo resultante.\n3. A agulha pode mudar de direção sem mudança do norte geográfico.",
+        "resolucao_legivel": "",
+        "resolucao_latex": "",
+        "resposta_final": "Não. Mudou o campo magnético resultante no local da bússola.",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "carga-e-conservacao"
+      ],
+      "ordem_estudo": 11,
+      "leitura_apoio": {
+        "titulo": "Ímãs e eletroímãs",
+        "url": "https://openstax.org/books/college-physics-2e/pages/22-2-ferromagnets-and-electromagnets"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "id": "materiais-e-histerese",
+      "tema": "Magnetismo",
+      "topico": "Materiais magnéticos, remanência e histerese",
+      "dificuldade": "medio",
+      "conceito": "Materiais respondem de modos diferentes a campos. Ferromagnéticos podem ter magnetização intensa; diamagnéticos apresentam magnetização induzida oposta ao campo aplicado. A força resultante também depende da não uniformidade do campo.\n\nRemanência é a magnetização ou indução que permanece após retirar o campo magnetizante. Histerese é a dependência da resposta em relação à história de magnetização. Acima da temperatura de Curie, a ordem ferromagnética de certos materiais deixa de existir.",
+      "objetivos": [
+        "Distinguir remanência e histerese e evitar tratar todos os metais como ímãs."
+      ],
+      "erro_comum": {
+        "afirmacao": "Todo metal é fortemente atraído por ímãs e histerese significa apenas magnetismo que sobra.",
+        "correcao": "A resposta depende do material e das condições. Remanência é resposta residual; histerese envolve a história do processo."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Duas amostras do mesmo material sob o mesmo campo podem ter magnetizações diferentes?",
+        "resposta": "Sim, quando suas histórias de magnetização são diferentes."
+      },
+      "formula_legivel": "",
+      "formula_latex": "",
+      "natureza_expressao": "conceitual",
+      "contexto_expressao": "Este tópico trabalha relações conceituais e não exige uma nova equação.",
+      "variaveis": [],
+      "nota_pedagogica": "A resposta depende do material e das condições. Remanência é resposta residual; histerese envolve a história do processo.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma amostra mantém magnetização após retirar o campo. Outra medição mostra resposta diferente ao aumentar ou diminuir o campo. Como nomear esses aspectos?",
+        "passo_a_passo": "1. Diferencie valor residual e trajetória do processo.\n2. Resposta residual está associada à remanência.\n3. Dependência da história caracteriza histerese.",
+        "resolucao_legivel": "",
+        "resolucao_latex": "",
+        "resposta_final": "Resposta residual: remanência. Dependência da história: histerese.",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "campo-magnetico-e-bussola"
+      ],
+      "ordem_estudo": 12,
+      "leitura_apoio": {
+        "titulo": "Materiais ferromagnéticos",
+        "url": "https://openstax.org/books/college-physics-2e/pages/22-2-ferromagnets-and-electromagnets"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "id": "espectro-e-interacoes",
+      "tema": "Ondas Eletromagnéticas",
+      "topico": "Espectro eletromagnético e interações",
+      "dificuldade": "facil",
+      "conceito": "Rádio, micro-ondas, infravermelho, visível, ultravioleta, raios X e raios gama são regiões do espectro eletromagnético. No vácuo, todas se propagam com velocidade c. As faixas se distinguem por frequência e comprimento de onda; seus limites são convencionais.\n\nIsso não torna suas aplicações e interações idênticas. Absorção, emissão e transmissão dependem da frequência e do material. Amplitude, intensidade e polarização também caracterizam uma onda.",
+      "objetivos": [
+        "Reconhecer faixas do espectro e relacionar frequência, interação e aplicação."
+      ],
+      "erro_comum": {
+        "afirmacao": "Rádio é som no espaço e todas as radiações interagem do mesmo modo com qualquer material.",
+        "correcao": "Rádio é um sinal eletromagnético que o aparelho pode converter em som. A interação depende da frequência e do material."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Uma janela pode transmitir o visível e absorver parte de outras faixas?",
+        "resposta": "Sim. A transmissão depende da interação entre material e frequência."
+      },
+      "formula_legivel": "",
+      "formula_latex": "",
+      "natureza_expressao": "conceitual",
+      "contexto_expressao": "Este tópico trabalha relações conceituais e não exige uma nova equação.",
+      "variaveis": [],
+      "nota_pedagogica": "Rádio é um sinal eletromagnético que o aparelho pode converter em som. A interação depende da frequência e do material.",
+      "exercicio_resolvido": {
+        "enunciado": "Uma aluna afirma que Wi-Fi e o som de uma caixa de som são o mesmo tipo de onda. Como avaliar essa afirmação?",
+        "passo_a_passo": "1. Identifique a perturbação em cada caso.\n2. Wi-Fi usa sinal eletromagnético; som é uma perturbação mecânica no meio.\n3. A conversão de sinais em um equipamento não torna as ondas idênticas.",
+        "resolucao_legivel": "",
+        "resolucao_latex": "",
+        "resposta_final": "Wi-Fi é eletromagnético; som é mecânico. A afirmação está incorreta.",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "ondas-eletromagneticas-equacao-fundamental-da-onda"
+      ],
+      "ordem_estudo": 21,
+      "leitura_apoio": {
+        "titulo": "Espectro eletromagnético",
+        "url": "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    },
+    {
+      "id": "onda-ao-mudar-de-meio",
+      "tema": "Ondas Eletromagnéticas",
+      "topico": "Luz ao mudar de meio",
+      "dificuldade": "medio",
+      "conceito": "Ao atravessar uma interface estacionária entre meios transparentes, a frequência da luz permanece igual. Velocidade e comprimento de onda podem mudar. Com incidência oblíqua, a direção também pode mudar; na incidência normal, pode haver mudança de velocidade sem desvio.\n\nO índice de refração relaciona a velocidade de fase no meio à velocidade no vácuo. Neste tratamento escolar de um meio transparente, usamos v = c/n para a frequência considerada.",
+      "objetivos": [
+        "Prever o que muda na refração em uma interface estacionária."
+      ],
+      "erro_comum": {
+        "afirmacao": "Entrar no vidro necessariamente muda a frequência e sempre desvia a luz.",
+        "correcao": "A frequência se mantém. O desvio depende da incidência; a velocidade pode mudar mesmo sem desvio."
+      },
+      "pergunta_reflexao": {
+        "pergunta": "Se a velocidade cai à metade e a frequência não muda, o que ocorre com λ?",
+        "resposta": "O comprimento de onda cai à metade."
+      },
+      "formula_legivel": "n = c/v",
+      "formula_latex": "n=\\frac{c}{v}",
+      "natureza_expressao": "equacao-definicao",
+      "contexto_expressao": "Definição do índice de refração pela velocidade de fase no meio na frequência considerada.",
+      "variaveis": [
+        {
+          "simbolo": "n",
+          "significado": "Índice de refração, adimensional."
+        },
+        {
+          "simbolo": "c",
+          "significado": "Velocidade no vácuo; adote 3,0·10⁸ m/s."
+        },
+        {
+          "simbolo": "v",
+          "significado": "Velocidade de fase no meio, em m/s."
+        }
+      ],
+      "nota_pedagogica": "A frequência se mantém. O desvio depende da incidência; a velocidade pode mudar mesmo sem desvio.",
+      "exercicio_resolvido": {
+        "enunciado": "Para certa frequência, um vidro tem índice de refração 1,5. Adote c = 3,0·10⁸ m/s. Calcule a velocidade de fase da luz no vidro.",
+        "passo_a_passo": "1. n = c/v, portanto v = c/n.\n2. v = 3,0·10⁸/1,5.\n3. v = 2,0·10⁸ m/s. A frequência se mantém na passagem pela interface estacionária.",
+        "resolucao_legivel": "v = 3,0·10⁸ / 1,5 = 2,0·10⁸ m/s",
+        "resolucao_latex": "v=\\frac{3{,}0\\times10^8}{1{,}5}=2{,}0\\times10^8\\,\\mathrm{m/s}",
+        "resposta_final": "2,0·10⁸ m/s",
+        "referencias_apoio": [
+          "openstax-cp-2022"
+        ],
+        "fonte_exata_confirmada": false,
+        "origem_editorial": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual."
+      },
+      "fonte_externa_necessaria": false,
+      "fonte": "Elaboração do projeto FisicAI com assistência de IA (18 out. 2026). Referências indicadas como apoio conceitual.",
+      "referencias": [
+        "openstax-cp-2022"
+      ],
+      "etapa": "essencial",
+      "pre_requisitos": [
+        "ondas-eletromagneticas-equacao-fundamental-da-onda"
+      ],
+      "ordem_estudo": 22,
+      "leitura_apoio": {
+        "titulo": "Índice de refração",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction"
+      },
+      "revisao_editorial": {
+        "data": "2026-10-18",
+        "assistencia_ia": true,
+        "aprovacao_docente": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "date": "2026-10-20",
+  "scope": "FisicAI Independente",
+  "type": "Avaliação heurística de UX; não é teste com alunos nem certificação de acessibilidade",
+  "skill": {
+    "name": "laws-of-ux",
+    "path": "C:/Users/Antonio/.codex/skills/laws-of-ux/SKILL.md",
+    "source": "https://github.com/imikailoby/claude-skills/tree/88f7f2ffc13224822d3d1dcbdcea958cef1d71c3/skills/laws-of-ux",
+    "commit": "88f7f2ffc13224822d3d1dcbdcea958cef1d71c3",
+    "automaticAvailability": "Próximo turno; instruções lidas e aplicadas manualmente nesta revisão"
+  },
+  "interfaceWidths": [
+    360,
+    390
+  ],
+  "routeFiles": 24,
+  "uiFamilies": 19,
+  "recoveryFlows": 2,
+  "technicalFiles": 3,
+  "observations": 72,
+  "groups": [
+    [
+      "Decisões e escolhas",
+      "Menu, filtros, preparação e catálogo revisados. Hick, Miller e complexidade das escolhas."
+    ],
+    [
+      "Alvos e interação",
+      "Dimensões de controles, entrada em lacunas, flip, feedback e retomada revisados. Fitts e resposta à interação."
+    ],
+    [
+      "Atenção e destaque",
+      "Ações principais, erros, resultado e exclusão de dados revisados. Von Restorff e coerência da ênfase."
+    ],
+    [
+      "Agrupamento e layout",
+      "Divisões por títulos, limites de cartões e espaçamento revisados. Proximidade e região comum aplicadas sem acrescentar decoração."
+    ],
+    [
+      "Memória e cognição",
+      "Contexto entre telas, andamento salvo e leitura por blocos revisados. Jakob e Miller."
+    ],
+    [
+      "Motivação e conclusão",
+      "Contadores, fim de sessão e retorno a tarefas incompletas revisados. Zeigarnik e gradiente de meta."
+    ]
+  ],
+  "laws": [
+    {
+      "name": "Lei de Fitts",
+      "source": "https://lawsofux.com/fittss-law/",
+      "win": "Cards inteiros são clicáveis; navegação e botões principais têm áreas amplas.",
+      "next": "Conforto do envio de mensagem e visualização dos controles do PhET.",
+      "ids": [
+        "UX02",
+        "UX09"
+      ]
+    },
+    {
+      "name": "Lei de Hick",
+      "source": "https://lawsofux.com/hicks-law/",
+      "win": "Início tem três destinos; preparação separa dificuldade e tema; Todas é o padrão solicitado.",
+      "next": "Verificar com alunos a descoberta da rolagem horizontal de temas.",
+      "ids": [
+        "UX08"
+      ]
+    },
+    {
+      "name": "Efeito Zeigarnik",
+      "source": "https://lawsofux.com/zeigarnik-effect/",
+      "win": "Andamento é salvo e foi retomado em diferentes atividades.",
+      "next": "Tornar a retomada encontrável no início ou em Praticar.",
+      "ids": [
+        "UX01"
+      ]
+    },
+    {
+      "name": "Lei de Jakob",
+      "source": "https://lawsofux.com/jakobs-law/",
+      "win": "Abas com texto, botão voltar, busca e confirmação de reinício seguem padrões conhecidos.",
+      "next": "Uniformizar fechar explicação e tornar explícitos os destinos no resultado.",
+      "ids": [
+        "UX03",
+        "UX04",
+        "UX05",
+        "UX11"
+      ]
+    },
+    {
+      "name": "Efeito gradiente de meta",
+      "source": "https://lawsofux.com/goal-gradient-effect/",
+      "win": "Contadores de itens, rodadas e pares deixam a extensão da tarefa visível.",
+      "next": "Barra discreta opcional com progresso real, sem pressionar a continuidade.",
+      "ids": [
+        "UX07"
+      ]
+    },
+    {
+      "name": "Efeito Von Restorff",
+      "source": "https://lawsofux.com/von-restorff-effect/",
+      "win": "Ações principais contrastam com ações secundárias; correção usa texto e ícones além de cor.",
+      "next": "Distinguir a confirmação de apagar dados e estabilizar a mensagem do feedback.",
+      "ids": [
+        "UX05",
+        "UX06"
+      ]
+    },
+    {
+      "name": "Lei de Miller",
+      "source": "https://lawsofux.com/millers-law/",
+      "win": "Conteúdo, grandezas, reflexão, exemplo e referências estão agrupados. A aplicação é agrupamento, não uma quota universal de sete itens.",
+      "next": "Reduzir repetição de informações no encerramento.",
+      "ids": [
+        "UX10"
+      ]
+    }
+  ],
+  "coverage": [
+    [
+      "Início",
+      "app/(tabs)/index.tsx",
+      "Interface em 360 e 390 px; três destinos e quatro abas."
+    ],
+    [
+      "Estudar",
+      "app/(tabs)/estudar/index.tsx",
+      "Filtros, busca sem resultados, limpeza e geometria dos temas."
+    ],
+    [
+      "Dúvidas",
+      "app/(tabs)/ia/index.tsx",
+      "Apresentação, sugestão, preenchimento e alvo de envio; sem requisição à IA."
+    ],
+    [
+      "Progresso",
+      "app/(tabs)/progresso/index.tsx",
+      "Estado vazio e histórico após resultado de teste; reset aberto e cancelado."
+    ],
+    [
+      "Praticar",
+      "app/praticar.tsx",
+      "Cinco modalidades, descrições e retorno."
+    ],
+    [
+      "quiz: preparação",
+      "app/jogos/quiz/index.tsx",
+      "Modalidade aberta; tema, dificuldade e CTA examinados."
+    ],
+    [
+      "quiz: atividade",
+      "app/jogos/quiz/[modulo].tsx",
+      "Percurso até o resultado, retomada, Escape e destino de Continuar."
+    ],
+    [
+      "flashcards: preparação",
+      "app/jogos/flashcards/index.tsx",
+      "Modalidade aberta; tema, dificuldade e CTA examinados."
+    ],
+    [
+      "flashcards: atividade",
+      "app/jogos/flashcards/[modulo].tsx",
+      "Retomada, frente, verso, autoavaliação e avanço."
+    ],
+    [
+      "memoria: preparação",
+      "app/jogos/memoria/index.tsx",
+      "Modalidade aberta; tema, dificuldade e CTA examinados."
+    ],
+    [
+      "memoria: atividade",
+      "app/jogos/memoria/[modulo].tsx",
+      "Retomada, terceira carta, par aberto e conferência opcional."
+    ],
+    [
+      "desafio: preparação",
+      "app/jogos/desafio/index.tsx",
+      "Modalidade aberta; tema, dificuldade e CTA examinados."
+    ],
+    [
+      "desafio: atividade",
+      "app/jogos/desafio/[modulo].tsx",
+      "Questão, resposta e transição do feedback."
+    ],
+    [
+      "lacunas: preparação",
+      "app/jogos/lacunas/index.tsx",
+      "Modalidade aberta; tema, dificuldade e CTA examinados."
+    ],
+    [
+      "lacunas: atividade",
+      "app/jogos/lacunas/[modulo].tsx",
+      "Digitação, validação e feedback de resposta incorreta."
+    ],
+    [
+      "Conteúdo teórico",
+      "app/estudar/[modulo].tsx",
+      "Amostra Carga elétrica e conservação; atalho Exemplo e resolução expandida."
+    ],
+    [
+      "Catálogo de simulações",
+      "app/estudar/phet/index.tsx",
+      "Agrupamentos e acesso ao Gerador."
+    ],
+    [
+      "Detalhes de simulação",
+      "app/estudar/phet/[id].tsx",
+      "Tópicos, objetivos, iniciar e voltar."
+    ],
+    [
+      "Visualizador de simulação",
+      "app/estudar/phet/simulacao.tsx",
+      "Gerador carregado; Pause para Play por Space; recarregar e sair."
+    ],
+    [
+      "Rota antiga",
+      "app/modal.tsx",
+      "Acesso direto redirecionou para o início."
+    ],
+    [
+      "Página inexistente",
+      "app/+not-found.tsx",
+      "Rota inválida apresentou recuperação e Ir ao início respondeu."
+    ],
+    [
+      "Layout raiz",
+      "app/_layout.tsx",
+      "Proteção inferior central e navegação: revisão de código."
+    ],
+    [
+      "Layout de abas",
+      "app/(tabs)/_layout.tsx",
+      "Revisão de código e uso das abas na interface."
+    ],
+    [
+      "HTML móvel",
+      "app/+html.tsx",
+      "Viewport e altura dinâmica: revisão de código e prévia."
+    ]
+  ],
+  "findings": [
+    {
+      "id": "UX01",
+      "severity": "important",
+      "law": [
+        "Zeigarnik",
+        "Jakob"
+      ],
+      "title": "A retomada existe, mas não é descoberta no início",
+      "observed": "Rascunhos de quiz, flashcards e memória foram retomados ao entrar na mesma combinação de tema e dificuldade. O início e a lista Praticar não mostram qual atividade ficou em andamento; o aluno precisa reencontrar a combinação.",
+      "impact": "A continuidade depende de lembrar onde estava, mesmo com o andamento já armazenado.",
+      "fix": "Mostrar um único atalho contextual de retomada, com modalidade, tema e andamento real. Manter a escolha de começar outra atividade.",
+      "status": "Recomendação; interface não alterada nesta auditoria",
+      "files": [
+        {
+          "file": "app/(tabs)/index.tsx",
+          "line": 35,
+          "excerpt": "export default function HomeScreen() {"
+        },
+        {
+          "file": "services/sessoesService.ts",
+          "line": 47,
+          "excerpt": "async carregar(chave: string, owner: string) {"
+        },
+        {
+          "file": "components/SessionStatus.tsx",
+          "line": 88,
+          "excerpt": "if (session.resumed)"
+        }
+      ],
+      "checks": [
+        "Início — atividade incompleta",
+        "Flashcards — retomada no verso",
+        "Memória — tabuleiro"
+      ],
+      "image": "inicio-360.png"
+    },
+    {
+      "id": "UX02",
+      "severity": "nice-to-have",
+      "law": [
+        "Fitts"
+      ],
+      "title": "O envio do assistente é menor que os demais controles principais",
+      "observed": "O botão Enviar pergunta habilitado mede 42 × 42 CSS px na prévia de 360 e 390 px. A maioria dos controles principais usa 44–50 px. O ícone Limpar busca tem área visual de 18 × 20 px e hitSlop de 12; sua área ampliada estimada é 42 × 44 px.",
+      "impact": "Há oportunidade de tornar ações frequentes mais confortáveis ao toque e consistentes com o restante do app.",
+      "fix": "Ampliar envio e limpeza para um alvo explícito de 44–48 px, respeitando o espaçamento e o campo de texto.",
+      "status": "Melhoria de conforto; 44 px é referência de alvo ampliado, não uma medida derivada da lei de Fitts nem prova de falha WCAG AA",
+      "files": [
+        {
+          "file": "app/(tabs)/ia/index.tsx",
+          "line": 239,
+          "excerpt": "width: 42,"
+        },
+        {
+          "file": "app/(tabs)/estudar/index.tsx",
+          "line": 135,
+          "excerpt": "hitSlop={12}"
+        }
+      ],
+      "checks": [
+        "Dúvidas — pergunta preparada",
+        "Dúvidas — envio 360 px",
+        "Estudar — busca vazia"
+      ],
+      "image": "duvidas-alvo-toque-360.png"
+    },
+    {
+      "id": "UX03",
+      "severity": "important",
+      "law": [
+        "Jakob"
+      ],
+      "title": "Fechar a explicação pode avançar a questão",
+      "observed": "No quiz, Escape fechou o feedback e mudou de Questão 1 de 5 para Questão 2 de 5. FeedbackModal usa onDismiss ?? onClose; no quiz, onClose é nextQuestion. Na memória, onDismiss somente fecha o popup.",
+      "impact": "A mesma intenção de fechar tem efeitos diferentes entre atividades. O aluno pode perder a oportunidade de reler a questão atual.",
+      "fix": "Separar fechar/reabrir a explicação de avançar. Avançar somente pela ação Próxima questão; oferecer uma ação de reabrir a explicação quando ela for recolhida.",
+      "status": "Confirmado na web por Escape e pelo código. O comportamento do botão Voltar físico precisa ser validado em aparelho.",
+      "files": [
+        {
+          "file": "components/FeedbackModal.tsx",
+          "line": 43,
+          "excerpt": "onRequestClose={onDismiss ?? onClose}"
+        },
+        {
+          "file": "app/jogos/quiz/[modulo].tsx",
+          "line": 158,
+          "excerpt": "onClose={session.nextQuestion}"
+        }
+      ],
+      "checks": [
+        "Quiz — Escape no feedback"
+      ]
+    },
+    {
+      "id": "UX04",
+      "severity": "important",
+      "law": [
+        "Jakob",
+        "Goal-Gradient"
+      ],
+      "title": "O resultado tem destino genérico e escala pouco explícita",
+      "observed": "O resultado mostra um percentual calculado como “pontos”. O botão Continuar do quiz abre a preparação de outra sessão. No desafio abre sua preparação; em lacunas, abre Estudar.",
+      "impact": "O rótulo não antecipa o destino e a escala pode ser confundida com pontuação ou nota de aprendizagem.",
+      "fix": "Usar “% de acertos” para o cálculo existente. Dar nome ao destino de cada ação, como Escolher outro tema ou Voltar aos conteúdos.",
+      "status": "Resultado e destino do quiz observados; os outros destinos foram confirmados no código",
+      "files": [
+        {
+          "file": "components/ResultadoSessao.tsx",
+          "line": 48,
+          "excerpt": "{pontuacao} pontos"
+        },
+        {
+          "file": "components/ResultadoSessao.tsx",
+          "line": 81,
+          "excerpt": "<BotaoPrimario label=\"Continuar\" onPress={onContinuar} />"
+        },
+        {
+          "file": "app/jogos/lacunas/[modulo].tsx",
+          "line": 66,
+          "excerpt": "onContinuar={() => router.push(\"/(tabs)/estudar\" as Href)}"
+        }
+      ],
+      "checks": [
+        "Quiz — resultado estabilizado",
+        "Quiz — destino de Continuar"
+      ]
+    },
+    {
+      "id": "UX05",
+      "severity": "important",
+      "law": [
+        "Jakob",
+        "Von Restorff"
+      ],
+      "title": "O feedback troca seu conteúdo durante a animação de fechamento",
+      "observed": "Depois de uma resposta incorreta, o fechamento do popup registrou temporariamente o heading “Resposta correta!” na árvore de acessibilidade. Ao limpar session.feedback, quiz e desafio passam o título de sucesso como fallback, enquanto o Modal ainda pode estar encerrando o fade.",
+      "impact": "Pode produzir informação transitória contraditória. O eventual anúncio por leitor de tela e sua duração não foram medidos.",
+      "fix": "Preservar o último conteúdo de feedback até terminar o fechamento. Não produzir título de sucesso quando não existe feedback.",
+      "status": "Confirmado na árvore de acessibilidade web e no código; impacto visual e anúncio em leitor nativo precisam de teste próprio",
+      "files": [
+        {
+          "file": "app/jogos/quiz/[modulo].tsx",
+          "line": 160,
+          "excerpt": "session.feedback?.type === \"error\""
+        },
+        {
+          "file": "app/jogos/desafio/[modulo].tsx",
+          "line": 164,
+          "excerpt": "session.feedback?.type === \"error\""
+        },
+        {
+          "file": "components/FeedbackModal.tsx",
+          "line": 40,
+          "excerpt": "animationType=\"fade\""
+        }
+      ],
+      "checks": [
+        "Quiz — avanço 2",
+        "Desafio — transição após erro"
+      ]
+    },
+    {
+      "id": "UX06",
+      "severity": "important",
+      "law": [
+        "Von Restorff",
+        "Jakob"
+      ],
+      "title": "A confirmação de apagar dados usa a mesma cor das ações comuns",
+      "observed": "Resetar meus dados aparece em vermelho na página, mas o botão final Resetar dados no diálogo é azul. O aviso de irreversibilidade e a opção Cancelar estão presentes e funcionam.",
+      "impact": "A etapa mais sensível perde a distinção semântica que existe na ação inicial.",
+      "fix": "Adicionar uma variante destrutiva ao diálogo, com texto e estilo específicos de exclusão. Preservar a confirmação e o cancelamento.",
+      "status": "Confirmado visualmente; o reset foi cancelado e nenhum dado foi apagado",
+      "files": [
+        {
+          "file": "components/ProfileControls.tsx",
+          "line": 68,
+          "excerpt": "title=\"Resetar meus dados?\""
+        },
+        {
+          "file": "components/ConfirmDialog.tsx",
+          "line": 74,
+          "excerpt": "style={[ui.button, { backgroundColor: colors.primary }]}"
+        }
+      ],
+      "checks": [
+        "Progresso — confirmação de reset",
+        "Reset — confirmação final 360 px"
+      ],
+      "image": "confirmacao-reset.png"
+    },
+    {
+      "id": "UX07",
+      "severity": "nice-to-have",
+      "law": [
+        "Goal-Gradient"
+      ],
+      "title": "O andamento é informado por texto, mas pode ser mais fácil de perceber",
+      "observed": "Os modos sequenciais exibem Questão/Item/Cartão n de total; memória mostra rodada e pares encontrados. O andamento já existe, sem uma barra visual de conclusão.",
+      "impact": "Uma pista visual discreta pode facilitar perceber quanto falta, sem exigir interpretar vários números.",
+      "fix": "Se testado como útil com alunos, acrescentar uma barra pequena baseada em itens realmente respondidos ou pares encontrados. Questão 1 de 5 identifica a posição; não deve virar 20% concluído antes de responder.",
+      "status": "Refinamento opcional; a ausência de barra não foi tratada como ausência de progresso",
+      "files": [
+        {
+          "file": "components/ActivitySummary.tsx",
+          "line": 58,
+          "excerpt": "{unit} {Math.min(position, total)} de {total}"
+        },
+        {
+          "file": "app/jogos/memoria/[modulo].tsx",
+          "line": 107,
+          "excerpt": "Pares: {game.acertos}/{game.pares.length}"
+        }
+      ],
+      "checks": [
+        "Quiz — execução e retomada",
+        "Memória — tabuleiro"
+      ]
+    },
+    {
+      "id": "UX08",
+      "severity": "nice-to-have",
+      "law": [
+        "Hick",
+        "Jakob"
+      ],
+      "title": "Vale testar a descoberta dos temas que ficam fora da área visível",
+      "observed": "Em Estudar a 360 px, Magnetismo começa em x=384 e Ondas Eletromagnéticas em x=506, além da largura da tela. A lista horizontal não mostra barra de rolagem. Parte do item Eletrodinâmica fica cortada, oferecendo uma pista de continuidade.",
+      "impact": "O gesto de deslizar é convencional, mas a descoberta dos últimos temas deve ser observada com os alunos.",
+      "fix": "Testar primeiro a compreensão do gesto. Se houver dificuldade, usar um seletor explícito de tema ou um indicador de continuidade. Não limitar a lista a sete opções.",
+      "status": "Geometria confirmada; dificuldade de descoberta é hipótese de usabilidade, não bloqueio comprovado",
+      "files": [
+        {
+          "file": "app/(tabs)/estudar/index.tsx",
+          "line": 150,
+          "excerpt": "showsHorizontalScrollIndicator={false}"
+        }
+      ],
+      "checks": [
+        "Estudar — 360 px"
+      ],
+      "image": "estudar-temas-360.png"
+    },
+    {
+      "id": "UX09",
+      "severity": "important",
+      "law": [
+        "Fitts",
+        "Jakob"
+      ],
+      "title": "Os controles da simulação externa ficam pequenos em retrato",
+      "observed": "Gerador carregou em português dentro da moldura de 360 px, com a cena e seus controles visivelmente reduzidos. O aplicativo mantém orientação retrato. O rodapé já oferece Abrir no navegador e Recarregar.",
+      "impact": "A interação com instrumentos e controles da simulação pode ser difícil no telefone. As medidas dos botões HTML paralelos do PhET não representam necessariamente seus alvos desenhados em canvas.",
+      "fix": "Oferecer tela cheia ou paisagem na experiência de simulação e tornar explícita a alternativa de abrir no navegador. Validar toque e orientação nos aparelhos reais antes de alterar o comportamento.",
+      "status": "Avaliação visual na web; precisão de toque em aparelho não foi medida",
+      "files": [
+        {
+          "file": "app.json",
+          "line": 6,
+          "excerpt": "\"orientation\": \"portrait\","
+        },
+        {
+          "file": "app/estudar/phet/simulacao.tsx",
+          "line": 162,
+          "excerpt": "Abrir no navegador ↗"
+        }
+      ],
+      "checks": [
+        "Simulações — retrato 360 px"
+      ],
+      "image": "simulacao-retrato-360.png"
+    },
+    {
+      "id": "UX10",
+      "severity": "nice-to-have",
+      "law": [
+        "Miller"
+      ],
+      "title": "O resultado repete os mesmos números em vários blocos",
+      "observed": "Acertos e erros aparecem no cabeçalho do andamento, na frase do resultado e novamente em cartões. O percentual/pontos também representa o mesmo desempenho.",
+      "impact": "O encerramento pode exigir mais rolagem e leitura do que o necessário para entender o resultado e escolher o próximo passo.",
+      "fix": "Concentrar percentual, acertos/total e tempo em um resumo. Manter a ação principal e o reinício claramente separados.",
+      "status": "Simplificação opcional; nenhum conteúdo teórico ou tamanho de carta precisa ser reduzido",
+      "files": [
+        {
+          "file": "components/ResultadoSessao.tsx",
+          "line": 57,
+          "excerpt": "Você concluiu a sessão com {acertos} acertos, {erros} erros e tempo"
+        },
+        {
+          "file": "components/ResultadoSessao.tsx",
+          "line": 65,
+          "excerpt": "Acertos"
+        }
+      ],
+      "checks": [
+        "Quiz — resultado estabilizado"
+      ]
+    },
+    {
+      "id": "UX11",
+      "severity": "nice-to-have",
+      "law": [
+        "Jakob"
+      ],
+      "title": "A ajuda das atividades nem sempre explica a tarefa atual",
+      "observed": "A preparação dos jogos possui ajuda própria e a memória explica sua interação. Durante quiz, desafio, lacunas e flashcards, o Header usa a ajuda geral de navegação do aplicativo.",
+      "impact": "Quem busca ajuda no meio de uma tarefa pode receber instruções sobre o menu em vez de instruções sobre responder, conferir e avançar.",
+      "fix": "Fornecer orientações curtas e específicas por atividade no mesmo botão de ajuda existente.",
+      "status": "Confirmado pelo código e pela comparação entre os componentes; conteúdo da ajuda geral também foi aberto na inspeção",
+      "files": [
+        {
+          "file": "app/jogos/quiz/[modulo].tsx",
+          "line": 69,
+          "excerpt": "<Header showBackButton title=\"Quiz\" />"
+        },
+        {
+          "file": "components/Header.tsx",
+          "line": 107,
+          "excerpt": "instructions={helpInstructions}"
+        },
+        {
+          "file": "components/HelpButton.tsx",
+          "line": 20,
+          "excerpt": "title = \"Como usar o FisicAI\","
+        }
+      ],
+      "checks": [
+        "Quiz — execução e retomada",
+        "Memória — tabuleiro"
+      ]
+    }
+  ],
+  "summary": {
+    "important": 6,
+    "optional": 5,
+    "criticalConfirmed": 0,
+    "tests": 35
+  },
+  "appInterfaceChanged": false,
+  "technical": {
+    "date": "2026-10-20T15:23:32.312Z",
+    "checks": [
+      {
+        "name": "TypeScript",
+        "passed": true,
+        "exitCode": 0
+      },
+      {
+        "name": "Testes automatizados",
+        "passed": true,
+        "exitCode": 0
+      },
+      {
+        "name": "Diagnóstico do app",
+        "passed": true,
+        "exitCode": 0
+      },
+      {
+        "name": "Exportação web e Android",
+        "passed": true,
+        "exitCode": 0
+      },
+      {
+        "name": "Relatório com evidências",
+        "passed": true,
+        "exitCode": 0
+      }
+    ],
+    "limits": [
+      "Sem aparelho físico.",
+      "Sem requisição real ao Google.",
+      "Sem publicação ou execução remota de CI."
+    ]
+  },
+  "limits": [
+    "Inspeção visual por famílias de tela, não por cada combinação de tema, nível e item.",
+    "Cenários de execução e resultado complementados pelos testes automatizados.",
+    "Teclado nativo, leitor de tela, gestos de sistema, fontes ampliadas e área segura real dependem de aparelhos físicos.",
+    "Nenhuma pergunta foi enviada ao Google. Sem validação da qualidade de respostas reais do tutor.",
+    "Efeitos sobre aprendizagem, motivação e desempenho dos adolescentes precisam de avaliação com o público.",
+    "A origem de teste foi localhost, distinta da prévia do usuário em 127.0.0.1; só o histórico isolado de teste recebeu resultados.",
+    "Nenhuma exclusão de dados foi confirmada. Interface, logo, conteúdo, pausa de um segundo e tamanho das cartas foram preservados."
+  ]
+}

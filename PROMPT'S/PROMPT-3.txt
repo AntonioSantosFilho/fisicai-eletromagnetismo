@@ -1,0 +1,129 @@
+﻿[CONTEXTO DO PROJETO]
+O projeto já possui scaffold configurado com Expo SDK 54, TypeScript strict,
+NativeWind e Expo Router. Os prompts anteriores já entregaram:
+- Prompt 1: navegação, interfaces TypeScript e tela Home
+- Prompt 2: design system completo com tokens em constants/colors.ts,
+  constants/typography.ts, constants/spacing.ts e componentes base
+  (Header, ModuloCard, BotaoPrimario, BotaoSecundario, BadgeDificuldade)
+
+NÃO recrie arquivos de configuração (package.json, tsconfig.json,
+tailwind.config.js, babel.config.js).
+NÃO recrie componentes já existentes (Header, BotaoPrimario, BotaoSecundario).
+Use os tokens de constants/colors.ts e as classes NativeWind customizadas
+(bg-primary, text-secondary, etc.) em todos os componentes novos.
+
+Você está trabalhando em um projeto React Native já configurado com Expo SDK 54,
+TypeScript strict, NativeWind e Expo Router. O scaffold base já existe com a
+estrutura de pastas criada. NÃO recrie arquivos de configuração (package.json,
+tsconfig.json, tailwind.config.js, babel.config.js). Apenas implemente o que
+for solicitado nos Entregáveis.
+
+[PAPEL]
+Você é um engenheiro de software sênior especialista em React Native e integração
+de conteúdo educacional digital. Você está dando continuidade ao projeto FisicAI,
+cujo setup foi concluído no prompt anterior. Mantenha total consistência com a
+arquitetura, tipagem e estrutura de pastas já estabelecidas.
+
+[ESPECIFICAÇÃO TÉCNICA]
+Implemente a seção de Conteúdo Teórico e a integração com o simulador PhET.
+Respeite obrigatoriamente:
+
+Stack já definida: React Native + Expo + TypeScript strict + NativeWind + AsyncStorage + Expo Router.
+
+Requisitos a implementar neste prompt:
+- RF10: Seção com conteúdo teórico e fórmulas básicas para consulta rápida
+- RF11: Integração com o simulador PhET via WebView embarcada (expo-webview)
+- RF07: Conteúdo agrupado por nível de dificuldade (fácil, médio, difícil)
+- RF08: Suporte a fórmulas no conteúdo teórico
+
+Schema obrigatório para o conteúdo teórico — implemente os componentes para
+renderizar este JSON exatamente:
+
+{
+  "tema": "nome_tema",
+  "topico": "nome_topico",
+  "conceito": "descricao_conceito",
+  "formula_legivel": "formula_textual",
+  "formula_latex": "formula_em_latex",
+  "variaveis": [
+    { "simbolo": "simbolo_variavel", "significado": "descricao_variavel" }
+  ],
+  "nota_pedagogica": "observacao_didatica",
+  "exercicio_resolvido": {
+    "enunciado": "texto_exercicio",
+    "passo_a_passo": "resolucao_detalhada",
+    "resolucao_legivel": "resolucao_textual",
+    "resolucao_latex": "resolucao_em_latex",
+    "resposta_final": "resultado_final"
+  },
+  "fonte_externa_necessaria": false,
+  "fonte": "referencia_bibliografica"
+}
+
+O arquivo data/phet-simulacoes.json já está disponível no projeto seguindo o
+schema abaixo. NÃO gere o conteúdo do JSON — ele já existe. Implemente apenas
+os componentes e telas que consomem esse arquivo.
+
+Schema esperado de data/phet-simulacoes.json:
+
+{
+  "simulacoes": [
+    {
+      "id": "string",
+      "nome": "string",
+      "url": "string — URL direta do PhET em pt_BR",
+      "tema": "eletromagnetismo | eletrostatica | circuitos",
+      "descricao": "string — frase curta explicando o que o aluno vai explorar",
+      "topicos": ["string — tópico físico abordado"],
+      "objetivos": ["string — objetivo de aprendizagem no infinitivo"]
+    }
+  ]
+}
+
+Entregáveis obrigatórios:
+1. app/(tabs)/estudar/index.tsx — lista de módulos agrupados por dificuldade
+2. app/estudar/[modulo].tsx — tela de conteúdo teórico dinâmica consumindo
+   o schema de conteúdo teórico acima
+3. app/estudar/phet/index.tsx — lista de simulações agrupadas por tema,
+   consumindo data/phet-simulacoes.json
+4. app/estudar/phet/[id].tsx — tela de detalhes da simulação com nome,
+   descrição, tópicos, objetivos de aprendizagem e botão "Iniciar simulação"
+5. app/estudar/phet/simulacao.tsx — WebView em tela cheia recebendo a URL
+   via parâmetro de rota, com botão de voltar visível
+6. components/ConteudoCard.tsx — card de tópico com badge de dificuldade.
+   Use BadgeDificuldade.tsx já existente e tokens de constants/colors.ts
+7. components/FormulaBox.tsx — exibe formula_legivel e nota_pedagogica.
+   Use tokens de constants/colors.ts e constants/typography.ts
+8. components/ExercicioResolvido.tsx — exercício passo a passo colapsável.
+   Use tokens de constants/colors.ts e constants/typography.ts
+9. components/SimulacaoCard.tsx — card de simulação com nome, tema e descrição.
+   Use ModuloCard.tsx como referência visual de estilo
+10. hooks/useConteudoTeorico.ts — hook para carregar e filtrar conteúdo por dificuldade
+11. hooks/useSimulacoes.ts — hook para carregar e agrupar simulações por tema
+
+[CHAIN-OF-THOUGHT ESTRUTURADO]
+Antes de gerar qualquer código, percorra estas etapas:
+
+ETAPA 1 — Análise dos schemas: identifique quais campos do conteúdo teórico exigem
+renderização especial (fórmulas, lista de variáveis, exercício colapsável) e quais
+campos do JSON de simulações alimentam cada tela do fluxo PhET.
+
+ETAPA 2 — Fluxo de navegação PhET: defina o fluxo completo lista → detalhes →
+simulação em tela cheia, mapeando como a URL é passada entre as rotas do Expo Router.
+
+ETAPA 3 — Estratégia de WebView: defina como a tela de simulação embarca a URL
+(tela cheia, tratamento de erro de carregamento, botão de voltar sobreposto).
+
+ETAPA 4 — Agrupamento por dificuldade e tema: defina como a tela de conteúdo
+teórico agrupa por dificuldade e como a tela de simulações agrupa por tema,
+ambos lendo diretamente dos JSONs.
+
+ETAPA 5 — Componentização: mapeie quais partes das telas viram componentes
+reutilizáveis.
+
+ETAPA 6 — Implementação: gere todos os arquivos com código completo e tipado.
+
+ETAPA 7 — Validação: confirme que RF10, RF11, RF07 e RF08 estão cobertos e que
+o fluxo PhET completo (lista → detalhes → WebView) está implementado.
+
+Execute cada etapa em sequência. Gere o código completo ao final.
